@@ -1,0 +1,51 @@
+# Arquivo.gitignore para o Codex Prime Framework
+
+# 1. Ambientes Virtuais Python
+# Substitua 'XXXX/' pelo nome exato da sua pasta de ambiente virtual se for diferente.
+venv/
+.venv/
+env/
+ENV/
+
+# 3. Arquivos compilados/cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 6. Arquivos específicos de IDEs/Editores
+.idea/            # Para IntelliJ, PyCharm, Android Studio, etc.
+.vscode/          # Para VS Code (exceto se você quiser versionar configurações de launch/tasks compartilhadas)
+*.sublime-project
+*.sublime-workspace
+
+# 7. Arquivos específicos do Sistema Operacional
+.DS_Store         # macOS
+Thumbs.db         # Windows
+ehthumbs.db       # Windows
+
+# 8. Logs (se forem logs de execução e não templates de configuração de log)
+*.log
+logs/*.log        # Se você tiver arquivos.log dentro da pasta logs/
+/cache
+/metrics
+
+# 9. Arquivos de build/distribuição (se aplicável no futuro)
+build/
+dist/
+*.egg-info/
+
+# 10. Arquivos de configuração local/sensíveis (se houver)
+# Exemplo:.env (para variáveis de ambiente locais)
+.env
+
+# Outros arquivos temporários ou específicos de ferramentas
+.pytest_cache/
+.mypy_cache/
+.coverage
+.space/
+
+# Arquivos temporários e do Windows
+*.lnk
+*.tmp
+Desktop.ini
