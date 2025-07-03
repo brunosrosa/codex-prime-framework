@@ -17,7 +17,7 @@ document_version: '2.0'
     
 - **Metodologia:** Gestão de Ativos Estratégicos com Revisão Contínua. As mudanças são propostas via RFCs (Request for Comments) e aprovadas pelo Maestro, garantindo uma evolução controlada e bem documentada.
     
-- **Repositório Principal:** `[LINK_PARA_O_REPOSITORIO_GITHUB_DO_CODEX_PRIME]`
+- **Repositório Principal:** github.com/brunosrosa/codex-prime-framework
     
 - **Caminho da Documentação:** Este repositório **É** a própria documentação. O código-fonte _é_ o produto.
     
