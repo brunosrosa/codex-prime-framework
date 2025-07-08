@@ -1,0 +1,32 @@
+# manifesto.yaml - A Visão de Satélite da Fábrica Janus
+# Localização: /Users/rosas/OneDrive/Documentos/DEV-Projects/manifesto.yaml
+
+fabrica_janus:
+  descricao: "Um ecossistema de desenvolvimento de software aumentado por IA para a criação de produtos SaaS, começando com o Recoloca.AI."
+  projetos:
+    - nome: "Codex Prime Framework"
+      identificador: "codex-prime"
+      proposito: "O 'DNA Organizacional'. O framework mestre de documentação e governança."
+      caminho_local: "C:/Users/rosas/OneDrive/Documentos/DEV-Projects/Codex Prime Framework" # Usar caminhos absolutos
+      repositorio_git: "https://github.com/brunosrosa/codex-prime-framework"
+
+    - nome: "Synapse Engine"
+      identificador: "synapse-engine"
+      proposito: "A 'Plataforma de Memória Cognitiva'. O serviço de GraphRAG para o ecossistema."
+      caminho_local: "C:/Users/rosas/OneDrive/Documentos/DEV-Projects/Synapse Engine"
+      repositorio_git: "https://github.com/brunosrosa/synapse-engine"
+
+    - nome: "Maestro.AI"
+      identificador: "maestro-ai"
+      proposito: "O 'Sistema Operacional'. O cockpit de orquestração e governança GitHub-Nativo."
+      caminho_local: "C:/Users/rosas/OneDrive/Documentos/DEV-Projects/Maestro.AI"
+      repositorio_git: "https://github.com/brunosrosa/maestro-ai"
+
+    - nome: "Recoloca.AI"
+      identificador: "recoloca-ai"
+      proposito: "O 'Produto Pioneiro'. O primeiro SaaS a ser construído pela fábrica."
+      caminho_local: "C:/Users/rosas/OneDrive/Documentos/DEV-Projects/Recoloca.AI"
+      repositorio_git: "https://github.com/brunosrosa/recoloca-ai"
+
+
+      
