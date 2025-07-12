@@ -1,1 +1,0 @@
-# Low-Level Design - Módulo Coach AI
