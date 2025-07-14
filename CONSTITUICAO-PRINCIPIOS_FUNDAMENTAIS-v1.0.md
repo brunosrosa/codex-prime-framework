@@ -27,7 +27,7 @@ Este documento estabelece a **"Constituição"** para todos os projetos dentro d
 O ecossistema é governado por uma hierarquia de regras claras. Em caso de conflito, a regra de nível superior sempre prevalece.
 
 1.  **Decisão Direta do Maestro:** Uma instrução explícita e atual do Maestro tem a autoridade máxima e soberana.
-2.  **`Regras_do_Jogo.md` (Este Documento):** As leis fundamentais que se aplicam a **todos** os projetos.
+2.  **`CONSTITUICAO-PRINCIPIOS_FUNDAMENTAIS-v1.0.md` (Este Documento):** As leis fundamentais que se aplicam a **todos** os projetos.
 3.  **`project_rules.md` (Regras do Projeto):** As leis "locais" que se aplicam a um projeto específico (ex: `Synapse Engine`). Elas podem *adicionar* regras, mas não podem *contradizer* este documento.
 4.  **`user_rules.md` (Preferências do Maestro):** As preferências pessoais de interação e output, que são seguidas desde que não entrem em conflito com as regras de projeto ou do ecossistema.
 

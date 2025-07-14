@@ -21,7 +21,7 @@ O Codex rege-se por três princípios não-negociáveis:
     
 2. **Dualidade Humano-Máquina:** Cada documento é projetado para ser perfeitamente legível por um **humano** e rigorosamente processável por uma **máquina**. A clareza narrativa anda de mãos dadas com a estrutura de metadados.
     
-3. **Governança Explícita:** O caos é o inimigo da autonomia. O funcionamento do ecossistema é regido por regras claras, definidas no documento central [`Regras_do_Jogo.md`](https://gemini.google.com/app/.codex/REGRAS_DO_JOGO.md "null"), que estabelece desde a nomenclatura de arquivos até o processo de tomada de decisões.
+3. **Governança Explícita:** O caos é o inimigo da autonomia. O funcionamento do ecossistema é regido por regras claras, definidas no documento central [`CONSTITUICAO-PRINCIPIOS_FUNDAMENTAIS-v1.0.md`](./.codex/CONSTITUICAO-PRINCIPIOS_FUNDAMENTAIS-v1.0.md), que estabelece desde a nomenclatura de arquivos até o processo de tomada de decisões.
     
 
 ## 💡 Como Funciona: Um Ecossistema Evolutivo
@@ -108,7 +108,7 @@ A contribuição para o `Codex Prime` é de alto impacto, pois melhora a fundaç
     
 - **Propor Novos Templates:** Criar novos padrões de documentos que se mostrem necessários.
     
-- **Evoluir as `Regras_do_Jogo.md`:** Sugerir melhorias no processo de governança.
+- **Evoluir a `CONSTITUICAO-PRINCIPIOS_FUNDAMENTAIS-v1.0.md`:** Sugerir melhorias no processo de governança.
     
 
 Toda contribuição deve ser proposta através de um **RFC (Request for Comments)**, seguindo o processo definido no nosso guia de contribuição.
