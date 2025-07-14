@@ -1,12 +1,34 @@
+---
+# Metadados Core (Obrigatórios)
+document_type: "tap"
+document_id: "[PROJETO]-TAP-[NUMERO]"
+title: "Termo de Abertura do Projeto: [NOME_DO_PROJETO]"
+version: "1.0.0"
+status: "[draft|review|approved|deprecated|superseded]"
+created_date: "YYYY-MM-DD"
+last_updated: "YYYY-MM-DD"
+author: "[NOME_RESPONSAVEL]"
+project: "[NOME_DO_PROJETO]"
+
+# Metadados para GraphRAG
+tags: ["project-charter", "planning", "scope", "stakeholders", "governance"]  # Máximo 5 tags
+category: "governance"
+complexity: "high"
+stakeholders: ["[NOME_GERENTE]", "[NOME_PATROCINADOR]", "[STAKEHOLDER_PRINCIPAL]"]
+dependencies: ["[ERS_DOC_ID]", "[BUSINESS_CASE_ID]"]
+related_documents: ["[TEMPLATE_ERS]", "[TEMPLATE_HU_AC]"]
+
+# Metadados Específicos para TAP
+project_manager: "[NOME_GERENTE]"
+sponsor: "[NOME_PATROCINADOR]"
+project_code: "[CODIGO_PROJETO]"
+start_date: "YYYY-MM-DD"
+mvp_target_date: "YYYY-MM-DD"
+budget_category: "[small|medium|large]"
+risk_level: "[low|medium|high]"
+---
+
 # Termo de Abertura do Projeto (TAP) - [NOME_DO_PROJETO]
-
----
-**Versão:** [VERSAO] ([STATUS_REVISAO])  
-**Data:** [DATA_CRIACAO]  
-**Responsável:** [NOME_RESPONSAVEL] ([PAPEL_RESPONSAVEL])  
-**Status:** [STATUS_PROJETO]  
-
----
 
 ## 1. Identificação do Projeto
 

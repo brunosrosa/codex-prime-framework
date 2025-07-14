@@ -1,13 +1,31 @@
+---
+# Metadados Core (Obrigatórios)
+document_type: "ers"
+document_id: "[PROJETO]-ERS-[NUMERO]"
+title: "Especificação de Requisitos de Software: [NOME_DO_PRODUTO]"
+version: "1.0.0"
+status: "[draft|review|approved|deprecated|superseded]"
+created_date: "YYYY-MM-DD"
+last_updated: "YYYY-MM-DD"
+author: "[NOME_AUTOR]"
+project: "[NOME_PROJETO]"
+
+# Metadados para GraphRAG
+tags: ["requirements", "software", "specification", "functional", "product"]  # Máximo 5 tags
+category: "produto"
+complexity: "[low|medium|high]"
+stakeholders: ["[PRODUCT_OWNER]", "[TECH_LEAD]", "[STAKEHOLDER_3]"]
+dependencies: ["[DOC_ID_1]", "[DOC_ID_2]"]
+related_documents: ["[TEMPLATE_ADR]", "[TEMPLATE_HU_AC]"]
+
+# Metadados Específicos para ERS
+requirements_type: "functional"
+module: "[NOME_MODULO_PRINCIPAL]"
+priority: "[critical|high|medium|low]"
+baseado_em: ["[DOCUMENTO_BASE_1]", "[DOCUMENTO_BASE_2]"]
+---
+
 # Especificação de Requisitos de Software (ERS): [NOME_DO_PRODUTO]
-
----
-**Versão:** [VERSAO]  
-**Data:** [DATA_CRIACAO]  
-**Autor:** [NOME_AUTOR]  
-**Status:** [STATUS_DOCUMENTO]  
-**Baseado em:** [DOCUMENTOS_BASE]  
-
----
 
 ## 1. Introdução
 

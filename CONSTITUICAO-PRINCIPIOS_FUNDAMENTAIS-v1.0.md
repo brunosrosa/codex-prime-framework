@@ -1,10 +1,29 @@
 ---
-Template_name: CONSTITUICAO-PRINCIPIOS_FUNDAMENTAIS-v1.0.md (Regras do Jogo) (Constituição do Ecossistema)
-Template_version: "1.0"
-Author: "@Janus & O Maestro"
-Creation_date: 2025-07-02
-Purpose: Servir como o documento de governança mestre para todos os projetos dentro da Fábrica Janus.
-sticker: lucide//alert-triangle
+# Metadados Core (Obrigatórios)
+document_type: "governance"
+document_id: "CODEX-PRIME-CONST-001"
+title: "Constituição e Princípios Fundamentais do Codex Prime Framework"
+version: "1.0.0"
+status: "approved"
+created_date: "2025-01-03"
+last_updated: "2025-01-03"
+author: "@Janus & @Maestro"
+project: "Codex Prime Framework"
+
+# Metadados para GraphRAG
+tags: ["constitution", "governance", "principles", "hierarchy", "rules"]
+category: "governance"
+complexity: "high"
+stakeholders: ["@Janus", "@Maestro", "@Orquestrador", "@ArquitetoDoCodex"]
+dependencies: []
+related_documents: ["01_Missao_Visao_Valores", "CONTRIBUTING", "CODE_OF_CONDUCT"]
+
+# Metadados Específicos
+approved_by: "@Maestro"
+next_review_date: "2025-07-03"
+authority_level: "supreme"
+scope: "ecosystem"
+sticker: "lucide//alert-triangle"
 ---
 
 # Regras do Jogo: A Constituição da Fábrica Janus

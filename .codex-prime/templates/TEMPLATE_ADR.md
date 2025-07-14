@@ -1,13 +1,32 @@
+---
+# Metadados Core (Obrigatórios)
+document_type: "adr"
+document_id: "[PROJETO]-ADR-[NUMERO]"
+title: "[TITULO_DA_DECISAO]"
+version: "1.0.0"
+status: "[draft|review|approved|deprecated|superseded]"
+created_date: "YYYY-MM-DD"
+last_updated: "YYYY-MM-DD"
+author: "[NOME_AUTOR]"
+project: "[NOME_PROJETO]"
+
+# Metadados para GraphRAG
+tags: ["architecture", "decision", "tag3", "tag4", "tag5"]  # Máximo 5 tags
+category: "tecnologia"
+complexity: "[low|medium|high]"
+stakeholders: ["[DECISOR_1]", "[DECISOR_2]", "[CONSULTOR_TECNICO]"]
+dependencies: ["[DOC_ID_1]", "[DOC_ID_2]"]
+related_documents: ["[DOC_ID_3]", "[DOC_ID_4]"]
+
+# Metadados Específicos para ADR
+decision_status: "[proposed|accepted|superseded]"
+decision_date: "YYYY-MM-DD"
+impact_level: "[low|medium|high]"
+decision_makers: ["[DECISOR_1]", "[DECISOR_2]"]
+technical_consultant: "[NOME_CONSULTOR]"
+---
+
 # ADR-[NUMERO]: [TITULO_DA_DECISAO]
-
----
-**Status:** [PROPOSTO/ACEITO/REJEITADO/SUPERSEDED]  
-**Data:** [DATA_DECISAO]  
-**Decisores:** [LISTA_DE_DECISORES]  
-**Consultor Técnico:** [NOME_CONSULTOR] (opcional)  
-**Tags:** [TAG1, TAG2, TAG3]  
-
----
 
 ## Contexto e Problema
 

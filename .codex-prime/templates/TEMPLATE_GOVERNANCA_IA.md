@@ -1,13 +1,32 @@
+---
+# Metadados Core (Obrigatórios)
+document_type: "governance"
+document_id: "[PROJETO]-GOV-IA-[NUMERO]"
+title: "Processo de Governança de IA: [NOME_DO_PROJETO]"
+version: "1.0.0"
+status: "[draft|review|approved|deprecated|superseded]"
+created_date: "YYYY-MM-DD"
+last_updated: "YYYY-MM-DD"
+author: "[NOME_RESPONSAVEL]"
+project: "[NOME_DO_PROJETO]"
+
+# Metadados para GraphRAG
+tags: ["governance", "ai", "validation", "process", "quality"]  # Máximo 5 tags
+category: "agentes"
+complexity: "high"
+stakeholders: ["[NOME_RESPONSAVEL]", "[NOME_APROVADOR]", "[AI_TEAM]"]
+dependencies: ["[CONSTITUICAO_DOC_ID]", "[ADR_IA_DOC_ID]"]
+related_documents: ["[TEMPLATE_ADR]", "[SECURITY_POLICY]"]
+
+# Metadados Específicos para Governança IA
+approved_by: "[NOME_APROVADOR]"
+next_review_date: "YYYY-MM-DD"
+ai_models: ["[MODELO_PRINCIPAL]", "[MODELO_SECUNDARIO]"]
+compliance_level: "[basic|standard|advanced]"
+risk_level: "[low|medium|high]"
+---
+
 # Processo de Governança de IA - [NOME_DO_PROJETO]
-
----
-**Versão:** [VERSAO]  
-**Data:** [DATA_CRIACAO]  
-**Responsável:** [NOME_RESPONSAVEL]  
-**Aprovado por:** [NOME_APROVADOR]  
-**Próxima Revisão:** [DATA_PROXIMA_REVISAO]  
-
----
 
 ## 1. Objetivo
 

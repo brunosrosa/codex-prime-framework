@@ -48,7 +48,7 @@ graph TD
 
 ## 📦 Conteúdo do Framework
 
-O Codex está organizado numa estrutura de pilares que representam os domínios de conhecimento de uma organização de tecnologia. A sua espinha dorsal é o diretório `/templates`.
+O Codex está organizado numa estrutura de pilares que representam os domínios de conhecimento de uma organização de tecnologia. A sua espinha dorsal é o diretório `.codex-prime/templates`.
 
 ### Estrutura de Pilares
 
@@ -69,13 +69,15 @@ O Codex está organizado numa estrutura de pilares que representam os domínios 
 
 ### Templates Essenciais
 
-O diretório [`/templates`](https://gemini.google.com/app/templates "null") é o coração do bootstrapping. Ele contém os modelos de documentos que os agentes usarão para criar conhecimento de forma padronizada, incluindo:
+O diretório [`.codex-prime/templates`](./.codex-prime/templates/) é o coração do bootstrapping. Ele contém os modelos de documentos que os agentes usarão para criar conhecimento de forma padronizada, incluindo:
 
-- `adr_template.md`: Para registar Decisões Arquiteturais.
+- `TEMPLATE_ADR.md`: Para registar Decisões Arquiteturais.
     
-- `agent_profile_template.md`: Para definir as capacidades e prompts de um novo agente.
+- `TEMPLATE_ERS.md`: Para especificações de requisitos funcionais.
     
-- `user_story_template.md`: Para descrever requisitos de funcionalidades.
+- `TEMPLATE_HU_AC.md`: Para histórias de usuário e critérios de aceite.
+    
+- `TEMPLATE_GOVERNANCA_IA.md`: Para governança de sistemas de IA.
     
 
 ## 🚀 Como Usar este Framework

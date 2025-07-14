@@ -1,13 +1,32 @@
 ---
-sticker: lucide//rocket
----
-# ESTRATÉGIA GO-TO-MARKET - [NOME_DO_PRODUTO]
+# Metadados Core (Obrigatórios)
+document_type: "template"
+document_id: "[PROJETO]-GTM-[NUMERO]"
+title: "Estratégia Go-to-Market: [NOME_DO_PRODUTO]"
+version: "1.0.0"
+status: "[draft|review|approved|deprecated|superseded]"
+created_date: "YYYY-MM-DD"
+last_updated: "YYYY-MM-DD"
+author: "[AUTOR]"
+project: "[NOME_DO_PROJETO]"
 
-**Data de Criação**: [DATA]
-**Versão**: [VERSAO]
-**Data de Última Atualização**: [DATA_ATUALIZACAO]
-**Autor**: [AUTOR]
-**Baseado em**: [DOCUMENTOS_REFERENCIA]
+# Metadados para GraphRAG
+tags: ["go-to-market", "strategy", "marketing", "pricing", "channels"]  # Máximo 5 tags
+category: "marketing"
+complexity: "high"
+stakeholders: ["[MARKETING_LEAD]", "[PRODUCT_MANAGER]", "[SALES_LEAD]"]
+dependencies: ["[PRODUCT_SPEC_ID]", "[MARKET_RESEARCH_ID]"]
+related_documents: ["[TEMPLATE_ERS]", "[BUSINESS_PLAN]"]
+
+# Metadados Específicos para Go-to-Market
+template_usage: "specialized"
+target_audience: ["marketing", "product", "sales", "executives"]
+template_category: "specialized"
+baseado_em: ["[DOCUMENTO_REF_1]", "[DOCUMENTO_REF_2]"]
+sticker: "lucide//rocket"
+---
+
+# ESTRATÉGIA GO-TO-MARKET - [NOME_DO_PRODUTO]
 
 ## 🎯 VISÃO GERAL DA ESTRATÉGIA
 

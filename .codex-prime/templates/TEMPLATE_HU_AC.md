@@ -1,13 +1,32 @@
+---
+# Metadados Core (Obrigatórios)
+document_type: "user_story"
+document_id: "[PROJETO]-HU-[NUMERO]"
+title: "Histórias de Usuário & Critérios de Aceite: [NOME_DO_MODULO]"
+version: "1.0.0"
+status: "[draft|review|approved|deprecated|superseded]"
+created_date: "YYYY-MM-DD"
+last_updated: "YYYY-MM-DD"
+author: "[NOME_RESPONSAVEL]"
+project: "[NOME_DO_PROJETO]"
+
+# Metadados para GraphRAG
+tags: ["user-story", "requirements", "acceptance-criteria", "agile", "product"]  # Máximo 5 tags
+category: "produto"
+complexity: "[low|medium|high]"
+stakeholders: ["[PRODUCT_OWNER]", "[SCRUM_MASTER]", "[DEV_TEAM]"]
+dependencies: ["[ERS_DOC_ID]", "[ADR_DOC_ID]"]
+related_documents: ["[TEMPLATE_ERS]", "[TEMPLATE_TAP]"]
+
+# Metadados Específicos para User Stories
+module: "[NOME_DO_MODULO]"
+epic: "[NOME_DO_EPICO]"
+sprint: "[NUMERO_SPRINT]"
+estimated_points: "[STORY_POINTS]"
+priority: "[critical|high|medium|low]"
+---
+
 # Histórias de Usuário (HU) & Critérios de Aceite (AC)
-
----
-**Projeto:** [NOME_DO_PROJETO]  
-**Módulo:** [NOME_DO_MODULO]  
-**Versão:** [VERSAO]  
-**Data:** [DATA_CRIACAO]  
-**Responsável:** [NOME_RESPONSAVEL]  
-
----
 
 ## Estrutura de Histórias de Usuário
 
