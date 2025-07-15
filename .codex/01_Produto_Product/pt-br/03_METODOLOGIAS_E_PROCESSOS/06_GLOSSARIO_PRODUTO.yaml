@@ -1,0 +1,14 @@
+doc_id: PROD_PROC_006
+title: Glossário de Termos do Produto
+description: >
+  Um dicionário centralizado de termos, acrônimos e definições específicas do
+  domínio do produto. Garante uma linguagem ubíqua e consistente entre todas
+  as equipes.
+type: Referência
+status: Ativo
+owner: Product_Team
+tags:
+  - glossário
+  - definições
+  - linguagem ubíqua
+  - ddd

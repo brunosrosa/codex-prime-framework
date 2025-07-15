@@ -1,0 +1,7 @@
+doc_id: GPM-FM-K-003
+title: "Kanban de Bugs e Issues"
+description: "Quadro Kanban dedicado ao rastreamento e gerenciamento de bugs, problemas e outras questões técnicas que surgem durante o desenvolvimento do projeto."
+type: "Referência"
+status: "Ativo"
+owner: "@LiderTecnico"
+tags: ["gestão de projetos", "kanban", "bugs", "issues", "qualidade"]

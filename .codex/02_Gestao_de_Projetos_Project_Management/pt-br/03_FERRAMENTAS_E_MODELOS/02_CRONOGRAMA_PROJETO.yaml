@@ -1,0 +1,7 @@
+doc_id: GPM-FM-002
+title: "Cronograma do Projeto"
+description: "Uma representação detalhada do cronograma do projeto, mostrando a sequência de atividades, durações, datas de início e término, e dependências. Ferramentas comuns incluem gráficos de Gantt."
+type: "Referência"
+status: "Ativo"
+owner: "@GestorDeProjetos"
+tags: ["gestão de projetos", "ferramentas", "cronograma", "gantt"]

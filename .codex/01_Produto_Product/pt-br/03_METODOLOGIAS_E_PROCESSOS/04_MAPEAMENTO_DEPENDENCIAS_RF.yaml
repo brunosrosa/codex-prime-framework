@@ -1,0 +1,14 @@
+doc_id: PROD_PROC_004
+title: Mapeamento de Dependências entre Requisitos
+description: >
+  Documento técnico que mapeia as interdependências entre diferentes requisitos
+  funcionais (RFs), ajudando a identificar riscos, sequenciar o trabalho e
+  facilitar o planejamento técnico.
+type: Processo
+status: Em Revisão
+owner: Tech_Lead
+tags:
+  - dependências
+  - requisitos
+  - planejamento
+  - técnico

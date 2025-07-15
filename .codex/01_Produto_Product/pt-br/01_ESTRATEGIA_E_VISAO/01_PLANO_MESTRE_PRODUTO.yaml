@@ -1,0 +1,14 @@
+doc_id: PROD_EST_001
+title: Plano Mestre do Produto
+description: >
+  O documento central que consolida a visão de longo prazo, os objetivos estratégicos,
+  o público-alvo e as diretrizes gerais para o desenvolvimento e evolução do produto.
+  É a fonte da verdade para o 'porquê' do produto.
+type: Estratégia
+status: Em Revisão
+owner: Product_Lead
+tags:
+  - estratégia
+  - visão
+  - roadmap
+  - planejamento

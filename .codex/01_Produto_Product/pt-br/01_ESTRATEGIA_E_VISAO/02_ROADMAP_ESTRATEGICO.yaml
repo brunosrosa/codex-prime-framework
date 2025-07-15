@@ -1,0 +1,13 @@
+doc_id: PROD_EST_002
+title: Roadmap Estratégico do Produto
+description: >
+  Visualização de alto nível das principais iniciativas, temas e épicos planejados
+  ao longo do tempo. Comunica a direção e as prioridades do produto para os stakeholders.
+type: Estratégia
+status: Ativo
+owner: Product_Manager
+tags:
+  - roadmap
+  - planejamento
+  - trimestral
+  - estratégico

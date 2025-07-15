@@ -1,0 +1,14 @@
+doc_id: PROD_REQ_003
+title: Mapeamento da Jornada do Usuário
+description: >
+  Visualização das etapas, pontos de contato, pensamentos e emoções do usuário
+  ao interagir com o produto para atingir um objetivo. Essencial para identificar
+  oportunidades de melhoria na experiência.
+type: Especificação
+status: Ativo
+owner: UX_Designer
+tags:
+  - jornada do usuário
+  - user journey
+  - ux
+  - experiência do usuário
