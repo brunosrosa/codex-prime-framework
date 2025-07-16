@@ -1,4 +1,3 @@
-
 # 🗓️ Roadmap Estatégico
 
 **Versão**: 1.0**Data de Criação**: 09 de junho de 2025**Data de Última Atualização**: 09 de junho de 2025

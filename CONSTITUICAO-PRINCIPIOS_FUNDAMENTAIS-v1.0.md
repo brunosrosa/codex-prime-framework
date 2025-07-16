@@ -1,100 +1,38 @@
----
-# Metadados Core (Obrigatórios)
-document_type: "governance"
-document_id: "CODEX-PRIME-CONST-001"
-title: "Constituição e Princípios Fundamentais do Codex Prime Framework"
-version: "1.0.0"
-status: "approved"
-created_date: "2025-01-03"
-last_updated: "2025-01-03"
-author: "@Janus & @Maestro"
-project: "Codex Prime Framework"
+# CONSTITUIÇÃO DO CODEX PRIME FRAMEWORK - PRINCÍPIOS FUNDAMENTAIS
 
-# Metadados para GraphRAG
-tags: ["constitution", "governance", "principles", "hierarchy", "rules"]
-category: "governance"
-complexity: "high"
-stakeholders: ["@Janus", "@Maestro", "@Orquestrador", "@ArquitetoDoCodex"]
-dependencies: []
-related_documents: ["01_Missao_Visao_Valores", "CONTRIBUTING", "CODE_OF_CONDUCT"]
+**Versão:** 1.0.0
+**Status:** Ativo
+**Mantenedor:** @ArquitetoDoCodex
 
-# Metadados Específicos
-approved_by: "@Maestro"
-next_review_date: "2025-07-03"
-authority_level: "supreme"
-scope: "ecosystem"
-sticker: "lucide//alert-triangle"
----
+## Preâmbulo
 
-# Regras do Jogo: A Constituição da Fábrica Janus
+Esta Constituição estabelece os princípios, regras e estruturas de governança para o **Codex Prime Framework** e todas as suas instâncias. Ela é a lei suprema que garante a integridade, a consistência e a evolução ordenada do nosso ecossistema de conhecimento colaborativo humano-IA. Todos os participantes, humanos e agentes de IA, estão vinculados às suas diretrizes.
 
-**Versão do Documento:** 1.0
-**Guardiões:** `@Janus`, `@Orquestrador`, e o Maestro.
+## Artigo I: Propósito e Filosofia
 
-## 1. Preâmbulo e Filosofia
+1.  **Propósito Primário:** O Framework existe para servir como uma **fonte da verdade viva**, permitindo a criação e gestão de conhecimento de forma escalável, auditável e compreensível tanto para humanos quanto para máquinas.
+2.  **Filosofia `Docs-as-Code`:** Toda a documentação e artefatos de conhecimento serão tratados com o mesmo rigor que o código. Serão versionados, revisados e mantidos em um repositório Git.
 
-Este documento estabelece a **"Constituição"** para todos os projetos dentro do ecossistema da "**Fábrica Janus**" ("PoC Arundu"). Ele define os princípios, processos e hierarquias que garantem a coesão, qualidade e alinhamento estratégico em todas as operações, sejam elas executadas por agentes de IA ou pelo Maestro.
+## Artigo II: A Estrutura Dual
 
-**Nossa Filosofia Operacional é baseada em:**
-- **Clareza Acima de Tudo:** A ambiguidade é o principal inimigo da execução autônoma.
-- **Governança como Código:** As regras são tratadas com o mesmo rigor que o código da aplicação.
-- **Hierarquia Explícita:** A autoridade e a responsabilidade são claramente definidas para evitar conflitos.
-- **Melhoria Contínua:** Todos os processos estão sujeitos a refinamento através de um processo formal.
+1.  **O Motor (`.codex-prime/`):** Este diretório contém a lógica, os templates e as regras de governança do Framework. É o núcleo imutável que define o *como*.
+2.  **A Instância (`.codex/`):** Este diretório representa a aplicação do Framework a um projeto específico. Ele contém o conhecimento contextual, o *quê*, criado a partir dos moldes do `.codex-prime`.
 
-## 2. Estrutura e Hierarquia de Regras
+## Artigo III: Governança e Processo de Contribuição
 
-O ecossistema é governado por uma hierarquia de regras claras. Em caso de conflito, a regra de nível superior sempre prevalece.
+1.  **Autoridade:** O `@Maestro` detém a autoridade final sobre a estratégia e a visão do projeto. O `@ArquitetoDoCodex` é o guardião da estrutura, consistência e qualidade do framework.
+2.  **Processo de Mudança:** Todas as alterações, seja no motor (`.codex-prime`) ou em uma instância (`.codex`), devem seguir o fluxo de trabalho definido em `CONTRIBUTING.md`. Nenhuma alteração será mesclada sem a revisão e aprovação do `@ArquitetoDoCodex`.
+3.  **Resolução de Conflitos:** Disputas ou ambiguidades serão resolvidas pelo `@Maestro`, cuja decisão é final.
 
-1.  **Decisão Direta do Maestro:** Uma instrução explícita e atual do Maestro tem a autoridade máxima e soberana.
-2.  **`CONSTITUICAO-PRINCIPIOS_FUNDAMENTAIS-v1.0.md` (Este Documento):** As leis fundamentais que se aplicam a **todos** os projetos.
-3.  **`project_rules.md` (Regras do Projeto):** As leis "locais" que se aplicam a um projeto específico (ex: `Synapse Engine`). Elas podem *adicionar* regras, mas não podem *contradizer* este documento.
-4.  **`user_rules.md` (Preferências do Maestro):** As preferências pessoais de interação e output, que são seguidas desde que não entrem em conflito com as regras de projeto ou do ecossistema.
+## Artigo IV: Padrões e Qualidade
 
-## 3. Versionamento e Controle de Mudanças
+1.  **Nomenclatura e Estilo:** Todos os artefatos devem aderir estritamente ao `GUIA_ESTILO_METADADOS_NOMENCLATURA-v1.0.md` localizado em `.codex-prime/foundations`.
+2.  **Qualidade do Conteúdo:** O conhecimento deve ser claro, conciso, preciso e acionável. A responsabilidade pela qualidade do conteúdo é do autor da contribuição.
 
-Todo o nosso ecossistema, incluindo este `Codex Prime`, adere a padrões rigorosos de versionamento para garantir previsibilidade e rastreabilidade.
+## Artigo V: Código de Conduta
 
-### 3.1. Versionamento Semântico (SemVer)
+1.  **Interação:** Todas as interações dentro do ecossistema devem ser profissionais, respeitosas e construtivas, conforme detalhado no `CODE_OF_CONDUCT.md`.
 
-Todos os projetos e artefatos versionáveis **DEVEM** seguir o padrão **Versionamento Semântico 2.0.0** (`MAJOR.MINOR.PATCH`).
-- **MAJOR:** Para mudanças incompatíveis de API ou de arquitetura.
-- **MINOR:** Para adição de funcionalidades de forma retrocompatível.
-- **PATCH:** Para correções de bugs retrocompatíveis.
+## Artigo VI: Emendas
 
-### 3.2. Commits Convencionais
-
-Todos os commits no controle de versão **DEVEM** seguir a especificação de **Commits Convencionais**. Isso automatiza a geração de `CHANGELOGs` e a determinação das versões.
-- **Exemplos:** `feat:`, `fix:`, `docs:`, `style:`, `refactor:`, `test:`, `chore:`.
-
-### 3.3. Processo de Requisição de Mudança (RFC)
-
-Qualquer mudança significativa em um projeto, especialmente no `Codex Prime Framework`, **DEVE** ser proposta através de um documento de **Request for Comments (RFC)**.
-- **Fluxo do RFC:**
-    1.  **Criação:** Um agente ou o Maestro cria um `RFC_NOME_DA_MUDANCA.md` na pasta `/RFC` do projeto relevante.
-    2.  **Debate:** `@Janus` e o Maestro debatem a proposta.
-    3.  **Aprovação/Rejeição:** O Maestro toma a decisão final.
-    4.  **Implementação:** Se aprovado, o `@Orquestrador` cria as tarefas no Kanban para implementar a mudança.
-
-## 4. Padrões de Comunicação e Delegação
-
-A comunicação entre o Maestro e os Agentes é a base da nossa eficiência.
-
-- **Delegação de Intenção:** O Maestro e `@Janus` delegam a **intenção estratégica** (o "porquê" e o "o quê").
-- **Planejamento Tático:** O `@Orquestrador` traduz a intenção em um **plano de ação** (o "como").
-- **Execução Especializada:** Os Agentes Especialistas executam as tarefas do plano.
-- **Protocolo de Escalação:** Se um Agente Especialista ou o `@Orquestrador` encontrar uma ambiguidade que não pode ser resolvida com a documentação existente, ele **DEVE** escalar para o nível hierárquico superior.
-
-## 5. Ferramentas e Padrões Mandatórios do Ecossistema
-
-Para garantir a interoperabilidade, certas ferramentas e padrões são obrigatórios em todos os projetos.
-
-- **Gestão de Tarefas:** `GitHub Projects` é a fonte única da verdade para o status das tarefas.
-- **Controle de Versão:** `Git` com um repositório central no `GitHub`.
-- **Validação de Qualidade:**
-    - **Markdown:** `markdownlint` **DEVE** ser usado para validar todos os documentos `.md`.
-    - **YAML:** `yamllint` **DEVE** ser usado para validar todos os arquivos `.yaml` e `Front Matter`.
-- **Documentação de Arquitetura:** Decisões de arquitetura significativas **DEVEM** ser registradas em `ADRs` (Architecture Decision Records).
-
-## 6. Manutenção deste Documento
-
-Este documento é vivo. Sua evolução segue o processo de RFC definido na Seção 3.3. `@Janus` é o guardião principal deste artefato, responsável por sugerir atualizações quando novas dinâmicas operacionais surgirem.
+1.  **Processo de Emenda:** Propostas de alteração a esta Constituição devem ser submetidas como um Pull Request, detalhando a justificativa para a mudança. A aprovação requer o consentimento explícito do `@Maestro`.
