@@ -1,7 +1,7 @@
 ---
 sticker: lucide//check-circle
 ---
-# PLANO DE VALIDAÇÃO DE PREMISSAS DE NEGÓCIO - Codex Prime Framework
+# PLANO DE VALIDAÇÃO DE PREMISSAS DE NEGÓCIO - [NOME DO PROJETO]
 
 **Data de Criação**: [DD de Mês de AAAA]
 **Versão**: 1.0
@@ -20,69 +20,69 @@ Este documento serve como um template para validar sistematicamente as principai
 ### 1. PREMISSAS DE PROBLEMA/MERCADO
 
 #### P1: Dor Real do Público-Alvo
-**Premissa**: Arquitetos de software e equipes de desenvolvimento enfrentam dificuldades em manter a documentação de sistemas complexos consistente, atualizada e útil tanto para humanos quanto para sistemas de IA.
+**Premissa**: [Público-Alvo] enfrenta [descreva a dificuldade principal] ao tentar [realizar uma tarefa ou atingir um objetivo].
 
 **Hipóteses Específicas**:
-- H1.1: >60% das equipes usam uma mistura de wikis (Confluence), documentos de texto (Google Docs) e diagramas estáticos, resultando em conhecimento fragmentado.
-- H1.2: >70% sentem que a documentação se torna obsoleta rapidamente após sua criação.
-- H1.3: >50% gostariam que a documentação pudesse ser usada para automatizar tarefas de configuração e validação.
-- H1.4: >80% consideram o processo de manter a documentação atualizada demorado e de baixo valor percebido.
+- H1.1: >[X]% do [Público-Alvo] usa [métodos atuais/ineficientes] para [resolver o problema].
+- H1.2: >[Y]% sente dificuldade em [aspecto específico do problema].
+- H1.3: >[Z]% gostaria de ter [tipo de ajuda ou suporte] para [superar a dificuldade].
+- H1.4: >[W]% considera o processo atual [adjetivo negativo, ex: estressante, caro, demorado].
 
 #### P2: Disposição para Pagar
-**Premissa**: O público-alvo está disposto a investir tempo na adoção de um framework open-source que estruture e governe sua base de conhecimento.
+**Premissa**: O [Público-Alvo] está disposto a pagar por uma solução que resolva [a dor principal].
 
 **Hipóteses Específicas**:
-- H2.1: >80% das equipes adotariam um framework open-source robusto se ele provar seu valor na prática.
-- H2.2: >40% considerariam contratar serviços de consultoria para acelerar a implementação em projetos críticos.
-- H2.3: >60% já investiram tempo (equivalente a custo) em ferramentas de documentação que não resolveram o problema central de obsolescência.
+- H2.1: >[X]% pagaria entre [faixa de preço] por uma solução [descrição da solução, ex: completa, premium].
+- H2.2: >[Y]% testaria uma versão gratuita (freemium/trial) antes de considerar o pagamento.
+- H2.3: >[Z]% já gastou dinheiro com [serviços ou produtos alternativos].
 
 #### P3: Tamanho e Acessibilidade do Mercado
-**Premissa**: Existe um mercado global e acessível de desenvolvedores e empresas que utilizam Git e estão abertos a práticas de "Docs-as-Code".
+**Premissa**: Existe um mercado significativo e acessível de [Público-Alvo] em [região geográfica].
 
 **Hipóteses Específicas**:
-- H3.1: O mercado endereçável (desenvolvedores no GitHub) é maior que 100 milhões de usuários.
-- H3.2: >90% deste público já utiliza Git e está familiarizado com o fluxo de trabalho de Pull Requests.
-- H3.3: >30% buscam ativamente soluções para "melhorar a documentação" ou "gerenciamento de conhecimento técnico" anualmente.
+- H3.1: O mercado endereçável (TAM/SAM/SOM) é maior que [número de potenciais clientes].
+- H3.2: >[X]% deste público é digitalmente ativo e aberto a [novas tecnologias/ferramentas].
+- H3.3: >[Y]% busca ativamente ou considera [ação relacionada ao problema] anualmente.
 
 ### 2. PREMISSAS DE SOLUÇÃO
 
 #### P4: Adequação da Solução Proposta
-**Premissa**: A combinação de **Templates Estruturados** + **Governança via Metadados** + **Fluxo de Trabalho Docs-as-Code** resolve efetivamente as dores de inconsistência e obsolescência da documentação.
+**Premissa**: A combinação de [Funcionalidade A] + [Funcionalidade B] + [Funcionalidade C] resolve efetivamente as dores identificadas.
 
 **Hipóteses Específicas**:
-- H4.1: >70% dos usuários consideram os templates úteis para padronizar a criação de documentos.
-- H4.2: >60% percebem valor nos metadados para criar automações e buscas inteligentes.
-- H4.3: >80% dos que adotam o framework seguem o fluxo de PRs para atualizar a documentação.
-- H4.4: >50% consideram o `Codex Prime Framework` superior a wikis tradicionais para governança de conhecimento técnico.
+- H4.1: >[X]% dos usuários consideram [Funcionalidade A] útil para [propósito da funcionalidade].
+- H4.2: >[Y]% percebem valor em [benefício da Funcionalidade B].
+- H4.3: >[Z]% engajam regularmente com [Funcionalidade C].
+- H4.4: >[W]% consideram a solução proposta superior aos [métodos ou ferramentas atuais].
 
 #### P5: Usabilidade e Adoção
-**Premissa**: O framework é suficientemente claro para ser adotado por equipes com conhecimento em Git, com base na documentação fornecida.
+**Premissa**: A solução é suficientemente intuitiva para adoção rápida sem treinamento extensivo.
 
 **Hipóteses Específicas**:
-- H5.1: >70% conseguem clonar o repositório e entender a estrutura de pastas em menos de 30 minutos.
-- H5.2: >60% conseguem criar um novo documento a partir de um template sem consultar a documentação extensivamente.
-- H5.3: >80% conseguem submeter uma alteração via Pull Request seguindo o `CONTRIBUTING.md`.
-- H5.4: A clareza da estrutura de arquivos e da documentação é avaliada como "boa" ou "excelente" pela maioria dos usuários iniciais.
+- H5.1: >[X]% conseguem completar o [processo de onboarding/primeiros passos] em menos de [tempo].
+- H5.2: >[Y]% conseguem realizar a [tarefa core da solução] sem ajuda.
+- H5.3: >[Z]% conseguem utilizar a [funcionalidade chave] na primeira tentativa.
+- H5.4: A interface é considerada intuitiva (ex: System Usability Scale - SUS Score > 70).
 
 ### 3. PREMISSAS DE MODELO DE NEGÓCIO
 
 #### P6: Efetividade do Modelo de Monetização
-**Premissa**: O modelo **Open-Source** gera adoção e contribuições da comunidade, criando oportunidades futuras para serviços de consultoria e templates premium.
+**Premissa**: O modelo [Freemium, Assinatura, Trial, etc.] com [limites ou condições específicas] gera conversões adequadas para a sustentabilidade do negócio.
 
 **Hipóteses Específicas**:
-- H6.1: >5% das organizações que adotam o framework entram em contato para serviços de suporte ou consultoria em 12 meses.
-- H6.2: >10% dos usuários ativos contribuem com issues ou pull requests, melhorando o framework para todos.
-- H6.3: O número de "estrelas" e "forks" no GitHub cresce consistentemente mês a mês, indicando saúde do projeto.
-- H6.4: Surgem casos de uso em nichos específicos que demandam templates premium (validação de modelo de receita futuro).
+- H6.1: >[X]% dos usuários [gratuitos/trial] atingem os limites em [período de tempo].
+- H6.2: >[Y]% dos que atingem os limites convertem para o plano pago.
+- H6.3: A taxa de conversão geral (free → paid) é maior que [Z]%.
+- H6.4: >[W]% dos usuários pagantes mantêm a assinatura por mais de [número de meses].
 
 #### P7: Canais de Aquisição
-**Premissa**: Conseguimos atrair usuários de forma orgânica através de conteúdo de qualidade e da própria natureza open-source do projeto.
+**Premissa**: Conseguimos adquirir usuários de forma eficiente através de [principais canais de aquisição, ex: digitais, parcerias].
 
 **Hipóteses Específicas**:
-- H7.1: Artigos sobre "Docs-as-Code" e "Arquitetura de Conhecimento" geram >40% do tráfego para o repositório.
-- H7.2: O próprio repositório no GitHub gera >50% dos novos usuários (descoberta orgânica).
-- H7.3: O Custo de Aquisição de Cliente (CAC) é próximo de zero, pois se baseia em canais orgânicos.
-- H7.4: >20% dos novos usuários chegam por indicação de outros desenvolvedores ou equipes.
+- H7.1: [Canal A, ex: SEO Orgânico] gera >[X]% dos novos usuários.
+- H7.2: [Canal B, ex: Marketing de Conteúdo] gera >[Y]% dos usuários.
+- H7.3: O Custo de Aquisição de Cliente (CAC) médio é menor que [valor em R$] através de canais [orgânicos/pagos].
+- H7.4: >[Z]% dos usuários chegam via [indicação/viralização].
 
 ---
 

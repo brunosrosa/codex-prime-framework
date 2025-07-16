@@ -1,202 +1,90 @@
 ---
-sticker: lucide//trending-up
+doc_id: "EMP-009"
+title: "Métricas de Sucesso com Base no Mercado"
+description: "Estabelece métricas de sucesso que são benchmarked contra o mercado e a concorrência, fornecendo um contexto externo para a avaliação de performance."
+type: "reference"
+status: "published"
+owner: "@ArquitetoDoCodex"
+tags: ["empresa", "metricas", "benchmark", "mercado", "performance"]
+version: "1.0"
+created_at: "YYYY-MM-DD"
+updated_at: "YYYY-MM-DD"
 ---
-# MÉTRICAS DE SUCESSO BASE DE MERCADO - RECOLOCA.AI
 
-**Data de Criação**: 09 de junho de 2025
-**Versão**: 1.1 (Orquestração Inteligente e Specialized Intelligence)
-**Data de Última Atualização**: Junho de 2025
-**Autor**: @AgenteOrquestrador
-**Baseado em**: [[docs/01_Guias_Centrais/PLANO_MESTRE_RECOLOCA_AI.md]] v1.1, [[ESTRATEGIA_GO_TO_MARKET]] v1.1, [[docs/01_Guias_Centrais/GUIA_AVANCADO.md]] v1.1
+# Métricas de Sucesso com Base no Mercado
 
-## 🎯 VISÃO GERAL
+> **Propósito:** Este documento estabelece um framework para definir e acompanhar métricas de sucesso para `[Nome do Produto/Empresa]`, utilizando benchmarks de mercado como referência. O objetivo é permitir uma avaliação realista da performance e suportar a tomada de decisões baseada em dados, contextualizando os resultados internos com o cenário externo.
 
-### Objetivo
-Estabelecer métricas de sucesso baseadas em benchmarks de mercado para SaaS B2C, plataformas de carreira e produtos freemium, permitindo avaliação realista do desempenho do Recoloca.ai e tomada de decisões data-driven.
-
-### Metodologia
-Métricas baseadas em:
-- **Benchmarks de SaaS B2C** (Mixpanel, ChartMogul, OpenView Partners)
-- **Dados de plataformas de carreira** (LinkedIn, Indeed, Glassdoor)
-- **Estudos de produtos freemium** (Freemium.org, ProfitWell)
-- **Mercado brasileiro de tech** (Abstartups, Distrito, BRASSCOM)
+> **Instruções:** Substitua os valores de `[Meta da Empresa]` pelos objetivos específicos do seu negócio. As seções de `Benchmark` e `Fonte` devem ser mantidas como referência, mas podem ser adaptadas com dados mais específicos do seu nicho de mercado, se disponíveis.
 
 ---
 
-## 📊 MÉTRICAS FUNDAMENTAIS
+## 1. Metodologia de Benchmarking
 
-### 1. AQUISIÇÃO DE USUÁRIOS
+As métricas e benchmarks apresentados neste documento são compilados a partir de fontes de mercado confiáveis para modelos de negócio como:
 
-#### 1.1 Tráfego e Conversão Web
+- **SaaS (B2C e B2B)**
+- **Plataformas de Marketplace**
+- **Produtos com modelo Freemium**
+- **Aplicações Mobile**
 
-**Conversion Rate (Visitante → Cadastro)**
-- **Benchmark SaaS B2C**: 2-5%
-- **Meta Recoloca.ai Ano 1**: 3%
-- **Meta Recoloca.ai Ano 2**: 4%
-- **Fonte**: Unbounce, WordStream
+As fontes primárias incluem, mas não se limitam a: `[Ex: Mixpanel, ChartMogul, OpenView Partners, a16z, Statista, relatórios de mercado específicos do setor]`. É crucial revisitar e atualizar estas fontes periodicamente.
 
-**Organic Traffic Growth (MoM)**
-- **Benchmark Startups**: 10-20%
-- **Meta Recoloca.ai**: 15% MoM
-- **Fonte**: Ahrefs, BrightEdge
+---
 
-**Email Signup Rate**
-- **Benchmark Geral**: 1-3%
-- **Meta Recoloca.ai**: 2.5%
-- **Fonte**: Mailchimp, ConvertKit
+## 2. Métricas Fundamentais por Estágio do Funil
 
-#### 1.2 Custo de Aquisição
+### 2.1. Aquisição de Usuários
 
-**Customer Acquisition Cost (CAC) - Orgânico**
-- **Benchmark SaaS B2C**: $20-50 USD (~R$100-250)
-- **Meta Recoloca.ai**: R$50
-- **Fonte**: ProfitWell, ChartMogul
+| Métrica | Benchmark de Mercado | Meta da Empresa | Fonte de Referência |
+| :--- | :--- | :--- | :--- |
+| **Taxa de Conversão (Visitante → Cadastro)** | `[Ex: 2-5% para SaaS B2C]` | `[Definir Meta]` | `[Ex: Unbounce, WordStream]` |
+| **Crescimento de Tráfego Orgânico (MoM)** | `[Ex: 10-20% para Startups]` | `[Definir Meta]` | `[Ex: Ahrefs, SEMrush]` |
+| **Custo de Aquisição de Cliente (CAC)** | `[Ex: $100-300 para SaaS B2B]` | `[Definir Meta]` | `[Ex: ProfitWell, ChartMogul]` |
+| **Período de Retorno do CAC (Payback)** | `[Ex: 5-12 meses para SaaS]` | `[Definir Meta]` | `[Ex: OpenView Partners]` |
 
-**CAC - Paid Channels**
-- **Benchmark LinkedIn Ads B2B**: $75-200 USD (~R$375-1000)
-- **Meta Recoloca.ai**: R$150
-- **Fonte**: LinkedIn Marketing Solutions
+### 2.2. Ativação e Onboarding
 
-**CAC Payback Period**
-- **Benchmark SaaS**: 5-12 meses
-- **Meta Recoloca.ai**: 6 meses
-- **Fonte**: OpenView Partners
+| Métrica | Benchmark de Mercado | Meta da Empresa | Fonte de Referência |
+| :--- | :--- | :--- | :--- |
+| **Time to First Value (TTFV)** | `[Ex: < 24 horas para SaaS]` | `[Definir Meta]` | `[Ex: Mixpanel, Amplitude]` |
+| **Taxa de Conclusão do Onboarding** | `[Ex: 60-80% para SaaS]` | `[Definir Meta]` | `[Ex: Userpilot, Appcues]` |
+| **Adoção de Features Essenciais (30 dias)** | `[Ex: 60-80% dos usuários ativos]` | `[Definir Meta]` | `[Ex: Mixpanel, Amplitude]` |
 
-### 2. ATIVAÇÃO E ONBOARDING
+### 2.3. Engajamento e Retenção
 
-#### 2.1 Time to Value
+| Métrica | Benchmark de Mercado | Meta da Empresa | Fonte de Referência |
+| :--- | :--- | :--- | :--- |
+| **Relação DAU/MAU (Sticky Factor)** | `[Ex: 20-50% para bons produtos]` | `[Definir Meta]` | `[Ex: a16z, Sequoia]` |
+| **Retenção Dia 7 (D7 Retention)** | `[Ex: 10-25% para SaaS B2C]` | `[Definir Meta]` | `[Ex: Mixpanel, Amplitude]` |
+| **Retenção Mês 1 (M1 Retention)** | `[Ex: 30-50% para SaaS B2B]` | `[Definir Meta]` | `[Ex: ChartMogul, ProfitWell]` |
+| **Duração Média da Sessão** | `[Ex: 8-15 minutos para Apps de Carreira]` | `[Definir Meta]` | `[Ex: App Annie, Similar Web]` |
 
-**Time to First Value**
-- **Benchmark SaaS**: <24 horas
-- **Meta Recoloca.ai**: <2 horas
-- **Definição**: Primeira ação útil (adicionar vaga ao Kanban)
-- **Fonte**: Mixpanel, Amplitude
+### 2.4. Monetização
 
-**Onboarding Completion Rate**
-- **Benchmark SaaS**: 60-80%
-- **Meta Recoloca.ai**: 75%
-- **Definição**: Completar setup inicial (perfil + primeira vaga)
-- **Fonte**: Userpilot, Appcues
+| Métrica | Benchmark de Mercado | Meta da Empresa | Fonte de Referência |
+| :--- | :--- | :--- | :--- |
+| **Taxa de Conversão (Free → Paid)** | `[Ex: 2-5% para Freemium]` | `[Definir Meta]` | `[Ex: ProfitWell, Freemium.org]` |
+| **Receita Média por Usuário (ARPU)** | `[Ex: $25-100 para SaaS B2B]` | `[Definir Meta]` | `[Ex: ChartMogul, Recurly]` |
+| **Crescimento da Receita Recorrente (MRR Growth)** | `[Ex: 15-20% MoM para Early Stage]` | `[Definir Meta]` | `[Ex: SaaStr, ChartMogul]` |
+| **Taxa de Churn Mensal (Monthly Churn)** | `[Ex: 3-7% para SaaS B2C]` | `[Definir Meta]` | `[Ex: ChartMogul, ProfitWell]` |
+| **Relação LTV/CAC** | `[Ex: > 3:1]` | `[Definir Meta]` | `[Ex: OpenView, SaaStr]` |
 
-#### 2.2 Feature Adoption
+### 2.5. Satisfação e Advocacia
 
-**Core Feature Adoption (30 dias)**
-- **Kanban Usage**: 90% dos usuários ativos
-- **CV Optimization**: 70% dos usuários ativos
-- **IA Coach**: 60% dos usuários ativos
-- **Benchmark**: 60-80% para features core
-- **Fonte**: Mixpanel, Amplitude
+| Métrica | Benchmark de Mercado | Meta da Empresa | Fonte de Referência |
+| :--- | :--- | :--- | :--- |
+| **Net Promoter Score (NPS)** | `[Ex: > 40 para um bom SaaS]` | `[Definir Meta]` | `[Ex: Delighted, Satmetrix]` |
+| **Customer Satisfaction Score (CSAT)** | `[Ex: > 80%]` | `[Definir Meta]` | `[Ex: Zendesk, HubSpot]` |
+| **Viralidade (Coeficiente Viral)** | `[Ex: > 0.5 para crescimento viral]` | `[Definir Meta]` | `[Ex: Andrew Chen's Blog]` |
 
-### 3. ENGAJAMENTO E RETENÇÃO
+---
 
-#### 3.1 Métricas de Atividade
+## 3. Dashboard e Revisão
 
-**Daily Active Users (DAU)**
-- **Benchmark Apps de Produtividade**: 10-20% da base
-- **Meta Recoloca.ai**: 15%
-- **Fonte**: App Annie, Mixpanel
-
-**Weekly Active Users (WAU)**
-- **Benchmark SaaS B2C**: 30-50% da base
-- **Meta Recoloca.ai**: 40%
-- **Fonte**: Mixpanel, Amplitude
-
-**Monthly Active Users (MAU)**
-- **Benchmark SaaS**: 60-80% da base
-- **Meta Recoloca.ai**: 70%
-- **Fonte**: ChartMogul, ProfitWell
-
-**Session Duration**
-- **Benchmark Apps de Carreira**: 8-15 minutos
-- **Meta Recoloca.ai**: 12 minutos
-- **Fonte**: App Annie, Similar Web
-
-#### 3.2 Retenção por Coorte
-
-**Day 1 Retention**
-- **Benchmark SaaS B2C**: 20-40%
-- **Meta Recoloca.ai**: 35%
-- **Fonte**: Mixpanel, Lenny's Newsletter
-
-**Day 7 Retention**
-- **Benchmark SaaS B2C**: 10-25%
-- **Meta Recoloca.ai**: 20%
-- **Fonte**: Mixpanel, Amplitude
-
-**Day 30 Retention**
-- **Benchmark SaaS B2C**: 5-15%
-- **Meta Recoloca.ai**: 12%
-- **Fonte**: ChartMogul, ProfitWell
-
-**Month 3 Retention**
-- **Benchmark SaaS**: 60-80%
-- **Meta Recoloca.ai**: 70%
-- **Fonte**: OpenView Partners
-
-### 4. MONETIZAÇÃO (FREEMIUM)
-
-#### 4.1 Conversão Free → Paid
-
-**Overall Conversion Rate**
-- **Benchmark Freemium**: 2-5%
-- **Meta Recoloca.ai Ano 1**: 3%
-- **Meta Recoloca.ai Ano 2**: 5%
-- **Fonte**: ProfitWell, Freemium.org
-
-**Time to Conversion**
-- **Benchmark Freemium**: 30-90 dias
-- **Meta Recoloca.ai**: 45 dias
-- **Fonte**: ChartMogul, ProfitWell
-
-**Conversion by User Segment**
-- **Power Users (>10 sessions/mês)**: 15-25%
-- **Regular Users (3-10 sessions/mês)**: 5-10%
-- **Light Users (<3 sessions/mês)**: 1-3%
-- **Fonte**: Mixpanel, Amplitude
-
-#### 4.2 Revenue Metrics
-
-**Average Revenue Per User (ARPU)**
-- **Benchmark SaaS B2C**: $10-50 USD/mês (~R$50-250)
-- **Meta Recoloca.ai**: R$39/mês
-- **Fonte**: ChartMogul, Recurly
-
-**Monthly Recurring Revenue (MRR) Growth**
-- **Benchmark Early Stage**: 15-20% MoM
-- **Meta Recoloca.ai**: 20% MoM
-- **Fonte**: SaaStr, ChartMogul
-
-**Annual Contract Value (ACV)**
-- **Benchmark SaaS B2C**: $120-600 USD/ano (~R$600-3000)
-- **Meta Recoloca.ai**: R$468/ano (com desconto)
-- **Fonte**: OpenView Partners
-
-#### 4.3 Churn e Lifetime Value
-
-**Monthly Churn Rate**
-- **Benchmark SaaS B2C**: 3-7%
-- **Meta Recoloca.ai**: 5%
-- **Fonte**: ChartMogul, ProfitWell
-
-**Annual Churn Rate**
-- **Benchmark SaaS**: 5-10%
-- **Meta Recoloca.ai**: 8%
-- **Fonte**: OpenView Partners
-
-**Customer Lifetime Value (LTV)**
-- **Cálculo**: ARPU / Churn Rate
-- **Meta Recoloca.ai**: R$780 (R$39 / 5%)
-- **Benchmark**: 12-24 meses de ARPU
-- **Fonte**: ProfitWell, ChartMogul
-
-**LTV:CAC Ratio**
-- **Benchmark SaaS**: 3:1 a 5:1
-- **Meta Recoloca.ai**: 15:1 (R$780 / R$50)
-- **Fonte**: OpenView Partners, SaaStr
-
-### 5. SATISFAÇÃO E ADVOCACY
-
-#### 5.1 Satisfaction Metrics
+- **Ferramenta de Visualização:** `[Ex: Metabase, Looker, Power BI]`
+- **Link para o Dashboard:** `[Inserir link para o dashboard de métricas]`
+- **Frequência de Revisão:** As métricas de mercado e as metas internas devem ser revisadas `[Ex: trimestralmente]` para garantir o alinhamento contínuo com a estratégia e a realidade do mercado.
 
 **Net Promoter Score (NPS)**
 - **Benchmark SaaS B2C**: 30-50
