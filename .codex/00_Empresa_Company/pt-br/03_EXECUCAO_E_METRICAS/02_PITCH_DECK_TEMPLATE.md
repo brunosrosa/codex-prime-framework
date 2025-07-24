@@ -5,10 +5,7 @@ description: "Um template estruturado para a apresentação da empresa a investi
 type: "template"
 status: "published"
 owner: "@ArquitetoDoCodex"
-tags: ["template", "pitch deck", "investidores", "apresentacao"]
-version: "1.0"
-created_at: "YYYY-MM-DD"
-updated_at: "YYYY-MM-DD"
+tags: [empresa, pitch deck, investidores, apresentacao, template]
 ---
 
 # Template: Pitch Deck

@@ -1,5 +1,11 @@
 ---
-sticker: lucide//check-circle
+doc_id: "EMP-003"
+title: "Plano de Validação de Premissas de Negócio"
+description: "Documenta as hipóteses críticas do modelo de negócio e estabelece um plano sistemático para validá-las através de experimentos e coleta de dados, reduzindo incertezas."
+type: "reference"
+status: "published"
+owner: "@ArquitetoDoCodex"
+tags: [empresa, estrategia, validacao, hipoteses, lean startup]
 ---
 # PLANO DE VALIDAÇÃO DE PREMISSAS DE NEGÓCIO - Codex Prime Framework
 

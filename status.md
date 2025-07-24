@@ -1,6 +1,6 @@
 # Status do Projeto: Codex Prime Framework
 
-**Data da Última Atualização**: [Será preenchido dinamicamente]
+**Data da Última Atualização**: 2025-07-15
 
 **Último Agente a Modificar**: @ArquitetoDoCodex
 
@@ -26,6 +26,13 @@ O repositório está agora em um estado estável, com uma estrutura de governan�
         *   `01_DIRETRIZES_ESTRATEGICAS_MISSAO_VISAO_VALORES.md`
         *   `02_MODELO_NEGOCIO_CANVAS.md`
         *   `03_PLANO_VALIDACAO_PREMISSAS_NEGOCIO.md`
+
+3.  **Restauração de Metadados:**
+    *   Restauração e enriquecimento de metadados no arquivo `01_ERS_REQUISITOS_PRODUTO.md` para alinhamento com o framework Diátaxis.
+
+4.  **Refatoração de Documentos de Requisitos:**
+    *   Criação e enriquecimento de metadados em `02_DEFINICAO_PERSONAS.md`, `03_JORNADA_USUARIO.md`.
+    *   Criação e enriquecimento em templates e exemplos: `01_HU_AC_TEMPLATE.md`, `02_HU_EXEMPLO_RF_ABC.md`, `03_HU_MVP_JORNADA_USUARIO.md`.
 
 ## Próximos Passos Planejados
 

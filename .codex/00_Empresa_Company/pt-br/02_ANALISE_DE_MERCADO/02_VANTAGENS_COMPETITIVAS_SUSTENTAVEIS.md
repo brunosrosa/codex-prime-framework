@@ -1,14 +1,11 @@
 ---
 doc_id: "EMP-005"
-title: "Vantagens Competitivas Sustentáveis (Moats)"
-description: "Template para identificar e detalhar as vantagens competitivas únicas e sustentáveis de um projeto ou empresa, explicando como elas criam uma posição defensável no mercado a longo prazo."
-type: "template"
+title: "Vantagens Competitivas Sustentáveis"
+description: "Identifica e detalha as vantagens competitivas únicas e sustentáveis da empresa, explicando como elas criam uma posição defensável no mercado a longo prazo."
+type: "reference"
 status: "published"
 owner: "@ArquitetoDoCodex"
-tags: ["template", "estratégia", "vantagem competitiva", "diferenciação", "moat"]
-version: "1.0"
-created_at: "YYYY-MM-DD"
-updated_at: "YYYY-MM-DD"
+tags: [empresa, estrategia, vantagem competitiva, diferenciacao, fosso economico]
 ---
 
 # Template: Vantagens Competitivas Sustentáveis (Moats)

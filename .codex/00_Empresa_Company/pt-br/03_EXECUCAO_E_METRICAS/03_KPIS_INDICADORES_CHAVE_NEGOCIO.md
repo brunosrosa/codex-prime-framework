@@ -6,9 +6,6 @@ type: "reference"
 status: "published"
 owner: "@ArquitetoDoCodex"
 tags: ["empresa", "metricas", "kpis", "indicadores", "performance"]
-version: "1.0"
-created_at: "YYYY-MM-DD"
-updated_at: "YYYY-MM-DD"
 ---
 
 # KPIs e Indicadores-Chave de Negócio

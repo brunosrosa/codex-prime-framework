@@ -1,14 +1,11 @@
 ---
 doc_id: "EMP-006"
-title: "Template: Estratégia Go-to-Market (GTM)"
-description: "Um template para detalhar o plano de ação para alcançar clientes e conquistar participação de mercado, cobrindo estratégias de marketing, vendas, precificação e distribuição."
-type: "template"
+title: "Estratégia Go-to-Market (GTM)"
+description: "Detalha o plano de ação para alcançar clientes e conquistar participação de mercado, cobrindo estratégias de marketing, vendas, precificação e distribuição."
+type: "reference"
 status: "published"
 owner: "@ArquitetoDoCodex"
-tags: ["template", "estratégia", "gtm", "go-to-market", "marketing", "vendas"]
-version: "1.0"
-created_at: "YYYY-MM-DD"
-updated_at: "YYYY-MM-DD"
+tags: [empresa, estrategia, gtm, go-to-market, marketing, vendas]
 ---
 
 # Template: Estratégia Go-to-Market (GTM)

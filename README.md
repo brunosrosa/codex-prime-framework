@@ -1,8 +1,9 @@
 
 # Codex Prime Framework: A Arquitetura para Conhecimento Vivo
 
-**Versão:** 1.0.0
+**Versão:** 1.1.1
 **Status:** Ativo
+**Última Atualização:** 2025-07-23 19:24:38
 **Mantenedor:** @ArquitetoDoCodex
 
 ## 1. Propósito e Filosofia
@@ -20,19 +21,44 @@ Nossa filosofia se baseia em quatro pilares:
 
 O framework opera com uma estrutura dual fundamental para sua escalabilidade e manutenibilidade:
 
-### 2.1. `.codex-prime/` - O Motor do Framework
+### 2.1. `.codex-prime/` - O Motor Universal do Framework
 
 Este diretório é o coração do **Codex Prime Framework**. Ele contém os **fundamentos, templates e agentes constitucionais** que definem como o conhecimento é estruturado e governado. Pense nele como o "motor" ou o "sistema operacional" para bases de conhecimento.
 
-- **`/foundations`**: Contém os princípios e guias universais, como o guia de estilo e nomenclatura.
-- **`/templates`**: Abriga os modelos reutilizáveis para artefatos de conhecimento (ADRs, especificações, etc.).
-- **`/constitutional_agents`**: Define os perfis e capacidades dos agentes de IA que governam o ecossistema.
+**Características do Motor Universal:**
+- **Reutilizável:** Pode ser aplicado a qualquer projeto ou domínio
+- **Versionado:** Evolui de forma controlada e documentada
+- **Imutável por Instância:** Mudanças só ocorrem no nível do framework, não por projeto específico
 
-### 2.2. `.codex/` - A Instância de Conhecimento do Projeto
+**Estrutura Interna:**
+- **`00_FOUNDATIONS`**: Contém os princípios e guias universais, como o guia de estilo e nomenclatura
+- **`01_TEMPLATES`**: Abriga os modelos reutilizáveis para artefatos de conhecimento (ADRs, especificações, etc.)
+- **`02_AGENTS`**: Define os perfis e capacidades dos agentes de IA que governam o ecossistema
+- **`03_AUTOMATION`**: Scripts e ferramentas para automação de processos do framework
+- **`04_INSTANCES`**: Referências e configurações para instâncias específicas do framework
+
+### 2.2. `.codex/` - A Instância Específica do Projeto
 
 Este diretório representa a **instância específica de conhecimento** para um determinado projeto. Enquanto `.codex-prime` fornece o *como*, `.codex` contém o *quê*. Ele é preenchido usando os templates e seguindo as regras definidas em `.codex-prime`.
 
-Sua estrutura é organizada por domínios de negócio (Empresa, Produto, Tecnologia, etc.), garantindo que o conhecimento seja contextualizado e fácil de localizar.
+**Características da Instância Específica:**
+- **Contextualizada:** Adaptada às necessidades específicas do projeto
+- **Evolutiva:** Cresce e se adapta conforme o projeto evolui
+- **Governada:** Segue as regras e padrões definidos no motor universal
+
+**Organização por Domínios:**
+Sua estrutura é organizada por domínios de negócio (Empresa, Produto, Tecnologia, Pessoas, Jurídico, Marketing), garantindo que o conhecimento seja contextualizado e fácil de localizar.
+
+### 2.3. Relação Entre Motor e Instância
+
+**Fluxo de Trabalho:**
+1. **Consulta:** Templates e regras são consultados em `.codex-prime/`
+2. **Aplicação:** Conhecimento específico é criado em `.codex/` seguindo os padrões
+3. **Evolução:** Melhorias são propostas de volta ao motor universal quando aplicáveis
+
+**Separação de Responsabilidades:**
+- `.codex-prime/`: **COMO** estruturar e governar conhecimento
+- `.codex/`: **O QUÊ** é o conhecimento específico do projeto
 
 ## 3. Como Usar e Contribuir
 
@@ -47,7 +73,7 @@ O uso e a contribuição para o framework seguem um processo manual e deliberado
 
 ## 4. Documentos de Governança
 
-- **`CONSTITUICAO-PRINCIPIOS_FUNDAMENTAIS-v1.0.md`**: A lei máxima que rege o framework.
+- **`CONSTITUTION.md`**: A lei máxima que rege o framework.
 - **`CONTRIBUTING.md`**: Como contribuir com melhorias para o framework e para as instâncias de conhecimento.
 - **`CODE_OF_CONDUCT.md`**: As regras de engajamento para todos os colaboradores.
 - **`CHANGELOG.md`**: O registro de todas as mudanças significativas no framework.

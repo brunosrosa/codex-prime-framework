@@ -5,7 +5,9 @@ project_name: 'Codex Prime Framework'
 codex_framework_version: 'self-referential' # Este projeto define o framework
 tech_lead: 'Bruno S. Rosa'
 status: 'ativo'
-document_version: '2.0'
+document_version: '2.1'
+last_updated: '2025-07-23 19:43:11'
+timezone: 'America/Sao_Paulo'
 ---
 ```
 
@@ -48,9 +50,62 @@ document_version: '2.0'
 - **Estilo de Commits:** Utilizar estritamente o padrão de **Conventional Commits** (ex: `feat:`, `fix:`, `docs:`, `refactor:`, `style:`) para manter um histórico de mudanças claro e automatizável.
     
 - **Guia de Estilo de Escrita:** Aderir às melhores práticas de "Technical Writing". O conteúdo deve ser claro, conciso, inequívoco e útil.
+
+### **Padrão YAML Front Matter (OBRIGATÓRIO)**
+
+```yaml
+---
+title: "Título do Documento"
+version: "1.0.0"
+last_updated: "YYYY-MM-DD HH:mm:ss"
+timezone: "America/Sao_Paulo"
+author: "Nome do Agente/Autor"
+status: "draft|review|approved|deprecated"
+tags: ["tag1", "tag2", "tag3"]
+category: "categoria_principal"
+language: "pt-br|en-us"
+---
+```
+
+**Campos Obrigatórios:**
+- `title`: Título descritivo do documento
+- `version`: Versionamento semântico (SemVer)
+- `last_updated`: Timestamp no formato `YYYY-MM-DD HH:mm:ss` (obtido via MCP `time-mcp`)
+- `timezone`: Sempre `America/Sao_Paulo`
+- `status`: Estado atual do documento
+- `language`: Idioma do conteúdo
     
 
-## 4. Hierarquia e Delegação de Agentes
+## 4. Ferramentas MCP Obrigatórias
+
+- **Gestão de Tempo (OBRIGATÓRIO)**: SEMPRE utilize o MCP `time-mcp` para:
+  - **Obter data/hora atual**: `current_time` com timezone `America/Sao_Paulo`
+  - **Cálculos de tempo relativo**: `relative_time`
+  - **Conversões de timezone**: `convert_time`
+  - **Justificativa**: Garante timestamps precisos e consistentes em toda documentação
+
+- **Integração GitHub (OBRIGATÓRIO)**: SEMPRE utilize o MCP `GitHub` para:
+  - **Criação de branches**: `create_branch`
+  - **Commits e PRs**: `push_files`, `create_pull_request`
+  - **Justificativa**: Mantém rastreabilidade e versionamento adequado
+
+- **Operações de Sistema**: Utilize o MCP `desktop-commander` quando necessário para:
+  - **Leitura de arquivos**: `read_file`, `read_multiple_files`
+  - **Criação de diretórios**: `create_directory`
+
+### **Gestão de Timestamps e Versionamento**
+
+- **Timezone Padrão**: `America/Sao_Paulo`
+- **Casos de Uso Obrigatórios**:
+  - Criação/atualização de documentos
+  - Versionamento de artefatos
+  - Logs de atividades
+  - Metadados de commits
+  - YAML front matter (`last_updated`)
+
+---
+
+## 5. Hierarquia e Delegação de Agentes
 
 - **Agente Estratégico (Chefe de Gabinete):** `@Janus` (Responsável por debater e aprovar a evolução estratégica do Framework).
     
@@ -63,7 +118,7 @@ document_version: '2.0'
     - `@Revisor_Tecnico` (Especialista em garantir a precisão, clareza e utilidade do conteúdo dos templates).
         
 
-## 5. Protocolo de Resolução de Conflitos
+## 6. Protocolo de Resolução de Conflitos
 
 Em caso de conflito ou ambiguidade entre diferentes fontes de regras, a seguinte hierarquia de prioridade **DEVE** ser seguida:
 
@@ -73,7 +128,7 @@ Em caso de conflito ou ambiguidade entre diferentes fontes de regras, a seguinte
     
 3. **`user_rules.md`:** As regras e preferências globais do Maestro.
     
-4. **`CONSTITUICAO-PRINCIPIOS_FUNDAMENTAIS-v1.0.md`:** A constituição geral do ecossistema.
+4. **`CONSTITUTION.md`:** A constituição geral do ecossistema.
     
 5. **Padrões da Indústria para Documentação Técnica.**
     

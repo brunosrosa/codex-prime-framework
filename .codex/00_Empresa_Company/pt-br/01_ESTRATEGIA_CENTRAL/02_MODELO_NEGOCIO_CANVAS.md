@@ -3,7 +3,7 @@ doc_id: "EMP-002"
 title: "Modelo de Negócio Canvas"
 description: "Descreve o modelo de negócio da empresa utilizando o framework Business Model Canvas, detalhando os blocos de construção essenciais como segmentos de clientes, proposta de valor, canais, e fontes de receita."
 type: "reference"
-status: "draft"
+status: "published"
 owner: "@ArquitetoDoCodex"
 tags: [empresa, estrategia, modelo de negocio, canvas, inovacao]
 ---

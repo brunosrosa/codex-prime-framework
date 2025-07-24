@@ -3,10 +3,9 @@ doc_id: "EMP-004"
 title: "Análise de Concorrentes e Mercado"
 description: "Realiza uma análise detalhada do cenário competitivo e do mercado-alvo, identificando os principais concorrentes, suas estratégias, forças, fraquezas e oportunidades de diferenciação."
 type: "reference"
-status: "draft"
-owner: "[Nome do Responsável ou Squad]"
+status: "published"
+owner: "@ArquitetoDoCodex"
 tags: [empresa, mercado, concorrentes, analise competitiva, estrategia]
-sticker: lucide//bar-chart-4
 ---
 
 # Análise de Concorrentes e Mercado: [Nome do Projeto]

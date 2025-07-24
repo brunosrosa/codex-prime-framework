@@ -1,8 +1,19 @@
+---
+doc_id: PROD_EST_002
+title: Roadmap Estratégico do Produto
+description: >
+  Visualização de alto nível das principais iniciativas, temas e épicos planejados
+  ao longo do tempo. Comunica a direção e as prioridades do produto para os stakeholders.
+type: Estratégia
+status: Ativo
+owner: Product_Manager
+tags:
+  - roadmap
+  - planejamento
+  - trimestral
+  - estratégico
+---
 # 🗓️ Roadmap Estatégico
-
-**Versão**: 1.0**Data de Criação**: 09 de junho de 2025**Data de Última Atualização**: 09 de junho de 2025
-
-**Status**: 🟢 Aprovado - Versão Final**Alinhado com**: [[docs/01_Guias_Centrais/02_GUIA_AVANCADO.md]] v1.0, [[docs/00_Gerenciamento_Projeto/11_CAMINHO_CRITICO_MVP.md]] v1.0
 
 > **Realidade:** Projeto solo com foco em validação estratégica e lançamento sustentável**Estratégia:** MVP funcional em 16 semanas com metodologia "Intelligent Orchestration with Domain Specialization"**Objetivo:** Validar proposta de valor com "Specialized Intelligence" como vantagem competitiva
 

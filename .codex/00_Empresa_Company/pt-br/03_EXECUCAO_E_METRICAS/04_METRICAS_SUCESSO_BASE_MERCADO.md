@@ -6,9 +6,6 @@ type: "reference"
 status: "published"
 owner: "@ArquitetoDoCodex"
 tags: ["empresa", "metricas", "benchmark", "mercado", "performance"]
-version: "1.0"
-created_at: "YYYY-MM-DD"
-updated_at: "YYYY-MM-DD"
 ---
 
 # Métricas de Sucesso com Base no Mercado
