@@ -1,261 +1,189 @@
----
-kanban-plugin: board
-sticker: lucide//megaphone
----
+# [KANBAN_MARKETING_GTM]
 
-# 📢 KANBAN MARKETING & GO-TO-MARKET
+[METADADOS_DOCUMENTO]
 
-> **Objetivo:** Gestão de atividades de marketing, go-to-market e crescimento do Recoloca.ai
-> **Quando usar:** Pós-MVP, quando iniciar atividades de marketing e aquisição
-> **Responsáveis:** @Maestro, @AgenteM_Orquestrador, Marketing Team (futuro)
-> **Referência:** [[docs/08_Marketing_e_Vendas/01_ESTRATEGIA_GO_TO_MARKET.md]]
+## [INTRODUCAO_KANBAN_MARKETING]
 
-## 💡 IDEIAS E CONCEITOS
+[DEFINICAO_KANBAN_MARKETING]
 
-*Brainstorming de campanhas, canais e estratégias*
+[OBJETIVO_GESTAO_MARKETING]
 
-### Critérios para Avaliação:
-- **Alinhamento com Brand:** Consistente com posicionamento
-- **Target Audience Fit:** Relevante para personas
-- **ROI Potencial:** Retorno esperado vs investimento
-- **Feasibility:** Viabilidade de execução
-- **Timing:** Momento adequado no ciclo do produto
+[QUANDO_USAR_KANBAN_MARKETING]
 
+[RESPONSAVEIS_MARKETING]
 
-## 📋 PLANEJAMENTO
+## [IDEIAS_CONCEITOS]
 
-*Campanhas e iniciativas aprovadas sendo estruturadas*
+[BRAINSTORMING_CAMPANHAS]
 
-### Elementos do Planejamento:
-- **Objetivos SMART:** Específicos, mensuráveis, atingíveis
-- **Target Audience:** Personas e segmentos específicos
-- **Messaging:** Proposta de valor e posicionamento
-- **Canais:** Onde e como executar
-- **Budget:** Recursos financeiros alocados
-- **Timeline:** Cronograma detalhado
-- **KPIs:** Métricas de sucesso
+[CRITERIOS_AVALIACAO_IDEIAS]
 
+[PROCESSO_SELECAO_CONCEITOS]
 
-## 🚀 EM EXECUÇÃO
+[VALIDACAO_IDEIAS]
 
-*Campanhas ativas e iniciativas em andamento*
+[APROVACAO_CONCEITOS]
 
-### Status de Execução:
-- **Content Creation:** Produção de materiais
-- **Campaign Launch:** Lançamento de campanhas
-- **Community Building:** Construção de audiência
-- **Partnership Development:** Desenvolvimento de parcerias
-- **PR & Communications:** Relações públicas
+## [PLANEJAMENTO_CAMPANHAS]
 
+[ESTRUTURACAO_CAMPANHAS]
 
-## 📊 MONITORAMENTO
+[DEFINICAO_OBJETIVOS_SMART]
 
-*Campanhas sendo acompanhadas e otimizadas*
+[IDENTIFICACAO_TARGET_AUDIENCE]
 
-### Métricas de Acompanhamento:
-- **Awareness:** Alcance, impressões, brand mentions
-- **Acquisition:** Leads, sign-ups, conversões
-- **Engagement:** CTR, time on site, social engagement
-- **Retention:** Churn rate, LTV, repeat usage
-- **Revenue:** MRR, ARR, customer acquisition cost
+[DESENVOLVIMENTO_MESSAGING]
 
+[SELECAO_CANAIS]
 
-## 🔄 OTIMIZAÇÃO
+[ALOCACAO_BUDGET]
 
-*Campanhas sendo ajustadas baseadas em performance*
+[CRONOGRAMA_DETALHADO]
 
-### Tipos de Otimização:
-- **A/B Testing:** Testes de variações
-- **Budget Reallocation:** Realocação de recursos
-- **Targeting Refinement:** Refinamento de audiência
-- **Creative Iteration:** Iteração de criativos
-- **Channel Optimization:** Otimização de canais
+[DEFINICAO_KPIS]
 
+## [EXECUCAO_MARKETING]
 
-## ✅ CONCLUÍDO
+[PROCESSO_EXECUCAO_CAMPANHAS]
 
-*Campanhas finalizadas com resultados documentados*
+[PRODUCAO_CONTEUDO]
 
-### Documentação de Resultados:
-- **Performance vs Goals:** Resultados vs objetivos
-- **Key Learnings:** Principais aprendizados
-- **Best Practices:** Melhores práticas identificadas
-- **Recommendations:** Recomendações para futuras campanhas
+[LANCAMENTO_CAMPANHAS]
 
----
+[GESTAO_CANAIS]
 
-## 📋 TEMPLATE PARA NOVAS INICIATIVAS
+[MONITORAMENTO_PERFORMANCE]
 
-```markdown
-- [ ] **[MKT-XXX-001]** Nome da Campanha/Iniciativa 🔺 \ #marketing \ #canal \ #prioridade \ #responsavel
-	- **Objetivo:** O que queremos alcançar
-	- **Target Audience:** Quem queremos atingir
-	- **Key Message:** Mensagem principal
-	- **Canais:** Onde vamos executar
-	- **Budget:** Investimento previsto
-	- **Timeline:** 
-		- [ ] Planejamento: [data]
-		- [ ] Produção: [data]
-		- [ ] Lançamento: [data]
-		- [ ] Monitoramento: [período]
-	- **KPIs:** Métricas de sucesso
-		- Awareness: [métrica]
-		- Acquisition: [métrica]
-		- Conversion: [métrica]
-	- **Success Criteria:** Como definir sucesso
-	- **Risks:** Riscos e mitigações
-	- **Assignee:** @ResponsavelPrincipal
-	- **Stakeholders:** Envolvidos na aprovação/execução
-	- **Launch Date:** YYYY-MM-DD
-```
+[OTIMIZACAO_CONTINUA]
 
-## 🏷️ SISTEMA DE TAGS
+## [ANALISE_RESULTADOS]
 
-### Por Canal:
-- `#content-marketing` - Marketing de conteúdo
-- `#social-media` - Redes sociais
-- `#email-marketing` - Email marketing
-- `#paid-ads` - Anúncios pagos
-- `#seo` - Search Engine Optimization
-- `#pr` - Relações públicas
-- `#partnerships` - Parcerias estratégicas
-- `#events` - Eventos e webinars
-- `#influencer` - Marketing de influência
-- `#community` - Construção de comunidade
+[MEDICAO_PERFORMANCE]
 
-### Por Objetivo:
-- `#awareness` - Consciência de marca
-- `#acquisition` - Aquisição de usuários
-- `#activation` - Ativação de usuários
-- `#retention` - Retenção
-- `#revenue` - Geração de receita
-- `#advocacy` - Advocacy e referrals
+[ANALISE_METRICAS]
 
-### Por Audiência:
-- `#profissionais-ti` - Profissionais de TI
-- `#recrutadores` - Recrutadores e RH
-- `#empresas` - Empresas contratantes
-- `#consultores-rh` - Consultores de RH
-- `#influencers-ti` - Influenciadores de TI
+[AVALIACAO_ROI]
 
-### Por Tipo:
-- `#campaign` - Campanha específica
-- `#evergreen` - Conteúdo sempre relevante
-- `#seasonal` - Sazonal/temporal
-- `#product-launch` - Lançamento de produto
-- `#thought-leadership` - Liderança de pensamento
+[IDENTIFICACAO_INSIGHTS]
 
-## 📊 MÉTRICAS E KPIs
+[RELATORIOS_PERFORMANCE]
 
-### Funil de Marketing:
-```
-Awareness → Interest → Consideration → Trial → Purchase → Advocacy
-```
+## [OTIMIZACAO_CAMPANHAS]
 
-### KPIs por Estágio:
+[PROCESSO_OTIMIZACAO]
 
-#### Awareness (Consciência):
-- **Reach:** Alcance total
-- **Impressions:** Impressões
-- **Brand Mentions:** Menções da marca
-- **Share of Voice:** Participação na conversa
+[TESTES_AB]
 
-#### Interest (Interesse):
-- **Website Traffic:** Tráfego do site
-- **Content Engagement:** Engajamento com conteúdo
-- **Social Followers:** Seguidores nas redes
-- **Email Subscribers:** Assinantes de email
+[AJUSTES_ESTRATEGIA]
 
-#### Consideration (Consideração):
-- **Lead Generation:** Geração de leads
-- **Content Downloads:** Downloads de materiais
-- **Demo Requests:** Solicitações de demo
-- **Pricing Page Views:** Visualizações da página de preços
+[MELHORIAS_CONTINUAS]
 
-#### Trial (Experimentação):
-- **Sign-up Rate:** Taxa de cadastro
-- **Activation Rate:** Taxa de ativação
-- **Feature Adoption:** Adoção de funcionalidades
-- **Time to Value:** Tempo até primeiro valor
+[ESCALABILIDADE_CAMPANHAS]
 
-#### Purchase (Compra):
-- **Conversion Rate:** Taxa de conversão
-- **Customer Acquisition Cost (CAC):** Custo de aquisição
-- **Average Order Value (AOV):** Valor médio do pedido
-- **Sales Cycle Length:** Duração do ciclo de vendas
+## [ESTRATEGIA_GO_TO_MARKET]
 
-#### Advocacy (Advocacia):
-- **Net Promoter Score (NPS):** Score de recomendação
-- **Referral Rate:** Taxa de indicações
-- **Customer Lifetime Value (LTV):** Valor vitalício do cliente
-- **Churn Rate:** Taxa de cancelamento
+[DEFINICAO_GTM]
 
-## 🎯 ESTRATÉGIAS ESPECÍFICAS
+[POSICIONAMENTO_MERCADO]
 
-### Content Marketing:
-```markdown
-### Pilares de Conteúdo:
-1. **Educacional:** Como se recolocar efetivamente
-2. **Inspiracional:** Histórias de sucesso
-3. **Técnico:** Tendências e skills em TI
-4. **Produto:** Features e benefícios do Recoloca.ai
+[SEGMENTACAO_CLIENTES]
 
-### Formatos:
-- Blog posts e artigos
-- Vídeos e webinars
-- Infográficos e estudos
-- Podcasts e entrevistas
-- Templates e checklists
-```
+[PROPOSTA_VALOR]
 
-### Social Media Strategy:
-```markdown
-### Plataformas Prioritárias:
-1. **LinkedIn:** Profissionais e recrutadores
-2. **YouTube:** Conteúdo educacional
-3. **Instagram:** Behind the scenes e cultura
-4. **Twitter:** Thought leadership e trends
+[CANAIS_DISTRIBUICAO]
 
-### Frequência de Posting:
-- LinkedIn: 1x/dia
-- YouTube: 1x/semana
-- Instagram: 3x/semana
-- Twitter: 2x/dia
-```
+[MODELO_PRICING]
 
-### Partnership Strategy:
-```markdown
-### Tipos de Parcerias:
-1. **Consultorias de RH:** Indicações mútuas
-2. **Bootcamps e Cursos:** Parcerias educacionais
-3. **Comunidades Tech:** Presença em comunidades
-4. **Influenciadores:** Colaborações de conteúdo
-5. **Empresas de Recrutamento:** Integrações
-```
+## [GESTAO_CANAIS]
 
-## 📅 CALENDÁRIO DE MARKETING
+[CANAIS_DIGITAIS]
 
-### Eventos Anuais Relevantes:
-- **Janeiro:** Planejamento de carreira
-- **Março:** Dia Internacional da Mulher (diversidade em TI)
-- **Maio:** Dia do Trabalhador
-- **Setembro:** Volta às aulas (upskilling)
-- **Novembro:** Black Friday (promoções)
-- **Dezembro:** Retrospectiva e planejamento
+[CANAIS_TRADICIONAIS]
 
-### Sazonalidades:
-- **Q1:** Mudanças de carreira pós-férias
-- **Q2:** Contratações para projetos de meio de ano
-- **Q3:** Preparação para final do ano
-- **Q4:** Planejamento para próximo ano
+[MARKETING_CONTEUDO]
 
----
+[REDES_SOCIAIS]
 
-**Última Atualização:** {{date:YYYY-MM-DD}}
-**Responsável pela Manutenção:** @AgenteM_Orquestrador
+[EMAIL_MARKETING]
 
-%% kanban:settings
-```
-{"kanban-plugin":"board","lane-width":400,"list-collapse":[null,null,null,null,null,false]}
-```
-%%
+[SEO_SEM]
+
+[PARCERIAS_INFLUENCERS]
+
+## [BRANDING_COMUNICACAO]
+
+[IDENTIDADE_MARCA]
+
+[MESSAGING_FRAMEWORK]
+
+[COMUNICACAO_INTEGRADA]
+
+[GESTAO_REPUTACAO]
+
+[RELACOES_PUBLICAS]
+
+## [GROWTH_HACKING]
+
+[ESTRATEGIAS_CRESCIMENTO]
+
+[EXPERIMENTOS_GROWTH]
+
+[METRICAS_CRESCIMENTO]
+
+[FUNIL_CONVERSAO]
+
+[RETENCAO_CLIENTES]
+
+## [MARKETING_ANALYTICS]
+
+[FERRAMENTAS_ANALYTICS]
+
+[DASHBOARDS_MARKETING]
+
+[ATTRIBUTION_MODELING]
+
+[CUSTOMER_JOURNEY_ANALYTICS]
+
+[PREDICTIVE_ANALYTICS]
+
+## [GESTAO_BUDGET]
+
+[ALOCACAO_RECURSOS]
+
+[CONTROLE_GASTOS]
+
+[ROI_CAMPANHAS]
+
+[OTIMIZACAO_BUDGET]
+
+[PLANEJAMENTO_FINANCEIRO]
+
+## [FERRAMENTAS_RECURSOS]
+
+[PLATAFORMAS_MARKETING]
+
+[FERRAMENTAS_AUTOMACAO]
+
+[SOFTWARES_ANALYTICS]
+
+[TEMPLATES_CAMPANHAS]
+
+[RECURSOS_CRIATIVOS]
+
+## [MELHORES_PRATICAS]
+
+[DICAS_MARKETING_EFICAZ]
+
+[ERROS_COMUNS]
+
+[LICOES_APRENDIDAS]
+
+[CASOS_SUCESSO]
+
+[TENDENCIAS_MARKETING]
+
+## [APROVACAO_CONTROLE]
+
+[RESPONSAVEIS_APROVACAO]
+
+[HISTORICO_REVISOES]

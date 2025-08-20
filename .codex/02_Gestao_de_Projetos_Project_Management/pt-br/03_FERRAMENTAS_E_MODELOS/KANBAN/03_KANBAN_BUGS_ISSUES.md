@@ -1,144 +1,135 @@
----
-kanban-plugin: board
-sticker: lucide//bug
----
+# [KANBAN_BUGS_ISSUES]
 
-# 🐛 KANBAN BUGS & ISSUES TÉCNICAS
+[METADADOS_DOCUMENTO]
 
-> **Objetivo:** Gestão específica de bugs, issues técnicas e correções do sistema Recoloca.ai
-> **Quando usar:** Quando o volume de bugs justificar um quadro dedicado (geralmente pós-MVP)
-> **Responsáveis:** @AgenteM_DevFastAPI, @AgenteM_DevFlutter, @AgenteM_ArquitetoTI
+## [INTRODUCAO_KANBAN_BUGS]
 
-## 🚨 CRÍTICO (P0)
+[DEFINICAO_KANBAN_BUGS]
 
-*Bugs que impedem o funcionamento básico do sistema*
+[OBJETIVO_GESTAO_BUGS]
 
-### Critérios P0:
-- Sistema inacessível ou inoperante
-- Perda de dados do usuário
-- Falhas de segurança críticas
-- Quebra de funcionalidades core
+[QUANDO_USAR_KANBAN_BUGS]
 
+[RESPONSAVEIS_GESTAO_BUGS]
 
-## 🔺 ALTA PRIORIDADE (P1)
+## [CLASSIFICACAO_PRIORIDADES]
 
-*Bugs que afetam funcionalidades importantes*
+[CRITERIOS_PRIORIZACAO]
 
-### Critérios P1:
-- Funcionalidades principais com comportamento incorreto
-- Performance severamente degradada
-- Problemas de UX que impedem fluxos principais
-- Erros que afetam múltiplos usuários
+[NIVEIS_PRIORIDADE]
 
+[DEFINICAO_SEVERIDADE]
 
-## ⏫ MÉDIA PRIORIDADE (P2)
+[MATRIZ_IMPACTO_URGENCIA]
 
-*Bugs que afetam experiência do usuário*
+## [PRIORIDADE_CRITICA]
 
-### Critérios P2:
-- Problemas de interface e usabilidade
-- Funcionalidades secundárias com falhas
-- Performance moderadamente afetada
-- Inconsistências visuais
+[DEFINICAO_P0_CRITICO]
 
+[CRITERIOS_BUGS_CRITICOS]
 
-## 🔽 BAIXA PRIORIDADE (P3)
+[TEMPO_RESPOSTA_P0]
 
-*Melhorias e correções menores*
+[PROCESSO_ESCALACAO_CRITICO]
 
-### Critérios P3:
-- Problemas cosméticos
-- Funcionalidades nice-to-have com falhas
-- Otimizações de código
-- Refatorações técnicas
+[EXEMPLOS_BUGS_CRITICOS]
 
+## [PRIORIDADE_ALTA]
 
-## 🔄 EM INVESTIGAÇÃO
+[DEFINICAO_P1_ALTA]
 
-*Issues sendo analisadas ou reproduzidas*
+[CRITERIOS_BUGS_ALTA_PRIORIDADE]
 
-### Status de Investigação:
-- **Reportado:** Bug identificado, aguardando análise
-- **Reproduzindo:** Tentando replicar o problema
-- **Analisando:** Investigando causa raiz
-- **Aguardando Info:** Necessita mais detalhes do reporter
+[TEMPO_RESPOSTA_P1]
 
+[PROCESSO_TRATAMENTO_P1]
 
-## ✅ RESOLVIDO
+[EXEMPLOS_BUGS_P1]
 
-*Bugs corrigidos e validados*
+## [PRIORIDADE_MEDIA]
 
-### Critérios de Resolução:
-- Fix implementado e testado
-- Validação em ambiente de produção
-- Confirmação do reporter (quando aplicável)
-- Documentação atualizada (se necessário)
+[DEFINICAO_P2_MEDIA]
 
----
+[CRITERIOS_BUGS_MEDIA_PRIORIDADE]
 
-## 📋 TEMPLATE PARA NOVOS BUGS
+[TEMPO_RESPOSTA_P2]
 
-```markdown
-- [ ] **[BUG-XXX-001]** Título Descritivo do Bug 🔺 \ #bug \ #componente \ #prioridade \ #responsavel
-	- **Descrição:** Descrição detalhada do problema
-	- **Passos para Reproduzir:** 
-		1. Passo 1
-		2. Passo 2
-		3. Resultado esperado vs obtido
-	- **Ambiente:** [Dev/Staging/Prod] - [Browser/Device]
-	- **Impacto:** Descrição do impacto no usuário/sistema
-	- **Evidências:** Screenshots, logs, vídeos
-	- **Workaround:** Solução temporária (se houver)
-	- **Assignee:** @AgenteResponsavel
-	- **Reporter:** Nome do reporter
-	- **Data:** YYYY-MM-DD
-```
+[PROCESSO_TRATAMENTO_P2]
 
-## 🏷️ SISTEMA DE TAGS
+[EXEMPLOS_BUGS_P2]
 
-### Por Componente:
-- `#frontend` - Issues do Flutter/Web
-- `#backend` - Issues do FastAPI
-- `#database` - Issues do Supabase/BD
-- `#auth` - Issues de autenticação
-- `#api` - Issues de integração API
-- `#ux` - Issues de experiência do usuário
-- `#performance` - Issues de performance
-- `#security` - Issues de segurança
+## [PRIORIDADE_BAIXA]
 
-### Por Tipo:
-- `#bug` - Bug confirmado
-- `#regression` - Funcionalidade que parou de funcionar
-- `#enhancement` - Melhoria técnica
-- `#hotfix` - Correção urgente
-- `#technical-debt` - Débito técnico
+[DEFINICAO_P3_BAIXA]
 
-### Por Ambiente:
-- `#dev` - Ambiente de desenvolvimento
-- `#staging` - Ambiente de homologação
-- `#prod` - Ambiente de produção
+[CRITERIOS_BUGS_BAIXA_PRIORIDADE]
 
-## 📊 MÉTRICAS DE ACOMPANHAMENTO
+[TEMPO_RESPOSTA_P3]
 
-### KPIs Importantes:
-- **Time to Resolution:** Tempo médio para resolver bugs por prioridade
-- **Bug Escape Rate:** % de bugs que chegam à produção
-- **Reopen Rate:** % de bugs que retornam após correção
-- **Customer Impact:** Número de usuários afetados por bugs
+[PROCESSO_TRATAMENTO_P3]
 
-### Metas:
-- **P0:** Resolução em < 4 horas
-- **P1:** Resolução em < 24 horas
-- **P2:** Resolução em < 1 semana
-- **P3:** Resolução em < 1 mês
+[EXEMPLOS_BUGS_P3]
 
----
+## [FLUXO_GESTAO_BUGS]
 
-**Última Atualização:** {{date:YYYY-MM-DD}}
-**Responsável pela Manutenção:** @AgenteM_Orquestrador
+[PROCESSO_IDENTIFICACAO]
 
-%% kanban:settings
-```
-{"kanban-plugin":"board","lane-width":350,"list-collapse":[null,null,null,null,null,false]}
-```
-%%
+[PROCESSO_TRIAGEM]
+
+[PROCESSO_ATRIBUICAO]
+
+[PROCESSO_RESOLUCAO]
+
+[PROCESSO_VALIDACAO]
+
+[PROCESSO_FECHAMENTO]
+
+## [DOCUMENTACAO_BUGS]
+
+[TEMPLATE_RELATO_BUG]
+
+[INFORMACOES_OBRIGATORIAS]
+
+[PASSOS_REPRODUCAO]
+
+[EVIDENCIAS_ANEXOS]
+
+[AMBIENTE_TESTE]
+
+## [METRICAS_QUALIDADE]
+
+[INDICADORES_BUGS]
+
+[TEMPO_RESOLUCAO]
+
+[TAXA_REINCIDENCIA]
+
+[DENSIDADE_DEFEITOS]
+
+[EFICIENCIA_DETECCAO]
+
+## [FERRAMENTAS_RECURSOS]
+
+[SOFTWARES_GESTAO_BUGS]
+
+[TEMPLATES_DOCUMENTACAO]
+
+[CHECKLISTS_VALIDACAO]
+
+[FERRAMENTAS_TESTE]
+
+## [MELHORES_PRATICAS]
+
+[DICAS_GESTAO_EFICAZ]
+
+[PREVENCAO_BUGS]
+
+[COMUNICACAO_EQUIPE]
+
+[LICOES_APRENDIDAS]
+
+## [APROVACAO_CONTROLE]
+
+[RESPONSAVEIS_APROVACAO]
+
+[HISTORICO_REVISOES]

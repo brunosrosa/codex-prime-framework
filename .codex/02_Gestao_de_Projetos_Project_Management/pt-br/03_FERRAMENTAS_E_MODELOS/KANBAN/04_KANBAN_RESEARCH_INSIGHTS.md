@@ -1,211 +1,183 @@
----
-kanban-plugin: board
-sticker: lucide//search
----
+# [KANBAN_RESEARCH_INSIGHTS]
 
-# 🔍 KANBAN RESEARCH & INSIGHTS
+[METADADOS_DOCUMENTO]
 
-> **Objetivo:** Gestão de pesquisas de mercado, insights de usuário e descobertas estratégicas
-> **Quando usar:** Para demanda contínua de pesquisas e validações (especialmente pós-MVP)
-> **Responsáveis:** @AgenteM_Orquestrador, @AgenteM_UXDesigner, @Maestro
+## [INTRODUCAO_KANBAN_RESEARCH]
 
-## 📋 BACKLOG DE PESQUISAS
+[DEFINICAO_KANBAN_RESEARCH]
 
-*Ideias e hipóteses para investigar*
+[OBJETIVO_GESTAO_PESQUISAS]
 
-### Critérios para Priorização:
-- **Impacto no Produto:** Alto/Médio/Baixo
-- **Urgência Estratégica:** Crítico/Importante/Nice-to-have
-- **Esforço Estimado:** 1-5 (1=baixo, 5=alto)
-- **Risco de Não Fazer:** Alto/Médio/Baixo
+[QUANDO_USAR_KANBAN_RESEARCH]
 
+[RESPONSAVEIS_PESQUISAS]
 
-## 🎯 PLANEJAMENTO
+## [BACKLOG_PESQUISAS]
 
-*Pesquisas aprovadas e sendo estruturadas*
+[DEFINICAO_BACKLOG_RESEARCH]
 
-### Elementos do Planejamento:
-- **Objetivos claros e mensuráveis**
-- **Metodologia definida**
-- **Cronograma e recursos**
-- **Critérios de sucesso**
-- **Stakeholders envolvidos**
+[CRITERIOS_PRIORIZACAO_PESQUISAS]
 
+[MATRIZ_IMPACTO_ESFORCO]
 
-## 🔬 EM EXECUÇÃO
+[GESTAO_IDEIAS_HIPOTESES]
 
-*Pesquisas ativas sendo conduzidas*
+[PROCESSO_APROVACAO_PESQUISAS]
 
-### Status de Execução:
-- **Coleta de Dados:** Entrevistas, surveys, analytics
-- **Análise:** Processamento e interpretação
-- **Validação:** Confirmação de hipóteses
-- **Documentação:** Registro de findings
+## [PLANEJAMENTO_PESQUISAS]
 
+[ESTRUTURACAO_PESQUISAS]
 
-## 📊 ANÁLISE E SÍNTESE
+[DEFINICAO_OBJETIVOS]
 
-*Dados coletados sendo analisados*
+[METODOLOGIA_PESQUISA]
 
-### Tipos de Análise:
-- **Quantitativa:** Métricas, estatísticas, trends
-- **Qualitativa:** Insights, padrões, comportamentos
-- **Competitiva:** Benchmarking, gap analysis
-- **Estratégica:** Implicações para produto/negócio
+[CRONOGRAMA_RECURSOS]
 
+[CRITERIOS_SUCESSO]
 
-## 💡 INSIGHTS VALIDADOS
+[IDENTIFICACAO_STAKEHOLDERS]
 
-*Descobertas confirmadas e acionáveis*
+## [EXECUCAO_PESQUISAS]
 
-### Critérios de Validação:
-- **Evidência robusta:** Dados suficientes e confiáveis
-- **Relevância estratégica:** Impacto no produto/negócio
-- **Acionabilidade:** Pode ser traduzido em ações concretas
-- **Consenso:** Alinhamento entre stakeholders
+[PROCESSO_EXECUCAO]
 
+[COLETA_DADOS]
 
-## 🚀 IMPLEMENTADO
+[METODOLOGIAS_COLETA]
 
-*Insights que geraram ações e mudanças*
+[FERRAMENTAS_PESQUISA]
 
-### Tipos de Implementação:
-- **Features/Funcionalidades:** Novos desenvolvimentos
-- **Melhorias de UX:** Otimizações de experiência
-- **Estratégia de Produto:** Mudanças de direção
-- **Go-to-Market:** Ajustes de posicionamento/canais
+[GESTAO_PARTICIPANTES]
 
----
+[MONITORAMENTO_PROGRESSO]
 
-## 📋 TEMPLATE PARA NOVAS PESQUISAS
+## [ANALISE_SINTESE]
 
-```markdown
-- [ ] **[RES-XXX-001]** Título da Pesquisa 🔺 \ #research \ #categoria \ #prioridade \ #responsavel
-	- **Objetivo:** O que queremos descobrir/validar
-	- **Hipótese:** Nossa suposição inicial
-	- **Metodologia:** Como vamos investigar
-		- [ ] Entrevistas (N=X)
-		- [ ] Survey (N=X)
-		- [ ] Análise de dados
-		- [ ] Teste A/B
-		- [ ] Observação/Analytics
-	- **Critérios de Sucesso:** Como saberemos se foi bem-sucedida
-	- **Timeline:** Prazo estimado
-	- **Recursos Necessários:** Pessoas, ferramentas, orçamento
-	- **Stakeholders:** Quem precisa dos resultados
-	- **Riscos:** O que pode dar errado
-	- **Assignee:** @AgenteResponsavel
-	- **Data de Início:** YYYY-MM-DD
-```
+[PROCESSO_ANALISE_DADOS]
 
-## 🏷️ SISTEMA DE TAGS
+[TIPOS_ANALISE]
 
-### Por Tipo de Pesquisa:
-- `#user-research` - Pesquisa com usuários
-- `#market-research` - Pesquisa de mercado
-- `#competitive-analysis` - Análise competitiva
-- `#usability-testing` - Testes de usabilidade
-- `#analytics-research` - Análise de dados/métricas
-- `#concept-validation` - Validação de conceitos
-- `#pricing-research` - Pesquisa de pricing
-- `#feature-validation` - Validação de features
+[INTERPRETACAO_RESULTADOS]
 
-### Por Metodologia:
-- `#interviews` - Entrevistas qualitativas
-- `#surveys` - Questionários quantitativos
-- `#ab-testing` - Testes A/B
-- `#analytics` - Análise de dados
-- `#observation` - Observação comportamental
-- `#focus-groups` - Grupos focais
-- `#desk-research` - Pesquisa secundária
+[IDENTIFICACAO_PADROES]
 
-### Por Área de Foco:
-- `#aha-moments` - Momentos AHA!
-- `#onboarding` - Processo de onboarding
-- `#retention` - Retenção de usuários
-- `#monetization` - Estratégias de monetização
-- `#growth` - Crescimento e aquisição
-- `#product-market-fit` - Product-Market Fit
-- `#specialized-intelligence` - Inteligência Especializada
+[VALIDACAO_HIPOTESES]
 
-### Por Prioridade:
-- `#critical` - Crítico para decisões estratégicas
-- `#important` - Importante para roadmap
-- `#nice-to-know` - Interessante mas não urgente
+[SINTESE_INSIGHTS]
 
-## 📊 MÉTRICAS DE RESEARCH
+## [INSIGHTS_DESCOBERTAS]
 
-### KPIs de Processo:
-- **Research Velocity:** Pesquisas completadas por sprint/mês
-- **Time to Insight:** Tempo médio da hipótese ao insight validado
-- **Implementation Rate:** % de insights que geram ações
-- **Research ROI:** Valor gerado vs investimento em pesquisa
+[DOCUMENTACAO_INSIGHTS]
 
-### KPIs de Qualidade:
-- **Confidence Level:** Nível de confiança nos insights
-- **Stakeholder Satisfaction:** Satisfação com qualidade dos insights
-- **Actionability Score:** Quão acionáveis são os insights
-- **Impact Measurement:** Impacto mensurável das implementações
+[CLASSIFICACAO_DESCOBERTAS]
 
-## 🎯 TEMPLATES DE PESQUISA ESPECÍFICOS
+[IMPACTO_ESTRATEGICO]
 
-### User Interview Template:
-```markdown
-### Perfil do Entrevistado:
-- **Nome/Código:** [Anonimizado]
-- **Cargo/Área:** 
-- **Experiência:** 
-- **Contexto de Recolocação:** 
+[RECOMENDACOES_ACOES]
 
-### Roteiro de Perguntas:
-1. **Contexto:** Conte sobre sua última experiência de recolocação
-2. **Dores:** Quais foram os maiores desafios?
-3. **Soluções Atuais:** Como resolve esses problemas hoje?
-4. **Momento AHA!:** [Testar conceitos específicos]
-5. **Specialized Intelligence:** Como vê o valor da especialização?
+[PRIORIZACAO_INSIGHTS]
 
-### Key Insights:
-- **Quote Destacada:** 
-- **Padrão Identificado:** 
-- **Oportunidade:** 
-- **Red Flag:** 
-```
+## [VALIDACAO_INSIGHTS]
 
-### Competitive Analysis Template:
-```markdown
-### Concorrente: [Nome]
-- **Posicionamento:** 
-- **Funcionalidades Core:** 
-- **Pricing:** 
-- **Strengths:** 
-- **Weaknesses:** 
-- **Diferenciação vs Recoloca.ai:** 
-- **Lessons Learned:** 
-```
+[PROCESSO_VALIDACAO]
 
----
+[CRITERIOS_VALIDACAO]
 
-## 📚 REPOSITÓRIO DE INSIGHTS
+[TESTES_HIPOTESES]
 
-### Insights Estratégicos Validados:
-*Links para documentos detalhados em [[docs/09_Pesquisa_e_Insights/]]*
+[CONFIRMACAO_DESCOBERTAS]
 
-### Personas Atualizadas:
-*Referência: [[docs/02_Requisitos/01_ERS.md#personas]]*
+[REFINAMENTO_INSIGHTS]
 
-### Competitive Intelligence:
-*Análises competitivas atualizadas*
+## [IMPLEMENTACAO_ACOES]
 
-### Market Trends:
-*Tendências de mercado relevantes*
+[TRADUCAO_INSIGHTS_ACOES]
 
----
+[PLANEJAMENTO_IMPLEMENTACAO]
 
-**Última Atualização:** {{date:YYYY-MM-DD}}
-**Responsável pela Manutenção:** @AgenteM_Orquestrador
+[ACOMPANHAMENTO_RESULTADOS]
 
-%% kanban:settings
-```
-{"kanban-plugin":"board","lane-width":380,"list-collapse":[null,null,null,null,null,false]}
-```
-%%
+[MEDICAO_IMPACTO]
+
+[FEEDBACK_LOOP]
+
+## [TIPOS_PESQUISA]
+
+[PESQUISA_MERCADO]
+
+[PESQUISA_USUARIO]
+
+[PESQUISA_COMPETITIVA]
+
+[PESQUISA_TECNOLOGICA]
+
+[PESQUISA_TENDENCIAS]
+
+## [METODOLOGIAS_RESEARCH]
+
+[ENTREVISTAS_PROFUNDIDADE]
+
+[SURVEYS_QUESTIONARIOS]
+
+[GRUPOS_FOCAIS]
+
+[OBSERVACAO_COMPORTAMENTAL]
+
+[ANALISE_DADOS_SECUNDARIOS]
+
+[TESTES_USABILIDADE]
+
+## [FERRAMENTAS_RECURSOS]
+
+[SOFTWARES_PESQUISA]
+
+[PLATAFORMAS_COLETA]
+
+[FERRAMENTAS_ANALISE]
+
+[TEMPLATES_DOCUMENTACAO]
+
+[DASHBOARDS_INSIGHTS]
+
+## [GESTAO_CONHECIMENTO]
+
+[REPOSITORIO_INSIGHTS]
+
+[ORGANIZACAO_DESCOBERTAS]
+
+[COMPARTILHAMENTO_CONHECIMENTO]
+
+[ATUALIZACAO_BASE_CONHECIMENTO]
+
+[ACESSO_INFORMACOES]
+
+## [METRICAS_RESEARCH]
+
+[INDICADORES_QUALIDADE]
+
+[TEMPO_EXECUCAO]
+
+[TAXA_PARTICIPACAO]
+
+[PRECISAO_INSIGHTS]
+
+[IMPACTO_DECISOES]
+
+## [MELHORES_PRATICAS]
+
+[DICAS_PESQUISA_EFICAZ]
+
+[ERROS_COMUNS]
+
+[LICOES_APRENDIDAS]
+
+[CASOS_SUCESSO]
+
+[RECOMENDACOES_METODOLOGICAS]
+
+## [APROVACAO_CONTROLE]
+
+[RESPONSAVEIS_APROVACAO]
+
+[HISTORICO_REVISOES]

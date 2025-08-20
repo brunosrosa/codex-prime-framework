@@ -1,35 +1,85 @@
-Tipos de Canvas:
+# [CANVAS_PROJETO]
 
-- **[Business Model Canvas](https://www.google.com/search?client=firefox-b-d&sca_esv=287fb7c950b78cc4&cs=1&sxsrf=AE3TifPj9Ia_Tr9PLpD9CloI-BDVz2EOHA%3A1751742139546&q=Business+Model+Canvas&sa=X&ved=2ahUKEwjJyKP_s6aOAxVUvZUCHUWeCFQQxccNegQICxAB&mstk=AUtExfChFNU9Q6bwzy2zSzmhmM470x8Pt0_PvCBzwPqA7hhUgmEzKfrIRMfJoK4msxfiCShQ8vItcQYkZn1277bw3zS03Zkr86seo9rGzooFlADXMQI8BmnnAjuMehr4Q79sMaOCxmQGhLYJvgaEXQzsTS44_nkTSuhCwY2FMt-gkdM5QUXi149XYLWoJ2-vKISvJdVXIbap7EbokcDK9Z-N8tNAjr3aP_MThP9ow6yjT4_pNMI0frqk_k3cRrD6OTMS8u480-WHu83Wzjqztx6ay4mj&csui=3):**
+[METADADOS_DOCUMENTO]
 
-  Utilizado para descrever, analisar, projetar e apresentar modelos de negócios de forma visual, em um único quadro.
+## [INTRODUCAO_CANVAS]
 
-- **[Lean Canvas](https://www.google.com/search?client=firefox-b-d&sca_esv=287fb7c950b78cc4&cs=1&sxsrf=AE3TifPj9Ia_Tr9PLpD9CloI-BDVz2EOHA%3A1751742139546&q=Lean+Canvas&sa=X&ved=2ahUKEwjJyKP_s6aOAxVUvZUCHUWeCFQQxccNegQIEBAB&mstk=AUtExfChFNU9Q6bwzy2zSzmhmM470x8Pt0_PvCBzwPqA7hhUgmEzKfrIRMfJoK4msxfiCShQ8vItcQYkZn1277bw3zS03Zkr86seo9rGzooFlADXMQI8BmnnAjuMehr4Q79sMaOCxmQGhLYJvgaEXQzsTS44_nkTSuhCwY2FMt-gkdM5QUXi149XYLWoJ2-vKISvJdVXIbap7EbokcDK9Z-N8tNAjr3aP_MThP9ow6yjT4_pNMI0frqk_k3cRrD6OTMS8u480-WHu83Wzjqztx6ay4mj&csui=3):**
+[DEFINICAO_CANVAS]
 
-  Similar ao Business Model Canvas, mas focado em startups e empreendimentos em estágio inicial, priorizando a validação de hipóteses e a aprendizagem rápida.
+[OBJETIVO_CANVAS]
 
-- **Project Model Canvas:**
+[BENEFICIOS_UTILIZACAO]
 
-  Ferramenta para planejamento e gerenciamento de projetos, ajudando a visualizar e organizar as principais informações do projeto.
+## [TIPOS_CANVAS]
 
-- **Innovation Canvas:**
+[BUSINESS_MODEL_CANVAS]
 
-  Ferramenta para auxiliar na criação e desenvolvimento de novas ideias e soluções inovadoras.
+[LEAN_CANVAS]
 
-- **[Marketing Campaign Canvas](https://www.google.com/search?client=firefox-b-d&sca_esv=287fb7c950b78cc4&cs=1&sxsrf=AE3TifPj9Ia_Tr9PLpD9CloI-BDVz2EOHA%3A1751742139546&q=Marketing+Campaign+Canvas&sa=X&ved=2ahUKEwjJyKP_s6aOAxVUvZUCHUWeCFQQxccNegQIERAB&mstk=AUtExfChFNU9Q6bwzy2zSzmhmM470x8Pt0_PvCBzwPqA7hhUgmEzKfrIRMfJoK4msxfiCShQ8vItcQYkZn1277bw3zS03Zkr86seo9rGzooFlADXMQI8BmnnAjuMehr4Q79sMaOCxmQGhLYJvgaEXQzsTS44_nkTSuhCwY2FMt-gkdM5QUXi149XYLWoJ2-vKISvJdVXIbap7EbokcDK9Z-N8tNAjr3aP_MThP9ow6yjT4_pNMI0frqk_k3cRrD6OTMS8u480-WHu83Wzjqztx6ay4mj&csui=3):**
+[PROJECT_MODEL_CANVAS]
 
-  Usado para planejar e executar campanhas de marketing, definindo objetivos, público-alvo, mensagens e canais.
+[INNOVATION_CANVAS]
 
-- **[Digital Marketing Canvas](https://www.google.com/search?client=firefox-b-d&sca_esv=287fb7c950b78cc4&cs=1&sxsrf=AE3TifPj9Ia_Tr9PLpD9CloI-BDVz2EOHA%3A1751742139546&q=Digital+Marketing+Canvas&sa=X&ved=2ahUKEwjJyKP_s6aOAxVUvZUCHUWeCFQQxccNegQIEhAB&mstk=AUtExfChFNU9Q6bwzy2zSzmhmM470x8Pt0_PvCBzwPqA7hhUgmEzKfrIRMfJoK4msxfiCShQ8vItcQYkZn1277bw3zS03Zkr86seo9rGzooFlADXMQI8BmnnAjuMehr4Q79sMaOCxmQGhLYJvgaEXQzsTS44_nkTSuhCwY2FMt-gkdM5QUXi149XYLWoJ2-vKISvJdVXIbap7EbokcDK9Z-N8tNAjr3aP_MThP9ow6yjT4_pNMI0frqk_k3cRrD6OTMS8u480-WHu83Wzjqztx6ay4mj&csui=3):**
+[MARKETING_CAMPAIGN_CANVAS]
 
-  Focado no planejamento de estratégias de marketing digital, considerando diferentes canais e ferramentas online.
+[DIGITAL_MARKETING_CANVAS]
 
-- **[Service Innovation Canvas](https://www.google.com/search?client=firefox-b-d&sca_esv=287fb7c950b78cc4&cs=1&sxsrf=AE3TifPj9Ia_Tr9PLpD9CloI-BDVz2EOHA%3A1751742139546&q=Service+Innovation+Canvas&sa=X&ved=2ahUKEwjJyKP_s6aOAxVUvZUCHUWeCFQQxccNegQIDxAB&mstk=AUtExfChFNU9Q6bwzy2zSzmhmM470x8Pt0_PvCBzwPqA7hhUgmEzKfrIRMfJoK4msxfiCShQ8vItcQYkZn1277bw3zS03Zkr86seo9rGzooFlADXMQI8BmnnAjuMehr4Q79sMaOCxmQGhLYJvgaEXQzsTS44_nkTSuhCwY2FMt-gkdM5QUXi149XYLWoJ2-vKISvJdVXIbap7EbokcDK9Z-N8tNAjr3aP_MThP9ow6yjT4_pNMI0frqk_k3cRrD6OTMS8u480-WHu83Wzjqztx6ay4mj&csui=3):**
+[SERVICE_INNOVATION_CANVAS]
 
-  Utilizado para projetar e desenvolver novos serviços, considerando a experiência do cliente e a entrega de valor.
+[STARTUP_CANVAS]
 
-- **Startup Canvas:**
+## [ESTRUTURA_CANVAS_PROJETO]
 
-  Semelhante ao Lean Canvas, focado em startups e empreendimentos em estágio inicial, porém com foco na validação de hipóteses e na criação de um produto ou serviço mínimo viável (MVP).
+[PROBLEMA_OPORTUNIDADE]
 
-Esses são apenas alguns exemplos, e a escolha do Canvas mais adequado dependerá do contexto e dos objetivos específicos do projeto ou negócio.
+[SOLUCAO_PROPOSTA]
+
+[PROPOSTA_VALOR]
+
+[SEGMENTOS_CLIENTES]
+
+[CANAIS_DISTRIBUICAO]
+
+[RELACIONAMENTO_CLIENTES]
+
+[RECURSOS_CHAVE]
+
+[ATIVIDADES_CHAVE]
+
+[PARCERIAS_CHAVE]
+
+[ESTRUTURA_CUSTOS]
+
+[FONTES_RECEITA]
+
+## [METODOLOGIA_PREENCHIMENTO]
+
+[PROCESSO_CRIACAO]
+
+[WORKSHOPS_BRAINSTORMING]
+
+[VALIDACAO_HIPOTESES]
+
+[ITERACAO_REFINAMENTO]
+
+## [FERRAMENTAS_RECURSOS]
+
+[TEMPLATES_DISPONIVEIS]
+
+[SOFTWARES_RECOMENDADOS]
+
+[REFERENCIAS_EXTERNAS]
+
+## [MELHORES_PRATICAS]
+
+[DICAS_PREENCHIMENTO]
+
+[ERROS_COMUNS]
+
+[CASOS_SUCESSO]
+
+## [APROVACAO_CONTROLE]
+
+[RESPONSAVEIS_APROVACAO]
+
+[HISTORICO_REVISOES]

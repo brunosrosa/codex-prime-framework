@@ -190,7 +190,7 @@ Projeto/
 3. **Ajustar critérios** de maturidade
 4. **Definir workflows** específicos
 5. **Estabelecer governança** de IA
-6. **Documentar lições aprendidas** do Recoloca.ai
+6. **Documentar lições aprendidas** do [NOME_DO_PROJETO]
 
 ---
 
