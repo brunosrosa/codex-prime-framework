@@ -1,85 +1,269 @@
 ---
-doc_id: "EMP-002"
-title: "Modelo de Negócio Canvas"
-description: "Descreve o modelo de negócio da empresa utilizando o framework Business Model Canvas, detalhando os blocos de construção essenciais como segmentos de clientes, proposta de valor, canais, e fontes de receita."
-type: "reference"
-status: "published"
-owner: "@ArquitetoDoCodex"
-tags: [empresa, estrategia, modelo de negocio, canvas, inovacao]
+doc_id: "[MODELO-DOC-ID]"
+title: "[MODELO-TITULO]"
+description: "[MODELO-DESCRICAO]"
+type: "template"
+status: "draft"
+owner: "[MODELO-RESPONSAVEL]"
+tags: [MODELO-TAG1, MODELO-TAG2, MODELO-TAG3]
+version: "1.0"
+last_updated: "[MODELO-DATA-ATUALIZACAO]"
 ---
 
-# Modelo de Negócio Canvas
+# [MODELO-TITULO]
 
-Este documento detalha o modelo de negócio da nossa organização utilizando o framework Business Model Canvas. Ele serve como uma ferramenta estratégica para visualizar, desenhar e reinventar nosso modelo de negócio.
+## 📋 Instruções de Uso
+
+> **Propósito:** Este template serve para estruturar e documentar o modelo de negócio de `[MODELO-NOME-EMPRESA]` utilizando o framework Business Model Canvas, detalhando os 9 blocos de construção essenciais.
+> 
+> **Como usar:** Substitua todos os campos `[MODELO-XXX]` pelas informações específicas da sua empresa. Use as perguntas orientadoras em cada seção para guiar o preenchimento.
+> 
+> **Tempo estimado:** 2-4 horas para preenchimento completo
+> 
+> **Revisão recomendada:** Trimestral ou quando houver mudanças significativas no modelo de negócio
+
+## 🎯 Contexto e Objetivos
+
+**Data de Criação:** [MODELO-DATA-CRIACAO]  
+**Responsável:** [MODELO-RESPONSAVEL-CANVAS]  
+**Versão do Modelo:** [MODELO-VERSAO-MODELO]  
+**Período de Validade:** [MODELO-PERIODO-VALIDADE]  
+
+**Objetivo Estratégico:** [MODELO-OBJETIVO-ESTRATEGICO]
+
+Este documento detalha o modelo de negócio de `[MODELO-NOME-EMPRESA]` utilizando o framework Business Model Canvas. Ele serve como uma ferramenta estratégica para visualizar, desenhar e reinventar nosso modelo de negócio.
 
 ## 1. Segmentos de Clientes (Customer Segments)
 
 *Para quem estamos criando valor? Quem são nossos clientes mais importantes?*
 
-- **Arquitetos de Software e Líderes Técnicos**: Profissionais responsáveis por projetar e governar sistemas complexos, que buscam padronização e clareza.
-- **Equipes de Desenvolvimento e DevOps**: Times que precisam de uma fonte da verdade confiável para acelerar o desenvolvimento, o onboarding e a manutenção de sistemas.
-- **Organizações Orientadas a IA**: Empresas que estão construindo ou utilizando agentes de IA e precisam de uma base de conhecimento estruturada para alimentar e guiar esses agentes.
+### 1.1 Segmento Primário
+**Nome do Segmento:** [MODELO-SEGMENTO-PRIMARIO-NOME]  
+**Descrição:** [MODELO-SEGMENTO-PRIMARIO-DESCRICAO]  
+**Características:** [MODELO-SEGMENTO-PRIMARIO-CARACTERISTICAS]  
+**Necessidades:** [MODELO-SEGMENTO-PRIMARIO-NECESSIDADES]  
+
+### 1.2 Segmento Secundário
+**Nome do Segmento:** [MODELO-SEGMENTO-SECUNDARIO-NOME]  
+**Descrição:** [MODELO-SEGMENTO-SECUNDARIO-DESCRICAO]  
+**Características:** [MODELO-SEGMENTO-SECUNDARIO-CARACTERISTICAS]  
+**Necessidades:** [MODELO-SEGMENTO-SECUNDARIO-NECESSIDADES]  
+
+### 1.3 Segmento Terciário
+**Nome do Segmento:** [MODELO-SEGMENTO-TERCIARIO-NOME]  
+**Descrição:** [MODELO-SEGMENTO-TERCIARIO-DESCRICAO]  
+**Características:** [MODELO-SEGMENTO-TERCIARIO-CARACTERISTICAS]  
+**Necessidades:** [MODELO-SEGMENTO-TERCIARIO-NECESSIDADES]  
 
 ## 2. Proposta de Valor (Value Proposition)
 
 *Que valor entregamos aos nossos clientes? Qual problema estamos ajudando a resolver?*
 
-- **Para Arquitetos e Líderes**: Um sistema de governança explícito para bases de conhecimento, garantindo consistência, qualidade e longevidade da documentação.
-- **Para Equipes**: Uma "Fonte da Verdade Viva" que acelera o desenvolvimento, reduz a ambiguidade e facilita a colaboração entre humanos e agentes de IA.
-- **Para Organizações**: A transformação da documentação de um custo afundado para um ativo estratégico acionável, que serve de cérebro para a automação e a inteligência artificial.
+### 2.1 Proposta de Valor Principal
+**Declaração:** [MODELO-PROPOSTA-VALOR-PRINCIPAL]  
+**Problema Resolvido:** [MODELO-PROBLEMA-PRINCIPAL]  
+**Benefício Único:** [MODELO-BENEFICIO-UNICO]  
+
+### 2.2 Propostas por Segmento
+
+**Para [MODELO-SEGMENTO-1]:**
+- Valor: [MODELO-VALOR-SEGMENTO-1]
+- Problema: [MODELO-PROBLEMA-SEGMENTO-1]
+- Solução: [MODELO-SOLUCAO-SEGMENTO-1]
+
+**Para [MODELO-SEGMENTO-2]:**
+- Valor: [MODELO-VALOR-SEGMENTO-2]
+- Problema: [MODELO-PROBLEMA-SEGMENTO-2]
+- Solução: [MODELO-SOLUCAO-SEGMENTO-2]
+
+**Para [MODELO-SEGMENTO-3]:**
+- Valor: [MODELO-VALOR-SEGMENTO-3]
+- Problema: [MODELO-PROBLEMA-SEGMENTO-3]
+- Solução: [MODELO-SOLUCAO-SEGMENTO-3]
 
 ## 3. Canais (Channels)
 
 *Como alcançamos nossos segmentos de clientes para entregar nossa proposta de valor?*
 
-- **Repositório GitHub (Open Source)**: O framework e os templates são distribuídos abertamente para fomentar a adoção e a contribuição da comunidade.
-- **Documentação Oficial**: Guias, tutoriais e exemplos detalhados que ensinam os princípios e a aplicação do framework.
-- **Artigos e Publicações**: Conteúdo que dissemina a filosofia "Docs-as-Code" e a arquitetura de conhecimento para IA.
+### 3.1 Canais Diretos
+**Canal 1:** [MODELO-CANAL-DIRETO-1]  
+**Descrição:** [MODELO-CANAL-DIRETO-1-DESCRICAO]  
+**Efetividade:** [MODELO-CANAL-DIRETO-1-EFETIVIDADE]  
+
+**Canal 2:** [MODELO-CANAL-DIRETO-2]  
+**Descrição:** [MODELO-CANAL-DIRETO-2-DESCRICAO]  
+**Efetividade:** [MODELO-CANAL-DIRETO-2-EFETIVIDADE]  
+
+### 3.2 Canais Indiretos
+**Canal 1:** [MODELO-CANAL-INDIRETO-1]  
+**Descrição:** [MODELO-CANAL-INDIRETO-1-DESCRICAO]  
+**Parceiros:** [MODELO-CANAL-INDIRETO-1-PARCEIROS]  
+
+**Canal 2:** [MODELO-CANAL-INDIRETO-2]  
+**Descrição:** [MODELO-CANAL-INDIRETO-2-DESCRICAO]  
+**Parceiros:** [MODELO-CANAL-INDIRETO-2-PARCEIROS]  
 
 ## 4. Relacionamento com Clientes (Customer Relationships)
 
 *Que tipo de relacionamento cada segmento de cliente espera que estabeleçamos e mantenhamos com eles?*
 
-- **Autoatendimento via Documentação**: A própria estrutura do framework é o principal guia para o usuário.
-- **Comunidade Open Source**: Interação através de Issues e Pull Requests no GitHub, fomentando a colaboração.
-- **Consultoria e Suporte (Modelo Futuro)**: Serviços especializados para empresas que desejam implementar o framework em larga escala.
+### 4.1 Tipo de Relacionamento por Segmento
+
+**[MODELO-SEGMENTO-1]:**
+- Tipo de Relacionamento: [MODELO-RELACIONAMENTO-TIPO-1]
+- Estratégia: [MODELO-RELACIONAMENTO-ESTRATEGIA-1]
+- Ferramentas: [MODELO-RELACIONAMENTO-FERRAMENTAS-1]
+
+**[MODELO-SEGMENTO-2]:**
+- Tipo de Relacionamento: [MODELO-RELACIONAMENTO-TIPO-2]
+- Estratégia: [MODELO-RELACIONAMENTO-ESTRATEGIA-2]
+- Ferramentas: [MODELO-RELACIONAMENTO-FERRAMENTAS-2]
+
+**[MODELO-SEGMENTO-3]:**
+- Tipo de Relacionamento: [MODELO-RELACIONAMENTO-TIPO-3]
+- Estratégia: [MODELO-RELACIONAMENTO-ESTRATEGIA-3]
+- Ferramentas: [MODELO-RELACIONAMENTO-FERRAMENTAS-3]
 
 ## 5. Fontes de Receita (Revenue Streams)
 
 *Por qual valor nossos clientes estão realmente dispostos a pagar? Como eles pagam atualmente?*
 
-- **Open Source (Core Framework)**: O `Codex Prime Framework` é gratuito e de código aberto, visando a ampla adoção e o estabelecimento de um padrão.
-- **Serviços de Consultoria e Implementação (Receita Futura)**: Contratos para ajudar organizações a adotar e customizar o framework.
-- **Templates e Módulos Premium (Receita Futura)**: Venda de templates especializados para nichos de mercado específicos.
+### 5.1 Receitas Primárias
+**Fonte 1:** [MODELO-RECEITA-PRIMARIA-1]  
+**Modelo de Preço:** [MODELO-RECEITA-PRIMARIA-1-PRECO]  
+**Frequência:** [MODELO-RECEITA-PRIMARIA-1-FREQUENCIA]  
+**% da Receita Total:** [MODELO-RECEITA-PRIMARIA-1-PERCENTUAL]  
+
+**Fonte 2:** [MODELO-RECEITA-PRIMARIA-2]  
+**Modelo de Preço:** [MODELO-RECEITA-PRIMARIA-2-PRECO]  
+**Frequência:** [MODELO-RECEITA-PRIMARIA-2-FREQUENCIA]  
+**% da Receita Total:** [MODELO-RECEITA-PRIMARIA-2-PERCENTUAL]  
+
+### 5.2 Receitas Secundárias
+**Fonte 1:** [MODELO-RECEITA-SECUNDARIA-1]  
+**Modelo de Preço:** [MODELO-RECEITA-SECUNDARIA-1-PRECO]  
+**Potencial:** [MODELO-RECEITA-SECUNDARIA-1-POTENCIAL]  
+
+**Fonte 2:** [MODELO-RECEITA-SECUNDARIA-2]  
+**Modelo de Preço:** [MODELO-RECEITA-SECUNDARIA-2-PRECO]  
+**Potencial:** [MODELO-RECEITA-SECUNDARIA-2-POTENCIAL]  
 
 ## 6. Atividades-Chave (Key Activities)
 
 *Quais atividades-chave nossa proposta de valor requer?*
 
-- **Evolução do Framework**: Manter e aprimorar os templates, a estrutura e a governança do `Codex Prime Framework`.
-- **Criação de Conteúdo**: Desenvolver documentação, guias e artigos para educar o mercado e a comunidade.
-- **Gestão da Comunidade**: Engajar com contribuidores e usuários para garantir a saúde e o crescimento do ecossistema.
+### 6.1 Atividades de Produção
+**Atividade 1:** [MODELO-ATIVIDADE-PRODUCAO-1]  
+**Descrição:** [MODELO-ATIVIDADE-PRODUCAO-1-DESCRICAO]  
+**Recursos Necessários:** [MODELO-ATIVIDADE-PRODUCAO-1-RECURSOS]  
+
+**Atividade 2:** [MODELO-ATIVIDADE-PRODUCAO-2]  
+**Descrição:** [MODELO-ATIVIDADE-PRODUCAO-2-DESCRICAO]  
+**Recursos Necessários:** [MODELO-ATIVIDADE-PRODUCAO-2-RECURSOS]  
+
+### 6.2 Atividades de Solução de Problemas
+**Atividade 1:** [MODELO-ATIVIDADE-SOLUCAO-1]  
+**Descrição:** [MODELO-ATIVIDADE-SOLUCAO-1-DESCRICAO]  
+**Importância:** [MODELO-ATIVIDADE-SOLUCAO-1-IMPORTANCIA]  
+
+### 6.3 Atividades de Plataforma/Rede
+**Atividade 1:** [MODELO-ATIVIDADE-PLATAFORMA-1]  
+**Descrição:** [MODELO-ATIVIDADE-PLATAFORMA-1-DESCRICAO]  
+**Impacto:** [MODELO-ATIVIDADE-PLATAFORMA-1-IMPACTO]  
 
 ## 7. Recursos-Chave (Key Resources)
 
 *Quais recursos-chave nossa proposta de valor requer?*
 
-- **O Framework (Propriedade Intelectual)**: A estrutura, os templates e a metodologia do `Codex Prime Framework` são o principal ativo.
-- **Comunidade de Contribuidores**: A rede de usuários e desenvolvedores que adotam e aprimoram o framework.
-- **Reputação e Liderança de Pensamento**: O reconhecimento como um padrão de excelência em arquitetura de conhecimento.
+### 7.1 Recursos Físicos
+**Recurso 1:** [MODELO-RECURSO-FISICO-1]  
+**Descrição:** [MODELO-RECURSO-FISICO-1-DESCRICAO]  
+**Importância:** [MODELO-RECURSO-FISICO-1-IMPORTANCIA]  
+
+### 7.2 Recursos Intelectuais
+**Recurso 1:** [MODELO-RECURSO-INTELECTUAL-1]  
+**Descrição:** [MODELO-RECURSO-INTELECTUAL-1-DESCRICAO]  
+**Proteção:** [MODELO-RECURSO-INTELECTUAL-1-PROTECAO]  
+
+**Recurso 2:** [MODELO-RECURSO-INTELECTUAL-2]  
+**Descrição:** [MODELO-RECURSO-INTELECTUAL-2-DESCRICAO]  
+**Proteção:** [MODELO-RECURSO-INTELECTUAL-2-PROTECAO]  
+
+### 7.3 Recursos Humanos
+**Recurso 1:** [MODELO-RECURSO-HUMANO-1]  
+**Competências:** [MODELO-RECURSO-HUMANO-1-COMPETENCIAS]  
+**Quantidade:** [MODELO-RECURSO-HUMANO-1-QUANTIDADE]  
+
+### 7.4 Recursos Financeiros
+**Recurso 1:** [MODELO-RECURSO-FINANCEIRO-1]  
+**Valor:** [MODELO-RECURSO-FINANCEIRO-1-VALOR]  
+**Finalidade:** [MODELO-RECURSO-FINANCEIRO-1-FINALIDADE]
 
 ## 8. Parcerias-Chave (Key Partnerships)
 
 *Quem são nossos parceiros-chave? Quem são nossos fornecedores-chave?*
 
-- **Plataformas Git (GitHub, GitLab)**: Essenciais para o fluxo de trabalho "Docs-as-Code".
-- **Empresas de IA (OpenAI, Google, etc.)**: Parcerias para garantir a compatibilidade e a otimização do framework para seus modelos.
-- **Consultorias de Software**: Parceiros que podem implementar o framework para seus clientes.
+### 8.1 Alianças Estratégicas
+**Parceiro 1:** [MODELO-PARCEIRO-ALIANCA-1]  
+**Tipo de Parceria:** [MODELO-PARCEIRO-ALIANCA-1-TIPO]  
+**Benefícios Mútuos:** [MODELO-PARCEIRO-ALIANCA-1-BENEFICIOS]  
+**Duração:** [MODELO-PARCEIRO-ALIANCA-1-DURACAO]  
+
+**Parceiro 2:** [MODELO-PARCEIRO-ALIANCA-2]  
+**Tipo de Parceria:** [MODELO-PARCEIRO-ALIANCA-2-TIPO]  
+**Benefícios Mútuos:** [MODELO-PARCEIRO-ALIANCA-2-BENEFICIOS]  
+**Duração:** [MODELO-PARCEIRO-ALIANCA-2-DURACAO]  
+
+### 8.2 Joint Ventures
+**Parceiro:** [MODELO-PARCEIRO-JV-1]  
+**Objetivo:** [MODELO-PARCEIRO-JV-1-OBJETIVO]  
+**Investimento:** [MODELO-PARCEIRO-JV-1-INVESTIMENTO]  
+
+### 8.3 Fornecedores-Chave
+**Fornecedor 1:** [MODELO-FORNECEDOR-1]  
+**Produto/Serviço:** [MODELO-FORNECEDOR-1-PRODUTO]  
+**Criticidade:** [MODELO-FORNECEDOR-1-CRITICIDADE]  
+
+**Fornecedor 2:** [MODELO-FORNECEDOR-2]  
+**Produto/Serviço:** [MODELO-FORNECEDOR-2-PRODUTO]  
+**Criticidade:** [MODELO-FORNECEDOR-2-CRITICIDADE]
 
 ## 9. Estrutura de Custos (Cost Structure)
 
 *Quais são os custos mais importantes inerentes ao nosso modelo de negócio?*
 
-- **Desenvolvimento e Manutenção**: Tempo e recursos dedicados à evolução do framework e da documentação.
-- **Marketing e Evangelização**: Custos associados à criação de conteúdo e à participação em eventos para promover o framework.
-- **Gestão de Comunidade**: Recursos para gerenciar as contribuições e o engajamento no GitHub.
+### 9.1 Custos Fixos
+**Custo 1:** [MODELO-CUSTO-FIXO-1]  
+**Valor Mensal:** [MODELO-CUSTO-FIXO-1-VALOR]  
+**Descrição:** [MODELO-CUSTO-FIXO-1-DESCRICAO]  
+
+**Custo 2:** [MODELO-CUSTO-FIXO-2]  
+**Valor Mensal:** [MODELO-CUSTO-FIXO-2-VALOR]  
+**Descrição:** [MODELO-CUSTO-FIXO-2-DESCRICAO]  
+
+### 9.2 Custos Variáveis
+**Custo 1:** [MODELO-CUSTO-VARIAVEL-1]  
+**Base de Cálculo:** [MODELO-CUSTO-VARIAVEL-1-BASE]  
+**Valor Unitário:** [MODELO-CUSTO-VARIAVEL-1-VALOR]  
+
+**Custo 2:** [MODELO-CUSTO-VARIAVEL-2]  
+**Base de Cálculo:** [MODELO-CUSTO-VARIAVEL-2-BASE]  
+**Valor Unitário:** [MODELO-CUSTO-VARIAVEL-2-VALOR]  
+
+### 9.3 Economias de Escala
+**Área 1:** [MODELO-ECONOMIA-ESCALA-1]  
+**Potencial de Redução:** [MODELO-ECONOMIA-ESCALA-1-REDUCAO]  
+**Ponto de Equilíbrio:** [MODELO-ECONOMIA-ESCALA-1-EQUILIBRIO]  
+
+### 9.4 Economias de Escopo
+**Área 1:** [MODELO-ECONOMIA-ESCOPO-1]  
+**Sinergia:** [MODELO-ECONOMIA-ESCOPO-1-SINERGIA]  
+**Benefício:** [MODELO-ECONOMIA-ESCOPO-1-BENEFICIO]  
+
+---
+
+## Conclusão
+
+O **Business Model Canvas** de **[MODELO-NOME-EMPRESA]** reflete uma estratégia de **[MODELO-ESTRATEGIA-PRINCIPAL]** através de **[MODELO-ABORDAGEM-VALOR]**. O modelo prioriza **[MODELO-PRIORIDADE-ESTRATEGICA]** através de **[MODELO-MECANISMO-ENTREGA]**, com potencial de **[MODELO-POTENCIAL-FUTURO]** através de **[MODELO-OPORTUNIDADES-MONETIZACAO]**.
+
+Este canvas serve como base para decisões estratégicas e deve ser revisado **[MODELO-FREQUENCIA-REVISAO]** conforme **[MODELO-CRITERIOS-REVISAO]**.

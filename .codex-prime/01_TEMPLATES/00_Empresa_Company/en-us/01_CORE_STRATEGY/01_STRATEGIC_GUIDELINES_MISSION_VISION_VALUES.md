@@ -1,44 +1,84 @@
 ---
-doc_id: "EMP-001"
-title: "Strategic Guidelines: Mission, Vision and Values"
-description: "Defines the mission, vision and fundamental values that guide the company, serving as the foundation for all strategic and operational decisions."
-type: "reference"
-status: "published"
-owner: "@ArquitetoDoCodex"
-tags: [company, strategy, mission, vision, values, culture]
+doc_id: "[MODELO-DOC-ID]"
+title: "[MODELO-TITULO-DOCUMENTO]"
+description: "[MODELO-DESCRICAO-DOCUMENTO]"
+type: "template"
+status: "template"
+owner: "[MODELO-AUTOR-RESPONSAVEL]"
+tags: [MODELO-TAGS-RELEVANTES]
+template_version: "1.0"
+last_updated: "[MODELO-DATA-ATUALIZACAO]"
 ---
 
-# Strategic Guidelines: Mission, Vision and Values
+# [MODELO] Strategic Guidelines: Mission, Vision and Values
 
-This document establishes the fundamental pillars of our organization. It is the compass that guides our actions, decisions and the way we relate to our customers, partners and the world.
+> **Template Instructions:** This template helps define the fundamental strategic pillars of an organization. Fill in all `[MODELO-XXX]` fields with information specific to your company. This document should serve as the strategic compass for all organizational decisions.
+
+## Context and Purpose
+
+This document establishes the fundamental pillars of `[MODELO-NOME-EMPRESA]`. It serves as the compass that guides our actions, decisions and the way we relate to our customers, partners and the world.
+
+**Target Audience:** `[MODELO-PUBLICO-ALVO-DOCUMENTO]`
+**Review Frequency:** `[MODELO-FREQUENCIA-REVISAO]`
 
 ## 1. Mission
 
 *Our reason for existing. What we do, for whom we do it and what impact we generate.*
 
-**Our mission is to provide a governance framework and a set of templates that enable the creation and management of robust, scalable and AI-actionable knowledge bases, transforming documentation into a living strategic asset.**
+**Our mission is to `[MODELO-MISSAO-EMPRESA]`.**
+
+### Mission Components:
+- **What we do:** `[MODELO-O-QUE-FAZEMOS]`
+- **For whom:** `[MODELO-PARA-QUEM]`
+- **Impact generated:** `[MODELO-IMPACTO-GERADO]`
 
 ## 2. Vision
 
 *The future we aspire to create. Where we want to be in a 5 to 10 year horizon.*
 
-**Our vision is to be the de facto standard for knowledge architecture in Human-AI collaboration ecosystems, where documentation is not just a record, but the central engine of intelligence and automation.**
+**Our vision is to `[MODELO-VISAO-EMPRESA]`.**
+
+### Vision Timeline:
+- **5-year horizon:** `[MODELO-VISAO-5-ANOS]`
+- **10-year horizon:** `[MODELO-VISAO-10-ANOS]`
 
 ## 3. Values
 
 *The non-negotiable principles that guide our behavior and daily decisions. They are the foundation of our culture.*
 
-### 3.1. **Explicit Governance as Foundation**
-- **Description:** We believe that clarity and rigorous application of rules, standards and processes are the basis for scalability and trust in knowledge systems. Governance is not bureaucracy, it is the guarantee of quality and consistency.
+### 3.1. **`[MODELO-VALOR-1-NOME]`**
+- **Description:** `[MODELO-VALOR-1-DESCRICAO]`
+- **Practical Application:** `[MODELO-VALOR-1-APLICACAO]`
 
-### 3.2. **Documentation as Code (Docs-as-Code)**
-- **Description:** We treat documentation with the same rigor and tools as software development. Versioning, automation and review are essential practices to keep our knowledge base alive and reliable.
+### 3.2. **`[MODELO-VALOR-2-NOME]`**
+- **Description:** `[MODELO-VALOR-2-DESCRICAO]`
+- **Practical Application:** `[MODELO-VALOR-2-APLICACAO]`
 
-### 3.3. **Human-Machine Duality**
-- **Description:** We design each framework component to be understood and used by both humans and AI agents. We believe that the future of knowledge is a symbiosis between human intuition and machine processing capability.
+### 3.3. **`[MODELO-VALOR-3-NOME]`**
+- **Description:** `[MODELO-VALOR-3-DESCRICAO]`
+- **Practical Application:** `[MODELO-VALOR-3-APLICACAO]`
 
-### 3.4. **Living Source of Truth**
-- **Description:** We fight against information entropy. Our goal is for the knowledge base to be the single, centralized and always updated source of truth, eliminating ambiguity and obsolete knowledge.
+### 3.4. **`[MODELO-VALOR-4-NOME]`**
+- **Description:** `[MODELO-VALOR-4-DESCRICAO]`
+- **Practical Application:** `[MODELO-VALOR-4-APLICACAO]`
 
-### 3.5. **Atomic and Modular Design**
-- **Description:** Our templates and structures are designed to be modular, reusable and combinable, allowing the construction of complex knowledge systems from simple and well-defined components.
+### 3.5. **`[MODELO-VALOR-5-NOME]`**
+- **Description:** `[MODELO-VALOR-5-DESCRICAO]`
+- **Practical Application:** `[MODELO-VALOR-5-APLICACAO]`
+
+## 4. Practical Application
+
+### 4.1. Decision Making
+- **Strategic Decisions:** `[MODELO-APLICACAO-DECISOES-ESTRATEGICAS]`
+- **Operational Decisions:** `[MODELO-APLICACAO-DECISOES-OPERACIONAIS]`
+
+### 4.2. Communication and Culture
+- **Internal Communication:** `[MODELO-COMUNICACAO-INTERNA]`
+- **External Communication:** `[MODELO-COMUNICACAO-EXTERNA]`
+- **Hiring and Development:** `[MODELO-CONTRATACAO-DESENVOLVIMENTO]`
+
+## 5. References and Sources
+
+- **Strategic Planning Documents:** `[MODELO-REFERENCIAS-PLANEJAMENTO]`
+- **Market Research:** `[MODELO-REFERENCIAS-PESQUISA-MERCADO]`
+- **Stakeholder Input:** `[MODELO-REFERENCIAS-STAKEHOLDERS]`

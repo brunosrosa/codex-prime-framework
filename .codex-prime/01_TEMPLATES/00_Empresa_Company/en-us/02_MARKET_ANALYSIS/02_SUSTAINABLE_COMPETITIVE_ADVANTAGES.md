@@ -1,28 +1,32 @@
 ---
-doc_id: "SUSTAINABLE_COMPETITIVE_ADVANTAGES_TEMPLATE"
-title: "Sustainable Competitive Advantages (Moats) Analysis"
-description: "Template for identifying, analyzing, and developing sustainable competitive advantages that protect the business from competition"
-type: "strategic_analysis"
-status: "template"
-owner: "Strategy Team"
-tags: ["competitive_advantages", "moats", "strategy", "differentiation", "market_position"]
-version: "1.0"
-last_updated: "2025-01-21"
+doc_id: "[MODELO-DOC-ID]"
+title: "[MODELO-TITLE]"
+description: "[MODELO-DESCRIPTION]"
+type: "[MODELO-TYPE]"
+status: "[MODELO-STATUS]"
+owner: "[MODELO-OWNER]"
+tags: [MODELO-TAGS]
+version: "[MODELO-VERSION]"
+last_updated: "[MODELO-TIMESTAMP]"
+timezone: "[MODELO-TIMEZONE]"
 ---
 
-# Sustainable Competitive Advantages (Moats) Analysis
+# [MODELO-DOCUMENT-TITLE]
+
+## [MODELO-METADATA]
+
+**Analysis Date**: [MODELO-ANALYSIS-DATE]
+**Responsible Team**: [MODELO-RESPONSIBLE-TEAM]
+**Review Period**: [MODELO-REVIEW-PERIOD]
+**Last Updated**: [MODELO-LAST-UPDATED]
 
 ## Executive Summary
 
-**Analysis Date:** [Date]
-**Responsible Team:** [Team Name]
-**Review Period:** [Quarterly/Semi-annual/Annual]
-
 ### Key Findings
-- **Primary Moats Identified:** [Number and brief description]
-- **Moat Strength Score:** [1-10 scale]
-- **Competitive Vulnerability:** [High/Medium/Low]
-- **Strategic Priority:** [High/Medium/Low]
+- **Primary Moats Identified**: [MODELO-PRIMARY-MOATS]
+- **Moat Strength Score**: [MODELO-MOAT-STRENGTH-SCORE]
+- **Competitive Vulnerability**: [MODELO-COMPETITIVE-VULNERABILITY]
+- **Strategic Priority**: [MODELO-STRATEGIC-PRIORITY]
 
 ---
 
@@ -31,20 +35,20 @@ last_updated: "2025-01-21"
 ### 1.1 Definition and Strategic Importance
 
 **What are Moats?**
-[Brief explanation of competitive moats and their importance for long-term business sustainability]
+[MODELO-MOATS-DEFINITION]
 
 **Strategic Importance for Our Business:**
-- [Key reason 1]
-- [Key reason 2]
-- [Key reason 3]
+- [MODELO-KEY-REASON-1]
+- [MODELO-KEY-REASON-2]
+- [MODELO-KEY-REASON-3]
 
 ### 1.2 Moat Construction Timeline
 
 | Moat Type | Current Status | Target Strength | Timeline | Investment Required |
-|-----------|----------------|-----------------|----------|--------------------|
-| [Moat 1] | [Status] | [Target] | [Timeline] | [Investment] |
-| [Moat 2] | [Status] | [Target] | [Timeline] | [Investment] |
-| [Moat 3] | [Status] | [Target] | [Timeline] | [Investment] |
+|-----------|----------------|-----------------|----------|--------------------||
+| [MODELO-MOAT-1] | [MODELO-STATUS-1] | [MODELO-TARGET-1] | [MODELO-TIMELINE-1] | [MODELO-INVESTMENT-1] |
+| [MODELO-MOAT-2] | [MODELO-STATUS-2] | [MODELO-TARGET-2] | [MODELO-TIMELINE-2] | [MODELO-INVESTMENT-2] |
+| [MODELO-MOAT-3] | [MODELO-STATUS-3] | [MODELO-TARGET-3] | [MODELO-TIMELINE-3] | [MODELO-INVESTMENT-3] |
 
 ---
 
@@ -262,21 +266,65 @@ last_updated: "2025-01-21"
 
 ---
 
-## 7. Document Control
+## Annexes
 
-**Version History:**
-- v1.0 - [Date] - Initial analysis - [Author]
-- v1.1 - [Date] - [Changes] - [Author]
+### A. [MODELO-ANNEX-A-TITLE]
+[MODELO-ANNEX-A-CONTENT]
 
-**Next Review Date:** [Date]
-**Review Frequency:** [Frequency]
-**Document Owner:** [Name and role]
+### B. [MODELO-ANNEX-B-TITLE]
+[MODELO-ANNEX-B-CONTENT]
 
-**Related Documents:**
-- [Document 1]: [Brief description]
-- [Document 2]: [Brief description]
-- [Document 3]: [Brief description]
+### C. [MODELO-ANNEX-C-TITLE]
+[MODELO-ANNEX-C-CONTENT]
 
 ---
 
-*This document is part of the strategic planning framework and should be reviewed and updated regularly to ensure competitive advantages remain relevant and effective.*
+## Considerations for Intelligent Orchestration
+
+### Integration Points
+- [MODELO-INTEGRATION-POINT-1]
+- [MODELO-INTEGRATION-POINT-2]
+- [MODELO-INTEGRATION-POINT-3]
+
+### Automation Opportunities
+- [MODELO-AUTOMATION-OPPORTUNITY-1]
+- [MODELO-AUTOMATION-OPPORTUNITY-2]
+- [MODELO-AUTOMATION-OPPORTUNITY-3]
+
+### Data Requirements
+- [MODELO-DATA-REQUIREMENT-1]
+- [MODELO-DATA-REQUIREMENT-2]
+- [MODELO-DATA-REQUIREMENT-3]
+
+---
+
+## Version History
+
+| Version | Date | Author | Changes |
+|---------|------|--------|---------|
+| [MODELO-VERSION-1] | [MODELO-DATE-1] | [MODELO-AUTHOR-1] | [MODELO-CHANGES-1] |
+| [MODELO-VERSION-2] | [MODELO-DATE-2] | [MODELO-AUTHOR-2] | [MODELO-CHANGES-2] |
+| [MODELO-VERSION-3] | [MODELO-DATE-3] | [MODELO-AUTHOR-3] | [MODELO-CHANGES-3] |
+
+---
+
+## Related Documents
+
+### Strategic Documents
+- [MODELO-STRATEGIC-DOC-1]: [MODELO-STRATEGIC-DESC-1]
+- [MODELO-STRATEGIC-DOC-2]: [MODELO-STRATEGIC-DESC-2]
+- [MODELO-STRATEGIC-DOC-3]: [MODELO-STRATEGIC-DESC-3]
+
+### Operational Documents
+- [MODELO-OPERATIONAL-DOC-1]: [MODELO-OPERATIONAL-DESC-1]
+- [MODELO-OPERATIONAL-DOC-2]: [MODELO-OPERATIONAL-DESC-2]
+- [MODELO-OPERATIONAL-DOC-3]: [MODELO-OPERATIONAL-DESC-3]
+
+### Reference Materials
+- [MODELO-REFERENCE-DOC-1]: [MODELO-REFERENCE-DESC-1]
+- [MODELO-REFERENCE-DOC-2]: [MODELO-REFERENCE-DESC-2]
+- [MODELO-REFERENCE-DOC-3]: [MODELO-REFERENCE-DESC-3]
+
+---
+
+*[MODELO-FOOTER-NOTE]*

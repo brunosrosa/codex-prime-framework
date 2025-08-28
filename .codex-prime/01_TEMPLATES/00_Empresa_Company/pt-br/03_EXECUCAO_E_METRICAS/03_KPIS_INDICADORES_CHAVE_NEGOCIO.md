@@ -1,74 +1,161 @@
 ---
-doc_id: "EMP-008"
-title: "KPIs e Indicadores-Chave de Negócio"
-description: "Define os Key Performance Indicators (KPIs) e outras métricas vitais para monitorar a saúde e o progresso do negócio em relação aos seus objetivos estratégicos."
-type: "reference"
-status: "published"
+doc_id: "[MODELO-DOC-ID]"
+title: "[MODELO-TITULO]"
+description: "[MODELO-DESCRICAO]"
+type: "template"
+status: "active"
 owner: "@ArquitetoDoCodex"
-tags: ["empresa", "metricas", "kpis", "indicadores", "performance"]
+tags: ["[MODELO-TAG-1]", "[MODELO-TAG-2]", "[MODELO-TAG-3]"]
+version: "[MODELO-VERSAO]"
+last_updated: "[MODELO-DATA-ATUALIZACAO]"
+timezone: "America/Sao_Paulo"
+template_for: "kpis-indicadores-chave-negocio"
 ---
 
-# KPIs e Indicadores-Chave de Negócio
+# [MODELO-TITULO-DOCUMENTO]
 
-> **Propósito:** Este documento estabelece os Key Performance Indicators (KPIs) e as métricas essenciais para `[Nome da Empresa]`. O objetivo é criar um sistema de monitoramento consistente que permita avaliar a performance, tomar decisões baseadas em dados e garantir o alinhamento com os objetivos estratégicos definidos no artefato `Diretrizes Estratégicas`.
+## Instruções de Uso
+
+**[MODELO-INSTRUCOES-USO]**
+- Este template define os Key Performance Indicators (KPIs) e métricas essenciais
+- Substitua todos os placeholders [MODELO-XXX] pelos valores específicos do seu projeto
+- Mantenha a estrutura hierárquica e os padrões estabelecidos
+- Alinhe com os objetivos estratégicos definidos nas Diretrizes Estratégicas
+
+## Visão Geral
+
+**[MODELO-VISAO-GERAL]**
+- Propósito: [MODELO-PROPOSITO]
+- Objetivo: [MODELO-OBJETIVO]
+- Alinhamento Estratégico: [MODELO-ALINHAMENTO-ESTRATEGICO]
 
 ---
 
-## 1. Visão Geral e Filosofia de Métricas
+## 1. Filosofia de Métricas
 
-Nossa abordagem para métricas é focada em **simplicidade, acionabilidade e alinhamento**. Cada KPI deve estar diretamente ligado a um objetivo de negócio e deve ser claro o suficiente para que toda a equipe entenda sua importância e como pode impactá-lo.
-
-Priorizamos **Métricas que Importam (North Star Metric)** sobre métricas de vaidade.
-
----
+**[MODELO-FILOSOFIA-METRICAS]**
+- Abordagem: [MODELO-ABORDAGEM-METRICAS]
+- Princípios: [MODELO-PRINCIPIOS-METRICAS]
+- Foco: [MODELO-FOCO-METRICAS]
+- Critérios de Seleção: [MODELO-CRITERIOS-SELECAO]
 
 ## 2. North Star Metric (Métrica Estrela do Norte)
 
-*   **Definição:** A North Star Metric é a medida que melhor captura o valor principal que entregamos aos nossos clientes.
-
-| Métrica Estrela do Norte | Descrição | Justificativa | Frequência de Medição |
-| :--- | :--- | :--- | :--- |
-| **`[Definir a Métrica]`** | `[Descrição clara e concisa da métrica]` | `[Por que esta métrica representa o valor central para o cliente e o sucesso do negócio?]` | `[Diária, Semanal, Mensal]` |
+**[MODELO-NORTH-STAR-METRIC]**
+- Definição: [MODELO-DEFINICAO-NORTH-STAR]
+- Métrica Escolhida: [MODELO-METRICA-ESCOLHIDA]
+- Descrição: [MODELO-DESCRICAO-NORTH-STAR]
+- Justificativa: [MODELO-JUSTIFICATIVA-NORTH-STAR]
+- Frequência de Medição: [MODELO-FREQUENCIA-NORTH-STAR]
 
 ---
 
 ## 3. KPIs por Área de Negócio
 
-A seguir, detalhamos os KPIs primários e secundários para cada área funcional da empresa.
+**[MODELO-KPIS-POR-AREA]**
+- Estrutura: [MODELO-ESTRUTURA-KPIS]
+- Categorização: [MODELO-CATEGORIZACAO-KPIS]
+- Hierarquia: [MODELO-HIERARQUIA-KPIS]
 
 ### 3.1. KPIs Financeiros
 
-| KPI | Descrição | Fórmula / Cálculo | Meta (Ex: Trimestral) | Status Atual |
-| :--- | :--- | :--- | :--- | :--- |
-| **Receita Recorrente Mensal (MRR)** | Receita total gerada por assinaturas em um mês. | `Soma de todas as receitas de assinatura do mês` | `[Ex: Aumentar 20%]` | `[Valor]` |
-| **Custo de Aquisição de Cliente (CAC)** | Custo total para adquirir um novo cliente. | `(Custos de Marketing + Vendas) / Nº de Novos Clientes` | `[Ex: Reduzir 10%]` | `[Valor]` |
-| **Lifetime Value (LTV)** | Receita total esperada de um cliente durante seu ciclo de vida. | `(Ticket Médio * Média de Compras) * Tempo de Retenção` | `[Ex: Aumentar 15%]` | `[Valor]` |
-| **LTV/CAC Ratio** | Relação entre o valor do ciclo de vida do cliente e o custo para adquiri-lo. | `LTV / CAC` | `[Ex: Manter > 3]` | `[Valor]` |
-| **Runway** | Tempo (em meses) que a empresa pode operar com o caixa atual. | `Caixa Atual / Burn Rate Mensal` | `[Ex: Manter > 12 meses]` | `[Valor]` |
+**[MODELO-KPIS-FINANCEIROS]**
+- KPI 1: [MODELO-KPI-FINANCEIRO-1]
+  - Descrição: [MODELO-DESCRICAO-KPI-FIN-1]
+  - Fórmula: [MODELO-FORMULA-KPI-FIN-1]
+  - Meta: [MODELO-META-KPI-FIN-1]
+  - Status: [MODELO-STATUS-KPI-FIN-1]
+
+- KPI 2: [MODELO-KPI-FINANCEIRO-2]
+  - Descrição: [MODELO-DESCRICAO-KPI-FIN-2]
+  - Fórmula: [MODELO-FORMULA-KPI-FIN-2]
+  - Meta: [MODELO-META-KPI-FIN-2]
+  - Status: [MODELO-STATUS-KPI-FIN-2]
+
+- KPI 3: [MODELO-KPI-FINANCEIRO-3]
+  - Descrição: [MODELO-DESCRICAO-KPI-FIN-3]
+  - Fórmula: [MODELO-FORMULA-KPI-FIN-3]
+  - Meta: [MODELO-META-KPI-FIN-3]
+  - Status: [MODELO-STATUS-KPI-FIN-3]
+
+- KPI 4: [MODELO-KPI-FINANCEIRO-4]
+  - Descrição: [MODELO-DESCRICAO-KPI-FIN-4]
+  - Fórmula: [MODELO-FORMULA-KPI-FIN-4]
+  - Meta: [MODELO-META-KPI-FIN-4]
+  - Status: [MODELO-STATUS-KPI-FIN-4]
+
+- KPI 5: [MODELO-KPI-FINANCEIRO-5]
+  - Descrição: [MODELO-DESCRICAO-KPI-FIN-5]
+  - Fórmula: [MODELO-FORMULA-KPI-FIN-5]
+  - Meta: [MODELO-META-KPI-FIN-5]
+  - Status: [MODELO-STATUS-KPI-FIN-5]
 
 ### 3.2. KPIs de Produto e Engajamento
 
-| KPI | Descrição | Fórmula / Cálculo | Meta (Ex: Trimestral) | Status Atual |
-| :--- | :--- | :--- | :--- | :--- |
-| **Usuários Ativos (DAU/MAU)** | Número de usuários únicos ativos diária e mensalmente. | `Contagem de usuários únicos` | `[Ex: Atingir 10k MAU]` | `[Valor]` |
-| **Taxa de Retenção (Retention Rate)** | Percentual de usuários que retornam ao produto após um período. | `(Nº de usuários ativos no período N) / (Nº de usuários no período N-1)` | `[Ex: 40% em 30 dias]` | `[Valor]` |
-| **Taxa de Churn (Churn Rate)** | Percentual de clientes que cancelam o serviço em um período. | `(Nº de clientes perdidos) / (Nº total de clientes no início do período)` | `[Ex: Manter < 2%]` | `[Valor]` |
-| **NPS (Net Promoter Score)** | Medida de lealdade e satisfação do cliente. | `(% Promotores) - (% Detratores)` | `[Ex: Atingir > 50]` | `[Valor]` |
-| **Adoção de Features Chave** | Percentual de usuários que utilizam as funcionalidades principais do produto. | `(Nº de usuários da feature) / (Nº total de usuários ativos)` | `[Ex: 70% de adoção da feature X]` | `[Valor]` |
+**[MODELO-KPIS-PRODUTO]**
+- KPI 1: [MODELO-KPI-PRODUTO-1]
+  - Descrição: [MODELO-DESCRICAO-KPI-PROD-1]
+  - Fórmula: [MODELO-FORMULA-KPI-PROD-1]
+  - Meta: [MODELO-META-KPI-PROD-1]
+  - Status: [MODELO-STATUS-KPI-PROD-1]
+
+- KPI 2: [MODELO-KPI-PRODUTO-2]
+  - Descrição: [MODELO-DESCRICAO-KPI-PROD-2]
+  - Fórmula: [MODELO-FORMULA-KPI-PROD-2]
+  - Meta: [MODELO-META-KPI-PROD-2]
+  - Status: [MODELO-STATUS-KPI-PROD-2]
+
+- KPI 3: [MODELO-KPI-PRODUTO-3]
+  - Descrição: [MODELO-DESCRICAO-KPI-PROD-3]
+  - Fórmula: [MODELO-FORMULA-KPI-PROD-3]
+  - Meta: [MODELO-META-KPI-PROD-3]
+  - Status: [MODELO-STATUS-KPI-PROD-3]
 
 ### 3.3. KPIs de Marketing e Vendas
 
-| KPI | Descrição | Fórmula / Cálculo | Meta (Ex: Trimestral) | Status Atual |
-| :--- | :--- | :--- | :--- | :--- |
-| **Leads Gerados (MQL/SQL)** | Número de leads qualificados por marketing e por vendas. | `Contagem de leads que atendem aos critérios` | `[Ex: Gerar 500 MQLs]` | `[Valor]` |
-| **Taxa de Conversão (Funil)** | Percentual de usuários que avançam em cada etapa do funil de vendas. | `(Conversões na Etapa N) / (Total na Etapa N-1)` | `[Ex: 10% de MQL para SQL]` | `[Valor]` |
-| **Ciclo de Vendas (Sales Cycle)** | Tempo médio para fechar um negócio. | `Soma do tempo de todas as vendas / Nº de vendas` | `[Ex: Reduzir para 30 dias]` | `[Valor]` |
-| **Ticket Médio** | Valor médio de cada venda. | `Receita Total / Nº de Vendas` | `[Ex: Aumentar para R$X]` | `[Valor]` |
+**[MODELO-KPIS-MARKETING-VENDAS]**
+- KPI 1: [MODELO-KPI-MARKETING-1]
+  - Descrição: [MODELO-DESCRICAO-KPI-MKT-1]
+  - Fórmula: [MODELO-FORMULA-KPI-MKT-1]
+  - Meta: [MODELO-META-KPI-MKT-1]
+  - Status: [MODELO-STATUS-KPI-MKT-1]
 
----
+- KPI 2: [MODELO-KPI-MARKETING-2]
+  - Descrição: [MODELO-DESCRICAO-KPI-MKT-2]
+  - Fórmula: [MODELO-FORMULA-KPI-MKT-2]
+  - Meta: [MODELO-META-KPI-MKT-2]
+  - Status: [MODELO-STATUS-KPI-MKT-2]
+
+- KPI 3: [MODELO-KPI-MARKETING-3]
+  - Descrição: [MODELO-DESCRICAO-KPI-MKT-3]
+  - Fórmula: [MODELO-FORMULA-KPI-MKT-3]
+  - Meta: [MODELO-META-KPI-MKT-3]
+  - Status: [MODELO-STATUS-KPI-MKT-3]
 
 ## 4. Dashboard e Ferramentas de Monitoramento
 
-*   **Ferramenta Principal:** `[Ex: Google Analytics, Mixpanel, Metabase, Power BI]`
-*   **Dashboard Central:** `[Link para o dashboard onde os KPIs são visualizados]`
-*   **Frequência de Revisão:** As métricas serão revisadas em `[Ex: reuniões semanais de performance, reuniões mensais de estratégia]`.
+**[MODELO-DASHBOARD-FERRAMENTAS]**
+- Ferramenta Principal: [MODELO-FERRAMENTA-PRINCIPAL]
+- Dashboard Central: [MODELO-DASHBOARD-CENTRAL]
+- Frequência de Revisão: [MODELO-FREQUENCIA-REVISAO]
+- Responsáveis: [MODELO-RESPONSAVEIS-MONITORAMENTO]
+
+## 5. Considerações para Orquestração Inteligente
+
+**[MODELO-CONSIDERACOES-ORQUESTRACAO]**
+- Integração com Metodologia v1.1: [MODELO-INTEGRACAO-METODOLOGIA]
+- Critérios de Validação: [MODELO-CRITERIOS-VALIDACAO]
+- Alinhamento com Documentação Viva: [MODELO-ALINHAMENTO-DOC-VIVA]
+
+## 6. Histórico de Versões
+
+**[MODELO-HISTORICO-VERSOES]**
+- v1.0: [MODELO-VERSAO-1-0]
+- Próximas Versões: [MODELO-PROXIMAS-VERSOES]
+
+## 7. Documentos Relacionados
+
+**[MODELO-DOCUMENTOS-RELACIONADOS]**
+- Documento 1: [MODELO-DOC-RELACIONADO-1]
+- Documento 2: [MODELO-DOC-RELACIONADO-2]
+- Documento 3: [MODELO-DOC-RELACIONADO-3]

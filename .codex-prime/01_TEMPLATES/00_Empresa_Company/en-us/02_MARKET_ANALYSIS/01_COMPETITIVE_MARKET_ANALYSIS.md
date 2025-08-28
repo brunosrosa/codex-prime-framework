@@ -1,40 +1,74 @@
 ---
-doc_id: "EMP-004"
-title: "Competitive and Market Analysis"
-description: "Conducts a detailed analysis of the competitive landscape and target market, identifying key competitors, their strategies, strengths, weaknesses, and differentiation opportunities."
-type: "reference"
-status: "published"
-owner: "@ArquitetoDoCodex"
-tags: [company, market, competitors, competitive analysis, strategy]
+doc_id: "[MODELO-DOC-ID]"
+title: "[MODELO-TITULO-DOCUMENTO]"
+description: "[MODELO-DESCRICAO-DOCUMENTO]"
+type: "template"
+status: "template"
+owner: "[MODELO-AUTOR-RESPONSAVEL]"
+tags: [MODELO-TAGS-RELEVANTES]
+template_version: "1.0"
+last_updated: "[MODELO-DATA-ATUALIZACAO]"
 ---
 
-# Competitive and Market Analysis: [Project Name]
+# [MODELO] Competitive and Market Analysis
 
-**Creation Date**: [DD Month YYYY]
-**Version**: 1.0
-**Author**: [Responsible Name or Squad]
+> **Template Instructions:** This template provides a comprehensive framework for analyzing the competitive landscape and target market. Fill in all `[MODELO-XXX]` fields with specific information about your market and competitors. Use data and research to support your analysis.
+
+## Context and Purpose
+
+This document conducts a detailed analysis of the competitive landscape and target market for `[MODELO-NOME-PRODUTO-SERVICO]`, identifying key competitors, their strategies, strengths, weaknesses, and differentiation opportunities.
+
+**Analysis Period:** `[MODELO-PERIODO-ANALISE]`
+**Market Focus:** `[MODELO-FOCO-MERCADO]`
+**Geographic Scope:** `[MODELO-ESCOPO-GEOGRAFICO]`
 
 ## 1. Executive Summary
 
 *Provide a concise overview of the main insights and conclusions from the analysis. Highlight the most promising market opportunities and the most significant competitive threats.*
 
+**Key Findings:**
+- `[MODELO-DESCOBERTA-PRINCIPAL-1]`
+- `[MODELO-DESCOBERTA-PRINCIPAL-2]`
+- `[MODELO-DESCOBERTA-PRINCIPAL-3]`
+
+**Strategic Recommendations:**
+- `[MODELO-RECOMENDACAO-1]`
+- `[MODELO-RECOMENDACAO-2]`
+- `[MODELO-RECOMENDACAO-3]`
+
 ---
 
-## 2. Market Analysis
+## 2. Market Definition and Analysis
 
 ### 2.1. Market Size and Potential
-- **Total Addressable Market (TAM)**: Describe the total universe of potential customers.
-- **Serviceable Addressable Market (SAM)**: Describe the segment of TAM that can be reached through your channels.
-- **Serviceable Obtainable Market (SOM)**: Describe the realistic portion of SAM that you plan to capture.
+- **Total Addressable Market (TAM):** `[MODELO-TAM-VALOR]` - `[MODELO-TAM-DESCRICAO]`
+- **Serviceable Addressable Market (SAM):** `[MODELO-SAM-VALOR]` - `[MODELO-SAM-DESCRICAO]`
+- **Serviceable Obtainable Market (SOM):** `[MODELO-SOM-VALOR]` - `[MODELO-SOM-DESCRICAO]`
 
-### 2.2. Trends and Growth Projections
-*Identify the main trends (technological, social, economic) that impact the market. Include data on expected sector growth in the coming years.*
+### 2.2. Market Trends and Growth Projections
+*Identify the main trends (technological, social, economic) that impact the market.*
+
+**Key Trends:**
+- **`[MODELO-TENDENCIA-1-NOME]`:** `[MODELO-TENDENCIA-1-DESCRICAO]`
+- **`[MODELO-TENDENCIA-2-NOME]`:** `[MODELO-TENDENCIA-2-DESCRICAO]`
+- **`[MODELO-TENDENCIA-3-NOME]`:** `[MODELO-TENDENCIA-3-DESCRICAO]`
+
+**Growth Projections:** `[MODELO-PROJECOES-CRESCIMENTO]`
 
 ### 2.3. Target Audience Profile
-*Describe in detail the customer segment(s) you are targeting. Use personas if available.*
-- **Demographics**: Age, gender, location, income, etc.
-- **Psychographics**: Interests, values, lifestyle, pain points, needs.
-- **Behavior**: How do they solve the problem today? Where do they seek information?
+*Describe in detail the customer segment(s) you are targeting.*
+
+**Primary Segment:**
+- **Demographics:** `[MODELO-DEMOGRAFIA-PRIMARIA]`
+- **Psychographics:** `[MODELO-PSICOGRAFIA-PRIMARIA]`
+- **Behavior:** `[MODELO-COMPORTAMENTO-PRIMARIO]`
+- **Pain Points:** `[MODELO-DOR-PRIMARIA]`
+
+**Secondary Segment:**
+- **Demographics:** `[MODELO-DEMOGRAFIA-SECUNDARIA]`
+- **Psychographics:** `[MODELO-PSICOGRAFIA-SECUNDARIA]`
+- **Behavior:** `[MODELO-COMPORTAMENTO-SECUNDARIO]`
+- **Pain Points:** `[MODELO-DOR-SECUNDARIA]`
 
 ---
 
@@ -42,89 +76,97 @@ tags: [company, market, competitors, competitive analysis, strategy]
 
 ### 3.1. Competitor Identification
 
-- **Direct Competitors**: *Companies that offer a very similar solution to the same target audience.*
-  - Competitor A
-  - Competitor B
-  - Competitor C
+**Direct Competitors:** *Companies that offer a very similar solution to the same target audience.*
+- **`[MODELO-CONCORRENTE-DIRETO-1]`:** `[MODELO-DESCRICAO-CONCORRENTE-DIRETO-1]`
+- **`[MODELO-CONCORRENTE-DIRETO-2]`:** `[MODELO-DESCRICAO-CONCORRENTE-DIRETO-2]`
+- **`[MODELO-CONCORRENTE-DIRETO-3]`:** `[MODELO-DESCRICAO-CONCORRENTE-DIRETO-3]`
 
-- **Indirect Competitors**: *Companies that solve the same pain point, but with a different solution.*
-  - Competitor D
-  - Competitor E
+**Indirect Competitors:** *Companies that solve the same pain point, but with a different solution.*
+- **`[MODELO-CONCORRENTE-INDIRETO-1]`:** `[MODELO-DESCRICAO-CONCORRENTE-INDIRETO-1]`
+- **`[MODELO-CONCORRENTE-INDIRETO-2]`:** `[MODELO-DESCRICAO-CONCORRENTE-INDIRETO-2]`
 
-- **Substitute Competitors**: *Alternative solutions or methods that customers use to solve the problem (including doing nothing or using a spreadsheet).*
-  - Alternative F
-  - Alternative G
+### 3.2. Competitive Benchmarking
 
-### 3.2. Detailed Analysis of Direct Competitors
+| Competitor | Strengths | Weaknesses | Market Share | Pricing Strategy |
+|------------|-----------|------------|--------------|------------------|
+| `[MODELO-CONCORRENTE-1]` | `[MODELO-FORCAS-1]` | `[MODELO-FRAQUEZAS-1]` | `[MODELO-MARKET-SHARE-1]` | `[MODELO-PRECO-1]` |
+| `[MODELO-CONCORRENTE-2]` | `[MODELO-FORCAS-2]` | `[MODELO-FRAQUEZAS-2]` | `[MODELO-MARKET-SHARE-2]` | `[MODELO-PRECO-2]` |
+| `[MODELO-CONCORRENTE-3]` | `[MODELO-FORCAS-3]` | `[MODELO-FRAQUEZAS-3]` | `[MODELO-MARKET-SHARE-3]` | `[MODELO-PRECO-3]` |
 
-*For each direct competitor, fill in the table below.*
+### 3.3. SWOT Analysis
 
-| Criteria | Competitor A | Competitor B | Competitor C |
-| :--- | :--- | :--- | :--- |
-| **Product/Service** | *Main features* | *Main features* | *Main features* |
-| **Pricing Model** | *How do they charge?* | *How do they charge?* | *How do they charge?* |
-| **Target Audience** | *Who do they target?* | *Who do they target?* | *Who do they target?* |
-| **Marketing Channels**| *How do they reach customers?* | *How do they reach customers?* | *How do they reach customers?* |
-| **Strengths** | *What do they do well?* | *What do they do well?* | *What do they do well?* |
-| **Weaknesses** | *Where do they fail?* | *Where do they fail?* | *Where do they fail?* |
-| **Market Share (Est.)**| *What is their market share?*| *What is their market share?*| *What is their market share?*|
+**Strengths:**
+- `[MODELO-FORCA-INTERNA-1]`
+- `[MODELO-FORCA-INTERNA-2]`
+- `[MODELO-FORCA-INTERNA-3]`
 
----
+**Weaknesses:**
+- `[MODELO-FRAQUEZA-INTERNA-1]`
+- `[MODELO-FRAQUEZA-INTERNA-2]`
+- `[MODELO-FRAQUEZA-INTERNA-3]`
 
-## 4. SWOT Analysis
+**Opportunities:**
+- `[MODELO-OPORTUNIDADE-EXTERNA-1]`
+- `[MODELO-OPORTUNIDADE-EXTERNA-2]`
+- `[MODELO-OPORTUNIDADE-EXTERNA-3]`
 
-*Based on market and competitive analyses, consolidate findings in the SWOT matrix below to identify your project's strategic position.*
+**Threats:**
+- `[MODELO-AMEACA-EXTERNA-1]`
+- `[MODELO-AMEACA-EXTERNA-2]`
+- `[MODELO-AMEACA-EXTERNA-3]`
 
-| Strengths | Weaknesses |
-| :--- | :--- |
-| *Internal advantages your project has over others.* | *Internal disadvantages that put your project at risk.* |
-| 1. | 1. |
-| 2. | 2. |
+## 4. Strategic Recommendations
 
-| Opportunities | Threats |
-| :--- | :--- |
-| *External factors your project can leverage in its favor.* | *External factors that could harm your project.* |
-| 1. | 1. |
-| 2. | 2. |
+### 4.1. Differentiation Opportunities
+- **`[MODELO-DIFERENCIACAO-1]`:** `[MODELO-DESCRICAO-DIFERENCIACAO-1]`
+- **`[MODELO-DIFERENCIACAO-2]`:** `[MODELO-DESCRICAO-DIFERENCIACAO-2]`
+- **`[MODELO-DIFERENCIACAO-3]`:** `[MODELO-DESCRICAO-DIFERENCIACAO-3]`
 
----
+### 4.2. Market Entry Strategy
+- **Positioning:** `[MODELO-POSICIONAMENTO-ESTRATEGICO]`
+- **Timing:** `[MODELO-TIMING-ENTRADA]`
+- **Resource Requirements:** `[MODELO-RECURSOS-NECESSARIOS]`
 
-## 5. Differentiation and Positioning Strategy
+### 4.3. Competitive Response Plan
+- **Monitoring Strategy:** `[MODELO-ESTRATEGIA-MONITORAMENTO]`
+- **Response Protocols:** `[MODELO-PROTOCOLOS-RESPOSTA]`
 
-*Based on the SWOT analysis, describe how you will differentiate your product/service in the market.*
+## 5. Monitoring and KPIs
 
-- **Unique Value Proposition (UVP)**: *What is the clear and concise promise you make to your customer that your competitors cannot make?*
-- **Positioning Strategy**: *How do you want your brand to be perceived in customers' minds relative to competitors? (e.g., the cheapest, highest quality, most innovative, etc.)*
+### 5.1. Market Metrics
+- **Market Share Growth:** `[MODELO-META-MARKET-SHARE]`
+- **Customer Acquisition Rate:** `[MODELO-META-AQUISICAO]`
+- **Brand Awareness:** `[MODELO-META-AWARENESS]`
 
----
+### 5.2. Competitive Intelligence
+- **Monitoring Frequency:** `[MODELO-FREQUENCIA-MONITORAMENTO]`
+- **Key Indicators:** `[MODELO-INDICADORES-CHAVE]`
+- **Review Schedule:** `[MODELO-CRONOGRAMA-REVISAO]`
 
-## 6. Competitive Intelligence Sources
+## 6. Sources and Methodology
 
-*Document the sources used to gather competitive intelligence for future reference and updates.*
+### 6.1. Research Sources
+- **Primary Research:** `[MODELO-PESQUISA-PRIMARIA]`
+- **Secondary Research:** `[MODELO-PESQUISA-SECUNDARIA]`
+- **Industry Reports:** `[MODELO-RELATORIOS-INDUSTRIA]`
 
-- **Primary Sources**: Customer interviews, surveys, direct observation
-- **Secondary Sources**: Industry reports, competitor websites, press releases
-- **Tools Used**: SEMrush, SimilarWeb, Crunchbase, etc.
-- **Update Frequency**: Quarterly review recommended
+### 6.2. Analysis Methodology
+- **Framework Used:** `[MODELO-FRAMEWORK-ANALISE]`
+- **Data Collection Period:** `[MODELO-PERIODO-COLETA]`
+- **Validation Methods:** `[MODELO-METODOS-VALIDACAO]`
 
----
+## 7. Annexes
 
-## 7. Action Items and Next Steps
+[MODELO-ANEXOS]
 
-*Based on the analysis findings, outline specific actions to be taken.*
+## Considerações para Orquestração Inteligente
 
-1. **Immediate Actions** (Next 30 days):
-   - [ ] Action item 1
-   - [ ] Action item 2
+[MODELO-ORCHESTRATION-CONSIDERATIONS]
 
-2. **Short-term Actions** (Next 90 days):
-   - [ ] Action item 3
-   - [ ] Action item 4
+## Histórico de Versões
 
-3. **Long-term Actions** (Next 6-12 months):
-   - [ ] Action item 5
-   - [ ] Action item 6
+[MODELO-VERSION-HISTORY]
 
----
+## Documentos Relacionados
 
-*This analysis should be reviewed and updated regularly as market conditions and competitive landscape evolve.*
+[MODELO-RELATED-DOCUMENTS]

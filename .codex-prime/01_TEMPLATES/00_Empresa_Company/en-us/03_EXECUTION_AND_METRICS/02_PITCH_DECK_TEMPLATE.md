@@ -1,56 +1,67 @@
 ---
-doc_id: "EMP-007"
-title: "Pitch Deck Template"
-description: "A structured template for presenting the company to investors, clients, and partners, covering key business points in a concise and persuasive manner."
-type: "template"
-status: "published"
-owner: "@ArquitetoDoCodex"
-tags: [company, pitch deck, investors, presentation, template]
+doc_id: "[MODELO-DOC-ID]"
+title: "[MODELO-TITLE]"
+description: "[MODELO-DESCRIPTION]"
+type: "[MODELO-TYPE]"
+status: "[MODELO-STATUS]"
+owner: "[MODELO-OWNER]"
+tags: [MODELO-TAGS]
+version: "[MODELO-VERSION]"
+last_updated: "[MODELO-TIMESTAMP]"
+timezone: "[MODELO-TIMEZONE]"
 ---
 
-# Template: Pitch Deck
+# [MODELO-DOCUMENT-TITLE]
 
-> **Purpose:** This document serves as a guide and skeleton for creating a concise and persuasive pitch deck for `[Company Name]`. The goal is to communicate the vision, business model, and investment opportunity clearly and impactfully.
-> 
-> **Instructions:** Each section below represents a slide or set of slides. The goal is to be succinct and visual. Use this document to structure the narrative and key points for each slide. The final presentation should be in slide format (PowerPoint, Google Slides, etc.).
+## [MODELO-METADATA]
 
----
+**Purpose**: [MODELO-PURPOSE]
+**Target Audience**: [MODELO-TARGET-AUDIENCE]
+**Presentation Format**: [MODELO-PRESENTATION-FORMAT]
+**Last Updated**: [MODELO-LAST-UPDATED]
 
-### **Slide 1: Title**
-
-*   **Content:**
-    *   Company Logo
-    *   Company Name
-    *   Tagline/Slogan: A short, impactful phrase that summarizes what the company does. (E.g., "The Airbnb for boats.")
-    *   Contact Information (Name, Email, Website)
-
----
-
-### **Slide 2: The Problem**
-
-*   **Content:**
-    *   Describe the pain or problem your target audience faces.
-    *   Use data, statistics, or a short, relatable story to illustrate the magnitude and urgency of the problem.
-    *   **Keep it simple:** What is the main pain you are solving?
+> **Instructions:** [MODELO-INSTRUCTIONS]
 
 ---
 
-### **Slide 3: The Solution**
+## [MODELO-SLIDE-STRUCTURE]
 
-*   **Content:**
-    *   Present your solution clearly and directly.
-    *   How does your product/service solve the problem described in the previous slide?
-    *   Use visuals (screenshots, mockups) to demonstrate the solution in action.
-    *   **Focus on value:** What is the main benefit for the customer?
+### [MODELO-SLIDE-1-TITLE]
+
+**Content Elements:**
+- [MODELO-COMPANY-LOGO]
+- [MODELO-COMPANY-NAME]
+- [MODELO-TAGLINE-SLOGAN]
+- [MODELO-CONTACT-INFORMATION]
 
 ---
 
-### **Slide 4: Business Model**
+### [MODELO-SLIDE-2-PROBLEM]
 
-*   **Content:**
-    *   How does the company make money?
-    *   Describe your pricing model (E.g., SaaS, marketplace, license, etc.).
-    *   Mention pricing and key revenue metrics (E.g., Lifetime Value (LTV), Customer Acquisition Cost (CAC)).
+**Content Elements:**
+- [MODELO-PROBLEM-DESCRIPTION]
+- [MODELO-PROBLEM-DATA-STATISTICS]
+- [MODELO-PROBLEM-URGENCY]
+- [MODELO-MAIN-PAIN-POINT]
+
+---
+
+### [MODELO-SLIDE-3-SOLUTION]
+
+**Content Elements:**
+- [MODELO-SOLUTION-DESCRIPTION]
+- [MODELO-PROBLEM-SOLUTION-FIT]
+- [MODELO-SOLUTION-VISUALS]
+- [MODELO-CUSTOMER-VALUE-BENEFIT]
+
+---
+
+### [MODELO-SLIDE-4-BUSINESS-MODEL]
+
+**Content Elements:**
+- [MODELO-REVENUE-MODEL]
+- [MODELO-PRICING-STRATEGY]
+- [MODELO-KEY-METRICS-LTV-CAC]
 
 ---
 
@@ -87,49 +98,76 @@ tags: [company, pitch deck, investors, presentation, template]
 
 ### **Slide 8: Competitive Analysis**
 
-*   **Content:**
-    *   Who are your main competitors?
-    *   Present a positioning matrix (2x2 chart) or comparative table to show how you differentiate.
-    *   Highlight your sustainable competitive advantages (Moats).
+### [MODELO-SLIDE-8-COMPETITIVE-ANALYSIS]
+
+**Content Elements:**
+- [MODELO-MAIN-COMPETITORS]
+- [MODELO-POSITIONING-MATRIX]
+- [MODELO-COMPETITIVE-ADVANTAGES]
+- [MODELO-SUSTAINABLE-MOATS]
 
 ---
 
-### **Slide 9: Team**
+### [MODELO-SLIDE-9-TEAM]
 
-*   **Content:**
-    *   Present the founders and key team members.
-    *   Highlight each person's relevant experience. Why is this the right team to solve this problem?
-    *   Include photos, names, titles, and 1-2 highlight points per person.
-
----
-
-### **Slide 10: The Ask**
-
-*   **Content:**
-    *   Be clear and direct about what you are asking for.
-    *   How much money are you looking to raise?
-    *   What will you do with the capital? (Resource allocation: 40% for development, 40% for marketing, 20% for operations, etc.).
-    *   What milestones do you expect to achieve with this investment?
+**Content Elements:**
+- [MODELO-FOUNDERS-KEY-MEMBERS]
+- [MODELO-TEAM-EXPERIENCE]
+- [MODELO-TEAM-PROBLEM-FIT]
+- [MODELO-TEAM-CREDENTIALS]
 
 ---
 
-### **Slide 11: Contact Information**
+### [MODELO-SLIDE-10-THE-ASK]
 
-*   **Content:**
-    *   Reiterate your contact information.
-    *   A simple "Thank you" and an invitation to talk.
-
----
-
-### **(Optional) Slide 12: Appendix**
-
-*   **Content:**
-    *   Detailed information that may be useful in a follow-up conversation.
-    *   Detailed financial projections, cohort analyses, technical details, etc.
+**Content Elements:**
+- [MODELO-FUNDING-REQUEST]
+- [MODELO-CAPITAL-ALLOCATION]
+- [MODELO-INVESTMENT-MILESTONES]
+- [MODELO-USE-OF-FUNDS]
 
 ---
 
-## Best Practices
+### [MODELO-SLIDE-11-CONTACT]
+
+**Content Elements:**
+- [MODELO-CONTACT-INFORMATION]
+- [MODELO-CALL-TO-ACTION]
+- [MODELO-NEXT-STEPS]
+
+---
+
+### [MODELO-SLIDE-12-APPENDIX]
+
+**Content Elements:**
+- [MODELO-DETAILED-FINANCIALS]
+- [MODELO-TECHNICAL-DETAILS]
+- [MODELO-SUPPORTING-DATA]
+- [MODELO-ADDITIONAL-INFORMATION]
+
+---
+
+## [MODELO-BEST-PRACTICES]
+
+[MODELO-PRESENTATION-GUIDELINES]
+
+---
+
+## Annexes
+
+[MODELO-ANNEXES]
+
+## Considerations for Intelligent Orchestration
+
+[MODELO-ORCHESTRATION-CONSIDERATIONS]
+
+## Version History
+
+[MODELO-VERSION-HISTORY]
+
+## Related Documents
+
+[MODELO-RELATED-DOCUMENTS]
 
 *   **Keep it concise:** 10-12 slides maximum for the main presentation
 *   **Tell a story:** Create a narrative flow that builds excitement
