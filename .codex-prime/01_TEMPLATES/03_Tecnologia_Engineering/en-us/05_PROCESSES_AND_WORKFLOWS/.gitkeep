@@ -1,0 +1,9 @@
+# Processes and Workflows Templates
+
+This directory contains templates for processes and workflows in the Technology/Engineering domain.
+
+## Directory Structure
+
+- `01_GENERAL_WORKFLOW.md` - General workflow template
+- `02_DELIVERABLES_TRIGGERS_SYSTEM.md` - Deliverables and triggers system template
+- `03_FUTURE_PROOF_WORKSPACE_ACTION_PLAN.md` - Future-proof workspace action plan template

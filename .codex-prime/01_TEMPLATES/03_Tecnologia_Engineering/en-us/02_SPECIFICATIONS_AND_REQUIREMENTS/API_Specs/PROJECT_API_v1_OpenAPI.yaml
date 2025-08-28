@@ -1,0 +1,779 @@
+openapi: 3.0.3
+info:
+  title: [PROJECT_NAME] API
+  description: |
+    RESTful API for [PROJECT_NAME] - [PROJECT_DESCRIPTION].
+    
+    ## Authentication
+    The API uses JWT Bearer tokens provided by [AUTH_PROVIDER].
+    
+    ## Security
+    - [SECURITY_FEATURE_1]
+    - [SECURITY_FEATURE_2]
+    - [SECURITY_FEATURE_3]
+    
+    ## User Tiers
+    - **[TIER_1]**: [TIER_1_DESCRIPTION]
+    - **[TIER_2]**: [TIER_2_DESCRIPTION]
+    - **[TIER_3]**: [TIER_3_DESCRIPTION]
+  version: [API_VERSION]
+  contact:
+    name: [PROJECT_NAME] Support
+    email: [SUPPORT_EMAIL]
+  license:
+    name: [LICENSE_TYPE]
+servers:
+  - url: [PRODUCTION_URL]
+    description: Production Server
+  - url: [STAGING_URL]
+    description: Staging Server
+  - url: [DEVELOPMENT_URL]
+    description: Development Server
+
+security:
+  - BearerAuth: []
+
+paths:
+  # ==========================================
+  # AUTHENTICATION AND PROFILE
+  # ==========================================
+  
+  /auth/register:
+    post:
+      tags:
+        - Authentication
+      summary: Register new user
+      description: |
+        Creates a new user account with email and password.
+        Implements [REQUIREMENT_ID] from [REQUIREMENTS_DOC].
+      operationId: registerUser
+      security: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserRegistrationRequest'
+            examples:
+              example1:
+                summary: Basic registration
+                value:
+                  email: "user@example.com"
+                  password: "SecurePassword123!"
+                  [ADDITIONAL_FIELD]: "[EXAMPLE_VALUE]"
+      responses:
+        '201':
+          description: User registered successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '409':
+          $ref: '#/components/responses/Conflict'
+        '422':
+          $ref: '#/components/responses/ValidationError'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /auth/login:
+    post:
+      tags:
+        - Authentication
+      summary: User login
+      description: |
+        Authenticates user with email and password.
+        Implements [REQUIREMENT_ID] from [REQUIREMENTS_DOC].
+      operationId: loginUser
+      security: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserLoginRequest'
+            examples:
+              example1:
+                summary: Basic login
+                value:
+                  email: "user@example.com"
+                  password: "SecurePassword123!"
+      responses:
+        '200':
+          description: Login successful
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '422':
+          $ref: '#/components/responses/ValidationError'
+        '429':
+          $ref: '#/components/responses/RateLimitExceeded'
+
+  /auth/logout:
+    post:
+      tags:
+        - Authentication
+      summary: User logout
+      description: Invalidates the current user session
+      operationId: logoutUser
+      responses:
+        '200':
+          description: Logout successful
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SuccessResponse'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+
+  /auth/refresh:
+    post:
+      tags:
+        - Authentication
+      summary: Refresh access token
+      description: Refreshes the access token using a refresh token
+      operationId: refreshToken
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RefreshTokenRequest'
+      responses:
+        '200':
+          description: Token refreshed successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthResponse'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+
+  # ==========================================
+  # [RESOURCE_CATEGORY_1] ENDPOINTS
+  # ==========================================
+  
+  /[resource]:
+    get:
+      tags:
+        - [Resource_Category]
+      summary: Get [resource] list
+      description: Retrieves a paginated list of [resource] items
+      operationId: get[Resource]List
+      parameters:
+        - name: page
+          in: query
+          description: Page number for pagination
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            default: 1
+        - name: limit
+          in: query
+          description: Number of items per page
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 100
+            default: 20
+        - name: sort
+          in: query
+          description: Sort field and direction
+          required: false
+          schema:
+            type: string
+            example: "created_at:desc"
+        - name: [filter_param]
+          in: query
+          description: [Filter description]
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: [Resource] list retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/[Resource]ListResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+    
+    post:
+      tags:
+        - [Resource_Category]
+      summary: Create new [resource]
+      description: Creates a new [resource] item
+      operationId: create[Resource]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/[Resource]CreateRequest'
+            examples:
+              example1:
+                summary: Basic [resource] creation
+                value:
+                  [field_1]: "[example_value_1]"
+                  [field_2]: "[example_value_2]"
+      responses:
+        '201':
+          description: [Resource] created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/[Resource]Response'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '422':
+          $ref: '#/components/responses/ValidationError'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /[resource]/{id}:
+    get:
+      tags:
+        - [Resource_Category]
+      summary: Get [resource] by ID
+      description: Retrieves a specific [resource] by its ID
+      operationId: get[Resource]ById
+      parameters:
+        - name: id
+          in: path
+          description: [Resource] ID
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: [Resource] retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/[Resource]Response'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+    
+    put:
+      tags:
+        - [Resource_Category]
+      summary: Update [resource]
+      description: Updates an existing [resource]
+      operationId: update[Resource]
+      parameters:
+        - name: id
+          in: path
+          description: [Resource] ID
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/[Resource]UpdateRequest'
+      responses:
+        '200':
+          description: [Resource] updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/[Resource]Response'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '422':
+          $ref: '#/components/responses/ValidationError'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+    
+    delete:
+      tags:
+        - [Resource_Category]
+      summary: Delete [resource]
+      description: Deletes a [resource] by its ID
+      operationId: delete[Resource]
+      parameters:
+        - name: id
+          in: path
+          description: [Resource] ID
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '204':
+          description: [Resource] deleted successfully
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      description: JWT token obtained from authentication endpoints
+
+  schemas:
+    # ==========================================
+    # AUTHENTICATION SCHEMAS
+    # ==========================================
+    
+    UserRegistrationRequest:
+      type: object
+      required:
+        - email
+        - password
+      properties:
+        email:
+          type: string
+          format: email
+          description: User email address
+          example: "user@example.com"
+        password:
+          type: string
+          minLength: 8
+          description: User password (minimum 8 characters)
+          example: "SecurePassword123!"
+        [additional_field]:
+          type: string
+          description: [Additional field description]
+          example: "[example_value]"
+    
+    UserLoginRequest:
+      type: object
+      required:
+        - email
+        - password
+      properties:
+        email:
+          type: string
+          format: email
+          description: User email address
+          example: "user@example.com"
+        password:
+          type: string
+          description: User password
+          example: "SecurePassword123!"
+    
+    RefreshTokenRequest:
+      type: object
+      required:
+        - refresh_token
+      properties:
+        refresh_token:
+          type: string
+          description: Valid refresh token
+          example: "[refresh_token_example]"
+    
+    AuthResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        data:
+          type: object
+          properties:
+            user:
+              $ref: '#/components/schemas/User'
+            token:
+              type: string
+              description: JWT access token
+              example: "[jwt_token_example]"
+            refresh_token:
+              type: string
+              description: Refresh token
+              example: "[refresh_token_example]"
+            expires_at:
+              type: string
+              format: date-time
+              description: Token expiration timestamp
+              example: "2025-01-15T12:00:00Z"
+    
+    # ==========================================
+    # USER SCHEMAS
+    # ==========================================
+    
+    User:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+          description: User unique identifier
+          example: "[user_uuid_example]"
+        email:
+          type: string
+          format: email
+          description: User email address
+          example: "user@example.com"
+        [user_field_1]:
+          type: string
+          description: [User field 1 description]
+          example: "[example_value_1]"
+        [user_field_2]:
+          type: string
+          description: [User field 2 description]
+          example: "[example_value_2]"
+        created_at:
+          type: string
+          format: date-time
+          description: User creation timestamp
+          example: "2025-01-15T10:00:00Z"
+        updated_at:
+          type: string
+          format: date-time
+          description: User last update timestamp
+          example: "2025-01-15T10:00:00Z"
+    
+    # ==========================================
+    # [RESOURCE] SCHEMAS
+    # ==========================================
+    
+    [Resource]:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+          description: [Resource] unique identifier
+          example: "[resource_uuid_example]"
+        [field_1]:
+          type: string
+          description: [Field 1 description]
+          example: "[example_value_1]"
+        [field_2]:
+          type: string
+          description: [Field 2 description]
+          example: "[example_value_2]"
+        [field_3]:
+          type: integer
+          description: [Field 3 description]
+          example: 123
+        user_id:
+          type: string
+          format: uuid
+          description: Associated user ID
+          example: "[user_uuid_example]"
+        created_at:
+          type: string
+          format: date-time
+          description: Creation timestamp
+          example: "2025-01-15T10:00:00Z"
+        updated_at:
+          type: string
+          format: date-time
+          description: Last update timestamp
+          example: "2025-01-15T10:00:00Z"
+    
+    [Resource]CreateRequest:
+      type: object
+      required:
+        - [required_field_1]
+        - [required_field_2]
+      properties:
+        [required_field_1]:
+          type: string
+          description: [Required field 1 description]
+          example: "[example_value_1]"
+        [required_field_2]:
+          type: string
+          description: [Required field 2 description]
+          example: "[example_value_2]"
+        [optional_field]:
+          type: string
+          description: [Optional field description]
+          example: "[example_value_3]"
+    
+    [Resource]UpdateRequest:
+      type: object
+      properties:
+        [field_1]:
+          type: string
+          description: [Field 1 description]
+          example: "[example_value_1]"
+        [field_2]:
+          type: string
+          description: [Field 2 description]
+          example: "[example_value_2]"
+    
+    [Resource]Response:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        data:
+          $ref: '#/components/schemas/[Resource]'
+    
+    [Resource]ListResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        data:
+          type: object
+          properties:
+            items:
+              type: array
+              items:
+                $ref: '#/components/schemas/[Resource]'
+            pagination:
+              $ref: '#/components/schemas/PaginationMeta'
+    
+    # ==========================================
+    # COMMON SCHEMAS
+    # ==========================================
+    
+    PaginationMeta:
+      type: object
+      properties:
+        page:
+          type: integer
+          description: Current page number
+          example: 1
+        limit:
+          type: integer
+          description: Items per page
+          example: 20
+        total:
+          type: integer
+          description: Total number of items
+          example: 100
+        total_pages:
+          type: integer
+          description: Total number of pages
+          example: 5
+    
+    SuccessResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        message:
+          type: string
+          description: Success message
+          example: "Operation completed successfully"
+    
+    ErrorResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: false
+        error:
+          type: object
+          properties:
+            code:
+              type: string
+              description: Error code
+              example: "VALIDATION_ERROR"
+            message:
+              type: string
+              description: Error message
+              example: "Validation failed"
+            details:
+              type: string
+              description: Additional error details
+              example: "Field 'email' is required"
+            field_errors:
+              type: object
+              additionalProperties:
+                type: array
+                items:
+                  type: string
+              description: Field-specific validation errors
+              example:
+                email: ["Email is required", "Email format is invalid"]
+                password: ["Password must be at least 8 characters"]
+
+  responses:
+    BadRequest:
+      description: Bad Request - Invalid request format or parameters
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+          example:
+            success: false
+            error:
+              code: "BAD_REQUEST"
+              message: "Invalid request format"
+              details: "Request body is malformed"
+    
+    Unauthorized:
+      description: Unauthorized - Authentication required or invalid
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+          example:
+            success: false
+            error:
+              code: "UNAUTHORIZED"
+              message: "Authentication required"
+              details: "Valid JWT token required"
+    
+    Forbidden:
+      description: Forbidden - Access denied
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+          example:
+            success: false
+            error:
+              code: "FORBIDDEN"
+              message: "Access denied"
+              details: "Insufficient permissions"
+    
+    NotFound:
+      description: Not Found - Resource not found
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+          example:
+            success: false
+            error:
+              code: "NOT_FOUND"
+              message: "Resource not found"
+              details: "The requested resource does not exist"
+    
+    Conflict:
+      description: Conflict - Resource conflict
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+          example:
+            success: false
+            error:
+              code: "CONFLICT"
+              message: "Resource conflict"
+              details: "Email already exists"
+    
+    ValidationError:
+      description: Unprocessable Entity - Validation errors
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+          example:
+            success: false
+            error:
+              code: "VALIDATION_ERROR"
+              message: "Validation failed"
+              field_errors:
+                email: ["Email is required"]
+                password: ["Password must be at least 8 characters"]
+    
+    RateLimitExceeded:
+      description: Too Many Requests - Rate limit exceeded
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+          example:
+            success: false
+            error:
+              code: "RATE_LIMIT_EXCEEDED"
+              message: "Rate limit exceeded"
+              details: "Try again in 60 seconds"
+    
+    InternalServerError:
+      description: Internal Server Error - Unexpected server error
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+          example:
+            success: false
+            error:
+              code: "INTERNAL_ERROR"
+              message: "Internal server error"
+              details: "An unexpected error occurred"
+
+  parameters:
+    PageParam:
+      name: page
+      in: query
+      description: Page number for pagination
+      required: false
+      schema:
+        type: integer
+        minimum: 1
+        default: 1
+    
+    LimitParam:
+      name: limit
+      in: query
+      description: Number of items per page
+      required: false
+      schema:
+        type: integer
+        minimum: 1
+        maximum: 100
+        default: 20
+    
+    SortParam:
+      name: sort
+      in: query
+      description: Sort field and direction (field:asc or field:desc)
+      required: false
+      schema:
+        type: string
+        example: "created_at:desc"
+
+  examples:
+    UserExample:
+      summary: Example user
+      value:
+        id: "[user_uuid_example]"
+        email: "user@example.com"
+        [user_field_1]: "[example_value_1]"
+        created_at: "2025-01-15T10:00:00Z"
+        updated_at: "2025-01-15T10:00:00Z"
+    
+    [Resource]Example:
+      summary: Example [resource]
+      value:
+        id: "[resource_uuid_example]"
+        [field_1]: "[example_value_1]"
+        [field_2]: "[example_value_2]"
+        user_id: "[user_uuid_example]"
+        created_at: "2025-01-15T10:00:00Z"
+        updated_at: "2025-01-15T10:00:00Z"
