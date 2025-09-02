@@ -1,201 +1,252 @@
 ﻿---
-title: "Template: 01_ESTRATEGIA_DEVOPS"
-doc_id: "CODEX-PRIME-TECNOLOGIA-01-ESTRATEGIA-DEVOPS-V1.0"
+title: "Template: Estratégia DevOps"
+doc_id: "TEMPLATE-DEVOPS-STRATEGY-V1.0"
 version: "1.0"
-migrated_at: "2025-08-19 22:10:06"
+migrated_at: "2025-01-27 15:30:00"
 timezone: "America/Sao_Paulo"
 status: "Template"
 owner: "@ArquitetoDoCodex"
-tags: [template, codex-prime, v1.0, tecnologia]
-description: "Template migrado do .codex para .codex-prime na versao 1.0"
-source_path: "\03_Tecnologia_Engineering\pt-br\04_DEVOPS_E_INFRAESTRUTURA\01_ESTRATEGIA_DEVOPS.md"
+tags: [template, devops, strategy, ci-cd, automation]
+description: "Template padronizado para definição de estratégia DevOps e práticas de CI/CD"
 ---
 
-# Estratégia de DevOps para o Recoloca.ai (MVP)
+# Estratégia de DevOps para [NOME_DO_PROJETO]
 
-**Versão:** 1.1 (Orquestração Inteligente e Specialized Intelligence)
-**Data de Criação:** 2025-06-07
-**Data de Última Atualização:** Junho de 2025
-**Autores:** `@AgenteOrquestrador`, `@Maestro`
-**Baseado em:** [[docs/01_Guias_Centrais/PLANO_MESTRE_RECOLOCA_AI.md]] v1.1, [[docs/03_Arquitetura_e_Design/HLD.md]] v1.1, [[docs/01_Guias_Centrais/GUIA_AVANCADO.md]] v1.1
+**Versão:** [VERSAO]
+**Data de Criação:** [DATA_CRIACAO]
+**Data de Última Atualização:** [DATA_ATUALIZACAO]
+**Autores:** [LISTA_AUTORES]
+**Baseado em:** [DOCUMENTOS_REFERENCIA]
 
 ## 1. Visão Geral e Objetivos
 
-Esta estratégia de DevOps visa estabelecer um processo de Integração Contínua (CI) e Entrega Contínua (CD) simples, eficaz e confiável para o MVP do Recoloca.ai, utilizando GitHub Actions. O foco principal é automatizar tarefas repetitivas, garantir a qualidade do código e agilizar o processo de deploy para o backend (FastAPI) e frontend (Flutter PWA).
+[Descreva a visão geral da estratégia DevOps e os objetivos principais]
 
-**Objetivos Principais para o MVP:**
+**Objetivos Principais:**
 
-*   **Agilidade:** Reduzir o tempo e esforço manual nos deploys.
-*   **Qualidade:** Integrar verificações básicas de qualidade (linting, formatação) no pipeline.
-*   **Consistência:** Garantir que os deploys sejam feitos de forma padronizada.
-*   **Simplicidade:** Manter a configuração do pipeline o mais simples possível, evoluindo conforme a necessidade.
+- **[OBJETIVO_1]:** [Descrição do objetivo]
+- **[OBJETIVO_2]:** [Descrição do objetivo]
+- **[OBJETIVO_3]:** [Descrição do objetivo]
+- **[OBJETIVO_4]:** [Descrição do objetivo]
 
 ## 2. Ferramentas e Tecnologias
 
-*   **Orquestrador de CI/CD:** GitHub Actions.
-*   **Controle de Versão:** Git (com repositório no GitHub).
-*   **Backend:** Python com FastAPI.
-*   **Frontend:** Flutter (Dart) para PWA.
-*   **Hospedagem (a definir/confirmar):**
-    *   Backend FastAPI: (Ex: Vercel, Render, Heroku, Google Cloud Run, AWS Elastic Beanstalk)
-    *   Frontend Flutter PWA: (Ex: Firebase Hosting, Vercel, Netlify, GitHub Pages)
-    *   Banco de Dados: Supabase (já definido).
+- **Orquestrador de CI/CD:** [FERRAMENTA_CI_CD]
+- **Controle de Versão:** [SISTEMA_CONTROLE_VERSAO]
+- **Backend:** [TECNOLOGIA_BACKEND]
+- **Frontend:** [TECNOLOGIA_FRONTEND]
+- **Hospedagem:**
+  - Backend: [PLATAFORMA_BACKEND]
+  - Frontend: [PLATAFORMA_FRONTEND]
+  - Banco de Dados: [PLATAFORMA_DATABASE]
 
-## 3. Estrutura dos Pipelines (GitHub Actions)
+## 3. Estrutura dos Pipelines
 
-Serão configurados pipelines separados para o backend e o frontend.
+[Descreva a estrutura geral dos pipelines de CI/CD]
 
-### 3.1. Pipeline de CI/CD para o Backend (FastAPI)
-
-**Gatilhos:**
-
-*   Push para a branch `main` (ou `master`).
-*   Push para branches de `feature/*` (para CI, sem deploy automático para produção).
-*   Pull Requests para `main`.
-
-**Etapas (Workflow):**
-
-1.  **Checkout do Código:** Obter a versão mais recente do código da branch correspondente.
-2.  **Configuração do Ambiente Python:**
-    *   Selecionar a versão do Python (conforme `environment.yml` ou `requirements.txt`).
-    *   Instalar dependências (usando `pip install -r requirements.txt`).
-3.  **Linting e Formatação:**
-    *   Executar `flake8` ou similar para linting.
-    *   Executar `black` ou `autopep8` para verificação de formatação (ou aplicar formatação).
-4.  **Testes Unitários:**
-    *   Executar testes com `pytest`.
-    *   (Opcional MVP) Gerar relatório de cobertura de testes.
-5.  **Testes de Integração (Pós-MVP Inicial):**
-    *   Prever a inclusão de testes de integração automatizados que verifiquem a interação entre o backend e o Supabase, e potencialmente entre diferentes módulos do backend.
-    *   Estes testes seriam executados após os testes unitários em branches de feature e antes do deploy para staging/produção.
-5.  **Build (se aplicável):**
-    *   Para FastAPI, geralmente não há um passo de "build" explícito como em linguagens compiladas, mas pode envolver a criação de uma imagem Docker se essa for a estratégia de deploy.
-6.  **Deploy (condicional, apenas para a branch `main` após merge de PR aprovado):**
-    *   **Estratégia Inicial Simples:** Deploy direto para a plataforma de hospedagem escolhida (ex: usando CLI da Vercel, Render, etc.).
-    *   **Credenciais:** Utilizar GitHub Secrets para armazenar tokens de API e outras credenciais necessárias para o deploy.
-
-### 3.2. Pipeline de CI/CD para o Frontend (Flutter PWA)
+### 3.1. Pipeline de CI/CD para o Backend
 
 **Gatilhos:**
+- [GATILHO_1]
+- [GATILHO_2]
+- [GATILHO_3]
 
-*   Push para a branch `main` (ou `master`).
-*   Push para branches de `feature/*` (para CI, sem deploy automático para produção).
-*   Pull Requests para `main`.
+**Etapas do Pipeline:**
+1. **[ETAPA_1]:** [Descrição da etapa]
+2. **[ETAPA_2]:** [Descrição da etapa]
+3. **[ETAPA_3]:** [Descrição da etapa]
+4. **[ETAPA_4]:** [Descrição da etapa]
 
-**Etapas (Workflow):**
+### 3.2. Pipeline de CI/CD para o Frontend
 
-1.  **Checkout do Código:** Obter a versão mais recente do código da branch correspondente.
-2.  **Configuração do Ambiente Flutter/Dart:**
-    *   Selecionar a versão do Flutter SDK.
-3.  **Instalar Dependências:**
-    *   Executar `flutter pub get`.
-4.  **Análise Estática e Formatação:**
-    *   Executar `flutter analyze`.
-    *   Executar `dart format --set-exit-if-changed .`
-5.  **Testes Unitários e de Widgets:**
-    *   Executar `flutter test`.
-    *   (Opcional MVP) Gerar relatório de cobertura de testes.
-6.  **Testes de Integração (Frontend-Backend - Pós-MVP Inicial):**
-    *   Planejar a adição de testes de integração que simulem o consumo da API do backend pelo frontend em um ambiente de teste.
-7.  **Testes End-to-End (E2E - Pós-MVP):**
-    *   No MVP, os testes E2E podem ser manuais.
-    *   Para Pós-MVP, considerar a automação de fluxos críticos do usuário utilizando ferramentas como o `integration_test` do Flutter ou soluções baseadas em Selenium/Puppeteer para PWAs.
-6.  **Build da PWA:**
-    *   Executar `flutter build web --pwa-strategy=offline-first` (ou a estratégia PWA desejada).
-7.  **Deploy (condicional, apenas para a branch `main` após merge de PR aprovado):**
-    *   **Estratégia Inicial Simples:** Deploy dos artefatos de build (pasta `build/web`) para a plataforma de hospedagem escolhida (ex: Firebase Hosting, Vercel CLI).
-    *   **Credenciais:** Utilizar GitHub Secrets.
+**Gatilhos:**
+- [GATILHO_1]
+- [GATILHO_2]
+- [GATILHO_3]
+
+**Etapas do Pipeline:**
+1. **[ETAPA_1]:** [Descrição da etapa]
+2. **[ETAPA_2]:** [Descrição da etapa]
+3. **[ETAPA_3]:** [Descrição da etapa]
+4. **[ETAPA_4]:** [Descrição da etapa]
 
 ## 4. Estratégia de Branching
 
-*   **`main` (ou `master`):** Branch principal, reflete o estado de **produção**. Deploys para produção são feitos exclusivamente a partir desta branch, idealmente após um merge bem-sucedido da branch `develop`.
-*   **`develop`:** Branch de **staging/integração**. Todas as branches de `feature` e `fix` são mergeadas aqui. Deploys para um ambiente de staging são feitos a partir desta branch para testes finais antes de promover para `main`.
-*   **`feature/<nome-da-feature>`:** Branches para desenvolvimento de novas funcionalidades. São criadas a partir de `develop` e mergeadas de volta em `develop` via Pull Request.
-*   **`fix/<nome-da-correcao>`:** Branches para correções de bugs. Criadas a partir de `develop` (para bugs encontrados em staging/desenvolvimento) ou `main` (para hotfixes urgentes em produção, que depois devem ser mergeados em `develop` também).
-*   **`hotfix/<nome-do-hotfix>`:** Para correções críticas em produção. Criadas a partir de `main`, mergeadas de volta em `main` e depois em `develop`.
+[Descreva a estratégia de branching adotada]
 
-## 5. Gestão de Segredos e Configurações
+### 4.1. Estrutura de Branches
 
-*   **GitHub Secrets:** Todas as chaves de API, tokens de acesso, senhas de banco de dados e outras informações sensíveis necessárias para os pipelines (especialmente para deploy) serão armazenadas como GitHub Secrets no repositório.
-*   **Arquivos de Configuração:** Configurações específicas de ambiente (ex: URLs de API, chaves públicas) que não são secretas podem ser gerenciadas em arquivos de configuração versionados (ex: `.env.example`, com os valores reais fornecidos via secrets no pipeline para criar os arquivos `.env` necessários em tempo de execução/deploy).
+- **[BRANCH_PRINCIPAL]:** [Descrição e propósito]
+- **[BRANCH_DESENVOLVIMENTO]:** [Descrição e propósito]
+- **[BRANCH_FEATURE]:** [Descrição e propósito]
+- **[BRANCH_HOTFIX]:** [Descrição e propósito]
 
-## 6. Monitoramento e Alertas (Pós-MVP Inicial)
+### 4.2. Fluxo de Trabalho
 
-*   Inicialmente, o monitoramento será focado nas saídas dos workflows do GitHub Actions para identificar falhas de build, teste ou deploy.
-*   A integração com ferramentas de monitoramento de aplicação (ex: Sentry, Google Analytics para o frontend, logs da plataforma de hospedagem para o backend) será planejada para fases posteriores, alinhada com o documento [[METRICAS_SUCESSO_BASE_MERCADO]] (v1.1).
+1. [PASSO_1]
+2. [PASSO_2]
+3. [PASSO_3]
+4. [PASSO_4]
 
-## 7. Próximos Passos e Evolução
+## 5. Ambientes de Deploy
 
-*   **MVP Inicial:**
-    *   Configurar os workflows básicos de CI (build e teste unitário) para backend e frontend no GitHub Actions, acionados por pushes em `feature/*`, `develop` e `main`.
-    *   Definir e configurar a hospedagem para backend (produção e staging) e frontend (produção e staging).
-    *   Implementar o deploy manual inicial para as plataformas escolhidas (ambientes de staging e produção).
-    *   Configurar o deploy automatizado via GitHub Actions:
-        *   Para a branch `develop` (ambiente de staging) após merge de PR aprovado.
-        *   Para a branch `main` (ambiente de produção) após merge de PR de `develop` para `main` (ou hotfix para `main`).
-*   **Pós-MVP:**
-    *   Implementar e automatizar testes de integração (Backend e Frontend-Backend) nos pipelines.
-    *   Iniciar a automação de testes E2E para fluxos críticos.
-    *   Adicionar mais etapas de qualidade (ex: análise de segurança de dependências, SAST/DAST básicos).
-    *   Explorar Infraestrutura como Código (IaC) se necessário (ex: Terraform para configurações mais complexas de ambiente).
-    *   Integrar com sistemas de alerta e monitoramento avançado.
+### 5.1. Ambiente de Desenvolvimento
 
-## 8. Considerações de Segurança no Pipeline
+- **Propósito:** [PROPOSITO_DEV]
+- **URL:** [URL_DEV]
+- **Deploy:** [ESTRATEGIA_DEPLOY_DEV]
 
-*   Revisar permissões dos workflows do GitHub Actions para seguir o princípio do menor privilégio.
-*   Não expor segredos nos logs.
-*   Manter as actions utilizadas nos workflows atualizadas.
+### 5.2. Ambiente de Staging
+
+- **Propósito:** [PROPOSITO_STAGING]
+- **URL:** [URL_STAGING]
+- **Deploy:** [ESTRATEGIA_DEPLOY_STAGING]
+
+### 5.3. Ambiente de Produção
+
+- **Propósito:** [PROPOSITO_PROD]
+- **URL:** [URL_PROD]
+- **Deploy:** [ESTRATEGIA_DEPLOY_PROD]
+
+## 6. Configurações de Segurança
+
+### 6.1. Gerenciamento de Secrets
+
+- [FERRAMENTA_SECRETS]: [Descrição do uso]
+- **Secrets Necessários:**
+  - [SECRET_1]: [Descrição]
+  - [SECRET_2]: [Descrição]
+  - [SECRET_3]: [Descrição]
+
+### 6.2. Políticas de Segurança
+
+- [POLITICA_1]
+- [POLITICA_2]
+- [POLITICA_3]
+
+## 7. Monitoramento e Observabilidade
+
+### 7.1. Métricas de Pipeline
+
+- [METRICA_1]: [Descrição]
+- [METRICA_2]: [Descrição]
+- [METRICA_3]: [Descrição]
+
+### 7.2. Alertas e Notificações
+
+- [TIPO_ALERTA_1]: [Configuração]
+- [TIPO_ALERTA_2]: [Configuração]
+- [TIPO_ALERTA_3]: [Configuração]
+
+### 7.3. Logs e Debugging
+
+- [ESTRATEGIA_LOGS]
+- [FERRAMENTAS_DEBUGGING]
+
+## 8. Testes Automatizados
+
+### 8.1. Testes de Backend
+
+- **Testes Unitários:** [FRAMEWORK_TESTES_UNITARIOS]
+- **Testes de Integração:** [FRAMEWORK_TESTES_INTEGRACAO]
+- **Testes de API:** [FRAMEWORK_TESTES_API]
+
+### 8.2. Testes de Frontend
+
+- **Testes Unitários:** [FRAMEWORK_TESTES_UNITARIOS_FRONTEND]
+- **Testes de Componente:** [FRAMEWORK_TESTES_COMPONENTE]
+- **Testes E2E:** [FRAMEWORK_TESTES_E2E]
+
+### 8.3. Cobertura de Código
+
+- **Ferramenta:** [FERRAMENTA_COBERTURA]
+- **Meta de Cobertura:** [PERCENTUAL_META]%
+
+## 9. Rollback e Recovery
+
+### 9.1. Estratégia de Rollback
+
+- [ESTRATEGIA_ROLLBACK_1]
+- [ESTRATEGIA_ROLLBACK_2]
+- [ESTRATEGIA_ROLLBACK_3]
+
+### 9.2. Backup e Recovery
+
+- **Backup de Dados:** [ESTRATEGIA_BACKUP]
+- **Recovery Time Objective (RTO):** [TEMPO_RTO]
+- **Recovery Point Objective (RPO):** [TEMPO_RPO]
+
+## 10. Performance e Otimização
+
+### 10.1. Otimização de Pipeline
+
+- [OTIMIZACAO_1]
+- [OTIMIZACAO_2]
+- [OTIMIZACAO_3]
+
+### 10.2. Cache e Artefatos
+
+- **Estratégia de Cache:** [ESTRATEGIA_CACHE]
+- **Armazenamento de Artefatos:** [ESTRATEGIA_ARTEFATOS]
+
+## 11. Documentação e Treinamento
+
+### 11.1. Documentação Técnica
+
+- [TIPO_DOC_1]: [Localização]
+- [TIPO_DOC_2]: [Localização]
+- [TIPO_DOC_3]: [Localização]
+
+### 11.2. Treinamento da Equipe
+
+- [AREA_TREINAMENTO_1]: [Descrição]
+- [AREA_TREINAMENTO_2]: [Descrição]
+- [AREA_TREINAMENTO_3]: [Descrição]
+
+## 12. Roadmap e Evolução
+
+### 12.1. Próximas Implementações
+
+- **Curto Prazo (1-3 meses):**
+  - [ITEM_CURTO_1]
+  - [ITEM_CURTO_2]
+
+- **Médio Prazo (3-6 meses):**
+  - [ITEM_MEDIO_1]
+  - [ITEM_MEDIO_2]
+
+- **Longo Prazo (6+ meses):**
+  - [ITEM_LONGO_1]
+  - [ITEM_LONGO_2]
+
+### 12.2. Métricas de Sucesso
+
+- [METRICA_SUCESSO_1]: [Meta]
+- [METRICA_SUCESSO_2]: [Meta]
+- [METRICA_SUCESSO_3]: [Meta]
+
+## 13. Referências e Recursos
+
+### 13.1. Documentação Externa
+
+- [RECURSO_1]: [URL]
+- [RECURSO_2]: [URL]
+- [RECURSO_3]: [URL]
+
+### 13.2. Ferramentas e Plugins
+
+- [FERRAMENTA_1]: [Descrição e uso]
+- [FERRAMENTA_2]: [Descrição e uso]
+- [FERRAMENTA_3]: [Descrição e uso]
 
 ---
 
-## 🔄 Considerações de Orquestração Inteligente
+## Changelog
 
-### Integração com Metodologia v1.1
-- **Agentes Especializados**: Utilização de @AgenteOrquestrador para análise estratégica de DevOps e @AgenteMentorDevBackend/@AgenteMentorDevFrontend para implementação de pipelines específicos
-- **RAG Operacional**: Contextualização contínua via base de conhecimento técnico para otimização de pipelines
-- **Métricas Contínuas**: Coleta automática de dados de performance de CI/CD integrada com sistema de entregáveis
-- **Specialized Intelligence**: Delegação eficiente de configuração e manutenção de pipelines para agentes especializados
-
-### Critérios de Validação Metodológica
-- ✅ **Eficiência de Deploy**: Redução de 70-90% no tempo de deploy manual
-- ✅ **Qualidade de Pipeline**: Padronização de 100% dos workflows de CI/CD
-- ✅ **Rastreabilidade**: Histórico completo de deploys e decisões de infraestrutura
-- ✅ **Escalabilidade**: Suporte ao crescimento da base de código e infraestrutura
-
-### Alinhamento com Documentação Viva
-- **Sincronização**: Configurações de pipeline automaticamente sincronizadas com base RAG
-- **Versionamento**: Controle de versão integrado das estratégias de DevOps
-- **Referências**: Links automáticos para documentos de arquitetura e requisitos
-- **Dashboards**: Métricas em tempo real de performance de CI/CD
-
-## 📊 Histórico de Versões
-
-### v1.1 (Junho 2025) - Orquestração Inteligente e Specialized Intelligence
-- Atualização de referências para documentos v1.1
-- Alinhamento com metodologia de Orquestração Inteligente
-- Integração com agentes especializados para DevOps
-- Adição de métricas de eficiência de deploy
-- Sincronização com base RAG operacional
-
-### v0.1 (Junho 2025) - Versão Inicial
-- Definição da estratégia básica de CI/CD com GitHub Actions
-- Estrutura de pipelines para backend (FastAPI) e frontend (Flutter PWA)
-- Estratégia de branching e gestão de segredos
-- Plano de evolução pós-MVP
-
-## 📚 Documentos Relacionados
-
-- [[docs/01_Guias_Centrais/GUIA_AVANCADO.md]] (v1.1) - Metodologia base
-- [[docs/01_Guias_Centrais/PLANO_MESTRE_RECOLOCA_AI.md]] (v1.1) - Visão e objetivos
-- [[docs/03_Arquitetura_e_Design/HLD.md]] (v1.1) - Arquitetura de alto nível
-- [[docs/03_Arquitetura_e_Design/02_ADRs/ADR-001_Ferramentas_Core.md]] (v1.1) - Decisões arquiteturais
-- [[METRICAS_SUCESSO_BASE_MERCADO]] (v1.1) - Métricas de negócio
-- [[docs/04_Agentes_IA/AGENTES_IA_MENTORES_OVERVIEW.md]] - Agentes especializados
-- [[docs/07_Operacoes_e_Deploy/GUIA_DEPLOY_BACKEND.md]] - Guia específico de deploy backend
-- [[docs/07_Operacoes_e_Deploy/GUIA_DEPLOY_FRONTEND.md]] - Guia específico de deploy frontend
-
-**Nota:** Este documento (v1.1) está totalmente alinhado com a metodologia de "Orquestração Inteligente" e "Specialized Intelligence" definida no [[docs/01_Guias_Centrais/GUIA_AVANCADO.md]] (v1.1), incorporando automação de processos de DevOps e medição contínua de eficácia.
+| Versão | Data | Autor | Alterações |
+|--------|------|-------|------------|
+| [VERSAO] | [DATA] | [AUTOR] | [DESCRICAO_ALTERACOES] |
 
 ---
-FIM DO DOCUMENTO ESTRATEGIA_DEVOPS.md (v1.1)
----
+
+**Nota:** Este documento deve ser atualizado regularmente para refletir as mudanças na estratégia DevOps e nas práticas de CI/CD do projeto.

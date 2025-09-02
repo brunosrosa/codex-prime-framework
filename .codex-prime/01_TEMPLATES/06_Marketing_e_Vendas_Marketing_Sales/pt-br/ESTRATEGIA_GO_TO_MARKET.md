@@ -1,15 +1,15 @@
 ---
-doc_id: '[GTM-PROJETO-v1.0]'
-version: '1.0'
-status: 'template'
-owner: '@ArquitetoDoCodex'
-tags:
-  - template
-  - gtm
-  - marketing
-  - estratégia
-  - lançamento
-description: 'Template para Estratégia Go-to-Market, aguardando preenchimento com dados específicos do projeto.'
+title: "Estratégia Go-to-Market - [NOME_DO_PROJETO]"
+doc_id: "GTM-[PROJETO]-v1.0"
+version: "1.0"
+last_updated: "2025-09-02 18:47:41"
+timezone: "America/Sao_Paulo"
+status: "template"
+owner: "@ArquitetoDoCodex"
+tags: [template, gtm, marketing, estratégia, lançamento, go-to-market]
+description: "Template padronizado para Estratégia Go-to-Market seguindo os padrões do Codex Prime Framework"
+template_type: "marketing_strategy"
+category: "06_Marketing_e_Vendas"
 ---
 
 # ESTRATÉGIA GO-TO-MARKET - [NOME_DO_PROJETO]
@@ -551,8 +551,16 @@ description: 'Template para Estratégia Go-to-Market, aguardando preenchimento c
 
 ---
 
-**Última Atualização**: [DATA_ATUALIZACAO]  
-**Próxima Revisão**: [DATA_PROXIMA_REVISAO]  
-**Status**: [STATUS_DOCUMENTO]
+---
 
---- FIM DO DOCUMENTO ESTRATEGIA_GO_TO_MARKET.md (v1.1) ---
+## 📋 Metadados do Template
+
+**Última Atualização**: 2025-09-02 18:47:41 (America/Sao_Paulo)  
+**Próxima Revisão**: [DATA_PROXIMA_REVISAO]  
+**Status**: Template Padronizado  
+**Versão do Codex Prime**: 1.0  
+**Categoria**: Marketing e Vendas  
+
+---
+
+*Template padronizado seguindo os padrões do **Codex Prime Framework***

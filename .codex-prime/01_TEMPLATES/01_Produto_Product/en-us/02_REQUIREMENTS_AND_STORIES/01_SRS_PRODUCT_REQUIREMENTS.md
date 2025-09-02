@@ -1,42 +1,41 @@
 ---
-title: Software Requirements Specification (SRS): [PROJECT_NAME]
-version: [VERSION]
-date: [CREATION_DATE]
-author: [AUTHOR]
-description: Document that specifies functional and non-functional requirements for the [PROJECT_NAME] platform, aligned with the Master Plan and Project Charter.
+title: "Software Requirements Specification (SRS) - [PROJECT_NAME]"
+version: "[VERSION]"
+date: "[DATE]"
+author: "[AUTHOR_NAME] ([AUTHOR_HANDLE])"
+description: "[PROJECT_DESCRIPTION]"
 metadata:
-  type: requirements
-  category: product
-  language: en-us
-  status: active
+  type: "SRS"
+  category: "Requirements"
+  language: "[LANGUAGE]"
+  status: "[STATUS]"
   references:
-    - link: internal
-      description: MASTER_PLAN_PROJECT
-    - link: internal
-      description: PROJECT_CHARTER
-    - link: internal
-      description: SUCCESS_METRICS_MARKET_BASE
+    - "[REFERENCE_1]"
+    - "[REFERENCE_2]"
+    - "[REFERENCE_3]"
+    - "[REFERENCE_4]"
 ---
 
-# Software Requirements Specification (SRS): [PROJECT_NAME]
+# Software Requirements Specification (SRS)
+## [PROJECT_NAME] - [PROJECT_SUBTITLE]
 
-**Version**: 1.1 (Intelligent Orchestration and Specialized Intelligence)
+**Version**: [VERSION_NUMBER] ([VERSION_DESCRIPTION])
 
-**Creation Date**: May 26, 2025
+**Creation Date**: [CREATION_DATE]
 
-**Last Updated**: January 2025
+**Last Updated**: [LAST_UPDATED]
 
 **Based on**:
-- [[MASTER_PLAN_PROJECT]] (v1.0+)
-- [[PROJECT_CHARTER]] (v1.0)
-- [[SUCCESS_METRICS_MARKET_BASE]] (v1.0)
-- Research and Strategy Sessions (May/June 2025)
+- [[REFERENCE_DOC_1]] ([VERSION])
+- [[REFERENCE_DOC_2]] ([VERSION])
+- [[REFERENCE_DOC_3]] ([VERSION])
+- [ADDITIONAL_REFERENCES]
 
 ## 1. Introduction
 
 ### 1.1. Purpose
 
-This document specifies the **functional requirements** (FR) and **non-functional requirements** (NFR) for the Minimum Viable Product (MVP) and initial evolution of the **[PROJECT_NAME]** platform. [PROJECT_NAME] is a [PRODUCT_TYPE] designed to assist **[TARGET_AUDIENCE]** in the [MAIN_PROBLEM] process, acting as a **[PRODUCT_POSITIONING]** that combines [MAIN_FUNCTIONALITIES]. This specification has been refined based on market research, competitive analysis, value proposition validation, and success metrics based on market benchmarks, seeking a balance between strategic vision and sufficient detail to guide AI-assisted development, aligned with the [[MASTER_PLAN_[PROJECT_NAME]]] and [[PROJECT_CHARTER]] v1.0.
+This document specifies the **functional requirements** (FR) and **non-functional requirements** (NFR) for the Minimum Viable Product (MVP) and initial evolution of the **[PROJECT_NAME]** platform. [PROJECT_NAME] is a [PRODUCT_TYPE] designed to assist **[TARGET_AUDIENCE]** in the [MAIN_PROBLEM] process, acting as a **[PRODUCT_POSITIONING]** that combines [MAIN_FUNCTIONALITIES]. This specification has been refined based on [RESEARCH_BASIS], seeking a balance between strategic vision and sufficient detail to guide AI-assisted development, aligned with the [[MASTER_PLAN_REFERENCE]] and [[PROJECT_CHARTER_REFERENCE]].
 
 This document is intended to:
 - Guide product development by the "Maestro" (solo developer).
@@ -46,48 +45,43 @@ This document is intended to:
 
 ### 1.2. Product Scope (MVP and Initial Evolution)
 
-The MVP scope of [PROJECT_NAME] aims to deliver core value through the following main functionalities:
-1. **[FUNCTIONALITY_1]:** [FUNCTIONALITY_1_DESCRIPTION]
-2. **[FUNCTIONALITY_2]:** [FUNCTIONALITY_2_DESCRIPTION]
-3. **[FUNCTIONALITY_3]:** [FUNCTIONALITY_3_DESCRIPTION] (**[MAIN_AHA_MOMENT]**)
-4. **[FUNCTIONALITY_4]:** [FUNCTIONALITY_4_DESCRIPTION]
-5. **Proactive AI Coach:** Contextual assistant that monitors progress and offers personalized guidance
-6. **Personal Metrics Module:** Application funnel tracking dashboard with KPIs
-7. **Responsive PWA:** Progressive web application optimized for desktop and mobile
-8. **Multilingual Support:** Interface in EN-US with support for data in EN, PT, ES
-9. **Freemium Model:** Differentiated tiers with premium features via Stripe
+**MVP Core Features:**
+- **[FEATURE_1]:** [FEATURE_1_DESCRIPTION]
+- **[FEATURE_2]:** [FEATURE_2_DESCRIPTION]
+- **[FEATURE_3]:** [FEATURE_3_DESCRIPTION]
+- **[FEATURE_4]:** [FEATURE_4_DESCRIPTION]
+- **[FEATURE_5]:** [FEATURE_5_DESCRIPTION]
+- **[FEATURE_6]:** [FEATURE_6_DESCRIPTION]
+- **[FEATURE_7]:** [FEATURE_7_DESCRIPTION]
+- **[FEATURE_8]:** [FEATURE_8_DESCRIPTION]
+- **[FEATURE_9]:** [FEATURE_9_DESCRIPTION]
+- **[FEATURE_10]:** [FEATURE_10_DESCRIPTION]
 
 ### 1.3. Product Strategy and Prioritization
 
-**Main Competitive Advantage:** Proactive and contextual AI Coach that acts as an "integrator and cockpit" for the job search process.
+**Strategy and Prioritization:**
 
-**Defined AHA! Moment:** Automatic resume optimization with adequacy score and specific suggestions for the job posting.
-
-**Development Approach:** "AI-Augmented Solo Agile" with focus on complete user journey and incremental value delivery.
+- **Competitive Advantage:** [COMPETITIVE_ADVANTAGE]
+- **AHA! Moment:** [AHA_MOMENT_DESCRIPTION]
+- **Methodology:** [DEVELOPMENT_METHODOLOGY]
 
 **Intelligent Orchestration Methodology:** Implementation of "Specialized Intelligence" with objective metrics for Production-Ready agents:
 
-**"Specialized Intelligence" Metrics:**
-- **Orchestration Efficiency:** Average resolution time for complex tasks (< 2h for standard tasks)
-- **RAG System Quality:** Precision of relevant information retrieval (> 85%)
-- **Satisfaction and Productivity:** Reduction of rework and increased delivery quality
+- **"Specialized Intelligence" Metrics:** [INTELLIGENCE_METRICS]
+- **Production-Ready Agent Criteria:**
+  - **Tier 1 (Core):** [TIER_1_CRITERIA]
+  - **Tier 2 (Specialized):** [TIER_2_CRITERIA]
+  - **Tier 3 (Experimental):** [TIER_3_CRITERIA]
 
-**Objective Criteria for "Production-Ready" Agents:**
-- **Tier 1 (Basic):** Precision > 80%, Response time < 30s, Adequate contextualization
-- **Tier 2 (Advanced):** Precision > 90%, Response time < 15s, Complete RAG integration
-- **Tier 3 (Expert):** Precision > 95%, Response time < 10s, Complete operational autonomy
+**MVP Timeline:** [TIMELINE]
+**Success Metrics:** [SUCCESS_METRICS]
+**Post-MVP Scope:** [POST_MVP_FEATURES]
 
-**MVP Timeline:** June - December 2025 (7 months)
+**Initial Target Audience:** [TARGET_AUDIENCE_DESCRIPTION]
 
-**Success Metrics:** Based on SaaS B2C market benchmarks as per [[SUCCESS_METRICS_MARKET_BASE]]
+**Primary Platform:** [PRIMARY_PLATFORM]
 
-**Post-MVP Scope:** Advanced Web Clipper (browser extension), detailed interview simulation, networking manager, resource library, ATS integration, advanced analytics.
-
-**Initial Target Audience:** IT professionals in Brazil (Developers, QAs, Designers, PMs, Analysts) at Mid-level and Senior level.
-
-**Primary Platform:** PWA (Flutter Web) with mobile-first experience.
-
-**Supported Languages:** Interface in EN-US, data in EN/PT/ES.
+**Supported Languages:** [SUPPORTED_LANGUAGES]
 
 ### 1.3. Definitions, Acronyms and Abbreviations
 
@@ -161,102 +155,111 @@ This document is organized as follows:
 
 ### 2.3. User Characteristics
 
-- **Primary Audience (MVP):** **Mid-level and Senior** IT professionals in target markets (Developers, QAs, Designers, Product Managers, Analysts, DevOps, etc.) in job search or career transition process.
+- **Primary Audience (MVP):** **[PRIMARY_AUDIENCE_LEVEL]** [TARGET_PROFESSION] professionals in [TARGET_MARKETS] ([TARGET_ROLES]) in [TARGET_PROCESS] process.
 - **Initial Segmentation:**
-  - **Early Adopters:** Tech-savvy professionals in active transition
-  - **Power Users:** Professionals managing multiple applications
-  - **Career Changers:** Professionals seeking area/seniority change
-- **Experience Level:** Focus on Mid-level/Senior, with future expansion to Junior/Specialist.
-- **Needs:** Organization, efficiency, standing out in selection processes, market insights, reducing anxiety and frustration.
-- **Expected Technical Skills:** Comfortable with digital tools and SaaS.
+  - **[SEGMENT_1_NAME]:** [SEGMENT_1_DESCRIPTION]
+  - **[SEGMENT_2_NAME]:** [SEGMENT_2_DESCRIPTION]
+  - **[SEGMENT_3_NAME]:** [SEGMENT_3_DESCRIPTION]
+- **Experience Level:** [EXPERIENCE_FOCUS], with future expansion to [FUTURE_EXPANSION].
+- **Needs:** [USER_NEEDS].
+- **Expected Technical Skills:** [TECHNICAL_SKILLS_EXPECTATION].
 
 ### 2.4. General and Technological Constraints
 
-- **Solo Development:** MVP scope must be manageable by a single developer ("Maestro") with AI Agent assistance.
-- **Budget:** API costs (Gemini) and infrastructure (Supabase, Vercel/Render) must be considered for Freemium model sustainability.
-- **GDPR:** Strict compliance with General Data Protection Regulation.
-- **AI Limitations:** User must be informed about AI suggestion limitations and that they don't replace professional judgment.
-- **Language (MVP):** English for interface. Support for data (resumes, job postings) in English, Portuguese, Spanish.
-- **Platform (MVP):** PWA (Flutter Web) accessible in modern browsers.
+- **[DEVELOPMENT_MODEL]:** [DEVELOPMENT_CONSTRAINT_DESCRIPTION].
+- **Budget:** [BUDGET_CONSTRAINTS].
+- **[COMPLIANCE_REQUIREMENT]:** [COMPLIANCE_DESCRIPTION].
+- **AI Limitations:** [AI_LIMITATION_DESCRIPTION].
+- **Language (MVP):** [LANGUAGE_CONSTRAINTS].
+- **Platform (MVP):** [PLATFORM_CONSTRAINTS].
 - **Main Technology Stack (As per Master Plan):**
-  - Frontend (PWA): **Flutter (Dart)**.
-  - Backend: **Python with FastAPI**.
-  - Database: **PostgreSQL (Via Supabase)**.
-  - Authentication & Storage: **Supabase**.
-  - AI LLM: **Google Gemini Pro and Flash** APIs.
-  - PDF Parsing: `pymupdf` (Fitz) primary; OCR (`Tesseract`) as fallback; LLM for semantic categorization.
-  - Hosting: Frontend PWA on **Vercel** (or similar); Backend FastAPI on **Render** (or similar); Supabase for BaaS.
-  - Vector DB (for RAG): **FAISS** for initial local implementation; consider Supabase pgvector (Post-MVP).
-- **Job Import (MVP):** Focus on link import with LLM processing. Browser extension for direct capture (e.g., LinkedIn) is Post-MVP.
+  - Frontend (PWA): **[FRONTEND_TECH]**.
+  - Backend: **[BACKEND_TECH]**.
+  - Database: **[DATABASE_TECH]**.
+  - Authentication & Storage: **[AUTH_STORAGE_TECH]**.
+  - AI LLM: **[AI_LLM_TECH]** APIs.
+  - PDF Parsing: [PDF_PARSING_TECH].
+  - Hosting: [HOSTING_DESCRIPTION].
+  - Vector DB (for RAG): [VECTOR_DB_TECH].
+- **[IMPORT_FEATURE] (MVP):** [IMPORT_CONSTRAINT_DESCRIPTION].
 
 ### 2.5. Assumptions and Dependencies
 
-- Availability and functionality of Google Gemini APIs and Supabase services.
-- User will provide accurate information in their base resume and job links.
-- Access to market research and data to train/feed the salary estimation AI RAG.
-- RLS architecture between FastAPI and Supabase will be validated via prototype.
+**Key Assumptions:**
+- [ASSUMPTION_1]
+- [ASSUMPTION_2]
+- [ASSUMPTION_3]
+- [ASSUMPTION_4]
+- [ASSUMPTION_5]
+
+**Critical Dependencies:**
+- **[DEPENDENCY_1]:** [DEPENDENCY_1_DESCRIPTION]
+- **[DEPENDENCY_2]:** [DEPENDENCY_2_DESCRIPTION]
+- **[DEPENDENCY_3]:** [DEPENDENCY_3_DESCRIPTION]
+- **[DEPENDENCY_4]:** [DEPENDENCY_4_DESCRIPTION]
+- **[DEPENDENCY_5]:** [DEPENDENCY_5_DESCRIPTION]
 
 ## 3. Functional Requirements (FR)
 
 The following requirement IDs are prefixed with `FR-[MODULE]-[NUMBER]`. Process and output details are provided for AI Agent clarity.
 
 ---
-**Module: Landing Page and Marketing** `FR-LAND`
+**Module: [MODULE_1_NAME]** `[MODULE_1_CODE]`
 ---
 
-- **FR-LAND-001:** The system MUST present an attractive and informative landing page for unauthenticated visitors.
-  - _Process:_ Present clear value proposition, product benefits, testimonials/use cases, explanatory sections about main functionalities.
-  - _Output:_ Responsive page optimized for conversion.
+- **[MODULE_1_CODE]-001:** [REQUIREMENT_1_DESCRIPTION]
+  - _Process:_ [REQUIREMENT_1_PROCESS]
+  - _Output:_ [REQUIREMENT_1_OUTPUT]
 
-- **FR-LAND-002:** The Landing Page MUST include a Hero section with impactful headline and main call-to-action (CTA) for registration.
-  - _Process:_ Headline focused on problem/solution, explanatory subtitle, highlighted CTA button directing to registration.
-  - _Output:_ Hero section optimized for first impression and conversion.
+- **[MODULE_1_CODE]-002:** [REQUIREMENT_2_DESCRIPTION]
+  - _Process:_ [REQUIREMENT_2_PROCESS]
+  - _Output:_ [REQUIREMENT_2_OUTPUT]
 
-- **FR-LAND-003:** The Landing Page MUST include a prominent Call-to-Action (CTA) for new user registration.
-  - _Process:_ Visually highlighted button/link, persuasive text (e.g., "Start Free", "Optimize Your Resume Now"), direction to registration page.
-  - _Output:_ CTA that maximizes visitor to registered user conversion rate.
+- **[MODULE_1_CODE]-003:** [REQUIREMENT_3_DESCRIPTION]
+  - _Process:_ [REQUIREMENT_3_PROCESS]
+  - _Output:_ [REQUIREMENT_3_OUTPUT]
 
-- **FR-LAND-004:** The Landing Page MUST present the main product functionalities clearly and visually.
-  - _Process:_ Explanatory sections about Job Kanban, AI Resume Optimization, AI Coach, with illustrative icons/images.
-  - _Output:_ Effective communication of product value.
+- **[MODULE_1_CODE]-004:** [REQUIREMENT_4_DESCRIPTION]
+  - _Process:_ [REQUIREMENT_4_PROCESS]
+  - _Output:_ [REQUIREMENT_4_OUTPUT]
 
-- **FR-LAND-005:** The Landing Page MUST include information about plans (Free vs Premium) and their benefits.
-  - _Process:_ Comparative table or sections highlighting free plan limitations and premium advantages.
-  - _Output:_ Transparency about business model and upgrade incentive.
+- **[MODULE_1_CODE]-005:** [REQUIREMENT_5_DESCRIPTION]
+  - _Process:_ [REQUIREMENT_5_PROCESS]
+  - _Output:_ [REQUIREMENT_5_OUTPUT]
 
-- **FR-LAND-006:** The Landing Page MUST be responsive and optimized for mobile and desktop devices.
-  - _Process:_ Responsive design, optimized loading times, compatibility with modern browsers.
-  - _Output:_ Consistent experience across different devices.
+- **[MODULE_1_CODE]-006:** [REQUIREMENT_6_DESCRIPTION]
+  - _Process:_ [REQUIREMENT_6_PROCESS]
+  - _Output:_ [REQUIREMENT_6_OUTPUT]
 
-- **FR-LAND-007:** The Landing Page MUST include credibility and trust elements (testimonials, statistics, security badges).
-  - _Process:_ Sections with user testimonials, success statistics, security/privacy indicators.
-  - _Output:_ Increased trust and reduced conversion objections.
+- **[MODULE_1_CODE]-007:** [REQUIREMENT_7_DESCRIPTION]
+  - _Process:_ [REQUIREMENT_7_PROCESS]
+  - _Output:_ [REQUIREMENT_7_OUTPUT]
 
 ---
-**Module: Authentication and Account Management** `FR-AUTH`
+**Module: [MODULE_2_NAME]** `[MODULE_2_CODE]`
 ---
 
-- **FR-AUTH-001:** The system MUST allow new users to register by providing Email and Password.
-  - **FR-AUTH-001.1 (Sub-Requirement):** The system MUST validate email format and ensure its uniqueness in the database.
-  - **FR-AUTH-001.2 (Sub-Requirement):** The user-defined password MUST meet complexity criteria (minimum 12 characters, containing uppercase, lowercase, numbers and symbols).
-  - **FR-AUTH-001.3 (Sub-Requirement):** The system MUST use secure hashing (e.g., Argon2id) for password storage.
-  - **FR-AUTH-001.4 (Sub-Requirement):** After initial registration, the system MUST send a confirmation email to the provided address.
-  - _Process:_ Create record in Supabase Auth. Send confirmation email.
-  - _Output:_ Account created with "unconfirmed" status. Success message.
+- **[MODULE_2_CODE]-001:** [REQUIREMENT_1_DESCRIPTION]
+  - **[MODULE_2_CODE]-001.1 (Sub-Requirement):** [SUB_REQUIREMENT_1_DESCRIPTION]
+  - **[MODULE_2_CODE]-001.2 (Sub-Requirement):** [SUB_REQUIREMENT_2_DESCRIPTION]
+  - **[MODULE_2_CODE]-001.3 (Sub-Requirement):** [SUB_REQUIREMENT_3_DESCRIPTION]
+  - **[MODULE_2_CODE]-001.4 (Sub-Requirement):** [SUB_REQUIREMENT_4_DESCRIPTION]
+  - _Process:_ [REQUIREMENT_1_PROCESS]
+  - _Output:_ [REQUIREMENT_1_OUTPUT]
 
-- **FR-AUTH-002:** The system MUST require email confirmation to activate the account.
-  - _Process:_ Unique and time-limited link in email. Update user status to "confirmed" upon clicking.
-  - _Output:_ Full access to functionalities.
+- **[MODULE_2_CODE]-002:** [REQUIREMENT_2_DESCRIPTION]
+  - _Process:_ [REQUIREMENT_2_PROCESS]
+  - _Output:_ [REQUIREMENT_2_OUTPUT]
 
-- **FR-AUTH-003:** The system MUST allow login with Email and Password.
-  - **FR-AUTH-003.1 (Sub-Requirement):** The system MUST verify provided credentials (email and password) against stored records.
-  - **FR-AUTH-003.2 (Sub-Requirement):** The system MUST implement protection mechanisms against brute force attacks (e.g., rate limiting, CAPTCHA after failed attempts).
-  - _Process:_ Credential verification. Brute-force protection (rate limiting, CAPTCHA).
-  - _Output:_ Authenticated session (JWT).
+- **[MODULE_2_CODE]-003:** [REQUIREMENT_3_DESCRIPTION]
+  - **[MODULE_2_CODE]-003.1 (Sub-Requirement):** [SUB_REQUIREMENT_1_DESCRIPTION]
+  - **[MODULE_2_CODE]-003.2 (Sub-Requirement):** [SUB_REQUIREMENT_2_DESCRIPTION]
+  - _Process:_ [REQUIREMENT_3_PROCESS]
+  - _Output:_ [REQUIREMENT_3_OUTPUT]
 
-- **FR-AUTH-004:** The system MUST allow users to authenticate using their Google accounts (OAuth 2.0).
-  - _Process:_ Integration with Google authentication system. Request minimum necessary permissions (email, name). Create/link account in [PROJECT_NAME].
-  - _Output:_ Authenticated session (JWT).
+- **[MODULE_2_CODE]-004:** [REQUIREMENT_4_DESCRIPTION]
+  - _Process:_ [REQUIREMENT_4_PROCESS]
+  - _Output:_ [REQUIREMENT_4_OUTPUT]
 
 - **FR-AUTH-004.1 (Post-MVP):** The system MUST offer Multi-Factor Authentication (MFA) via TOTP.
 
@@ -375,56 +378,45 @@ The following requirement IDs are prefixed with `FR-[MODULE]-[NUMBER]`. Process 
 ## 4. Non-Functional Requirements (NFR)
 
 ---
-**Category: Performance** `NFR-PERF`
+**Category: [NFR_CATEGORY_1]** `[NFR_CATEGORY_1_CODE]`
 ---
 
-- **NFR-PERF-001:** The PWA MUST load the main interface in less than 3 seconds on 3G connections.
-- **NFR-PERF-002:** AI resume optimization (FR-CV-003, FR-CV-004) MUST complete in less than 60 seconds for resumes up to 5 pages.
-- **NFR-PERF-003:** Job import via URL (FR-IMP-001) MUST complete in less than 30 seconds.
-- **NFR-PERF-004:** The system MUST support up to 100 concurrent users without performance degradation.
-- **NFR-PERF-005:** Database queries MUST have average response time under 500ms.
-- **NFR-PERF-006:** The system MUST implement caching strategies to optimize API response times.
+- **[NFR_CATEGORY_1_CODE]-001:** [NFR_REQUIREMENT_1_DESCRIPTION]
+- **[NFR_CATEGORY_1_CODE]-002:** [NFR_REQUIREMENT_2_DESCRIPTION]
+- **[NFR_CATEGORY_1_CODE]-003:** [NFR_REQUIREMENT_3_DESCRIPTION]
+- **[NFR_CATEGORY_1_CODE]-004:** [NFR_REQUIREMENT_4_DESCRIPTION]
+- **[NFR_CATEGORY_1_CODE]-005:** [NFR_REQUIREMENT_5_DESCRIPTION]
 
 ---
-**Category: Security** `NFR-SEC`
+**Category: [NFR_CATEGORY_2]** `[NFR_CATEGORY_2_CODE]`
 ---
 
-- **NFR-SEC-001:** All communications between client and server MUST use HTTPS/TLS 1.3.
-- **NFR-SEC-002:** User passwords MUST be hashed using Argon2id with appropriate salt.
-- **NFR-SEC-003:** The system MUST implement JWT tokens with expiration for session management.
-- **NFR-SEC-004:** The system MUST implement Row-Level Security (RLS) in Supabase to ensure data isolation between users.
-- **NFR-SEC-005:** File uploads MUST be validated for type, size, and scanned for malware.
-- **NFR-SEC-006:** The system MUST implement rate limiting to prevent abuse and DDoS attacks.
-- **NFR-SEC-007:** The system MUST comply with GDPR, including mechanisms for consent, access, rectification and deletion of personal data.
-- **NFR-SEC-008 (Stripe):** Stripe integration MUST follow security best practices recommended by Stripe, including use of Stripe.js for payment data collection (avoiding sensitive card data transit through [PROJECT_NAME] server) and webhook validation.
-- **NFR-SEC-009 (Stripe):** NO sensitive credit card data (full number, CVV) MUST be stored on [PROJECT_NAME] servers or database.
-- **NFR-SEC-010:** The system MUST implement audit logs for critical actions.
-  - Record events such as: login, profile changes, payment operations, data deletion.
-  - Logs must include timestamp, user, action, IP and result.
+- **[NFR_CATEGORY_2_CODE]-001:** [NFR_REQUIREMENT_1_DESCRIPTION]
+- **[NFR_CATEGORY_2_CODE]-002:** [NFR_REQUIREMENT_2_DESCRIPTION]
+- **[NFR_CATEGORY_2_CODE]-003:** [NFR_REQUIREMENT_3_DESCRIPTION]
+- **[NFR_CATEGORY_2_CODE]-004:** [NFR_REQUIREMENT_4_DESCRIPTION]
+- **[NFR_CATEGORY_2_CODE]-005:** [NFR_REQUIREMENT_5_DESCRIPTION]
+- **[NFR_CATEGORY_2_CODE]-006:** [NFR_REQUIREMENT_6_DESCRIPTION]
+- **[NFR_CATEGORY_2_CODE]-007:** [NFR_REQUIREMENT_7_DESCRIPTION]
 
 ---
-**Category: Usability** `NFR-USA`
+**Category: [NFR_CATEGORY_3]** `[NFR_CATEGORY_3_CODE]`
 ---
 
-- **NFR-USA-001:** The user interface MUST be intuitive and easy to learn, even for users with little familiarity with similar tools.
-- **NFR-USA-002:** The system MUST provide clear feedback to the user about the result of their actions (success, error, processing).
-- **NFR-USA-003:** The PWA MUST follow WCAG 2.1 Level AA accessibility guidelines.
-- **NFR-USA-004:** The design MUST be consistent across all screens and functionalities, following the [[STYLE_GUIDE]].
+- **[NFR_CATEGORY_3_CODE]-001:** [NFR_REQUIREMENT_1_DESCRIPTION]
+- **[NFR_CATEGORY_3_CODE]-002:** [NFR_REQUIREMENT_2_DESCRIPTION]
+- **[NFR_CATEGORY_3_CODE]-003:** [NFR_REQUIREMENT_3_DESCRIPTION]
+- **[NFR_CATEGORY_3_CODE]-004:** [NFR_REQUIREMENT_4_DESCRIPTION]
 
 ---
-**Category: Reliability** `NFR-REL`
+**Category: [NFR_CATEGORY_4]** `[NFR_CATEGORY_4_CODE]`
 ---
 
-- **NFR-REL-001:** The system MUST have **99.5%** availability (excluding planned maintenance windows).
-- **NFR-REL-002:** The system MUST implement detailed logging of errors and important events to facilitate diagnosis and debugging.
-- **NFR-REL-003:** The system MUST have monitoring mechanisms to proactively identify failures and performance degradation.
-- **NFR-REL-004:** In case of failure in communication with external APIs (Gemini, Stripe), the system MUST handle the error gracefully, informing the user and allowing retry when applicable.
-- **NFR-REL-005 (Stripe):** Stripe webhook processing MUST be idempotent to avoid duplicate actions in case of resends.
-- **NFR-REL-006:** The system MUST implement backup and disaster recovery strategy.
-  - Daily complete database backups with 30-day retention.
-  - Incremental backups every 6 hours.
-  - Maximum Recovery Time Objective (RTO) of 4 hours.
-  - Maximum Recovery Point Objective (RPO) of 6 hours.
+- **[NFR_CATEGORY_4_CODE]-001:** [NFR_REQUIREMENT_1_DESCRIPTION]
+- **[NFR_CATEGORY_4_CODE]-002:** [NFR_REQUIREMENT_2_DESCRIPTION]
+- **[NFR_CATEGORY_4_CODE]-003:** [NFR_REQUIREMENT_3_DESCRIPTION]
+- **[NFR_CATEGORY_4_CODE]-004:** [NFR_REQUIREMENT_4_DESCRIPTION]
+- **[NFR_CATEGORY_4_CODE]-005:** [NFR_REQUIREMENT_5_DESCRIPTION]
 
 ---
 **Category: Maintainability** `NFR-MAINT`
@@ -483,104 +475,86 @@ The following requirement IDs are prefixed with `FR-[MODULE]-[NUMBER]`. Process 
 
 ### 5.1. External Interface Requirements
 
-- **REF-EXT-001:** Integration with Google Gemini API (Pro and Flash) for AI functionalities.
-- **REF-EXT-002:** Integration with Supabase for authentication, database (PostgreSQL) and file storage (Storage).
-- **REF-EXT-003:** Integration with Stripe for payment processing and subscription management.
+- **REF-EXT-001:** Integration with [EXTERNAL_SERVICE_1] for [INTEGRATION_PURPOSE_1].
+- **REF-EXT-002:** Integration with [EXTERNAL_SERVICE_2] for [INTEGRATION_PURPOSE_2].
+- **REF-EXT-003:** Integration with [EXTERNAL_SERVICE_3] for [INTEGRATION_PURPOSE_3].
 
 ### 5.2. Documentation Requirements
 
-- **REF-DOC-001:** All project documentation (SRS, HLD, LLDs, ADRs, Guides) MUST be maintained in Markdown format in Git repository, following the structure defined in [[MASTER_PLAN_PROJECT]].
-- **REF-DOC-002:** Documentation MUST use internal links to reference other project documents (e.g., [[MASTER_PLAN_PROJECT]]).
-- **REF-DOC-003:** Documentation MUST be considered "living", being continuously updated as the project evolves.
+- **REF-DOC-001:** [DOCUMENTATION_FORMAT_REQUIREMENT]
+- **REF-DOC-002:** [DOCUMENTATION_LINKING_REQUIREMENT]
+- **REF-DOC-003:** [DOCUMENTATION_MAINTENANCE_REQUIREMENT]
 
 ## 6. Success Metrics and KPIs
 
-### 6.1. Product-Market Fit Metrics
+### 6.1. [METRIC_CATEGORY_1]
 
-- **Sean Ellis PMF Score:** Target of 50% (benchmark >40% for PMF)
-- **Day 7 Retention:** Target of 20% (SaaS B2C benchmark: 10-25%)
-- **Day 30 Retention:** Target of 12% (SaaS B2C benchmark: 5-15%)
-- **Month 3 Retention:** Target of 70% (SaaS benchmark: 60-80%)
+- **[METRIC_NAME_1]:** [METRIC_TARGET_1]
+- **[METRIC_NAME_2]:** [METRIC_TARGET_2]
+- **[METRIC_NAME_3]:** [METRIC_TARGET_3]
+- **[METRIC_NAME_4]:** [METRIC_TARGET_4]
 
-### 6.2. Conversion and Monetization Metrics
+### 6.2. [METRIC_CATEGORY_2]
 
-- **Conversion Rate (Visitor → Registration):** Target of 3% Year 1, 4% Year 2
-- **Conversion Rate (Free → Paid):** Target as per freemium benchmarks
-- **Organic Growth Rate:** Target of 25% MoM (benchmark with PMF: >20%)
-- **Monthly Recurring Revenue (MRR):** Progressive growth targets
-- **Customer Acquisition Cost (CAC):** Target < 3x LTV
-- **Lifetime Value (LTV):** Target > $150 for paid users
+- **[METRIC_NAME_1]:** [METRIC_TARGET_1]
+- **[METRIC_NAME_2]:** [METRIC_TARGET_2]
+- **[METRIC_NAME_3]:** [METRIC_TARGET_3]
+- **[METRIC_NAME_4]:** [METRIC_TARGET_4]
+- **[METRIC_NAME_5]:** [METRIC_TARGET_5]
+- **[METRIC_NAME_6]:** [METRIC_TARGET_6]
 
-### 6.3. Product Usage Metrics
+### 6.3. [METRIC_CATEGORY_3]
 
-- **Feature Adoption Rate:** Target >60% for core features
-- **Time to First Value:** Target <10 minutes from registration
-- **Monthly Active Users (MAU):** Growth targets aligned with business plan
-- **Session Duration:** Target >15 minutes for engaged users
+- **[METRIC_NAME_1]:** [METRIC_TARGET_1]
+- **[METRIC_NAME_2]:** [METRIC_TARGET_2]
+- **[METRIC_NAME_3]:** [METRIC_TARGET_3]
+- **[METRIC_NAME_4]:** [METRIC_TARGET_4]
 
 ## 7. Critical Next Steps for Validation and Risk Mitigation
 
-### 7.1. Technical Validation
+### 7.1. [VALIDATION_CATEGORY_1]
 
-1. **RLS Architecture Validation (FastAPI + Supabase):**
-   - _Action:_ Create functional prototype validating Row-Level Security integration between FastAPI and Supabase, including authentication and authorization flows.
-   - _Mitigated Risk:_ Unexpected complexity or infeasibility of authentication/authorization integration.
+1. **[VALIDATION_STEP_1]:**
+   - _Action:_ [VALIDATION_ACTION_1]
+   - _Mitigated Risk:_ [MITIGATED_RISK_1]
 
-2. **API Cost Estimation (Gemini and Stripe) and Infrastructure (Supabase, Vercel/Render):**
-   - _Action:_ Model usage scenarios (low, medium, high) to estimate monthly costs based on current API and service prices. Validate Freemium model sustainability.
-   - _Mitigated Risk:_ Unfeasible or higher than expected operational costs.
+2. **[VALIDATION_STEP_2]:**
+   - _Action:_ [VALIDATION_ACTION_2]
+   - _Mitigated Risk:_ [MITIGATED_RISK_2]
 
-3. **Product-Market Fit Validation (Prototype and Early Adopters):**
-   - _Action:_ Create navigable prototype of main user journeys and conduct tests with 10-15 early adopters from target audience, measuring Sean Ellis PMF Score and qualitative feedback.
-   - _Mitigated Risk:_ Low adoption or product-market inadequacy.
+3. **[VALIDATION_STEP_3]:**
+   - _Action:_ [VALIDATION_ACTION_3]
+   - _Mitigated Risk:_ [MITIGATED_RISK_3]
 
-4. **PDF Parsing and Semantic Extraction Proof of Concept (PoC):**
-   - _Action:_ Test `pymupdf` and `Tesseract OCR` with variety of resume layouts. Validate LLM (Gemini) capability to correctly categorize resume sections.
-   - _Mitigated Risk:_ Difficulty processing resume format diversity, impacting optimization quality.
+4. **[VALIDATION_STEP_4]:**
+   - _Action:_ [VALIDATION_ACTION_4]
+   - _Mitigated Risk:_ [MITIGATED_RISK_4]
 
-5. **Detailed Data Model Definition in Supabase:**
-   - _Action:_ Based on FRs, detail database schema (tables, columns, relationships, data types, constraints) in Supabase.
-   - _Mitigated Risk:_ Inconsistencies or lack of necessary data for functionalities.
-
----
-
-## Version History
-
-### v1.1 (January 2025) - Intelligent Orchestration and Specialized Intelligence
-
-**Improvements related to intelligent orchestration methodology:**
-- ✅ **"Specialized Intelligence" metrics** added (orchestration efficiency, RAG system quality, satisfaction/productivity)
-- ✅ **Expanded objective criteria** for "Production-Ready" agents in three tiers
-- ✅ **Measurement framework** established for agent quality validation
-- ✅ **Productivity indicators** defined for AI-assisted development
-- ✅ **Methodological alignment** with PROJECT_CHARTER v1.1 and ADVANCED_GUIDE v1.1
-- ✅ **Methodology consolidation** of "Intelligent Orchestration" and "Specialized Intelligence"
-
-### v1.0 (June 2025) - Strategic Alignment and Refined Metrics
-
-- Alignment with PROJECT_CHARTER v1.0 and June-December 2025 timeline
-- Incorporation of metrics based on SaaS B2C market benchmarks
-- Refinement of "integrator and cockpit" vision
-- Detailed specification of KPIs and success metrics
-- Update of non-functional requirements with focus on scalability
-- Integration with [[SUCCESS_METRICS_MARKET_BASE]] v1.0
+5. **[VALIDATION_STEP_5]:**
+   - _Action:_ [VALIDATION_ACTION_5]
+   - _Mitigated Risk:_ [MITIGATED_RISK_5]
 
 ---
 
-## Related Documents
+## 8. Version History
 
-### Management and Strategy
-- <mcfile name="PROJECT_CHARTER.md" path="docs/00_Project_Management/PROJECT_CHARTER.md"></mcfile> - Project Charter
-- <mcfile name="MASTER_PLAN_PROJECT.md" path="docs/01_Central_Guides/MASTER_PLAN_PROJECT.md"></mcfile> - Master Plan and Methodology
-- <mcfile name="ADVANCED_GUIDE.md" path="docs/01_Central_Guides/ADVANCED_GUIDE.md"></mcfile> - Intelligent Orchestration Methodology
-- <mcfile name="KANBAN_Project.md" path="docs/00_Project_Management/KANBAN_Project.md"></mcfile> - Task Management
+| Version | Date | Author | Changes |
+|---------|------|--------|---------|
+| [VERSION_NUMBER] | [DATE] | [AUTHOR_NAME] | [CHANGE_DESCRIPTION] |
+| [VERSION_NUMBER] | [DATE] | [AUTHOR_NAME] | [CHANGE_DESCRIPTION] |
+| [VERSION_NUMBER] | [DATE] | [AUTHOR_NAME] | [CHANGE_DESCRIPTION] |
+| [VERSION_NUMBER] | [DATE] | [AUTHOR_NAME] | [CHANGE_DESCRIPTION] |
 
-### Technical Documents
-- <mcfile name="HLD.md" path="docs/03_Architecture_and_Design/HLD.md"></mcfile> - High-Level Architecture
-- <mcfile name="AI_MENTOR_AGENTS_OVERVIEW.md" path="docs/04_AI_Agents/AI_MENTOR_AGENTS_OVERVIEW.md"></mcfile> - AI Agents Overview
+---
 
-### Agent Profiles
-- <mcfolder name="Profiles" path="docs/04_AI_Agents/Profiles"></mcfolder> - Detailed AI Mentor Agent Profiles
+## 9. Related Documents
+
+- **[[RELATED_DOCUMENT_1]]** - [DOCUMENT_DESCRIPTION_1]
+- **[[RELATED_DOCUMENT_2]]** - [DOCUMENT_DESCRIPTION_2]
+- **[[RELATED_DOCUMENT_3]]** - [DOCUMENT_DESCRIPTION_3]
+- **[[RELATED_DOCUMENT_4]]** - [DOCUMENT_DESCRIPTION_4]
+- **[[RELATED_DOCUMENT_5]]** - [DOCUMENT_DESCRIPTION_5]
+- **[[RELATED_DOCUMENT_6]]** - [DOCUMENT_DESCRIPTION_6]
 
 ---
 

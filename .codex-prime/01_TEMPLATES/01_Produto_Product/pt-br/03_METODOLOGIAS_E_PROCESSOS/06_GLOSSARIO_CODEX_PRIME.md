@@ -1,234 +1,264 @@
 ---
 sticker: lucide//check
 ---
-# GLOSSÁRIO DO PROJETO RECOLOCA. AI
+# GLOSSÁRIO DO PROJETO {NOME_DO_PROJETO}
 
-**Versão:** 1.2 (Orquestração Inteligente e Specialized Intelligence)
-**Data de Criação:** 30 de maio de 2025
-**Data de Última Atualização:** Janeiro de 2025
-**Baseado em:** [[docs/01_Guias_Centrais/PLANO_MESTRE_RECOLOCA_AI.md]] (v 1.5), [[docs/02_Requisitos/ERS.md]] (v 0.5), [[docs/01_Guias_Centrais/GUIA_AVANCADO.md]] (v 2.3)
+**Versão:** {VERSAO_ATUAL} ({TITULO_VERSAO})
+**Data de Criação:** {DATA_CRIACAO}
+**Data de Última Atualização:** {DATA_ULTIMA_ATUALIZACAO}
+**Baseado em:** [[{DOCUMENTO_BASE_1}]] (v {VERSAO_DOC_1}), [[{DOCUMENTO_BASE_2}]] (v {VERSAO_DOC_2}), [[{DOCUMENTO_BASE_3}]] (v {VERSAO_DOC_3})
 ## 1. Introdução
 
-Este glossário define os termos chave, acrônimos e conceitos específicos utilizados no contexto do projeto **Recoloca. Ai** e na metodologia de "Desenvolvimento Solo Ágil Aumentado por IA". O objetivo é promover um entendimento comum e consistente entre o "Maestro" (desenvolvedor solo) e os Agentes de IA Mentores, facilitando a comunicação e a colaboração.
+Este glossário define os termos chave, acrônimos e conceitos específicos utilizados no contexto do projeto **{NOME_DO_PROJETO}** e na metodologia de "{METODOLOGIA_DESENVOLVIMENTO}". O objetivo é promover um entendimento comum e consistente entre o "{PAPEL_LIDER}" ({DESCRICAO_PAPEL_LIDER}) e os {TIPO_AGENTES}, facilitando a comunicação e a colaboração.
 
 Este é um documento vivo e será atualizado continuamente à medida que o projeto evolui e novos termos são introduzidos.
 ## 2. Termos da Metodologia de Desenvolvimento com IA
 
--   **Maestro:**
-    -   **Definição:** O desenvolvedor solo (Bruno S. Rosa) que lidera, orquestra e supervisiona o desenvolvimento do projeto Recoloca. Ai, utilizando Agentes de IA como "Mentores" e assistentes. Atua como o principal tomador de decisões estratégicas, de design e de produto.
-    -   **Referência Principal:** [[docs/01_Guias_Centrais/GUIA_AVANCADO.md]] (v 2.3, Seção 2.2)
+-   **{PAPEL_LIDER}:**
+    -   **Definição:** {DEFINICAO_PAPEL_LIDER} do projeto {NOME_DO_PROJETO}, utilizando {TIPO_AGENTES} como "{FUNCAO_AGENTES}" e assistentes. Atua como o principal tomador de decisões estratégicas, de design e de produto.
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_1}]] (v {VERSAO_REF_1}, Seção {SECAO_REF_1})
 
--   **Agente de IA Mentor (ou Agente Mentor):**
-    -   **Definição:** Um agente de Inteligência Artificial especializado, configurado no Trae IDE, projetado para auxiliar o Maestro em tarefas específicas dentro do ciclo de vida de desenvolvimento de software (SDLC). Cada agente possui uma persona e um conjunto de habilidades definidas.
-    -   **Referência Principal:** [[docs/01_Guias_Centrais/GUIA_AVANCADO.md]] (v 2.3, Seção 4)
+-   **{TIPO_AGENTE_INDIVIDUAL} (ou {NOME_CURTO_AGENTE}):**
+    -   **Definição:** Um agente de Inteligência Artificial especializado, configurado no {FERRAMENTA_IDE}, projetado para auxiliar o {PAPEL_LIDER} em tarefas específicas dentro do {CICLO_DESENVOLVIMENTO}. Cada agente possui uma persona e um conjunto de habilidades definidas.
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_2}]] (v {VERSAO_REF_2}, Seção {SECAO_REF_2})
 
--   **`@AgenteM_Orquestrador` (PM Mentor):**
-    -   **Definição:** O principal Agente de IA Mentor, que atua como um "Product Manager (e Product Owner) Mentor Sênior e Engenheiro de Prompt Especialista". Auxilia o Maestro a refinar o pensamento estratégico de Product Management, validar a estratégia de features, e a formular prompts claros e contextualmente ricos para os outros Agentes Mentores.
-    -   **Referência Principal:** [[docs/01_Guias_Centrais/GUIA_AVANCADO.md]] (v 2.3, Seção 3)
+-   **`{AGENTE_PRINCIPAL}` ({NOME_FUNCAO_PRINCIPAL}):**
+    -   **Definição:** O principal {TIPO_AGENTE_INDIVIDUAL}, que atua como um "{DESCRICAO_FUNCAO_PRINCIPAL}". Auxilia o {PAPEL_LIDER} a {RESPONSABILIDADES_AGENTE_PRINCIPAL}.
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_3}]] (v {VERSAO_REF_3}, Seção {SECAO_REF_3})
 
--   **Desenvolvimento Solo Ágil Aumentado por IA:**
-    -   **Definição:** A metodologia de desenvolvimento adotada para o Recoloca. Ai, onde o desenvolvedor solo ("Maestro") colabora intensivamente com uma orquestra de Agentes de IA Mentores para amplificar suas capacidades e construir o produto.
-    -   **Referência Principal:** [[docs/01_Guias_Centrais/GUIA_AVANCADO.md]] (v 2.3, Seção 2)
+-   **{METODOLOGIA_DESENVOLVIMENTO}:**
+    -   **Definição:** A metodologia de desenvolvimento adotada para o {NOME_DO_PROJETO}, onde o {DESCRICAO_PAPEL_LIDER} ("{PAPEL_LIDER}") colabora intensivamente com uma orquestra de {TIPO_AGENTES} para amplificar suas capacidades e construir o produto.
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_4}]] (v {VERSAO_REF_4}, Seção {SECAO_REF_4})
 
--   **Documentação Viva:**
-    -   **Definição:** O conjunto de documentos do projeto (Plano Mestre, ERS, Guia Avançado, HLD, LLDs, etc.), mantidos no Obsidian, versionados com Git, e continuamente atualizados para refletir o estado atual do projeto. Serve como a principal fonte de verdade e contexto.
-    -   **Referência Principal:** [[docs/01_Guias_Centrais/PLANO_MESTRE_RECOLOCA_AI.md]] (v 1.5, Seção 5.2)
+-   **{CONCEITO_DOCUMENTACAO}:**
+    -   **Definição:** O conjunto de documentos do projeto ({TIPOS_DOCUMENTOS}), mantidos no {FERRAMENTA_DOCUMENTACAO}, versionados com {FERRAMENTA_VERSIONAMENTO}, e continuamente atualizados para refletir o estado atual do projeto. Serve como a principal fonte de verdade e contexto.
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_5}]] (v {VERSAO_REF_5}, Seção {SECAO_REF_5})
 
--   **RAG (Retrieval Augmented Generation):**
-    -   **Definição:** Uma técnica de IA onde um modelo de linguagem amplo (LLM) tem sua capacidade de geração aumentada pela recuperação de informações relevantes de uma base de conhecimento externa (no caso do Recoloca. Ai, a "Documentação Viva" e outros materiais curados). Isso melhora a precisão, reduz alucinações e fornece contexto específico do projeto aos Agentes de IA. No Recoloca. Ai, é implementado com LangChain, FAISS-GPU e o modelo de embedding `BAAI/bge-m3`.
-    -   **Referência Principal:** [[docs/01_Guias_Centrais/GUIA_AVANCADO.md]] (v 2.3, Seção 5.1), [[docs/01_Guias_Centrais/PLANO_MESTRE_RECOLOCA_AI.md]] (v 1.5, Seção 5.1)
+-   **{SIGLA_RAG} ({NOME_COMPLETO_RAG}):**
+    -   **Definição:** Uma técnica de IA onde um modelo de linguagem amplo (LLM) tem sua capacidade de geração aumentada pela recuperação de informações relevantes de uma base de conhecimento externa (no caso do {NOME_DO_PROJETO}, a "{CONCEITO_DOCUMENTACAO}" e outros materiais curados). Isso melhora a precisão, reduz alucinações e fornece contexto específico do projeto aos {TIPO_AGENTES}. No {NOME_DO_PROJETO}, é implementado com {STACK_TECNOLOGICA_RAG}.
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_6}]] (v {VERSAO_REF_6}, Seção {SECAO_REF_6}), [[{DOCUMENTO_REFERENCIA_7}]] (v {VERSAO_REF_7}, Seção {SECAO_REF_7})
 
--   **HITL (Human-in-the-Loop):**
-    -   **Definição:** O processo pelo qual o "Maestro" supervisiona, valida, corrige e refina o output gerado pelos Agentes de IA. É um componente essencial para garantir qualidade, segurança, alinhamento ético e aprendizado contínuo.
-    -   **Referência Principal:** [[docs/01_Guias_Centrais/GUIA_AVANCADO.md]] (v 2.3, Seção 6)
+-   **{SIGLA_HITL} ({NOME_COMPLETO_HITL}):**
+    -   **Definição:** O processo pelo qual o "{PAPEL_LIDER}" supervisiona, valida, corrige e refina o output gerado pelos {TIPO_AGENTES}. É um componente essencial para garantir qualidade, segurança, alinhamento ético e aprendizado contínuo.
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_8}]] (v {VERSAO_REF_8}, Seção {SECAO_REF_8})
 
--   **Engenharia de Prompt:**
+-   **{DISCIPLINA_PROMPT}:**
     -   **Definição:** A arte e ciência de projetar e refinar instruções (prompts) eficazes para guiar os modelos de linguagem ampla (LLMs) a gerar os outputs desejados.
-    -   **Referência Principal:** [[docs/01_Guias_Centrais/PLANO_MESTRE_RECOLOCA_AI.md]] (v 1.5, Seção 7.2), [[docs/01_Guias_Centrais/GUIA_AVANCADO.md]] (v 2.3, Seção 5.4)
-## 3. Termos do Projeto Recoloca. Ai
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_9}]] (v {VERSAO_REF_9}, Seção {SECAO_REF_9}), [[{DOCUMENTO_REFERENCIA_10}]] (v {VERSAO_REF_10}, Seção {SECAO_REF_10})
+## 3. Termos do Projeto [NOME_DO_PROJETO]
 
--   **Recoloca. Ai:**
-    -   **Definição:** O Micro-SaaS que é o objeto deste projeto, focado em auxiliar profissionais brasileiros no processo de recolocação profissional.
-    -   **Referência Principal:** [[docs/01_Guias_Centrais/PLANO_MESTRE_RECOLOCA_AI.md]] (v 1.5, Seção 1.1)
+-   **{NOME_DO_PROJETO}:**
+    -   **Definição:** O produto/serviço que é o objeto deste projeto, focado em {DESCRICAO_DO_PRODUTO}.
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_PROJETO}]] (v {VERSAO_PROJETO}, Seção {SECAO_PROJETO})
 
--   **Cockpit do Candidato:**
-    -   **Definição:** A metáfora central para descrever a proposta de valor do Recoloca. Ai – uma plataforma integrada que dá ao profissional controle e visibilidade sobre seu processo de recolocação.
-    -   **Referência Principal:** [[docs/02_Requisitos/ERS.md]] (v 0.5, Seção 2.1)
+-   **{CONCEITO_PRINCIPAL}:**
+    -   **Definição:** A metáfora central para descrever a proposta de valor do {NOME_DO_PROJETO} – {DESCRICAO_DA_PROPOSTA_DE_VALOR}.
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_CONCEITO}]] (v {VERSAO_CONCEITO}, Seção {SECAO_CONCEITO})
 
--   **Kanban (Recoloca. Ai):**
-    -   **Definição:** A funcionalidade central de gerenciamento visual de candidaturas dentro do Recoloca. Ai, onde os usuários organizam vagas em colunas que representam etapas do processo seletivo.
-    -   **Referência Principal:** [[docs/02_Requisitos/ERS.md]] (v 0.5, RF-KAN)
+-   **{FUNCIONALIDADE_PRINCIPAL}:**
+    -   **Definição:** A funcionalidade central do {NOME_DO_PROJETO}, onde {DESCRICAO_DA_FUNCIONALIDADE}.
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_FUNCIONALIDADE}]] (v {VERSAO_FUNCIONALIDADE}, {REQUISITO_FUNCIONALIDADE})
 
--   **Currículo Base Ativo:**
-    -   **Definição:** A versão principal e validada pelo usuário do seu currículo, armazenada no sistema Recoloca. Ai, que serve como base para as otimizações de IA para vagas específicas. Pode haver um currículo base ativo por idioma suportado.
-    -   **Referência Principal:** [[docs/02_Requisitos/ERS.md]] (v 0.5, RF-CV-002, RF-CV-003)
+-   **{ENTIDADE_PRINCIPAL}:**
+    -   **Definição:** {DESCRICAO_DA_ENTIDADE_PRINCIPAL} armazenada no sistema {NOME_DO_PROJETO}.
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_ENTIDADE}]] (v {VERSAO_ENTIDADE}, {REQUISITO_ENTIDADE})
 
--   **Score de Adequação (IA):**
-    -   **Definição:** Uma pontuação gerada pela IA do Recoloca. Ai que indica o quão bem o "Currículo Base Ativo" do usuário se alinha com a descrição de uma vaga específica.
-    -   **Referência Principal:** [[docs/02_Requisitos/ERS.md]] (v 0.5, RF-CV-003)
+-   **{METRICA_IA}:**
+    -   **Definição:** Uma pontuação gerada pela IA do {NOME_DO_PROJETO} que {DESCRICAO_DA_METRICA}.
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_METRICA}]] (v {VERSAO_METRICA}, {REQUISITO_METRICA})
 
--   **PM Mentor:**
-    -   **Definição:** Um papel estratégico assumido pelo `@AgenteM_Orquestrador`, focado em auxiliar o Maestro a aplicar consistentemente os princípios de Product Management, validar a estratégia de features e garantir o alinhamento com os objetivos do produto.
-    -   **Referência Principal:** [[docs/01_Guias_Centrais/GUIA_AVANCADO.md]] (v 2.3, Seção 3)
+-   **{NOME_FUNCAO_PRINCIPAL}:**
+    -   **Definição:** Um papel estratégico assumido pelo `{AGENTE_PRINCIPAL}`, focado em auxiliar o {PAPEL_LIDER} a aplicar consistentemente os princípios de {DISCIPLINA_GESTAO}, validar a estratégia de features e garantir o alinhamento com os objetivos do produto.
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_11}]] (v {VERSAO_REF_11}, Seção {SECAO_REF_11})
 
--   **Orquestração Inteligente:**
-    -   **Definição:** Metodologia avançada de coordenação e gestão de múltiplos Agentes de IA Mentores, onde o `@AgenteM_Orquestrador` atua como maestro estratégico, otimizando a colaboração entre agentes especializados para maximizar a eficiência e qualidade das entregas do projeto.
-    -   **Referência Principal:** [[docs/01_Guias_Centrais/GUIA_AVANCADO.md]] (v 2.4), [[docs/01_Guias_Centrais/TAP.md]] (v 1.1)
+-   **{CONCEITO_ORQUESTRACAO}:**
+    -   **Definição:** Metodologia avançada de coordenação e gestão de múltiplos {TIPO_AGENTES}, onde o `{AGENTE_PRINCIPAL}` atua como maestro estratégico, otimizando a colaboração entre agentes especializados para maximizar a eficiência e qualidade das entregas do projeto.
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_12}]] (v {VERSAO_REF_12}), [[{DOCUMENTO_REFERENCIA_13}]] (v {VERSAO_REF_13})
 
--   **Specialized Intelligence:**
-    -   **Definição:** Conceito que define a capacidade de cada Agente de IA Mentor de atuar como um especialista de alto nível em sua área específica (UX, Arquitetura, Desenvolvimento, etc.), combinando conhecimento técnico profundo com contexto específico do projeto através do sistema RAG.
-    -   **Referência Principal:** [[docs/01_Guias_Centrais/GUIA_AVANCADO.md]] (v 2.4), [[docs/03_Arquitetura_e_Design/HLD.md]] (v 1.1)
+-   **{CONCEITO_INTELIGENCIA_ESPECIALIZADA}:**
+    -   **Definição:** Conceito que define a capacidade de cada {TIPO_AGENTE_INDIVIDUAL} de atuar como um especialista de alto nível em sua área específica ({DOMINIOS_ESPECIALIZACAO}), combinando conhecimento técnico profundo com contexto específico do projeto através do sistema {SIGLA_RAG}.
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_14}]] (v {VERSAO_REF_14}), [[{DOCUMENTO_REFERENCIA_15}]] (v {VERSAO_REF_15})
 
--   **Agente Production-Ready:**
-    -   **Definição:** Um Agente de IA Mentor que atende aos critérios objetivos de qualidade e performance estabelecidos, incluindo precisão ≥85%, tempo de resposta ≤30s, contextualização adequada via RAG, e autonomia operacional para tarefas de sua especialidade.
-    -   **Referência Principal:** [[docs/04_Agentes_IA/AGENTES_IA_MENTORES_OVERVIEW.md]] (v 3.1), [[docs/03_Arquitetura_e_Design/HLD.md]] (v 1.1)
+-   **{CONCEITO_AGENTE_PRODUCAO}:**
+    -   **Definição:** Um {TIPO_AGENTE_INDIVIDUAL} que atende aos critérios objetivos de qualidade e performance estabelecidos, incluindo precisão ≥{METRICA_PRECISAO}%, tempo de resposta ≤{METRICA_TEMPO}s, contextualização adequada via {SIGLA_RAG}, e autonomia operacional para tarefas de sua especialidade.
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_16}]] (v {VERSAO_REF_16}), [[{DOCUMENTO_REFERENCIA_17}]] (v {VERSAO_REF_17})
 
--   **Métricas de Specialized Intelligence:**
-    -   **Definição:** Conjunto de indicadores quantitativos e qualitativos para medir a eficácia da orquestração de agentes, incluindo: Eficiência de Orquestração (tempo de resolução, taxa de sucesso), Qualidade do Sistema RAG (precisão de recuperação, relevância contextual), e Satisfação/Produtividade (qualidade percebida, redução de retrabalho).
-    -   **Referência Principal:** [[docs/03_Arquitetura_e_Design/HLD.md]] (v 1.1), [[docs/04_Agentes_IA/AGENTES_IA_MENTORES_OVERVIEW.md]] (v 3.1)
+-   **{CONCEITO_METRICAS_INTELIGENCIA}:**
+    -   **Definição:** Conjunto de indicadores quantitativos e qualitativos para medir a eficácia da orquestração de agentes, incluindo: Eficiência de Orquestração (tempo de resolução, taxa de sucesso), Qualidade do Sistema {SIGLA_RAG} (precisão de recuperação, relevância contextual), e Satisfação/Produtividade (qualidade percebida, redução de retrabalho).
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_18}]] (v {VERSAO_REF_18}), [[{DOCUMENTO_REFERENCIA_19}]] (v {VERSAO_REF_19})
 ## 4. Termos Técnicos Gerais e Acrônimos
 
--   **ADR (Architecture Decision Record):**
-    -   **Definição:** Um documento que captura uma decisão arquitetural importante, seu contexto e consequências.
-    -   **Localização:** [[docs/03_Arquitetura_e_Design/02_ADRs/]]
+-   **{SIGLA_ADR} ({NOME_COMPLETO_ADR}):**
+    -   **Definição:** {DEFINICAO_ADR}
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_ADR}]] ({TIPO_REFERENCIA_ADR})
 
--   **API (Application Programming Interface):**
-    -   **Definição:** Uma interface que permite que diferentes sistemas de software se comuniquem.
+-   **{SIGLA_API} ({NOME_COMPLETO_API}):**
+    -   **Definição:** {DEFINICAO_API}
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_API}]] (v {VERSAO_REF_API}, Seção {SECAO_REF_API})
 
--   **ATS (Applicant Tracking System):**
-    -   **Definição:** Software usado por empresas para gerenciar o processo de recrutamento e filtrar currículos.
+-   **{SIGLA_ATS} ({NOME_COMPLETO_ATS}):**
+    -   **Definição:** {DEFINICAO_ATS}
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_ATS}]] (v {VERSAO_REF_ATS}, {REQUISITO_ATS})
 
--   **`BAAI/bge-m3`:**
-    -   **Definição:** O modelo de embedding de texto escolhido para o projeto Recoloca. Ai. É um modelo multilíngue de alto desempenho usado para converter texto em vetores numéricos para o sistema RAG.
-    -   **Referência:** [[docs/01_Guias_Centrais/PLANO_MESTRE_RECOLOCA_AI.md]] (v 1.5, Seção 5.1)
+-   **{MODELO_EMBEDDING}:**
+    -   **Definição:** {DEFINICAO_MODELO_EMBEDDING} usado no {NOME_DO_PROJETO} para {FUNCIONALIDADE_EMBEDDING}.
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_EMBEDDING}]] (v {VERSAO_REF_EMBEDDING}, Seção {SECAO_REF_EMBEDDING})
 
--   **BaaS (Backend as a Service):**
-    -   **Definição:** Um modelo de serviço em nuvem que fornece aos desenvolvedores uma forma de conectar suas aplicações web e mobile a um backend na nuvem, gerenciando infraestrutura, bancos de dados, autenticação, etc. (Ex: Supabase).
+-   **{SIGLA_BAAS} ({NOME_COMPLETO_BAAS}):**
+    -   **Definição:** {DEFINICAO_BAAS}
 
--   **Chunking:**
-    -   **Definição:** No contexto de RAG, é o processo de dividir documentos longos em pedaços menores (chunks) de texto. Isso é feito para que os embeddings possam ser gerados para cada chunk e para que apenas os chunks mais relevantes sejam passados para o LLM, respeitando os limites de contexto do modelo.
+-   **{CONCEITO_CHUNKING}:**
+    -   **Definição:** {DEFINICAO_CHUNKING}
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_CHUNKING}]] (v {VERSAO_REF_CHUNKING}, Seção {SECAO_REF_CHUNKING})
 
--   **CI/CD (Continuous Integration/Continuous Deployment ou Delivery):**
-    -   **Definição:** Práticas de DevOps para automatizar a construção, teste e deploy de software.
+-   **{SIGLA_CICD} ({NOME_COMPLETO_CICD}):**
+    -   **Definição:** {DEFINICAO_CICD}
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_CICD}]] (v {VERSAO_REF_CICD}, Seção {SECAO_REF_CICD})
 
--   **Conda:**
-    -   **Definição:** Um sistema de gerenciamento de pacotes e ambientes de código aberto e multiplataforma. Utilizado no Recoloca. Ai para criar e gerenciar o ambiente Python e suas dependências complexas, como PyTorch com CUDA e FAISS-GPU.
+-   **{FERRAMENTA_CONDA}:**
+    -   **Definição:** {DEFINICAO_CONDA}
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_CONDA}]] (v {VERSAO_REF_CONDA})
 
--   **CUDA Toolkit:**
-    -   **Definição:** Uma plataforma de computação paralela e modelo de programação criado pela NVIDIA. Permite que desenvolvedores usem GPUs NVIDIA para computação de propósito geral (GPGPU). Necessário para FAISS-GPU.
+-   **{FERRAMENTA_CUDA}:**
+    -   **Definição:** {DEFINICAO_CUDA}
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_CUDA}]] (v {VERSAO_REF_CUDA})
 
--   **cuDNN (CUDA Deep Neural Network library):**
-    -   **Definição:** Uma biblioteca da NVIDIA que fornece primitivas aceleradas por GPU para redes neurais profundas. É uma dependência para frameworks de deep learning como o PyTorch ao rodar em GPUs NVIDIA.
+-   **{FERRAMENTA_CUDNN}:**
+    -   **Definição:** {DEFINICAO_CUDNN}
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_CUDNN}]] (v {VERSAO_REF_CUDNN})
 
--   **Embedding:**
-    -   **Definição:** Uma representação vetorial de baixa dimensionalidade de dados de alta dimensionalidade, como texto. No RAG, embeddings são usados para representar semanticamente o texto dos documentos e das consultas dos usuários, permitindo a busca por similaridade.
+-   **{CONCEITO_EMBEDDING}:**
+    -   **Definição:** {DEFINICAO_EMBEDDING}
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_EMBEDDING_2}]] (v {VERSAO_REF_EMBEDDING_2}, Seção {SECAO_REF_EMBEDDING_2})
 
--   **`environment.yml`:**
-    -   **Definição:** Um arquivo de configuração usado pelo Conda para definir e recriar um ambiente Conda específico, listando os pacotes, suas versões e os canais de origem. Essencial para a reprodutibilidade do ambiente de desenvolvimento do Recoloca. Ai.
-    -   **Localização:** [[rag_infra/environment.yml]] (proposta)
+-   **{ARQUIVO_AMBIENTE}:**
+    -   **Definição:** {DEFINICAO_ARQUIVO_AMBIENTE} No {NOME_DO_PROJETO}, inclui {DEPENDENCIAS_PRINCIPAIS}.
+    -   **Referência Principal:** [[{ARQUIVO_AMBIENTE}]] (Arquivo raiz)
 
--   **ERS (Especificação de Requisitos de Software):**
-    -   **Definição:** Documento que descreve o que o software deve fazer (requisitos funcionais) e quão bem (requisitos não funcionais). No projeto, é o [[docs/02_Requisitos/ERS.md]].
+-   **{SIGLA_ERS} ({NOME_COMPLETO_ERS}):**
+    -   **Definição:** {DEFINICAO_ERS}
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_ERS}]] (v {VERSAO_REF_ERS})
 
--   **FAISS-GPU (Facebook AI Similarity Search - GPU version):**
-    -   **Definição:** Uma biblioteca para busca eficiente de similaridade e agrupamento de vetores densos, otimizada para rodar em GPUs NVIDIA (via CUDA). Usada no Recoloca. Ai para o Vector Store do sistema RAG.
+-   **{FERRAMENTA_VECTOR_STORE}:**
+    -   **Definição:** {DEFINICAO_VECTOR_STORE} Usado no {NOME_DO_PROJETO} para {FUNCIONALIDADE_VECTOR_STORE}.
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_VECTOR_STORE}]] (v {VERSAO_REF_VECTOR_STORE}, Seção {SECAO_REF_VECTOR_STORE})
 
--   **HLD (High-Level Design):**
-    -   **Definição:** Documento que descreve a arquitetura de alto nível do sistema, seus principais componentes e suas interações. No projeto, é o [[docs/03_Arquitetura_e_Design/HLD.md]].
+-   **{SIGLA_HLD} ({NOME_COMPLETO_HLD}):**
+    -   **Definição:** {DEFINICAO_HLD}
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_HLD}]] (v {VERSAO_REF_HLD})
 
--   **HU/AC (História de Usuário / Critérios de Aceite):**
-    -   **Definição:** Artefatos ágeis para descrever funcionalidades da perspectiva do usuário e definir as condições para sua aceitação.
-    -   **Localização:** [[docs/02_Requisitos/HU_AC/]]
+-   **{SIGLA_HU_AC} ({NOME_COMPLETO_HU_AC}):**
+    -   **Definição:** {DEFINICAO_HU_AC}
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_HU_AC}]] (v {VERSAO_REF_HU_AC})
 
--   **JWT (JSON Web Token):**
-    -   **Definição:** Um padrão aberto para criar tokens de acesso que afirmam um certo número de claims. Usado para autenticação.
+-   **{SIGLA_JWT} ({NOME_COMPLETO_JWT}):**
+    -   **Definição:** {DEFINICAO_JWT}
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_JWT}]] (v {VERSAO_REF_JWT}, Seção {SECAO_REF_JWT})
 
--   **LangChain:**
-    -   **Definição:** Um framework para desenvolver aplicações alimentadas por modelos de linguagem. Usado no Recoloca. Ai para orquestrar o sistema RAG e potencialmente para os Agentes de IA.
+-   **{FRAMEWORK_LANGCHAIN}:**
+    -   **Definição:** {DEFINICAO_LANGCHAIN} No {NOME_DO_PROJETO}, é usado para {FUNCIONALIDADE_LANGCHAIN}.
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_LANGCHAIN}]] (v {VERSAO_REF_LANGCHAIN}, Seção {SECAO_REF_LANGCHAIN})
 
--   **LGPD (Lei Geral de Proteção de Dados Pessoais):**
-    -   **Definição:** A legislação brasileira de proteção de dados.
+-   **{SIGLA_LGPD} ({NOME_COMPLETO_LGPD}):**
+    -   **Definição:** {DEFINICAO_LGPD}
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_LGPD}]] (v {VERSAO_REF_LGPD})
 
--   **LLD (Low-Level Design):**
-    -   **Definição:** Documento que detalha o design interno de componentes específicos do software.
-    -   **Localização:** [[docs/03_Arquitetura_e_Design/03_LLDs/]]
+-   **{SIGLA_LLD} ({NOME_COMPLETO_LLD}):**
+    -   **Definição:** {DEFINICAO_LLD}
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_LLD}]] (v {VERSAO_REF_LLD})
 
--   **LLM (Large Language Model):**
-    -   **Definição:** Um modelo de IA treinado em grandes quantidades de texto, capaz de entender e gerar linguagem humana (Ex: Google Gemini).
+-   **{SIGLA_LLM} ({NOME_COMPLETO_LLM}):**
+    -   **Definição:** {DEFINICAO_LLM}
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_LLM}]] (v {VERSAO_REF_LLM}, Seção {SECAO_REF_LLM})
 
--   **MVP (Minimum Viable Product / Produto Mínimo Viável):**
-    -   **Definição:** A versão de um novo produto que permite a uma equipe coletar a quantidade máxima de aprendizado validado sobre os clientes com o mínimo esforço.
+-   **{SIGLA_MVP} ({NOME_COMPLETO_MVP}):**
+    -   **Definição:** {DEFINICAO_MVP}
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_MVP}]] (v {VERSAO_REF_MVP})
 
--   **NVIDIA Drivers:**
-    -   **Definição:** Software que permite ao sistema operacional comunicar-se com a GPU NVIDIA. São um pré-requisito para usar CUDA e, consequentemente, FAISS-GPU e PyTorch com aceleração de GPU.
+-   **{DRIVERS_GPU}:**
+    -   **Definição:** {DEFINICAO_DRIVERS_GPU} Essenciais para o funcionamento do {FERRAMENTA_VECTOR_STORE} no {NOME_DO_PROJETO}.
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_DRIVERS_GPU}]] (v {VERSAO_REF_DRIVERS_GPU})
 
--   **OpenRouter:**
-    -   **Definição:** Um gateway que permite acesso a múltiplos modelos de LLM de diferentes provedores através de uma API unificada.
+-   **{SERVICO_LLM_API}:**
+    -   **Definição:** {DEFINICAO_SERVICO_LLM_API} Usado no {NOME_DO_PROJETO} para {FUNCIONALIDADE_SERVICO_LLM_API}.
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_SERVICO_LLM_API}]] (v {VERSAO_REF_SERVICO_LLM_API}, Seção {SECAO_REF_SERVICO_LLM_API})
 
--   **PyMuPDF (fitz):**
-    -   **Definição:** Uma biblioteca Python para acessar e manipular arquivos PDF. Usada no Recoloca. Ai para extrair texto de currículos em PDF para o sistema RAG e para a funcionalidade de otimização de CV.
+-   **{BIBLIOTECA_PDF}:**
+    -   **Definição:** {DEFINICAO_BIBLIOTECA_PDF} No {NOME_DO_PROJETO}, é usada para {FUNCIONALIDADE_BIBLIOTECA_PDF}.
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_BIBLIOTECA_PDF}]] (v {VERSAO_REF_BIBLIOTECA_PDF}, Seção {SECAO_REF_BIBLIOTECA_PDF})
 
--   **PWA (Progressive Web Application):**
-    -   **Definição:** Uma aplicação web que utiliza tecnologias web modernas para oferecer uma experiência de usuário similar a de um aplicativo nativo.
+-   **{SIGLA_PWA} ({NOME_COMPLETO_PWA}):**
+    -   **Definição:** {DEFINICAO_PWA}
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_PWA}]] (v {VERSAO_REF_PWA}, Seção {SECAO_REF_PWA})
 
--   **RLS (Row-Level Security):**
-    -   **Definição:** Uma funcionalidade de banco de dados (como no PostgreSQL/Supabase) que permite controlar o acesso a linhas específicas em uma tabela com base nas características do usuário que está fazendo a consulta.
+-   **{SIGLA_RLS} ({NOME_COMPLETO_RLS}):**
+    -   **Definição:** {DEFINICAO_RLS}
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_RLS}]] (v {VERSAO_REF_RLS}, Seção {SECAO_REF_RLS})
 
--   **SaaS (Software as a Service):**
-    -   **Definição:** Um modelo de licenciamento e entrega de software no qual o software é licenciado por assinatura e hospedado centralmente.
+-   **{SIGLA_SAAS} ({NOME_COMPLETO_SAAS}):**
+    -   **Definição:** {DEFINICAO_SAAS}
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_SAAS}]] (v {VERSAO_REF_SAAS})
 
--   **SDLC (Software Development Life Cycle):**
-    -   **Definição:** O processo de planejamento, criação, teste e deploy de um sistema de informação.
+-   **{SIGLA_SDLC} ({NOME_COMPLETO_SDLC}):**
+    -   **Definição:** {DEFINICAO_SDLC}
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_SDLC}]] (v {VERSAO_REF_SDLC})
 
--   **Sentence Transformers:**
-    -   **Definição:** Uma biblioteca Python que fornece uma maneira fácil de calcular embeddings para sentenças, parágrafos e imagens. Usada no Recoloca. Ai para carregar e utilizar o modelo `BAAI/bge-m3`.
+-   **{BIBLIOTECA_EMBEDDINGS}:**
+    -   **Definição:** {DEFINICAO_BIBLIOTECA_EMBEDDINGS} No {NOME_DO_PROJETO}, é usada para {FUNCIONALIDADE_BIBLIOTECA_EMBEDDINGS}.
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_BIBLIOTECA_EMBEDDINGS}]] (v {VERSAO_REF_BIBLIOTECA_EMBEDDINGS}, Seção {SECAO_REF_BIBLIOTECA_EMBEDDINGS})
 
--   **Trae IDE:**
-    -   **Definição:** O Ambiente de Desenvolvimento Integrado com IA que será utilizado pelo Maestro para codificar e interagir com os Agentes de IA Mentores.
+-   **{IDE_PRINCIPAL}:**
+    -   **Definição:** {DEFINICAO_IDE_PRINCIPAL}
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_IDE_PRINCIPAL}]] (v {VERSAO_REF_IDE_PRINCIPAL})
 
--   **`unstructured`:**
-    -   **Definição:** Uma biblioteca Python para pré-processar texto e extrair dados de diversos tipos de arquivos não estruturados (como Markdown, HTML, PDF, etc.), preparando-os para ingestão em sistemas de IA como RAG.
+-   **{BIBLIOTECA_PROCESSAMENTO_DOCS}:**
+    -   **Definição:** {DEFINICAO_BIBLIOTECA_PROCESSAMENTO_DOCS} No {NOME_DO_PROJETO}, é usada para {FUNCIONALIDADE_BIBLIOTECA_PROCESSAMENTO_DOCS}.
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_BIBLIOTECA_PROCESSAMENTO_DOCS}]] (v {VERSAO_REF_BIBLIOTECA_PROCESSAMENTO_DOCS}, Seção {SECAO_REF_BIBLIOTECA_PROCESSAMENTO_DOCS})
 
--   **UVP (Unique Value Proposition / Proposta Única de Valor):**
-    -   **Definição:** Uma declaração clara que descreve o benefício de sua oferta, como você resolve as necessidades do seu cliente e o que o distingue da concorrência.
+-   **{SIGLA_UVP} ({NOME_COMPLETO_UVP}):**
+    -   **Definição:** {DEFINICAO_UVP}
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_UVP}]] (v {VERSAO_REF_UVP})
 
--   **UX (User Experience / Experiência do Usuário):**
-    -   **Definição:** As percepções e respostas de uma pessoa que resultam do uso ou da antecipação do uso de um produto, sistema ou serviço.
+-   **{SIGLA_UX} ({NOME_COMPLETO_UX}):**
+    -   **Definição:** {DEFINICAO_UX}
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_UX}]] (v {VERSAO_REF_UX})
 
--   **UI (User Interface / Interface do Usuário):**
-    -   **Definição:** O meio pelo qual um usuário interage com uma máquina, sistema ou aplicação.
+-   **{SIGLA_UI} ({NOME_COMPLETO_UI}):**
+    -   **Definição:** {DEFINICAO_UI}
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_UI}]] (v {VERSAO_REF_UI})
 
--   **Vector Store (Banco de Dados Vetorial):**
-    -   **Definição:** Um tipo de banco de dados otimizado para armazenar e buscar vetores de embeddings. No Recoloca. Ai, o FAISS-GPU é a implementação inicial do Vector Store.
+-   **{CONCEITO_VECTOR_STORE}:**
+    -   **Definição:** {DEFINICAO_VECTOR_STORE_2} No {NOME_DO_PROJETO}, implementado com {FERRAMENTA_VECTOR_STORE}.
+    -   **Referência Principal:** [[{DOCUMENTO_REFERENCIA_VECTOR_STORE_2}]] (v {VERSAO_REF_VECTOR_STORE_2}, Seção {SECAO_REF_VECTOR_STORE_2})
 
 ## 5. Histórico de Versões
 
-### v1.2 (Janeiro 2025) - Orquestração Inteligente e Specialized Intelligence
-- **Adição de Novos Termos:** Orquestração Inteligente, Specialized Intelligence, Agente Production-Ready, Métricas de Specialized Intelligence
-- **Atualização de Referências:** Alinhamento com versões atualizadas dos documentos centrais (TAP v1.1, GUIA_AVANCADO v2.4, HLD v1.1, AGENTES_IA_MENTORES_OVERVIEW v3.1)
-- **Consolidação Metodológica:** Integração dos conceitos avançados de orquestração de agentes e métricas de qualidade
-- **Expansão Conceitual:** Definições detalhadas dos critérios objetivos para agentes "Production-Ready"
+### v{VERSAO_ATUAL} ({DATA_VERSAO_ATUAL}) - {TITULO_VERSAO_ATUAL}
+- **{CATEGORIA_MUDANCAS_1}:** {DESCRICAO_MUDANCAS_1}
+- **{CATEGORIA_MUDANCAS_2}:** {DESCRICAO_MUDANCAS_2}
+- **{CATEGORIA_MUDANCAS_3}:** {DESCRICAO_MUDANCAS_3}
+- **{CATEGORIA_MUDANCAS_4}:** {DESCRICAO_MUDANCAS_4}
 
-### v1.1 (Junho 2025)
-- Versão inicial do glossário
-- Definições básicas dos termos da metodologia e do projeto
-- Estruturação das seções principais
+### v{VERSAO_ANTERIOR} ({DATA_VERSAO_ANTERIOR})
+- {DESCRICAO_VERSAO_ANTERIOR_1}
+- {DESCRICAO_VERSAO_ANTERIOR_2}
+- {DESCRICAO_VERSAO_ANTERIOR_3}
 
 ## 6. Documentos Relacionados
 
 ### Documentos de Gestão
-- [[docs/01_Guias_Centrais/TAP.md]] (v1.1) - Termo de Abertura do Projeto
-- [[docs/01_Guias_Centrais/PLANO_MESTRE_RECOLOCA_AI.md]] (v1.5) - Plano Mestre
-- [[docs/01_Guias_Centrais/GUIA_AVANCADO.md]] (v2.4) - Metodologia Avançada
-- [[docs/00_Gerenciamento_Projeto/KANBAN_Recoloca_AI.md]] - Gestão de Tarefas
+- [[{DOCUMENTO_GESTAO_1}]] (v{VERSAO_GESTAO_1}) - {DESCRICAO_GESTAO_1}
+- [[{DOCUMENTO_GESTAO_2}]] (v{VERSAO_GESTAO_2}) - {DESCRICAO_GESTAO_2}
+- [[{DOCUMENTO_GESTAO_3}]] (v{VERSAO_GESTAO_3}) - {DESCRICAO_GESTAO_3}
+- [[{DOCUMENTO_GESTAO_4}]] - {DESCRICAO_GESTAO_4}
 
 ### Documentos Técnicos
-- [[docs/02_Requisitos/ERS.md]] (v0.5) - Especificação de Requisitos
-- [[docs/03_Arquitetura_e_Design/HLD.md]] (v1.1) - Arquitetura de Alto Nível
-- [[docs/04_Agentes_IA/AGENTES_IA_MENTORES_OVERVIEW.md]] (v3.1) - Visão Geral dos Agentes
+- [[{DOCUMENTO_TECNICO_1}]] (v{VERSAO_TECNICO_1}) - {DESCRICAO_TECNICO_1}
+- [[{DOCUMENTO_TECNICO_2}]] (v{VERSAO_TECNICO_2}) - {DESCRICAO_TECNICO_2}
+- [[{DOCUMENTO_TECNICO_3}]] (v{VERSAO_TECNICO_3}) - {DESCRICAO_TECNICO_3}
 
 ### Perfis de Agentes
-- [[docs/04_Agentes_IA/Perfis/]] - Perfis detalhados de cada Agente de IA Mentor
+- [[{PASTA_PERFIS_AGENTES}]] - {DESCRICAO_PERFIS_AGENTES}
 
 ---
 

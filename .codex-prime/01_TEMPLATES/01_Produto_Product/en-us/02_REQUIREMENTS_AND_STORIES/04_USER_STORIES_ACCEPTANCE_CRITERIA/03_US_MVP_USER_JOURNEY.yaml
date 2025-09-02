@@ -1,13 +1,13 @@
-doc_id: PROD_REQ_006
-title: User Stories for MVP User Journey
+doc_id: [DOC_ID]
+title: User Stories for [MVP_SCOPE] User Journey
 description: >
-  Set of User Stories that compose the Minimum Viable Product (MVP) scope
+  Set of User Stories that compose the [MVP_SCOPE] scope
   for implementing the main user journey.
 type: Specification
-status: In Development
-owner: Product_Manager
+status: [STATUS]
+owner: [OWNER_ROLE]
 tags:
-  - mvp
+  - [SCOPE_TAG]
   - user story
   - user journey
   - scope

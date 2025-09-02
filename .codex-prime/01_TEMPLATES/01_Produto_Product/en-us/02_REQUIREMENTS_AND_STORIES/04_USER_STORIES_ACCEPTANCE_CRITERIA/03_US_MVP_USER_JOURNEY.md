@@ -1,33 +1,33 @@
 ---
 title: User Story: Complete MVP Journey - Wizard-Style
 version: 1.0
-date: 2025-06-06
-author: Maestro
+date: [CREATION_DATE]
+author: [AUTHOR_NAME]
 description: Document that defines the complete user journey in the [PROJECT_NAME] MVP, with wizard-style approach and focus on [FOCUS_PLATFORM].
 metadata:
   type: user-story
   category: requirements
   language: en-us
-  status: active
+  status: [STATUS]
   references:
     - link: internal
-      description: 01_MASTER_PLAN_RECOLOCA_AI.md
+      description: [MASTER_PLAN_REFERENCE]
     - link: internal
-      description: 01_SRS_PRODUCT_REQUIREMENTS.md
+      description: [SRS_REFERENCE]
     - link: internal
-      description: EST-DEV-001
+      description: [TASK_REFERENCE]
 ---
 
 # User Story: Complete MVP Journey - Wizard-Style
 
-**Version**: 1.0  
-**Creation Date**: June 6, 2025  
-**Based on**: [[docs/01_Central_Guides/01_MASTER_PLAN_RECOLOCA_AI.md]] (v1.5), [[docs/02_Requirements/01_SRS.md]] (v0.5)  
-**Strategic Context**: Task [EST-DEV-001] - Feature Prioritization and Sequencing Definition for MVP
+**Version**: [VERSION]  
+**Creation Date**: [CREATION_DATE]  
+**Based on**: [REFERENCE_DOCUMENTS]  
+**Strategic Context**: [STRATEGIC_CONTEXT]
 
 ## 📋 Executive Summary
 
-This document defines the **complete user journey** in [PROJECT_NAME] MVP, using a **wizard-style** approach with initial focus on **[FOCUS_PLATFORM]**. The journey is structured in **micro-value cycles** that guide the user from first access to the **"AHA! Moment"** - [AHA_MOMENT].
+This document defines the **complete user journey** in [PROJECT_NAME] MVP, using a **wizard-style** approach with initial focus on **[FOCUS_PLATFORM]**. The journey is structured in **micro-value cycles** that guide the user from first access to the **"AHA! Moment"** - [AHA_MOMENT_DESCRIPTION].
 
 ### 🎯 Journey Objective
 - **Guide the user** through core functionalities
@@ -43,12 +43,12 @@ This document defines the **complete user journey** in [PROJECT_NAME] MVP, using
 
 ```mermaid
 flowchart TD
-    A["🔐 Access to [PROJECT_NAME]"] --> B["📝 Supabase Registration/Login"]
-    B --> C["📄 Base Resume Upload"]
-    C --> D["🤖 Automatic Parsing (pymupdf + LLM)"]
+    A["🔐 Access to [PROJECT_NAME]"] --> B["📝 [AUTH_SYSTEM] Registration/Login"]
+    B --> C["📄 [INITIAL_DATA] Upload"]
+    C --> D["🤖 Automatic Processing ([PROCESSING_TECH])"]
     D --> E["✅ User Validation"]
     E --> F["👋 Guided Onboarding"]
-    F --> G["📊 Empty Kanban Visualization"]
+    F --> G["📊 [MAIN_INTERFACE] Visualization"]
     G --> H["💡 Visual Tips and Call-to-Action"]
 ```
 
@@ -56,41 +56,41 @@ flowchart TD
 **Value Delivered**: Account created, base resume processed, interface understanding
 
 #### Acceptance Criteria - Micro-Cycle 1:
-- [ ] **AC-MC1-001**: User can register/login via Supabase in less than 2 minutes
-- [ ] **AC-MC1-002**: Resume upload accepts PDF, DOC, DOCX formats (maximum 5MB)
-- [ ] **AC-MC1-003**: Parsing extracts at least: name, email, phone, experiences, education
+- [ ] **AC-MC1-001**: User can register/login via [AUTH_SYSTEM] in less than [TIME_LIMIT] minutes
+- [ ] **AC-MC1-002**: [DATA_TYPE] upload accepts [SUPPORTED_FORMATS] formats (maximum [FILE_SIZE]MB)
+- [ ] **AC-MC1-003**: Processing extracts at least: [REQUIRED_FIELDS]
 - [ ] **AC-MC1-004**: User can edit/correct extracted information before confirming
-- [ ] **AC-MC1-005**: Onboarding presents product value in maximum 3 screens
-- [ ] **AC-MC1-006**: Empty Kanban shows visual tips to add first job
+- [ ] **AC-MC1-005**: Onboarding presents product value in maximum [MAX_SCREENS] screens
+- [ ] **AC-MC1-006**: Empty [MAIN_INTERFACE] shows visual tips to add first [MAIN_ENTITY]
 
 ---
 
-### **Micro-Cycle 2: First Job & AHA! Moment**
+### **Micro-Cycle 2: First [MAIN_ENTITY] & AHA! Moment**
 
 ```mermaid
 flowchart TD
-    A["➕ Add First Job"] --> B["📝 LinkedIn-Focused Form"]
-    B --> C["💾 Job Saved in Kanban"]
-    C --> D["🎯 Trigger: Resume Optimization"]
-    D --> E["🤖 AI Analyzes Job + Base Resume"]
-    E --> F["✨ Optimized Resume Generated"]
+    A["➕ Add First [MAIN_ENTITY]"] --> B["📝 [PLATFORM]-Focused Form"]
+    B --> C["💾 [MAIN_ENTITY] Saved in [MAIN_INTERFACE]"]
+    C --> D["🎯 Trigger: [CORE_FEATURE]"]
+    D --> E["🤖 AI Analyzes [ENTITY] + [BASE_DATA]"]
+    E --> F["✨ [OPTIMIZED_OUTPUT] Generated"]
     F --> G["📋 Changes Presentation"]
     G --> H["💬 AI Coach: Contextual Insights"]
-    H --> I["📥 Optimized Resume Download"]
-    I --> J["📌 Job → 'Applied' Status"]
+    H --> I["📥 [OPTIMIZED_OUTPUT] Download"]
+    I --> J["📌 [MAIN_ENTITY] → '[NEXT_STATUS]' Status"]
 ```
 
-**Estimated Duration**: 5-8 minutes  
-**Value Delivered**: **AHA! MOMENT** - Resume personalized for specific job
+**Estimated Duration**: [DURATION] minutes  
+**Value Delivered**: **AHA! MOMENT** - [AHA_MOMENT_DESCRIPTION]
 
 #### Acceptance Criteria - Micro-Cycle 2:
-- [ ] **AC-MC2-001**: Job form captures: Title, Company, LinkedIn Link, Location, Salary (optional), Description
-- [ ] **AC-MC2-002**: Job is automatically added to "Interested" column in Kanban
-- [ ] **AC-MC2-003**: Resume optimization happens in less than 30 seconds
-- [ ] **AC-MC2-004**: System clearly presents changes made to resume (visual diff)
-- [ ] **AC-MC2-005**: AI Coach provides at least 2 relevant insights about job/optimization
-- [ ] **AC-MC2-006**: Optimized resume maintains professional formatting and is downloadable as PDF
-- [ ] **AC-MC2-007**: User can move job to "Applied" with one click
+- [ ] **AC-MC2-001**: [MAIN_ENTITY] form captures: [REQUIRED_FORM_FIELDS]
+- [ ] **AC-MC2-002**: [MAIN_ENTITY] is automatically added to "[INITIAL_STATUS]" column in [MAIN_INTERFACE]
+- [ ] **AC-MC2-003**: [CORE_FEATURE] happens in less than [PROCESSING_TIME] seconds
+- [ ] **AC-MC2-004**: System clearly presents changes made to [OUTPUT] (visual diff)
+- [ ] **AC-MC2-005**: AI Coach provides at least [MIN_INSIGHTS] relevant insights about [ENTITY]/[PROCESS]
+- [ ] **AC-MC2-006**: [OPTIMIZED_OUTPUT] maintains [QUALITY_STANDARDS] and is downloadable as [OUTPUT_FORMAT]
+- [ ] **AC-MC2-007**: User can move [MAIN_ENTITY] to "[NEXT_STATUS]" with one click
 
 ---
 
@@ -98,11 +98,11 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A["🔄 Kanban Management"] --> B["📱 Drag Between Columns"]
+    A["🔄 [MAIN_INTERFACE] Management"] --> B["📱 Drag Between Columns"]
     B --> C["📈 Status Update"]
     C --> D["💡 Contextual AI Coach"]
     D --> E["📊 Insights by Status"]
-    E --> F["➕ Adding New Jobs"]
+    E --> F["➕ Adding New [MAIN_ENTITY]"]
     F --> G["🔁 Cycle Repeats"]
     G --> H["📈 Pipeline Evolution"]
 ```
@@ -111,11 +111,11 @@ flowchart TD
 **Value Delivered**: Organized tracking, continuous insights, pipeline growth
 
 #### Acceptance Criteria - Micro-Cycle 3:
-- [ ] **AC-MC3-001**: Kanban allows drag-and-drop between columns: "Interested" → "Applied" → "In Process" → "Interview" → "Finished"
-- [ ] **AC-MC3-002**: AI Coach provides contextual messages based on job status
+- [ ] **AC-MC3-001**: [MAIN_INTERFACE] allows drag-and-drop between columns: [STATUS_FLOW]
+- [ ] **AC-MC3-002**: AI Coach provides contextual messages based on [MAIN_ENTITY] status
 - [ ] **AC-MC3-003**: System suggests actions based on time in each status
-- [ ] **AC-MC3-004**: User can add notes/comments to each job
-- [ ] **AC-MC3-005**: Dashboard shows basic metrics: total jobs, response rate, average time per status
+- [ ] **AC-MC3-004**: User can add notes/comments to each [MAIN_ENTITY]
+- [ ] **AC-MC3-005**: Dashboard shows basic metrics: [KEY_METRICS]
 
 ---
 
@@ -125,48 +125,48 @@ flowchart TD
 
 | Feature | User Impact | Dev Effort | Dependencies | Technical Risk | **Total Score** | **Priority** |
 |---|---|---|---|---|---|---|
-| **5. AI Resume Optimization** ⭐ | 5 | 4 | 3 | 3 | **15** | **P0 - CORE** |
-| **6. Basic AI Coach** | 5 | 4 | 4 | 3 | **16** | **P0 - CORE** |
-| **4. Complete Kanban** | 4 | 4 | 3 | 4 | **15** | **P1 - High** |
-| **2. Resume Upload & Parsing** | 4 | 3 | 3 | 3 | **13** | **P1 - High** |
-| **7. Optimized Resume Download** | 4 | 2 | 4 | 2 | **12** | **P2 - Medium** |
-| **1. Supabase Authentication** | 3 | 3 | 2 | 2 | **10** | **P2 - Medium** |
-| **3. Manual Job Form** | 3 | 3 | 2 | 1 | **9** | **P3 - Low** |
+| **[FEATURE_1]** ⭐ | [IMPACT_1] | [EFFORT_1] | [DEPS_1] | [RISK_1] | **[SCORE_1]** | **P0 - CORE** |
+| **[FEATURE_2]** | [IMPACT_2] | [EFFORT_2] | [DEPS_2] | [RISK_2] | **[SCORE_2]** | **P0 - CORE** |
+| **[FEATURE_3]** | [IMPACT_3] | [EFFORT_3] | [DEPS_3] | [RISK_3] | **[SCORE_3]** | **P1 - High** |
+| **[FEATURE_4]** | [IMPACT_4] | [EFFORT_4] | [DEPS_4] | [RISK_4] | **[SCORE_4]** | **P1 - High** |
+| **[FEATURE_5]** | [IMPACT_5] | [EFFORT_5] | [DEPS_5] | [RISK_5] | **[SCORE_5]** | **P2 - Medium** |
+| **[FEATURE_6]** | [IMPACT_6] | [EFFORT_6] | [DEPS_6] | [RISK_6] | **[SCORE_6]** | **P2 - Medium** |
+| **[FEATURE_7]** | [IMPACT_7] | [EFFORT_7] | [DEPS_7] | [RISK_7] | **[SCORE_7]** | **P3 - Low** |
 
 **Note**: Score calculated as: (Impact × 2) + (6 - Effort) + (6 - Dependencies) + (6 - Risk)
 
 ---
 
-## 📱 Interface Specification (LinkedIn-Focused)
+## 📱 Interface Specification ([PLATFORM]-Focused)
 
-### **Job Form - Essential Fields**
+### **[MAIN_ENTITY] Form - Essential Fields**
 
 ```yaml
 Required_Fields:
-  - job_title: string (max 100 chars)
-  - company: string (max 50 chars)
-  - linkedin_link: url (LinkedIn validation)
+  - [FIELD_1]: [TYPE_1] ([VALIDATION_1])
+  - [FIELD_2]: [TYPE_2] ([VALIDATION_2])
+  - [FIELD_3]: [TYPE_3] ([VALIDATION_3])
   
 Optional_Fields:
-  - location: string (max 50 chars)
-  - salary_min: number
-  - salary_max: number
-  - work_mode: enum ["On-site", "Remote", "Hybrid"]
-  - description: text (max 2000 chars)
+  - [OPTIONAL_FIELD_1]: [TYPE_4] ([VALIDATION_4])
+  - [OPTIONAL_FIELD_2]: [TYPE_5]
+  - [OPTIONAL_FIELD_3]: [TYPE_6]
+  - [OPTIONAL_FIELD_4]: [TYPE_7] ([VALIDATION_5])
+  - [OPTIONAL_FIELD_5]: [TYPE_8] ([VALIDATION_6])
   
 Automatic_Fields:
   - date_added: timestamp
-  - initial_status: "Interested"
+  - initial_status: "[INITIAL_STATUS]"
   - user_id: foreign_key
 ```
 
-### **Kanban Columns**
+### **[MAIN_INTERFACE] Columns**
 
-1. **"Interested"** - Identified jobs, not yet applied
-2. **"Applied"** - Application sent, awaiting response
-3. **"In Process"** - Selection process ongoing
-4. **"Interview"** - Interviews scheduled/completed
-5. **"Finished"** - Process concluded (Approved/Rejected)
+1. **"[STATUS_1]"** - [STATUS_1_DESCRIPTION]
+2. **"[STATUS_2]"** - [STATUS_2_DESCRIPTION]
+3. **"[STATUS_3]"** - [STATUS_3_DESCRIPTION]
+4. **"[STATUS_4]"** - [STATUS_4_DESCRIPTION]
+5. **"[STATUS_5]"** - [STATUS_5_DESCRIPTION]
 
 ---
 
@@ -174,48 +174,48 @@ Automatic_Fields:
 
 ### **Contextual Messages by Status**
 
-#### Status: "Interested"
-- *"Great choice! This job seems aligned with your profile. How about optimizing your resume for it?"*
-- *"Tip: Companies on LinkedIn respond 40% more when resumes are personalized for the job."*
+#### Status: "[STATUS_1]"
+- *"[MESSAGE_1A]"*
+- *"[MESSAGE_1B]"*
 
-#### Status: "Applied"
-- *"Application sent! Average response time for similar jobs is 7-10 days."*
-- *"While you wait, how about preparing? Research the company and practice possible questions."*
+#### Status: "[STATUS_2]"
+- *"[MESSAGE_2A]"*
+- *"[MESSAGE_2B]"*
 
-#### Status: "In Process"
-- *"Congratulations! You passed the first phase. This puts you in the top 20% of candidates."*
-- *"Tip: Prepare specific examples using the STAR methodology for next steps."*
+#### Status: "[STATUS_3]"
+- *"[MESSAGE_3A]"*
+- *"[MESSAGE_3B]"*
 
-#### Status: "Interview"
-- *"Moment of truth! Remember: they already liked your profile, now show cultural fit."*
-- *"Checklist: Researched the company? Prepared questions? Tested connection if online?"*
+#### Status: "[STATUS_4]"
+- *"[MESSAGE_4A]"*
+- *"[MESSAGE_4B]"*
 
-#### Status: "Finished"
-- *"Process completed! Regardless of result, each experience is learning."*
-- *"How about adding your impressions about the process? This helps in future applications."*
+#### Status: "[STATUS_5]"
+- *"[MESSAGE_5A]"*
+- *"[MESSAGE_5B]"*
 
 ---
 
 ## 🔄 Data Flow and Integrations
 
-### **Resume Optimization Pipeline**
+### **[CORE_FEATURE] Pipeline**
 
 ```mermaid
 sequenceDiagram
     participant U as User
-    participant F as Frontend Flutter
-    participant B as Backend FastAPI
-    participant S as Supabase
-    participant G as Gemini LLM
+    participant F as Frontend [FRONTEND_TECH]
+    participant B as Backend [BACKEND_TECH]
+    participant S as [DATABASE_SYSTEM]
+    participant G as [AI_SERVICE]
     
-    U->>F: Clicks "Optimize Resume"
-    F->>B: POST /cv/optimize {job_id, cv_id}
-    B->>S: Fetch job and resume data
-    S-->>B: Returns job + structured resume
-    B->>G: Optimization prompt + context
-    G-->>B: Optimized resume + explanations
-    B->>S: Save optimized version
-    B-->>F: Return resume + diff + insights
+    U->>F: Clicks "[ACTION_TRIGGER]"
+    F->>B: POST [API_ENDPOINT] {[REQUEST_PARAMS]}
+    B->>S: Fetch [DATA_ENTITIES]
+    S-->>B: Returns [FETCHED_DATA]
+    B->>G: [PROCESSING_PROMPT] + context
+    G-->>B: [PROCESSED_OUTPUT] + explanations
+    B->>S: Save [RESULT_DATA]
+    B-->>F: Return [RESPONSE_DATA]
     F-->>U: Present result
 ```
 
@@ -226,37 +226,37 @@ sequenceDiagram
 ### **KPIs by Micro-Cycle**
 
 #### Micro-Cycle 1 (Onboarding):
-- **Completion Rate**: > 80% of users complete resume upload
-- **Average Time**: < 5 minutes from registration to Kanban
-- **Parsing Quality**: > 90% accuracy in extracted data
+- **Completion Rate**: > [COMPLETION_TARGET]% of users complete [INITIAL_ACTION]
+- **Average Time**: < [TIME_TARGET] minutes from registration to [MAIN_INTERFACE]
+- **Processing Quality**: > [QUALITY_TARGET]% accuracy in extracted data
 
 #### Micro-Cycle 2 (AHA! Moment):
-- **First Optimization Rate**: > 70% optimize resume on first job
-- **Result Satisfaction**: > 4.0/5.0 in optimization evaluation
-- **Download Rate**: > 85% download optimized resume
+- **First [CORE_FEATURE] Rate**: > [FEATURE_ADOPTION_TARGET]% use [CORE_FEATURE] on first [MAIN_ENTITY]
+- **Result Satisfaction**: > [SATISFACTION_TARGET]/5.0 in [CORE_FEATURE] evaluation
+- **Download Rate**: > [DOWNLOAD_TARGET]% download [OUTPUT_ARTIFACT]
 
 #### Micro-Cycle 3 (Retention):
-- **Jobs per User**: Average > 3 jobs in first month
-- **Usage Frequency**: > 2 sessions per week
-- **Kanban Progression**: > 50% move jobs between statuses
+- **[MAIN_ENTITY] per User**: Average > [ENTITY_TARGET] [MAIN_ENTITY] in first month
+- **Usage Frequency**: > [FREQUENCY_TARGET] sessions per week
+- **[MAIN_INTERFACE] Progression**: > [PROGRESSION_TARGET]% move [MAIN_ENTITY] between statuses
 
 ---
 
 ## 🚀 Implementation Next Steps
 
-### **Phase 1: Foundation (Weeks 1-2)**
-1. **Configure Supabase authentication**
-2. **Implement basic resume upload and parsing**
-3. **Create Kanban structure**
-4. **Develop LinkedIn-focused job form**
+### **Phase 1: Foundation ([PHASE_1_DURATION])**
+1. **Configure [AUTH_SYSTEM] authentication**
+2. **Implement basic [DATA_TYPE] upload and processing**
+3. **Create [MAIN_INTERFACE] structure**
+4. **Develop [PLATFORM]-focused [MAIN_ENTITY] form**
 
-### **Phase 2: Core Value (Weeks 3-4)**
-1. **Integrate Gemini LLM for optimization**
-2. **Implement resume optimization pipeline**
+### **Phase 2: Core Value ([PHASE_2_DURATION])**
+1. **Integrate [AI_SERVICE] for [CORE_FEATURE]**
+2. **Implement [CORE_FEATURE] pipeline**
 3. **Develop basic AI Coach**
-4. **Create resume download system**
+4. **Create [OUTPUT_ARTIFACT] download system**
 
-### **Phase 3: Polish & Launch (Week 5)**
+### **Phase 3: Polish & Launch ([PHASE_3_DURATION])**
 1. **Implement guided onboarding**
 2. **Add metrics and analytics**
 3. **Usability testing**
@@ -266,17 +266,17 @@ sequenceDiagram
 
 ## 📚 Related Documents
 
-- [[docs/01_Central_Guides/01_MASTER_PLAN_RECOLOCA_AI.md]] - Overview and objectives
-- [[docs/02_Requirements/01_SRS.md]] - Requirements specification
-- [[docs/03_Architecture_and_Design/01_HLD.md]] - High-level architecture
-- [[docs/00_Project_Management/KANBAN/]] - Task management
+- [[MASTER_PLAN_DOCUMENT]] - Overview and objectives
+- [[SRS_DOCUMENT]] - Requirements specification
+- [[ARCHITECTURE_DOCUMENT]] - High-level architecture
+- [[PROJECT_MANAGEMENT_DOCS]] - Task management
 
 ---
 
 **Strategic Notes**:
-- Initial focus on **LinkedIn** reduces complexity and improves data quality
+- Initial focus on **[PLATFORM]** reduces complexity and improves data quality
 - **Wizard-style** approach naturally guides user through value flow
-- **"AHA! Moment"** (resume optimization) is strategically positioned in second micro-cycle
+- **"AHA! Moment"** ([AHA_MOMENT_DESCRIPTION]) is strategically positioned in second micro-cycle
 - Each micro-cycle delivers **incremental value** and can be validated independently
 
---- END OF DOCUMENT US_MVP_User_Journey.md (v1.0) ---
+--- END OF DOCUMENT [DOCUMENT_NAME] ([VERSION]) ---

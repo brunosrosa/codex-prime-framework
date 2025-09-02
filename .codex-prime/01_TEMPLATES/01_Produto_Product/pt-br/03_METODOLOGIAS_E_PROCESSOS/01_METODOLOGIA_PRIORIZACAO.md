@@ -3,21 +3,21 @@ sticker: lucide//lightbulb
 ---
 # METODOLOGIA MVP: DESENVOLVIMENTO SOLO AUMENTADO POR IA
 
-**Versão:** 1.1 (Orquestração Inteligente e Specialized Intelligence)  
-**Data de Criação:** 19 de dezembro de 2024  
-**Data de Última Atualização:** Junho de 2025  
-**Status:** MVP - Essenciais  
-**Baseado em:** [[docs/01_Guias_Centrais/GUIA_AVANCADO.md]] (v1.1), [[docs/01_Guias_Centrais/PLANO_MESTRE_RECOLOCA_AI.md]] (v1.1)
+**Versão:** [VERSAO]  
+**Data de Criação:** [DATA_CRIACAO]  
+**Data de Última Atualização:** [DATA_ATUALIZACAO]  
+**Status:** [STATUS]  
+**Baseado em:** [DOCUMENTOS_BASE]
 
 ## Visão Geral
 
 ### O Paradigma
 
-O **"Desenvolvimento Solo Ágil Aumentado por IA"** é uma metodologia onde um desenvolvedor experiente (o "Maestro") orquestra múltiplos **Agentes Mentores de IA** especializados para simular e superar as capacidades de uma equipe tradicional.
+O **"Desenvolvimento Solo Ágil Aumentado por IA"** é uma metodologia onde um desenvolvedor experiente (o "[PAPEL_LIDER]") orquestra múltiplos **Agentes Mentores de IA** especializados para simular e superar as capacidades de uma equipe tradicional.
 
 ### Objetivo Central
 
-Criar um **framework replicável** de trabalho com multi-agentes de IA especializados que possam trabalhar de forma integrada e cada vez mais autônoma.
+Criar um **framework replicável** de trabalho com multi-agentes de IA especializados que possam trabalhar de forma integrada e cada vez mais autônoma para [OBJETIVO_PROJETO].
 
 ## Princípios Fundamentais
 
@@ -29,56 +29,56 @@ Criar um **framework replicável** de trabalho com multi-agentes de IA especiali
 
 ## Papéis Essenciais
 
-### O Maestro
+### O [PAPEL_LIDER]
 - **Visionário Estratégico**: Define objetivos e direção
 - **Arquiteto de Prompts**: Cria instruções para agentes
 - **Curador de Conhecimento**: Mantém documentação viva
 - **Supervisor Adaptativo**: Ajusta nível de supervisão
 - **Integrador Final**: Revisa e valida outputs
 
-### O @AgenteM_Orquestrador (Papel Central)
-- **PM Mentor Sênior** + **Engenheiro de Prompt**
-- Parceiro estratégico principal do Maestro
+### O [AGENTE_ORQUESTRADOR] (Papel Central)
+- **[PAPEL_PRINCIPAL]** + **Engenheiro de Prompt**
+- Parceiro estratégico principal do [PAPEL_LIDER]
 - **Funções**:
   - Análise estratégica via RAG
   - Geração de perguntas esclarecedoras
   - Co-criação de prompts eficazes
-  - Aplicação de frameworks de PM (RICE, MoSCoW)
+  - Aplicação de frameworks de [AREA_CONHECIMENTO] ([FRAMEWORKS_UTILIZADOS])
   - Identificação de "componentes de núcleo"
 
 ## Estratégia de Evolução (3 Fases)
 
-### Fase 1: Estruturação & Validação (Concluída)
-- ✅ Documentação Viva como fonte da verdade
-- ✅ Agentes com personas básicas
-- ✅ Sistema RAG para contexto
-- ✅ MVP com supervisão intensa
-- ✅ Framework RICE implementado
-- ✅ Mapeamento de dependências completo
+### Fase 1: Estruturação & Validação ([STATUS_FASE_1])
+- [STATUS_ITEM] Documentação Viva como fonte da verdade
+- [STATUS_ITEM] Agentes com personas básicas
+- [STATUS_ITEM] Sistema RAG para contexto
+- [STATUS_ITEM] MVP com supervisão intensa
+- [STATUS_ITEM] Framework [FRAMEWORK_PRIORIZACAO] implementado
+- [STATUS_ITEM] Mapeamento de dependências completo
 
-### Fase 2: Especialização & Automação (Em Andamento)
-- ✅ Refinamento de personas e capacidades
-- 🔄 Workflows automatizados
-- 🔄 Redução gradual de supervisão
-- 🔄 Expansão além do MVP
-- 🔄 Integração com MCPs (Context7, filesystem, etc.)
+### Fase 2: Especialização & Automação ([STATUS_FASE_2])
+- [STATUS_ITEM] Refinamento de personas e capacidades
+- [STATUS_ITEM] Workflows automatizados
+- [STATUS_ITEM] Redução gradual de supervisão
+- [STATUS_ITEM] Expansão além do MVP
+- [STATUS_ITEM] Integração com MCPs ([MCPS_UTILIZADOS])
 
-### Fase 3: Supervisão Avançada (Planejada)
-- ⏳ Auto-correção e aprendizado
-- ⏳ Supervisão focada em estratégia
-- ⏳ Otimização contínua
-- ⏳ Replicação para novos projetos
+### Fase 3: Supervisão Avançada ([STATUS_FASE_3])
+- [STATUS_ITEM] Auto-correção e aprendizado
+- [STATUS_ITEM] Supervisão focada em estratégia
+- [STATUS_ITEM] Otimização contínua
+- [STATUS_ITEM] Replicação para novos projetos
 
 ## SDLC Ágil com Agentes
 
-| Fase | Agentes Principais | Maestro |
+| Fase | Agentes Principais | [PAPEL_LIDER] |
 |------|-------------------|----------|
-| **Estratégia** | `@AgenteM_Orquestrador` | Define visão |
-| **Requisitos** | `@AgenteM_Orquestrador` | Valida e refina |
-| **Arquitetura** | `@AgenteM_ArquitetoTI`, `@AgenteMentorAPI` | Revisa decisões |
-| **Desenvolvimento** | `@AgenteMentorDevFastAPI`, `@AgenteMentorDevFlutter` | Integra componentes |
-| **Testes** | `@AgenteMentorQA`, `@AgenteMentorSeguranca` | Executa integração |
-| **Deploy** | `@AgenteM_DevOps` | Supervisiona produção |
+| **Estratégia** | `[AGENTE_ESTRATEGIA]` | Define visão |
+| **Requisitos** | `[AGENTE_REQUISITOS]` | Valida e refina |
+| **Arquitetura** | `[AGENTE_ARQUITETURA]`, `[AGENTE_API]` | Revisa decisões |
+| **Desenvolvimento** | `[AGENTE_DEV_BACKEND]`, `[AGENTE_DEV_FRONTEND]` | Integra componentes |
+| **Testes** | `[AGENTE_QA]`, `[AGENTE_SEGURANCA]` | Executa integração |
+| **Deploy** | `[AGENTE_DEVOPS]` | Supervisiona produção |
 
 ## Critérios de Maturidade dos Agentes
 
@@ -105,22 +105,22 @@ Criar um **framework replicável** de trabalho com multi-agentes de IA especiali
 
 ## Stack Tecnológico RAG
 
-**Status**: Implementado e Operacional (Junho 2025)
+**Status**: [STATUS_RAG]
 
-- **Framework**: LangChain (Python)
-- **Vector Store**: FAISS-GPU (local, CUDA)
-- **Embedding**: `BAAI/bge-m3`
-- **Ambiente**: Conda + Python 3.10
-- **Documentação**: Obsidian + Git + Markdown
-- **Integração**: Sistema RAG ativo com documentação viva
+- **Framework**: [FRAMEWORK_RAG]
+- **Vector Store**: [VECTOR_STORE]
+- **Embedding**: [MODELO_EMBEDDING]
+- **Ambiente**: [AMBIENTE_DESENVOLVIMENTO]
+- **Documentação**: [FERRAMENTAS_DOCUMENTACAO]
+- **Integração**: [DESCRICAO_INTEGRACAO]
 
 ## Ferramentas de Apoio
 
-- **Trae IDE**: Ambiente principal para agentes
-- **OpenRouter**: Gateway para modelos LLM
-- **Obsidian**: Interface para documentação viva
-- **Git**: Versionamento e colaboração
-- **Pipedream**: Workflows automatizados
+- **[IDE_PRINCIPAL]**: Ambiente principal para agentes
+- **[GATEWAY_LLM]**: Gateway para modelos LLM
+- **[FERRAMENTA_DOCUMENTACAO]**: Interface para documentação viva
+- **[CONTROLE_VERSAO]**: Versionamento e colaboração
+- **[FERRAMENTA_WORKFLOW]**: Workflows automatizados
 
 ## Considerações Especiais
 
@@ -175,14 +175,14 @@ Projeto/
 
 ## Próximos Passos
 
-### Para Implementação (Atualizado - Junho 2025)
-1. ✅ **Definir personas** dos agentes principais
-2. ✅ **Criar templates** de prompts básicos
-3. ✅ **Estruturar documentação** viva inicial
-4. ✅ **Configurar RAG** básico
-5. 🔄 **Estabelecer métricas** de qualidade
-6. 🔄 **Implementar desenvolvimento** baseado em priorização RICE
-7. ⏳ **Validar MVP** com usuários reais
+### Para Implementação ([DATA_ATUALIZACAO_IMPLEMENTACAO])
+1. [STATUS_ITEM] **Definir personas** dos agentes principais
+2. [STATUS_ITEM] **Criar templates** de prompts básicos
+3. [STATUS_ITEM] **Estruturar documentação** viva inicial
+4. [STATUS_ITEM] **Configurar RAG** básico
+5. [STATUS_ITEM] **Estabelecer métricas** de qualidade
+6. [STATUS_ITEM] **Implementar desenvolvimento** baseado em priorização [FRAMEWORK_PRIORIZACAO]
+7. [STATUS_ITEM] **Validar MVP** com usuários reais
 
 ### Para Replicação
 1. **Adaptar stack** tecnológico ao contexto
@@ -194,7 +194,7 @@ Projeto/
 
 ---
 
-**Nota**: Este é um documento vivo que evolui com a experiência prática. A verdadeira inovação vem da aplicação, experimentação e refinamento baseado em resultados reais.
+**Nota**: Este é um documento vivo que evolui com a experiência prática. A verdadeira inovação vem da aplicação, experimentação e refinamento baseado em resultados reais do [NOME_DO_PROJETO].
 
 ## Considerações de Orquestração Inteligente
 
@@ -216,29 +216,29 @@ Projeto/
 
 ## Histórico de Versões
 
-### v1.1 (Junho 2025) - Orquestração Inteligente e Specialized Intelligence
-- **Atualização**: Alinhamento com metodologia atual e estado do projeto
-- **Correção**: Versões de documentos base atualizadas (GUIA_AVANCADO v1.1, PLANO_MESTRE v1.1)
-- **Expansão**: Adição de considerações de orquestração inteligente
-- **Status**: Atualização do progresso das fases de evolução
-- **RAG**: Atualização do status para "Implementado e Operacional"
+### v[VERSAO_ATUAL] ([DATA_VERSAO_ATUAL]) - [TITULO_VERSAO_ATUAL]
+- **Atualização**: [DESCRICAO_ATUALIZACAO]
+- **Correção**: [DESCRICAO_CORRECAO]
+- **Expansão**: [DESCRICAO_EXPANSAO]
+- **Status**: [DESCRICAO_STATUS]
+- **RAG**: [DESCRICAO_RAG]
 
-### v1.0 (Dezembro 2024) - Versão Base
-- **Criação**: Metodologia inicial de desenvolvimento solo aumentado por IA
-- **Fundação**: Estabelecimento dos princípios fundamentais
-- **Framework**: Definição da estrutura de 3 fases de evolução
+### v[VERSAO_BASE] ([DATA_VERSAO_BASE]) - Versão Base
+- **Criação**: [DESCRICAO_CRIACAO]
+- **Fundação**: [DESCRICAO_FUNDACAO]
+- **Framework**: [DESCRICAO_FRAMEWORK]
 
 ## Documentos Relacionados
 
 ### Gestão e Estratégia
-- [[docs/01_Guias_Centrais/PLANO_MESTRE_RECOLOCA_AI.md]] (v1.1) - Plano Mestre
-- [[docs/01_Guias_Centrais/GUIA_AVANCADO.md]] (v1.1) - Guia Metodológico
-- [[docs/02_Requisitos/PRIORIZACAO_RICE_RF.md]] (v1.1) - Priorização RICE
+- [[docs/01_Guias_Centrais/PLANO_MESTRE_[NOME_DO_PROJETO].md]] ([VERSAO_DOC]) - Plano Mestre
+- [[docs/01_Guias_Centrais/GUIA_AVANCADO.md]] ([VERSAO_DOC]) - Guia Metodológico
+- [[docs/02_Requisitos/PRIORIZACAO_[FRAMEWORK_PRIORIZACAO]_RF.md]] ([VERSAO_DOC]) - Priorização [FRAMEWORK_PRIORIZACAO]
 
 ### Técnicos
-- [[docs/02_Requisitos/ERS.md]] (v1.1) - Especificação de Requisitos
-- [[docs/03_Arquitetura_e_Design/HLD.md]] (v1.1) - Arquitetura de Alto Nível
-- [[docs/02_Requisitos/MAPEAMENTO_DEPENDENCIAS_RF.md]] (v1.1) - Mapeamento de Dependências
+- [[docs/02_Requisitos/ERS.md]] ([VERSAO_DOC]) - Especificação de Requisitos
+- [[docs/03_Arquitetura_e_Design/HLD.md]] ([VERSAO_DOC]) - Arquitetura de Alto Nível
+- [[docs/02_Requisitos/MAPEAMENTO_DEPENDENCIAS_RF.md]] ([VERSAO_DOC]) - Mapeamento de Dependências
 
 ### Agentes e Prompts
 - [[docs/04_Agentes_IA/AGENTES_IA_MENTORES_OVERVIEW.md]] - Visão Geral dos Agentes

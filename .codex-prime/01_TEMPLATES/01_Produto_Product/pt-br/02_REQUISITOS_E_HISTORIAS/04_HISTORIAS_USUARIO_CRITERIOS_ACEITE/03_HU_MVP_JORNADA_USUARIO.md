@@ -1,33 +1,31 @@
 ---
-title: História de Usuário: Jornada Completa do MVP - Wizard-Style
+title: História de Usuário: Jornada Completa do MVP
 version: 1.0
-date: 2025-06-06
-author: Maestro
-description: Documento que define a jornada completa do usuário no MVP do [NOME_DO_PROJETO], com abordagem wizard-style e foco em [PLATAFORMA_FOCO].
+date: [DATA_CRIACAO]
+author: [NOME_AUTOR]
+description: Template para definição da jornada completa do usuário no MVP do [NOME_DO_PROJETO], com abordagem estruturada e foco em [PLATAFORMA_FOCO].
 metadata:
   type: user-story
   category: requirements
   language: pt-br
-  status: active
+  status: draft
   references:
     - link: internal
-      description: 01_PLANO_MESTRE_RECOLOCA_AI.md
+      description: 01_PLANO_MESTRE_[NOME_DO_PROJETO].md
     - link: internal
       description: 01_ERS_REQUISITOS_PRODUTO.md
-    - link: internal
-      description: EST-DEV-001
 ---
 
-# História de Usuário: Jornada Completa do MVP - Wizard-Style
+# História de Usuário: Jornada Completa do MVP
 
 **Versão**: 1.0  
-**Data de Criação**: 06 de junho de 2025  
-**Baseado em**: [[docs/01_Guias_Centrais/01_PLANO_MESTRE_RECOLOCA_AI.md]] (v1.5), [[docs/02_Requisitos/01_ERS.md]] (v0.5)  
-**Contexto Estratégico**: Tarefa [EST-DEV-001] - Definição de Prioridades e Sequenciamento de Features para o MVP
+**Data de Criação**: [DATA_CRIACAO]  
+**Baseado em**: [DOCUMENTOS_BASE]  
+**Contexto Estratégico**: [CONTEXTO_ESTRATEGICO]
 
 ## 📋 Sumário Executivo
 
-Este documento define a **jornada completa do usuário** no [NOME_DO_PROJETO] MVP, utilizando uma abordagem **wizard-style** com foco inicial no **[PLATAFORMA_FOCO]**. A jornada é estruturada em **micro-ciclos de valor** que conduzem o usuário desde o primeiro acesso até o **"Momento AHA!"** - [MOMENTO_AHA].
+Este documento define a **jornada completa do usuário** no [NOME_DO_PROJETO] MVP, utilizando uma abordagem estruturada com foco inicial no **[PLATAFORMA_FOCO]**. A jornada é estruturada em **micro-ciclos de valor** que conduzem o usuário desde o primeiro acesso até o **"Momento AHA!"** - [MOMENTO_AHA].
 
 ### 🎯 Objetivo da Jornada
 - **Conduzir o usuário** de forma guiada através das funcionalidades core
@@ -39,244 +37,155 @@ Este documento define a **jornada completa do usuário** no [NOME_DO_PROJETO] MV
 
 ## 🗺️ Mapeamento da Jornada Completa
 
-### **Micro-Ciclo 1: Fundação & Onboarding**
+### **Micro-Ciclo 1: [Nome do Primeiro Ciclo]**
 
 ```mermaid
 flowchart TD
-    A["🔐 Acesso ao [NOME_DO_PROJETO]"] --> B["📝 Cadastro/Login Supabase"]
-    B --> C["📄 Upload de CV Base"]
-    C --> D["🤖 Parsing Automático (pymupdf + LLM)"]
-    D --> E["✅ Validação pelo Usuário"]
-    E --> F["👋 Onboarding Guiado"]
-    F --> G["📊 Visualização do Kanban Vazio"]
-    G --> H["💡 Dicas Visuais e Call-to-Action"]
+    A["[Passo 1]"] --> B["[Passo 2]"]
+    B --> C["[Passo 3]"]
+    C --> D["[Passo 4]"]
+    D --> E["[Passo 5]"]
 ```
 
-**Duração Estimada**: 3-5 minutos  
-**Valor Entregue**: Conta criada, CV base processado, entendimento da interface
+**Duração Estimada**: [X-Y minutos]  
+**Valor Entregue**: [Descrição do valor entregue]
 
 #### Critérios de Aceitação - Micro-Ciclo 1:
-- [ ] **AC-MC1-001**: Usuário consegue se cadastrar/logar via Supabase em menos de 2 minutos
-- [ ] **AC-MC1-002**: Upload de CV aceita formatos PDF, DOC, DOCX (máximo 5MB)
-- [ ] **AC-MC1-003**: Parsing extrai pelo menos: nome, email, telefone, experiências, formação
-- [ ] **AC-MC1-004**: Usuário pode editar/corrigir informações extraídas antes de confirmar
-- [ ] **AC-MC1-005**: Onboarding apresenta valor do produto em máximo 3 telas
-- [ ] **AC-MC1-006**: Kanban vazio mostra dicas visuais para adicionar primeira vaga
+- [ ] **AC-MC1-001**: [Critério de aceite 1]
+- [ ] **AC-MC1-002**: [Critério de aceite 2]
+- [ ] **AC-MC1-003**: [Critério de aceite 3]
+- [ ] **AC-MC1-004**: [Critério de aceite 4]
+- [ ] **AC-MC1-005**: [Critério de aceite 5]
 
 ---
 
-### **Micro-Ciclo 2: Primeira Vaga & Momento AHA!**
+### **Micro-Ciclo 2: [Nome do Segundo Ciclo - Momento AHA!]**
 
 ```mermaid
 flowchart TD
-    A["➕ Adicionar Primeira Vaga"] --> B["📝 Formulário LinkedIn-Focused"]
-    B --> C["💾 Vaga Salva no Kanban"]
-    C --> D["🎯 Trigger: Otimização de CV"]
-    D --> E["🤖 IA Analisa Vaga + CV Base"]
-    E --> F["✨ CV Otimizado Gerado"]
-    F --> G["📋 Apresentação das Mudanças"]
-    G --> H["💬 Coach AI: Insights Contextuais"]
-    H --> I["📥 Download CV Otimizado"]
-    I --> J["📌 Vaga → Status 'Aplicado'"]
+    A["[Passo 1]"] --> B["[Passo 2]"]
+    B --> C["[Passo 3]"]
+    C --> D["[Passo 4]"]
+    D --> E["[Passo 5]"]
+    E --> F["[Passo 6]"]
 ```
 
-**Duração Estimada**: 5-8 minutos  
-**Valor Entregue**: **MOMENTO AHA!** - CV personalizado para vaga específica
+**Duração Estimada**: [X-Y minutos]  
+**Valor Entregue**: **MOMENTO AHA!** - [Descrição do momento AHA]
 
 #### Critérios de Aceitação - Micro-Ciclo 2:
-- [ ] **AC-MC2-001**: Formulário de vaga captura: Título, Empresa, Link LinkedIn, Localização, Salário (opcional), Descrição
-- [ ] **AC-MC2-002**: Vaga é automaticamente adicionada na coluna "Interessado" do Kanban
-- [ ] **AC-MC2-003**: Otimização de CV acontece em menos de 30 segundos
-- [ ] **AC-MC2-004**: Sistema apresenta claramente as mudanças feitas no CV (diff visual)
-- [ ] **AC-MC2-005**: Coach AI fornece pelo menos 2 insights relevantes sobre a vaga/otimização
-- [ ] **AC-MC2-006**: CV otimizado mantém formatação profissional e é downloadável em PDF
-- [ ] **AC-MC2-007**: Usuário pode mover vaga para "Aplicado" com um clique
+- [ ] **AC-MC2-001**: [Critério de aceite 1]
+- [ ] **AC-MC2-002**: [Critério de aceite 2]
+- [ ] **AC-MC2-003**: [Critério de aceite 3]
+- [ ] **AC-MC2-004**: [Critério de aceite 4]
+- [ ] **AC-MC2-005**: [Critério de aceite 5]
 
 ---
 
-### **Micro-Ciclo 3: Acompanhamento & Evolução**
+### **Micro-Ciclo 3: [Nome do Terceiro Ciclo]**
 
 ```mermaid
 flowchart TD
-    A["🔄 Gestão no Kanban"] --> B["📱 Arrastar entre Colunas"]
-    B --> C["📈 Atualização de Status"]
-    C --> D["💡 Coach AI Contextual"]
-    D --> E["📊 Insights por Status"]
-    E --> F["➕ Adição de Novas Vagas"]
-    F --> G["🔁 Ciclo se Repete"]
-    G --> H["📈 Evolução do Pipeline"]
+    A["[Passo 1]"] --> B["[Passo 2]"]
+    B --> C["[Passo 3]"]
+    C --> D["[Passo 4]"]
+    D --> E["[Passo 5]"]
 ```
 
-**Duração Estimada**: Contínua  
-**Valor Entregue**: Acompanhamento organizado, insights contínuos, crescimento do pipeline
+**Duração Estimada**: [Contínua/X minutos]  
+**Valor Entregue**: [Descrição do valor entregue]
 
 #### Critérios de Aceitação - Micro-Ciclo 3:
-- [ ] **AC-MC3-001**: Kanban permite drag-and-drop entre colunas: "Interessado" → "Aplicado" → "Em Processo" → "Entrevista" → "Finalizado"
-- [ ] **AC-MC3-002**: Coach AI fornece mensagens contextuais baseadas no status da vaga
-- [ ] **AC-MC3-003**: Sistema sugere ações baseadas no tempo em cada status
-- [ ] **AC-MC3-004**: Usuário pode adicionar notas/comentários em cada vaga
-- [ ] **AC-MC3-005**: Dashboard mostra métricas básicas: total de vagas, taxa de resposta, tempo médio por status
+- [ ] **AC-MC3-001**: [Critério de aceite 1]
+- [ ] **AC-MC3-002**: [Critério de aceite 2]
+- [ ] **AC-MC3-003**: [Critério de aceite 3]
+- [ ] **AC-MC3-004**: [Critério de aceite 4]
+- [ ] **AC-MC3-005**: [Critério de aceite 5]
 
 ---
 
-## 🎯 Funcionalidades Priorizadas (Framework Aplicado)
+## 🎯 Funcionalidades Priorizadas
 
-### **Matriz de Priorização - Resultado da Análise Estratégica**
+### **Matriz de Priorização**
 
 | Funcionalidade | Impacto Usuário | Esforço Dev | Dependências | Risco Técnico | **Score Total** | **Prioridade** |
 |---|---|---|---|---|---|---|
-| **5. Otimização CV com IA** ⭐ | 5 | 4 | 3 | 3 | **15** | **P0 - CORE** |
-| **6. Coach AI Básico** | 5 | 4 | 4 | 3 | **16** | **P0 - CORE** |
-| **4. Kanban Completo** | 4 | 4 | 3 | 4 | **15** | **P1 - Alto** |
-| **2. Upload & Parsing CV** | 4 | 3 | 3 | 3 | **13** | **P1 - Alto** |
-| **7. Download CV Otimizado** | 4 | 2 | 4 | 2 | **12** | **P2 - Médio** |
-| **1. Autenticação Supabase** | 3 | 3 | 2 | 2 | **10** | **P2 - Médio** |
-| **3. Formulário Vaga Manual** | 3 | 3 | 2 | 1 | **9** | **P3 - Baixo** |
+| **[Funcionalidade 1]** | [1-5] | [1-5] | [1-5] | [1-5] | **[Score]** | **P0 - CORE** |
+| **[Funcionalidade 2]** | [1-5] | [1-5] | [1-5] | [1-5] | **[Score]** | **P1 - Alto** |
+| **[Funcionalidade 3]** | [1-5] | [1-5] | [1-5] | [1-5] | **[Score]** | **P2 - Médio** |
+| **[Funcionalidade 4]** | [1-5] | [1-5] | [1-5] | [1-5] | **[Score]** | **P3 - Baixo** |
 
 **Nota**: Score calculado como: (Impacto × 2) + (6 - Esforço) + (6 - Dependências) + (6 - Risco)
 
 ---
 
-## 📱 Especificação da Interface (LinkedIn-Focused)
+## 📱 Especificação da Interface
 
-### **Formulário de Vaga - Campos Essenciais**
+### **[Nome do Componente] - Campos Essenciais**
 
 ```yaml
 Campos_Obrigatorios:
-  - titulo_vaga: string (max 100 chars)
-  - empresa: string (max 50 chars)
-  - link_linkedin: url (validação LinkedIn)
+  - campo1: tipo (validações)
+  - campo2: tipo (validações)
+  - campo3: tipo (validações)
   
 Campos_Opcionais:
-  - localizacao: string (max 50 chars)
-  - salario_min: number
-  - salario_max: number
-  - modalidade: enum ["Presencial", "Remoto", "Híbrido"]
-  - descricao: text (max 2000 chars)
-  
-Campos_Automaticos:
-  - data_adicao: timestamp
-  - status_inicial: "Interessado"
-  - id_usuario: foreign_key
-```
+  - campo4: tipo (validações)
+  - campo5: tipo (validações)
 
-### **Colunas do Kanban**
-
-1. **"Interessado"** - Vagas identificadas, ainda não aplicadas
-2. **"Aplicado"** - Candidatura enviada, aguardando resposta
-3. **"Em Processo"** - Processo seletivo em andamento
-4. **"Entrevista"** - Entrevistas agendadas/realizadas
-5. **"Finalizado"** - Processo concluído (Aprovado/Rejeitado)
-
----
-
-## 🤖 Especificação do Coach AI
-
-### **Mensagens Contextuais por Status**
-
-#### Status: "Interessado"
-- *"Ótima escolha! Esta vaga parece alinhada com seu perfil. Que tal otimizar seu CV para ela?"*
-- *"Dica: Empresas no LinkedIn respondem 40% mais quando o CV é personalizado para a vaga."*
-
-#### Status: "Aplicado"
-- *"Candidatura enviada! O tempo médio de resposta para vagas similares é de 7-10 dias."*
-- *"Enquanto aguarda, que tal se preparar? Pesquise sobre a empresa e pratique possíveis perguntas."*
-
-#### Status: "Em Processo"
-- *"Parabéns! Você passou da primeira fase. Isso coloca você no top 20% dos candidatos."*
-- *"Dica: Prepare exemplos específicos usando a metodologia STAR para as próximas etapas."*
-
-#### Status: "Entrevista"
-- *"Hora da verdade! Lembre-se: eles já gostaram do seu perfil, agora é mostrar fit cultural."*
-- *"Checklist: Pesquisou a empresa? Preparou perguntas? Testou a conexão se for online?"*
-
-#### Status: "Finalizado"
-- *"Processo concluído! Independente do resultado, cada experiência é aprendizado."*
-- *"Que tal adicionar suas impressões sobre o processo? Isso ajuda nas próximas candidaturas."*
-
----
-
-## 🔄 Fluxo de Dados e Integrações
-
-### **Pipeline de Otimização de CV**
-
-```mermaid
-sequenceDiagram
-    participant U as Usuário
-    participant F as Frontend Flutter
-    participant B as Backend FastAPI
-    participant S as Supabase
-    participant G as Gemini LLM
-    
-    U->>F: Clica "Otimizar CV"
-    F->>B: POST /cv/optimize {vaga_id, cv_id}
-    B->>S: Busca dados da vaga e CV
-    S-->>B: Retorna vaga + CV estruturado
-    B->>G: Prompt otimização + contexto
-    G-->>B: CV otimizado + explicações
-    B->>S: Salva versão otimizada
-    B-->>F: Retorna CV + diff + insights
-    F-->>U: Apresenta resultado
+Validacoes:
+  - [Validação 1]
+  - [Validação 2]
+  - [Validação 3]
 ```
 
 ---
 
-## 📊 Métricas de Sucesso da Jornada
+## 📊 Métricas de Sucesso
 
-### **KPIs por Micro-Ciclo**
+### **KPIs Principais**
+- **[Métrica 1]**: [Valor alvo] ([Descrição])
+- **[Métrica 2]**: [Valor alvo] ([Descrição])
+- **[Métrica 3]**: [Valor alvo] ([Descrição])
 
-#### Micro-Ciclo 1 (Onboarding):
-- **Taxa de Conclusão**: > 80% dos usuários completam upload de CV
-- **Tempo Médio**: < 5 minutos do cadastro ao Kanban
-- **Qualidade do Parsing**: > 90% de precisão nos dados extraídos
-
-#### Micro-Ciclo 2 (Momento AHA!):
-- **Taxa de Primeira Otimização**: > 70% otimizam CV na primeira vaga
-- **Satisfação com Resultado**: > 4.0/5.0 na avaliação da otimização
-- **Taxa de Download**: > 85% fazem download do CV otimizado
-
-#### Micro-Ciclo 3 (Retenção):
-- **Vagas por Usuário**: Média > 3 vagas no primeiro mês
-- **Frequência de Uso**: > 2 sessões por semana
-- **Progressão no Kanban**: > 50% movem vagas entre status
+### **Métricas de Engajamento**
+- **[Métrica de Engajamento 1]**: [Valor alvo]
+- **[Métrica de Engajamento 2]**: [Valor alvo]
+- **[Métrica de Engajamento 3]**: [Valor alvo]
 
 ---
 
-## 🚀 Próximos Passos de Implementação
+## 🔄 Próximos Passos
 
-### **Fase 1: Fundação (Semanas 1-2)**
-1. **Configurar autenticação Supabase**
-2. **Implementar upload e parsing básico de CV**
-3. **Criar estrutura do Kanban**
-4. **Desenvolver formulário de vaga LinkedIn-focused**
-
-### **Fase 2: Core Value (Semanas 3-4)**
-1. **Integrar Gemini LLM para otimização**
-2. **Implementar pipeline de otimização de CV**
-3. **Desenvolver Coach AI básico**
-4. **Criar sistema de download de CV**
-
-### **Fase 3: Polish & Launch (Semana 5)**
-1. **Implementar onboarding guiado**
-2. **Adicionar métricas e analytics**
-3. **Testes de usabilidade**
-4. **Deploy e validação com usuários beta**
+1. **[Próximo Passo 1]**: [Descrição e responsável]
+2. **[Próximo Passo 2]**: [Descrição e responsável]
+3. **[Próximo Passo 3]**: [Descrição e responsável]
 
 ---
 
-## 📚 Documentos Relacionados
+## 📚 Glossário
 
-- [[docs/01_Guias_Centrais/01_PLANO_MESTRE_RECOLOCA_AI.md]] - Visão geral e objetivos
-- [[docs/02_Requisitos/01_ERS.md]] - Especificação de requisitos
-- [[docs/03_Arquitetura_e_Design/01_HLD.md]] - Arquitetura de alto nível
-- [[docs/00_Gerenciamento_Projeto/KANBAN/]] - Gestão de tarefas
+- **[Termo 1]**: [Definição]
+- **[Termo 2]**: [Definição]
+- **[Termo 3]**: [Definição]
 
 ---
 
-**Observações Estratégicas**:
-- O foco inicial no **LinkedIn** reduz complexidade e melhora qualidade dos dados
-- A abordagem **wizard-style** guia o usuário naturalmente pelo fluxo de valor
-- O **"Momento AHA!"** (otimização de CV) é posicionado estrategicamente no segundo micro-ciclo
-- Cada micro-ciclo entrega **valor incremental** e pode ser validado independentemente
+## 📖 Referências
 
---- FIM DO DOCUMENTO HU_MVP_Jornada_Usuario.md (v1.0) ---
+### Internas
+- [Documento 1]
+- [Documento 2]
+- [Documento 3]
+
+### Externas
+- [Referência Externa 1]
+- [Referência Externa 2]
+
+---
+
+## 📝 Histórico de Versões
+
+| Versão | Data | Autor | Alterações |
+|--------|------|-------|------------|
+| 1.0 | [DATA_CRIACAO] | [NOME_AUTOR] | Versão inicial do template |

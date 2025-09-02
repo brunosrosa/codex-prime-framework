@@ -1,0 +1,510 @@
+---
+title: "Go-to-Market Strategy - [PROJECT_NAME]"
+doc_id: "GTM-[PROJECT]-v1.0"
+version: "1.0"
+last_updated: "2025-09-02 18:47:41"
+timezone: "America/Sao_Paulo"
+status: "template"
+owner: "@ArquitetoDoCodex"
+tags: [template, gtm, marketing, strategy, launch, go-to-market]
+description: "Standardized template for Go-to-Market Strategy following Codex Prime Framework standards"
+template_type: "marketing_strategy"
+category: "06_Marketing_e_Vendas"
+---
+
+# GO-TO-MARKET STRATEGY - [PROJECT_NAME]
+
+## 🎯 STRATEGY OVERVIEW
+
+### Core Objective
+[CORE_STRATEGY_OBJECTIVE]
+
+### Unique Value Proposition
+[UNIQUE_VALUE_PROPOSITION]
+
+---
+
+## 🎯 SEGMENTATION AND TARGETING
+
+### Primary Target Audience: [PRIMARY_SEGMENT]
+
+#### Demographic Profile
+- **Age**: [AGE_RANGE]
+- **Location**: [GEOGRAPHIC_LOCATION]
+- **Income**: [INCOME_RANGE]
+- **Education**: [EDUCATION_LEVEL]
+
+#### Professional Profile
+- **Experience**: [YEARS_EXPERIENCE]
+- **Roles**: [TARGET_ROLES]
+- **Technologies/Skills**: [RELEVANT_SKILLS]
+- **Situation**: [PROFESSIONAL_CONTEXT]
+
+#### Behavioral Profile
+- **Characteristics**: [KEY_BEHAVIORS]
+- **Habits**: [RELEVANT_HABITS]
+- **Preferences**: [IMPORTANT_PREFERENCES]
+
+#### Psychographic Profile
+- **Values**: [CORE_VALUES]
+- **Motivations**: [KEY_MOTIVATIONS]
+- **Pain Points**: [MAIN_FRUSTRATIONS]
+
+### Secondary Segments (Future)
+- **[SEGMENT_2]** (expansion in [YEAR])
+- **[SEGMENT_3]** (expansion in [YEAR])
+- **[B2B_SEGMENT]** (B2B model) (expansion in [YEAR])
+
+---
+
+## 🗺️ CUSTOMER JOURNEY
+
+### Stage 1: Awareness
+**Trigger**: [AWARENESS_TRIGGER]
+
+**Touchpoints**:
+- [TOUCHPOINT_1]
+- [TOUCHPOINT_2]
+- [TOUCHPOINT_3]
+- [SEO_KEYWORDS]
+
+**Objective**: [AWARENESS_OBJECTIVE]
+
+### Stage 2: Consideration
+**Trigger**: [CONSIDERATION_TRIGGER]
+
+**Touchpoints**:
+- [TOUCHPOINT_1]
+- [TOUCHPOINT_2]
+- [TOUCHPOINT_3]
+- [TOUCHPOINT_4]
+
+**Objective**: [CONSIDERATION_OBJECTIVE]
+
+### Stage 3: Trial
+**Trigger**: [TRIAL_TRIGGER]
+
+**Touchpoints**:
+- [TOUCHPOINT_1]
+- [TOUCHPOINT_2]
+- [TOUCHPOINT_3]
+- [TOUCHPOINT_4]
+
+**Objective**: [TRIAL_OBJECTIVE]
+
+### Stage 4: Purchase
+**Trigger**: [PURCHASE_TRIGGER]
+
+**Touchpoints**:
+- [TOUCHPOINT_1]
+- [TOUCHPOINT_2]
+- [TOUCHPOINT_3]
+- [TOUCHPOINT_4]
+
+**Objective**: [PURCHASE_OBJECTIVE]
+
+### Stage 5: Success
+**Trigger**: [SUCCESS_TRIGGER]
+
+**Touchpoints**:
+- [TOUCHPOINT_1]
+- [TOUCHPOINT_2]
+- [TOUCHPOINT_3]
+- [TOUCHPOINT_4]
+
+**Objective**: [SUCCESS_OBJECTIVE]
+
+### Stage 6: Advocacy
+**Trigger**: [ADVOCACY_TRIGGER]
+
+**Touchpoints**:
+- [TOUCHPOINT_1]
+- [TOUCHPOINT_2]
+- [TOUCHPOINT_3]
+- [TOUCHPOINT_4]
+
+**Objective**: [ADVOCACY_OBJECTIVE]
+
+---
+
+## 📢 CHANNEL STRATEGY
+
+### Primary Channels (Initial Focus)
+
+#### 1. [PRIMARY_CHANNEL_1]
+**Objective**: [CHANNEL_1_OBJECTIVE]
+
+**Tactics**:
+- [TACTIC_1]
+- [TACTIC_2]
+- [TACTIC_3]
+- [TACTIC_4]
+
+**Metrics**: [CHANNEL_1_METRICS]
+
+#### 2. [PRIMARY_CHANNEL_2]
+**Objective**: [CHANNEL_2_OBJECTIVE]
+
+**Tactics**:
+- [TACTIC_1]
+- [TACTIC_2]
+- [TACTIC_3]
+- [TACTIC_4]
+- [TACTIC_5]
+
+**Metrics**: [CHANNEL_2_METRICS]
+
+#### 3. [PRIMARY_CHANNEL_3]
+**Objective**: [CHANNEL_3_OBJECTIVE]
+
+**Tactics**:
+- [TACTIC_1]
+- [TACTIC_2]
+- [TACTIC_3]
+- [TACTIC_4]
+
+**Metrics**: [CHANNEL_3_METRICS]
+
+### Secondary Channels (Future Expansion)
+
+#### 4. [SECONDARY_CHANNEL_1]
+**Objective**: [CHANNEL_4_OBJECTIVE]
+
+**Tactics**:
+- [TACTIC_1]
+- [TACTIC_2]
+- [TACTIC_3]
+
+#### 5. [SECONDARY_CHANNEL_2]
+**Objective**: [CHANNEL_5_OBJECTIVE]
+
+**Tactics**:
+- [TACTIC_1]
+- [TACTIC_2]
+- [TACTIC_3]
+
+#### 6. [SECONDARY_CHANNEL_3]
+**Objective**: [CHANNEL_6_OBJECTIVE]
+
+**Tactics**:
+- [TACTIC_1]
+- [TACTIC_2]
+- [TACTIC_3]
+
+---
+
+## 💰 PRICING STRATEGY
+
+### [PRICING_MODEL]
+**[PLAN_1]**:
+- [FEATURE_1]
+- [FEATURE_2]
+- [FEATURE_3]
+
+**[PLAN_2] ([PLAN_2_PRICE])**:
+- [FEATURE_1]
+- [FEATURE_2]
+- [FEATURE_3]
+- [FEATURE_4]
+- [FEATURE_5]
+
+**[PLAN_3] ([PLAN_3_PRICE])**:
+- [ADDITIONAL_FEATURE_1]
+- [ADDITIONAL_FEATURE_2]
+- [ADDITIONAL_FEATURE_3]
+- [ADDITIONAL_FEATURE_4]
+
+### Pricing Strategy
+- [STRATEGY_1]
+- [STRATEGY_2]
+- [STRATEGY_3]
+- [STRATEGY_4]
+
+---
+
+## 📅 LAUNCH TIMELINE
+
+### [PHASE_1]: [PHASE_1_NAME] ([PHASE_1_PERIOD])
+**Objective**: [PHASE_1_OBJECTIVE]
+
+#### [SUBPHASE_1_1]: [SUBPHASE_1_1_NAME]
+- [ACTIVITY_1]
+- [ACTIVITY_2]
+- [ACTIVITY_3]
+- [ACTIVITY_4]
+- [ACTIVITY_5]
+
+#### [SUBPHASE_1_2]: [SUBPHASE_1_2_NAME]
+- [ACTIVITY_1]
+- [ACTIVITY_2]
+- [ACTIVITY_3]
+- [ACTIVITY_4]
+- [ACTIVITY_5]
+
+#### [SUBPHASE_1_3]: [SUBPHASE_1_3_NAME]
+- [ACTIVITY_1]
+- [ACTIVITY_2]
+- [ACTIVITY_3]
+- [ACTIVITY_4]
+
+### [PHASE_2]: [PHASE_2_NAME] ([PHASE_2_PERIOD])
+**Objective**: [PHASE_2_OBJECTIVE]
+
+#### [SUBPHASE_2_1]: [SUBPHASE_2_1_NAME]
+- [ACTIVITY_1]
+- [ACTIVITY_2]
+- [ACTIVITY_3]
+- [ACTIVITY_4]
+
+#### [SUBPHASE_2_2]: [SUBPHASE_2_2_NAME]
+- [ACTIVITY_1]
+- [ACTIVITY_2]
+- [ACTIVITY_3]
+- [ACTIVITY_4]
+
+### [PHASE_3]: [PHASE_3_NAME] ([PHASE_3_PERIOD])
+**Objective**: [PHASE_3_OBJECTIVE]
+
+#### [SUBPHASE_3_1]: [SUBPHASE_3_1_NAME]
+- [ACTIVITY_1]
+- [ACTIVITY_2]
+- [ACTIVITY_3]
+- [GOAL_1]
+
+#### [SUBPHASE_3_2]: [SUBPHASE_3_2_NAME]
+- [ACTIVITY_1]
+- [ACTIVITY_2]
+- [ACTIVITY_3]
+- [GOAL_2]
+
+### [PHASE_4]: [PHASE_4_NAME] ([PHASE_4_PERIOD])
+**Objective**: [PHASE_4_OBJECTIVE]
+
+- [ACTIVITY_1]
+- [ACTIVITY_2]
+- [ACTIVITY_3]
+- [FINAL_GOAL]
+
+---
+
+## 📊 METRICS AND KPIS
+
+### [METRICS_FRAMEWORK] Framework
+
+#### 1. [METRIC_CATEGORY_1]
+- **[METRIC_1]**: [METRIC_1_DESCRIPTION]
+- **[METRIC_2]**: [METRIC_2_DESCRIPTION]
+- **[METRIC_3]**: [METRIC_3_DESCRIPTION]
+- **[METRIC_4]**: [METRIC_4_DESCRIPTION]
+
+**[GOAL_PERIOD_1] Target**: [GOAL_VALUE_1]
+
+#### 2. [METRIC_CATEGORY_2]
+- **[METRIC_1]**: [METRIC_1_DESCRIPTION]
+- **[METRIC_2]**: [METRIC_2_DESCRIPTION]
+- **[METRIC_3]**: [METRIC_3_DESCRIPTION]
+- **[METRIC_4]**: [METRIC_4_DESCRIPTION]
+
+**[GOAL_PERIOD_2] Target**: [GOAL_VALUE_2]
+
+#### 3. [METRIC_CATEGORY_3]
+- **[METRIC_1]**: [METRIC_1_DESCRIPTION]
+- **[METRIC_2]**: [METRIC_2_DESCRIPTION]
+- **[METRIC_3]**: [METRIC_3_DESCRIPTION]
+- **[METRIC_4]**: [METRIC_4_DESCRIPTION]
+
+**[GOAL_PERIOD_3] Target**: [GOAL_VALUE_3]
+
+---
+
+## 🎯 PHASE-SPECIFIC GOALS
+
+### [PHASE_1] ([PERIOD_1])
+- **[GOAL_CATEGORY_1]**: [GOAL_VALUE_1]
+- **[GOAL_CATEGORY_2]**: [GOAL_VALUE_2]
+- **[GOAL_CATEGORY_3]**: [GOAL_VALUE_3]
+- **[GOAL_CATEGORY_4]**: [GOAL_VALUE_4]
+
+### [PHASE_2] ([PERIOD_2])
+- **[GOAL_CATEGORY_1]**: [GOAL_VALUE_1]
+- **[GOAL_CATEGORY_2]**: [GOAL_VALUE_2]
+- **[GOAL_CATEGORY_3]**: [GOAL_VALUE_3]
+- **[GOAL_CATEGORY_4]**: [GOAL_VALUE_4]
+
+### [PHASE_3] ([PERIOD_3])
+- **[GOAL_CATEGORY_1]**: [GOAL_VALUE_1]
+- **[GOAL_CATEGORY_2]**: [GOAL_VALUE_2]
+- **[GOAL_CATEGORY_3]**: [GOAL_VALUE_3]
+- **[GOAL_CATEGORY_4]**: [GOAL_VALUE_4]
+
+### [PHASE_4] ([PERIOD_4])
+- **[GOAL_CATEGORY_1]**: [GOAL_VALUE_1]
+- **[GOAL_CATEGORY_2]**: [GOAL_VALUE_2]
+- **[GOAL_CATEGORY_3]**: [GOAL_VALUE_3]
+- **[GOAL_CATEGORY_4]**: [GOAL_VALUE_4]
+
+---
+
+## 🛠️ MARKETING TOOLS AND STACK
+
+### [TOOL_CATEGORY_1]
+- **[TOOL_1]**: [TOOL_1_DESCRIPTION]
+- **[TOOL_2]**: [TOOL_2_DESCRIPTION]
+- **[TOOL_3]**: [TOOL_3_DESCRIPTION]
+- **[TOOL_4]**: [TOOL_4_DESCRIPTION]
+
+### [TOOL_CATEGORY_2]
+- **[TOOL_1]**: [TOOL_1_DESCRIPTION]
+- **[TOOL_2]**: [TOOL_2_DESCRIPTION]
+- **[TOOL_3]**: [TOOL_3_DESCRIPTION]
+- **[TOOL_4]**: [TOOL_4_DESCRIPTION]
+
+### [TOOL_CATEGORY_3]
+- **[TOOL_1]**: [TOOL_1_DESCRIPTION]
+- **[TOOL_2]**: [TOOL_2_DESCRIPTION]
+- **[TOOL_3]**: [TOOL_3_DESCRIPTION]
+- **[TOOL_4]**: [TOOL_4_DESCRIPTION]
+
+---
+
+## 💡 DIFFERENTIATION STRATEGIES
+
+### 1. [DIFFERENTIATION_STRATEGY_1]
+**[STRATEGY_1_DESCRIPTION]**
+
+**Advantages**:
+- [ADVANTAGE_1]
+- [ADVANTAGE_2]
+- [ADVANTAGE_3]
+- [ADVANTAGE_4]
+
+### 2. [DIFFERENTIATION_STRATEGY_2]
+**[STRATEGY_2_DESCRIPTION]**
+
+**Advantages**:
+- [ADVANTAGE_1]
+- [ADVANTAGE_2]
+- [ADVANTAGE_3]
+- [ADVANTAGE_4]
+
+### 3. [DIFFERENTIATION_STRATEGY_3]
+**[STRATEGY_3_DESCRIPTION]**
+
+**Advantages**:
+- [ADVANTAGE_1]
+- [ADVANTAGE_2]
+- [ADVANTAGE_3]
+- [ADVANTAGE_4]
+
+---
+
+## 🚀 CONTINGENCY PLANS
+
+### If [CONTINGENCY_SCENARIO_1]
+- **[ACTION_1]**: [ACTION_1_DESCRIPTION]
+- **[ACTION_2]**: [ACTION_2_DESCRIPTION]
+- **[ACTION_3]**: [ACTION_3_DESCRIPTION]
+- **[ACTION_4]**: [ACTION_4_DESCRIPTION]
+
+### If [CONTINGENCY_SCENARIO_2]
+- **[ACTION_1]**: [ACTION_1_DESCRIPTION]
+- **[ACTION_2]**: [ACTION_2_DESCRIPTION]
+- **[ACTION_3]**: [ACTION_3_DESCRIPTION]
+- **[ACTION_4]**: [ACTION_4_DESCRIPTION]
+
+### If [CONTINGENCY_SCENARIO_3]
+- **[ACTION_1]**: [ACTION_1_DESCRIPTION]
+- **[ACTION_2]**: [ACTION_2_DESCRIPTION]
+- **[ACTION_3]**: [ACTION_3_DESCRIPTION]
+- **[ACTION_4]**: [ACTION_4_DESCRIPTION]
+
+---
+
+## 📋 IMMEDIATE NEXT STEPS
+
+### [PERIOD_1]
+1. **[ACTION_1]**: [ACTION_1_DESCRIPTION]
+2. **[ACTION_2]**: [ACTION_2_DESCRIPTION]
+3. **[ACTION_3]**: [ACTION_3_DESCRIPTION]
+4. **[ACTION_4]**: [ACTION_4_DESCRIPTION]
+
+### [PERIOD_2]
+1. **[ACTION_1]**: [ACTION_1_DESCRIPTION]
+2. **[ACTION_2]**: [ACTION_2_DESCRIPTION]
+3. **[ACTION_3]**: [ACTION_3_DESCRIPTION]
+4. **[ACTION_4]**: [ACTION_4_DESCRIPTION]
+
+### [PERIOD_3]
+1. **[ACTION_1]**: [ACTION_1_DESCRIPTION]
+2. **[ACTION_2]**: [ACTION_2_DESCRIPTION]
+3. **[ACTION_3]**: [ACTION_3_DESCRIPTION]
+4. **[ACTION_4]**: [ACTION_4_DESCRIPTION]
+
+---
+
+**Responsible**: [RESPONSIBLE]
+**Support**: [SUPPORT]
+**Review**: [REVIEW_FREQUENCY]
+**Status**: [CURRENT_STATUS]
+
+---
+
+## 🔄 [CONSIDERATIONS_SECTION]
+
+### [SUBSECTION_1]
+- **[ITEM_1]**: [ITEM_1_DESCRIPTION]
+- **[ITEM_2]**: [ITEM_2_DESCRIPTION]
+- **[ITEM_3]**: [ITEM_3_DESCRIPTION]
+- **[ITEM_4]**: [ITEM_4_DESCRIPTION]
+
+### [SUBSECTION_2]
+- ✅ **[CRITERION_1]**: [CRITERION_1_DESCRIPTION]
+- ✅ **[CRITERION_2]**: [CRITERION_2_DESCRIPTION]
+- ✅ **[CRITERION_3]**: [CRITERION_3_DESCRIPTION]
+- ✅ **[CRITERION_4]**: [CRITERION_4_DESCRIPTION]
+
+### [SUBSECTION_3]
+- **[ALIGNMENT_1]**: [ALIGNMENT_1_DESCRIPTION]
+- **[ALIGNMENT_2]**: [ALIGNMENT_2_DESCRIPTION]
+- **[ALIGNMENT_3]**: [ALIGNMENT_3_DESCRIPTION]
+- **[ALIGNMENT_4]**: [ALIGNMENT_4_DESCRIPTION]
+
+## 📊 Version History
+
+| Version | Date | Author | Changes |
+|---------|------|--------|----------|
+| [VERSION] | [DATE] | [AUTHOR] | [CHANGE_DESCRIPTION] |
+| [VERSION] | [DATE] | [AUTHOR] | [CHANGE_DESCRIPTION] |
+| [VERSION] | [DATE] | [AUTHOR] | [CHANGE_DESCRIPTION] |
+| [VERSION] | [DATE] | [AUTHOR] | [CHANGE_DESCRIPTION] |
+
+## 📚 Related Documents
+
+### [CATEGORY_1]
+- [[DOCUMENT_1]] - [DOCUMENT_1_DESCRIPTION]
+- [[DOCUMENT_2]] - [DOCUMENT_2_DESCRIPTION]
+- [[DOCUMENT_3]] - [DOCUMENT_3_DESCRIPTION]
+
+### [CATEGORY_2]
+- [[DOCUMENT_1]] - [DOCUMENT_1_DESCRIPTION]
+- [[DOCUMENT_2]] - [DOCUMENT_2_DESCRIPTION]
+- [[DOCUMENT_3]] - [DOCUMENT_3_DESCRIPTION]
+
+### [CATEGORY_3]
+- [[DOCUMENT_1]] - [DOCUMENT_1_DESCRIPTION]
+- [[DOCUMENT_2]] - [DOCUMENT_2_DESCRIPTION]
+- [[DOCUMENT_3]] - [DOCUMENT_3_DESCRIPTION]
+
+---
+
+## 📋 Template Metadata
+
+**Last Updated**: 2025-09-02 18:47:41 (America/Sao_Paulo)  
+**Next Review**: [NEXT_REVIEW_DATE]  
+**Status**: Standardized Template  
+**Codex Prime Version**: 1.0  
+**Category**: Marketing and Sales  
+
+---
+
+*Template standardized following **Codex Prime Framework** standards*

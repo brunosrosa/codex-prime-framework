@@ -1,19 +1,19 @@
 ---
-title: "Priorização RICE dos Requisitos Funcionais - [NOME_DO_PROJETO]"
-version: "1.1 (Orquestração Inteligente e Specialized Intelligence)"
-date: "2025-06-11"
-data_atualizacao: "Junho de 2025"
-author: "@AgenteOrquestrador + Maestro"
-baseado_em: "[[docs/02_Requisitos/03_MAPEAMENTO_DEPENDENCIAS_RF.md]] v1.1, [[docs/02_Requisitos/01_ERS.md]] v1.1, [[docs/01_Guias_Centrais/02_GUIA_AVANCADO.md]] v1.1"
-status: "Validado e Alinhado"
+title: "Priorização RICE dos Requisitos Funcionais - {NOME_DO_PROJETO}"
+version: "{VERSAO}"
+date: "{DATA_CRIACAO}"
+data_atualizacao: "{DATA_ATUALIZACAO}"
+author: "{AUTOR}"
+baseado_em: "{DOCUMENTOS_BASE}"
+status: "{STATUS}"
 ---
 
-# Priorização RICE dos Requisitos Funcionais - [NOME_DO_PROJETO]
+# Priorização RICE dos Requisitos Funcionais - {NOME_DO_PROJETO}
 
 ## 1. Objetivo e Metodologia
 
 ### 1.1 Propósito
-Este documento aplica o **framework RICE (Reach, Impact, Confidence, Effort)** aos requisitos funcionais do [NOME_DO_PROJETO], utilizando o contexto das dependências mapeadas em [[docs/02_Requisitos/03_MAPEAMENTO_DEPENDENCIAS_RF.md]] para otimizar a sequência de desenvolvimento do MVP.
+Este documento aplica o **framework RICE (Reach, Impact, Confidence, Effort)** aos requisitos funcionais do {NOME_DO_PROJETO}, utilizando o contexto das dependências mapeadas em {DOCUMENTO_DEPENDENCIAS} para otimizar a sequência de desenvolvimento do MVP.
 
 ### 1.2 Metodologia RICE Adaptada
 
@@ -83,148 +83,112 @@ Baseado nos critérios detalhados do mapeamento de dependências:
 
 ## 2. Aplicação do RICE aos Requisitos Funcionais
 
-### 2.1 Módulo: Autenticação e Gestão de Contas
+### 2.1 Módulo: {MODULO_1}
 
 | Requisito | Reach | Impact | Confidence | Effort | RICE Base | Bônus Desbloqueio | **RICE Final** | Prioridade |
 |-----------|-------|--------|------------|--------|-----------|-------------------|----------------|------------|
-| **RF-AUTH-001: Registro de Usuário** | 10 | 10 | 85% | 3 | 283.3 | +20% | **340.0** | 🔥 CRÍTICA |
-| **RF-AUTH-002: Confirmação por Email** | 10 | 8 | 80% | 2 | 320.0 | +20% | **384.0** | 🔥 CRÍTICA |
-| **RF-AUTH-003: Login** | 10 | 10 | 90% | 2 | 450.0 | +20% | **540.0** | 🔥 CRÍTICA |
-| **RF-AUTH-004: Reset de Senha** | 8 | 6 | 85% | 2 | 204.0 | - | **204.0** | 🟡 MÉDIA |
-| **RF-AUTH-005: Onboarding** | 10 | 9 | 75% | 5 | 135.0 | +20% | **162.0** | 🟡 MÉDIA |
-| **RF-AUTH-006: Diferenciação de Tiers** | 9 | 7 | 70% | 4 | 110.3 | +20% | **132.4** | 🟡 MÉDIA |
-| **RF-AUTH-007: Gestão de Perfil** | 8 | 5 | 80% | 3 | 106.7 | - | **106.7** | 🟢 BAIXA |
-| **RF-AUTH-008: Exclusão de Conta** | 6 | 4 | 85% | 2 | 102.0 | - | **102.0** | 🟢 BAIXA |
+| **{RF_ID_1}: {DESCRICAO_RF_1}** | {REACH_1} | {IMPACT_1} | {CONFIDENCE_1}% | {EFFORT_1} | {RICE_BASE_1} | {BONUS_1} | **{RICE_FINAL_1}** | {PRIORIDADE_1} |
+| **{RF_ID_2}: {DESCRICAO_RF_2}** | {REACH_2} | {IMPACT_2} | {CONFIDENCE_2}% | {EFFORT_2} | {RICE_BASE_2} | {BONUS_2} | **{RICE_FINAL_2}** | {PRIORIDADE_2} |
+| **{RF_ID_3}: {DESCRICAO_RF_3}** | {REACH_3} | {IMPACT_3} | {CONFIDENCE_3}% | {EFFORT_3} | {RICE_BASE_3} | {BONUS_3} | **{RICE_FINAL_3}** | {PRIORIDADE_3} |
 
-### 2.2 Módulo: Kanban de Vagas
+### 2.2 Módulo: {MODULO_2}
 
 | Requisito | Reach | Impact | Confidence | Effort | RICE Base | Bônus Desbloqueio | **RICE Final** | Prioridade |
 |-----------|-------|--------|------------|--------|-----------|-------------------|----------------|------------|
-| **RF-KANBAN-001: Criar/Gerenciar Cards** | 10 | 9 | 80% | 4 | 180.0 | +20% | **216.0** | 🔴 ALTA |
-| **RF-KANBAN-002: Colunas Fixas** | 10 | 8 | 85% | 2 | 340.0 | +20% | **408.0** | 🔥 CRÍTICA |
-| **RF-KANBAN-003: Filtros e Busca** | 8 | 6 | 75% | 3 | 120.0 | - | **120.0** | 🟡 MÉDIA |
-| **RF-KANBAN-004: Histórico de Interações** | 7 | 5 | 70% | 4 | 61.3 | - | **61.3** | 🟢 BAIXA |
-| **RF-KANBAN-005: Dashboard de Métricas** | 8 | 7 | 65% | 6 | 60.7 | - | **60.7** | 🟢 BAIXA |
-| **RF-KANBAN-006: Limites Free/Paid** | 6 | 6 | 80% | 2 | 144.0 | - | **144.0** | 🟡 MÉDIA |
+| **{RF_ID_4}: {DESCRICAO_RF_4}** | {REACH_4} | {IMPACT_4} | {CONFIDENCE_4}% | {EFFORT_4} | {RICE_BASE_4} | {BONUS_4} | **{RICE_FINAL_4}** | {PRIORIDADE_4} |
+| **{RF_ID_5}: {DESCRICAO_RF_5}** | {REACH_5} | {IMPACT_5} | {CONFIDENCE_5}% | {EFFORT_5} | {RICE_BASE_5} | {BONUS_5} | **{RICE_FINAL_5}** | {PRIORIDADE_5} |
 
-### 2.3 Módulo: Importação de Vagas
+### 2.3 Módulo: {MODULO_3}
 
 | Requisito | Reach | Impact | Confidence | Effort | RICE Base | Bônus Desbloqueio | **RICE Final** | Prioridade |
 |-----------|-------|--------|------------|--------|-----------|-------------------|----------------|------------|
-| **RF-IMPORT-001: Importação por URL** | 9 | 8 | 70% | 8 | 63.0 | +20% | **75.6** | 🟡 MÉDIA |
-| **RF-IMPORT-002: Extração com IA** | 9 | 9 | 65% | 10 | 52.7 | +20% | **63.2** | 🟡 MÉDIA |
-| **RF-IMPORT-003: Revisão pelo Usuário** | 8 | 6 | 80% | 3 | 128.0 | - | **128.0** | 🟡 MÉDIA |
+| **{RF_ID_6}: {DESCRICAO_RF_6}** | {REACH_6} | {IMPACT_6} | {CONFIDENCE_6}% | {EFFORT_6} | {RICE_BASE_6} | {BONUS_6} | **{RICE_FINAL_6}** | {PRIORIDADE_6} |
+| **{RF_ID_7}: {DESCRICAO_RF_7}** | {REACH_7} | {IMPACT_7} | {CONFIDENCE_7}% | {EFFORT_7} | {RICE_BASE_7} | {BONUS_7} | **{RICE_FINAL_7}** | {PRIORIDADE_7} |
 
-### 2.4 Módulo: Otimização de CV com IA
-
-| Requisito | Reach | Impact | Confidence | Effort | RICE Base | Bônus Desbloqueio | **RICE Final** | Prioridade |
-|-----------|-------|--------|------------|--------|-----------|-------------------|----------------|------------|
-| **RF-CV-001: Upload/Gestão de CV** | 10 | 9 | 75% | 5 | 135.0 | +20% | **162.0** | 🟡 MÉDIA |
-| **RF-CV-002: Análise IA CV-Vaga** | 10 | 10 | 60% | 12 | 50.0 | +20% | **60.0** | 🟡 MÉDIA |
-| **RF-CV-003: Sugestões de Otimização** | 9 | 10 | 60% | 10 | 54.0 | +20% | **64.8** | 🟡 MÉDIA |
-| **RF-CV-004: Estimativa Salarial** | 7 | 6 | 50% | 8 | 26.3 | - | **26.3** | 🟢 BAIXA |
-| **RF-CV-005: Download CV Otimizado** | 8 | 7 | 70% | 4 | 98.0 | - | **98.0** | 🟢 BAIXA |
-| **RF-CV-006: Versionamento de CV** | 6 | 5 | 75% | 6 | 37.5 | - | **37.5** | 🟢 BAIXA |
-| **RF-CV-007: Limites Free/Paid** | 6 | 6 | 80% | 2 | 144.0 | - | **144.0** | 🟡 MÉDIA |
-
-### 2.5 Módulo: AI Coach
+### 2.4 Módulo: {MODULO_4}
 
 | Requisito | Reach | Impact | Confidence | Effort | RICE Base | Bônus Desbloqueio | **RICE Final** | Prioridade |
 |-----------|-------|--------|------------|--------|-----------|-------------------|----------------|------------|
-| **RF-COACH-001: Interface Chatbot** | 8 | 8 | 65% | 8 | 52.0 | - | **52.0** | 🟢 BAIXA |
-| **RF-COACH-002: Coaching Proativo** | 7 | 7 | 55% | 10 | 26.9 | - | **26.9** | 🟢 BAIXA |
-| **RF-COACH-003: Orientação de Conteúdo** | 6 | 6 | 60% | 6 | 36.0 | - | **36.0** | 🟢 BAIXA |
-| **RF-COACH-004: Uso de Métricas** | 5 | 5 | 50% | 8 | 15.6 | - | **15.6** | 🟢 BAIXA |
-| **RF-COACH-005: Limites Free/Paid** | 6 | 6 | 80% | 2 | 144.0 | - | **144.0** | 🟡 MÉDIA |
+| **{RF_ID_8}: {DESCRICAO_RF_8}** | {REACH_8} | {IMPACT_8} | {CONFIDENCE_8}% | {EFFORT_8} | {RICE_BASE_8} | {BONUS_8} | **{RICE_FINAL_8}** | {PRIORIDADE_8} |
+| **{RF_ID_9}: {DESCRICAO_RF_9}** | {REACH_9} | {IMPACT_9} | {CONFIDENCE_9}% | {EFFORT_9} | {RICE_BASE_9} | {BONUS_9} | **{RICE_FINAL_9}** | {PRIORIDADE_9} |
 
-### 2.6 Módulo: Landing Page e Marketing
+### 2.5 Módulo: {MODULO_5}
 
 | Requisito | Reach | Impact | Confidence | Effort | RICE Base | Bônus Desbloqueio | **RICE Final** | Prioridade |
 |-----------|-------|--------|------------|--------|-----------|-------------------|----------------|------------|
-| **RF-LANDING-001: Página Inicial** | 10 | 9 | 85% | 3 | 255.0 | +20% | **306.0** | 🔥 CRÍTICA |
-| **RF-LANDING-002: Seção Hero** | 10 | 8 | 90% | 2 | 360.0 | - | **360.0** | 🔥 CRÍTICA |
-| **RF-LANDING-003: Demonstração do Produto** | 9 | 9 | 80% | 4 | 162.0 | - | **162.0** | 🟡 MÉDIA |
-| **RF-LANDING-004: Depoimentos/Social Proof** | 8 | 7 | 75% | 3 | 140.0 | - | **140.0** | 🟡 MÉDIA |
-| **RF-LANDING-005: CTA para Registro** | 10 | 10 | 90% | 1 | 900.0 | +20% | **1080.0** | 🔥 CRÍTICA |
-| **RF-LANDING-006: Seção Pricing** | 9 | 8 | 85% | 2 | 306.0 | - | **306.0** | 🔥 CRÍTICA |
-| **RF-LANDING-007: FAQ** | 7 | 6 | 80% | 2 | 168.0 | - | **168.0** | 🟡 MÉDIA |
-| **RF-LANDING-008: Responsividade Mobile** | 10 | 8 | 85% | 3 | 226.7 | - | **226.7** | 🔴 ALTA |
-| **RF-LANDING-009: SEO Básico** | 8 | 6 | 75% | 2 | 180.0 | - | **180.0** | 🟡 MÉDIA |
-| **RF-LANDING-010: Analytics/Tracking** | 6 | 5 | 80% | 1 | 240.0 | - | **240.0** | 🔴 ALTA |
+| **{RF_ID_10}: {DESCRICAO_RF_10}** | {REACH_10} | {IMPACT_10} | {CONFIDENCE_10}% | {EFFORT_10} | {RICE_BASE_10} | {BONUS_10} | **{RICE_FINAL_10}** | {PRIORIDADE_10} |
+| **{RF_ID_11}: {DESCRICAO_RF_11}** | {REACH_11} | {IMPACT_11} | {CONFIDENCE_11}% | {EFFORT_11} | {RICE_BASE_11} | {BONUS_11} | **{RICE_FINAL_11}** | {PRIORIDADE_11} |
+
+### 2.6 Módulo: {MODULO_6}
+
+| Requisito | Reach | Impact | Confidence | Effort | RICE Base | Bônus Desbloqueio | **RICE Final** | Prioridade |
+|-----------|-------|--------|------------|--------|-----------|-------------------|----------------|------------|
+| **{RF_ID_12}: {DESCRICAO_RF_12}** | {REACH_12} | {IMPACT_12} | {CONFIDENCE_12}% | {EFFORT_12} | {RICE_BASE_12} | {BONUS_12} | **{RICE_FINAL_12}** | {PRIORIDADE_12} |
+| **{RF_ID_13}: {DESCRICAO_RF_13}** | {REACH_13} | {IMPACT_13} | {CONFIDENCE_13}% | {EFFORT_13} | {RICE_BASE_13} | {BONUS_13} | **{RICE_FINAL_13}** | {PRIORIDADE_13} |
 
 ## 3. Ranking Final de Priorização
 
-### 3.1 Top 15 - Prioridades Críticas e Altas
+### 3.1 Top {NUMERO_TOP} - Prioridades Críticas e Altas
 
 | Rank | Requisito | RICE Score | Prioridade | Justificativa Estratégica |
 |------|-----------|------------|------------|---------------------------|
-| **1** | RF-LANDING-005: CTA para Registro | **1080.0** | 🔥 CRÍTICA | Conversão máxima + desbloqueio de aquisição |
-| **2** | RF-AUTH-003: Login | **540.0** | 🔥 CRÍTICA | Componente de núcleo absoluto + desbloqueio total |
-| **3** | RF-KANBAN-002: Colunas Fixas | **408.0** | 🔥 CRÍTICA | Core do fluxo principal + alta simplicidade |
-| **4** | RF-AUTH-002: Confirmação Email | **384.0** | 🔥 CRÍTICA | Segurança essencial + desbloqueio |
-| **5** | RF-LANDING-002: Seção Hero | **360.0** | 🔥 CRÍTICA | Primeira impressão + comunicação de valor |
-| **6** | RF-AUTH-001: Registro | **340.0** | 🔥 CRÍTICA | Porta de entrada obrigatória |
-| **7** | RF-LANDING-001: Página Inicial | **306.0** | 🔥 CRÍTICA | Base para aquisição + desbloqueio |
-| **8** | RF-LANDING-006: Seção Pricing | **306.0** | 🔥 CRÍTICA | Transparência + decisão de compra |
-| **9** | RF-LANDING-010: Analytics/Tracking | **240.0** | 🔴 ALTA | Métricas de conversão + otimização |
-| **10** | RF-LANDING-008: Responsividade Mobile | **226.7** | 🔴 ALTA | Acessibilidade + UX mobile |
-| **11** | RF-KANBAN-001: Criar Cards | **216.0** | 🔴 ALTA | Funcionalidade central do Kanban |
-| **12** | RF-AUTH-004: Reset Senha | **204.0** | 🟡 MÉDIA | Segurança importante, sem dependências |
-| **13** | RF-LANDING-009: SEO Básico | **180.0** | 🟡 MÉDIA | Descobribilidade orgânica |
-| **14** | RF-LANDING-007: FAQ | **168.0** | 🟡 MÉDIA | Redução de fricção + suporte |
-| **15** | RF-AUTH-005: Onboarding | **162.0** | 🟡 MÉDIA | UX crítica + desbloqueio de adoção |
+| **1** | {RF_TOP_1}: {DESCRICAO_TOP_1} | **{RICE_TOP_1}** | {PRIORIDADE_TOP_1} | {JUSTIFICATIVA_TOP_1} |
+| **2** | {RF_TOP_2}: {DESCRICAO_TOP_2} | **{RICE_TOP_2}** | {PRIORIDADE_TOP_2} | {JUSTIFICATIVA_TOP_2} |
+| **3** | {RF_TOP_3}: {DESCRICAO_TOP_3} | **{RICE_TOP_3}** | {PRIORIDADE_TOP_3} | {JUSTIFICATIVA_TOP_3} |
+| **4** | {RF_TOP_4}: {DESCRICAO_TOP_4} | **{RICE_TOP_4}** | {PRIORIDADE_TOP_4} | {JUSTIFICATIVA_TOP_4} |
+| **5** | {RF_TOP_5}: {DESCRICAO_TOP_5} | **{RICE_TOP_5}** | {PRIORIDADE_TOP_5} | {JUSTIFICATIVA_TOP_5} |
+| **6** | {RF_TOP_6}: {DESCRICAO_TOP_6} | **{RICE_TOP_6}** | {PRIORIDADE_TOP_6} | {JUSTIFICATIVA_TOP_6} |
+| **7** | {RF_TOP_7}: {DESCRICAO_TOP_7} | **{RICE_TOP_7}** | {PRIORIDADE_TOP_7} | {JUSTIFICATIVA_TOP_7} |
+| **8** | {RF_TOP_8}: {DESCRICAO_TOP_8} | **{RICE_TOP_8}** | {PRIORIDADE_TOP_8} | {JUSTIFICATIVA_TOP_8} |
+| **9** | {RF_TOP_9}: {DESCRICAO_TOP_9} | **{RICE_TOP_9}** | {PRIORIDADE_TOP_9} | {JUSTIFICATIVA_TOP_9} |
+| **10** | {RF_TOP_10}: {DESCRICAO_TOP_10} | **{RICE_TOP_10}** | {PRIORIDADE_TOP_10} | {JUSTIFICATIVA_TOP_10} |
 
-### 3.2 Sequência Otimizada de Desenvolvimento (5 Fases)
+### 3.2 Sequência Otimizada de Desenvolvimento ({NUMERO_FASES} Fases)
 
-#### **FASE 0: AQUISIÇÃO E CONVERSÃO (Semana 1)**
-**Objetivo:** Estabelecer presença digital e funil de conversão
+#### **FASE 0: {NOME_FASE_0} ({PERIODO_FASE_0})**
+**Objetivo:** {OBJETIVO_FASE_0}
 
-1. **RF-LANDING-005: CTA para Registro** (1080.0) - 1 dia
-2. **RF-LANDING-002: Seção Hero** (360.0) - 2 dias
-3. **RF-LANDING-001: Página Inicial** (306.0) - 3 dias
-4. **RF-LANDING-006: Seção Pricing** (306.0) - 2 dias
-5. **RF-LANDING-010: Analytics/Tracking** (240.0) - 1 dia
-6. **RF-LANDING-008: Responsividade Mobile** (226.7) - 3 dias
+1. **{RF_FASE_0_1}: {DESCRICAO_FASE_0_1}** ({RICE_FASE_0_1}) - {TEMPO_FASE_0_1}
+2. **{RF_FASE_0_2}: {DESCRICAO_FASE_0_2}** ({RICE_FASE_0_2}) - {TEMPO_FASE_0_2}
+3. **{RF_FASE_0_3}: {DESCRICAO_FASE_0_3}** ({RICE_FASE_0_3}) - {TEMPO_FASE_0_3}
 
-**Total Fase 0:** 12 dias (alguns em paralelo)
+**Total Fase 0:** {TOTAL_FASE_0}
 
-#### **FASE 1: FUNDAÇÃO (Semanas 2-3)**
-**Objetivo:** Estabelecer base técnica e autenticação
+#### **FASE 1: {NOME_FASE_1} ({PERIODO_FASE_1})**
+**Objetivo:** {OBJETIVO_FASE_1}
 
-7. **RF-AUTH-003: Login** (540.0) - 2 dias
-8. **RF-AUTH-001: Registro** (340.0) - 3 dias
-9. **RF-AUTH-002: Confirmação Email** (384.0) - 2 dias
-10. **RF-AUTH-004: Reset Senha** (204.0) - 2 dias
+4. **{RF_FASE_1_1}: {DESCRICAO_FASE_1_1}** ({RICE_FASE_1_1}) - {TEMPO_FASE_1_1}
+5. **{RF_FASE_1_2}: {DESCRICAO_FASE_1_2}** ({RICE_FASE_1_2}) - {TEMPO_FASE_1_2}
+6. **{RF_FASE_1_3}: {DESCRICAO_FASE_1_3}** ({RICE_FASE_1_3}) - {TEMPO_FASE_1_3}
 
-**Total Fase 1:** 9 dias
+**Total Fase 1:** {TOTAL_FASE_1}
 
-#### **FASE 2: FLUXO PRINCIPAL (Semanas 4-5)**
-**Objetivo:** Implementar Kanban básico funcional
+#### **FASE 2: {NOME_FASE_2} ({PERIODO_FASE_2})**
+**Objetivo:** {OBJETIVO_FASE_2}
 
-11. **RF-KANBAN-002: Colunas Fixas** (408.0) - 2 dias
-12. **RF-KANBAN-001: Criar/Gerenciar Cards** (216.0) - 4 dias
-13. **RF-AUTH-005: Onboarding** (162.0) - 5 dias
+7. **{RF_FASE_2_1}: {DESCRICAO_FASE_2_1}** ({RICE_FASE_2_1}) - {TEMPO_FASE_2_1}
+8. **{RF_FASE_2_2}: {DESCRICAO_FASE_2_2}** ({RICE_FASE_2_2}) - {TEMPO_FASE_2_2}
+9. **{RF_FASE_2_3}: {DESCRICAO_FASE_2_3}** ({RICE_FASE_2_3}) - {TEMPO_FASE_2_3}
 
-**Total Fase 2:** 11 dias
+**Total Fase 2:** {TOTAL_FASE_2}
 
-#### **FASE 3: MOMENTO AHA! (Semanas 6-7)**
-**Objetivo:** Implementar diferencial competitivo com IA
+#### **FASE 3: {NOME_FASE_3} ({PERIODO_FASE_3})**
+**Objetivo:** {OBJETIVO_FASE_3}
 
-14. **RF-CV-001: Upload/Gestão CV** (162.0) - 5 dias
-15. **RF-CV-003: Sugestões Otimização** (64.8) - 10 dias
-16. **RF-CV-002: Análise IA CV-Vaga** (60.0) - 12 dias
+10. **{RF_FASE_3_1}: {DESCRICAO_FASE_3_1}** ({RICE_FASE_3_1}) - {TEMPO_FASE_3_1}
+11. **{RF_FASE_3_2}: {DESCRICAO_FASE_3_2}** ({RICE_FASE_3_2}) - {TEMPO_FASE_3_2}
+12. **{RF_FASE_3_3}: {DESCRICAO_FASE_3_3}** ({RICE_FASE_3_3}) - {TEMPO_FASE_3_3}
 
-**Total Fase 3:** 27 dias (distribuídos em paralelo)
+**Total Fase 3:** {TOTAL_FASE_3}
 
-#### **FASE 4: COMPLEMENTOS E POLISH (Semana 8)**
-**Objetivo:** Refinamentos, monetização e suporte
+#### **FASE 4: {NOME_FASE_4} ({PERIODO_FASE_4})**
+**Objetivo:** {OBJETIVO_FASE_4}
 
-17. **RF-LANDING-009: SEO Básico** (180.0) - 2 dias
-18. **RF-LANDING-007: FAQ** (168.0) - 2 dias
-19. **RF-KANBAN-006: Limites Tiers** (144.0) - 2 dias
-20. **RF-CV-007: Limites CV Tiers** (144.0) - 2 dias
+13. **{RF_FASE_4_1}: {DESCRICAO_FASE_4_1}** ({RICE_FASE_4_1}) - {TEMPO_FASE_4_1}
+14. **{RF_FASE_4_2}: {DESCRICAO_FASE_4_2}** ({RICE_FASE_4_2}) - {TEMPO_FASE_4_2}
+15. **{RF_FASE_4_3}: {DESCRICAO_FASE_4_3}** ({RICE_FASE_4_3}) - {TEMPO_FASE_4_3}
 
-**Total Fase 4:** 8 dias
+**Total Fase 4:** {TOTAL_FASE_4}
 
 ## 4. Análise de Riscos e Mitigações
 
@@ -251,144 +215,144 @@ Baseado nos critérios detalhados do mapeamento de dependências:
 ### 4.2 Dependências Críticas
 
 #### **Bloqueadores Absolutos**
-- **Landing Page** (RF-LANDING-001, 002, 005) → Bloqueia aquisição de usuários
-- **Autenticação** (RF-AUTH-001, 002, 003) → Bloqueia acesso ao produto
-- **Kanban Básico** (RF-KANBAN-001, 002) → Bloqueia fluxo principal
-- **Upload CV** (RF-CV-001) → Bloqueia "Momento AHA!"
+- **{MODULO_BLOQUEADOR_1}** ({RF_BLOQUEADOR_1_1}, {RF_BLOQUEADOR_1_2}, {RF_BLOQUEADOR_1_3}) → {IMPACTO_BLOQUEADOR_1}
+- **{MODULO_BLOQUEADOR_2}** ({RF_BLOQUEADOR_2_1}, {RF_BLOQUEADOR_2_2}, {RF_BLOQUEADOR_2_3}) → {IMPACTO_BLOQUEADOR_2}
+- **{MODULO_BLOQUEADOR_3}** ({RF_BLOQUEADOR_3_1}, {RF_BLOQUEADOR_3_2}) → {IMPACTO_BLOQUEADOR_3}
+- **{MODULO_BLOQUEADOR_4}** ({RF_BLOQUEADOR_4_1}) → {IMPACTO_BLOQUEADOR_4}
 
 #### **Estratégia de Desbloqueio**
-1. **Paralelização Inteligente:** Desenvolver autenticação e Kanban em paralelo
-2. **Mocks Temporários:** Usar dados fictícios para testar integrações
-3. **APIs Incrementais:** Implementar endpoints básicos primeiro
+1. **{ESTRATEGIA_1}:** {DESCRICAO_ESTRATEGIA_1}
+2. **{ESTRATEGIA_2}:** {DESCRICAO_ESTRATEGIA_2}
+3. **{ESTRATEGIA_3}:** {DESCRICAO_ESTRATEGIA_3}
 
 ## 5. Métricas de Sucesso por Fase
 
-### 5.1 Fase 0 - Aquisição e Conversão
-- **Métrica:** Taxa de conversão landing page → registro > 5%
-- **Validação:** Funil de aquisição funcional e otimizado
+### 5.1 Fase 0 - {NOME_FASE_0}
+- **Métrica:** {METRICA_FASE_0}
+- **Validação:** {VALIDACAO_FASE_0}
 
-### 5.2 Fase 1 - Fundação
-- **Métrica:** Taxa de registro bem-sucedido > 90%
-- **Validação:** Usuários conseguem se registrar e fazer login
+### 5.2 Fase 1 - {NOME_FASE_1}
+- **Métrica:** {METRICA_FASE_1}
+- **Validação:** {VALIDACAO_FASE_1}
 
-### 5.3 Fase 2 - Fluxo Principal
-- **Métrica:** Usuários criam pelo menos 3 cards de vaga
-- **Validação:** Fluxo básico do Kanban funcional
+### 5.3 Fase 2 - {NOME_FASE_2}
+- **Métrica:** {METRICA_FASE_2}
+- **Validação:** {VALIDACAO_FASE_2}
 
-### 5.4 Fase 3 - Momento AHA!
-- **Métrica:** Usuários fazem upload de CV e recebem sugestões
-- **Validação:** Diferencial competitivo demonstrado
+### 5.4 Fase 3 - {NOME_FASE_3}
+- **Métrica:** {METRICA_FASE_3}
+- **Validação:** {VALIDACAO_FASE_3}
 
-### 5.5 Fase 4 - Complementos e Polish
-- **Métrica:** Diferenciação clara entre tiers free/paid
-- **Validação:** Modelo de monetização validado + SEO ativo
+### 5.5 Fase 4 - {NOME_FASE_4}
+- **Métrica:** {METRICA_FASE_4}
+- **Validação:** {VALIDACAO_FASE_4}
 
 ## 6. Considerações de Orquestração Inteligente
 
 ### 6.1 Impacto na Specialized Intelligence
 
 **Métricas de Eficiência de Priorização**:
-- **Taxa de Acerto RICE**: Comparação entre scores previstos vs. resultados reais
-- **Velocidade de Entrega por Fase**: Tempo real vs. estimado para cada fase
-- **Índice de Retrabalho**: Frequência de mudanças na priorização
-- **Satisfação do Usuário por Feature**: Validação do impacto real vs. previsto
+- **{METRICA_EFICIENCIA_1}**: {DESCRICAO_METRICA_1}
+- **{METRICA_EFICIENCIA_2}**: {DESCRICAO_METRICA_2}
+- **{METRICA_EFICIENCIA_3}**: {DESCRICAO_METRICA_3}
+- **{METRICA_EFICIENCIA_4}**: {DESCRICAO_METRICA_4}
 
 **Integração com Sistema RAG**:
-- Documentação automática de decisões de priorização
-- Histórico de ajustes e justificativas
-- Base de conhecimento para futuras priorizações
-- Aprendizado contínuo sobre precisão dos scores RICE
+- {INTEGRACAO_RAG_1}
+- {INTEGRACAO_RAG_2}
+- {INTEGRACAO_RAG_3}
+- {INTEGRACAO_RAG_4}
 
 ### 6.2 Agentes de IA por Fase de Desenvolvimento
 
-**Fase 0-1 (Aquisição e Fundação)**:
-- `@AgenteM_Frontend`: Landing page e componentes de conversão
-- `@AgenteM_Backend`: APIs de autenticação e infraestrutura base
-- `@AgenteM_Testes`: Validação de fluxos críticos de aquisição
+**Fase 0-1 ({NOME_FASE_0} e {NOME_FASE_1})**:
+- `{AGENTE_1}`: {RESPONSABILIDADE_AGENTE_1}
+- `{AGENTE_2}`: {RESPONSABILIDADE_AGENTE_2}
+- `{AGENTE_3}`: {RESPONSABILIDADE_AGENTE_3}
 
-**Fase 2-3 (Fluxo Principal e Momento AHA!)**:
-- `@AgenteM_Backend`: Kanban, upload CV e integração IA
-- `@AgenteM_Frontend`: Interface Kanban e componentes de IA
-- `@AgenteM_Testes`: Testes de integração e validação de IA
+**Fase 2-3 ({NOME_FASE_2} e {NOME_FASE_3})**:
+- `{AGENTE_4}`: {RESPONSABILIDADE_AGENTE_4}
+- `{AGENTE_5}`: {RESPONSABILIDADE_AGENTE_5}
+- `{AGENTE_6}`: {RESPONSABILIDADE_AGENTE_6}
 
 **Fase 4+ (Pós-MVP)**:
-- `@AgenteM_DevOps`: Otimização de deploy e monitoramento
-- `@AgenteM_Performance`: Análise de métricas e otimizações
-- `@AgenteM_Dados`: Analytics avançados e insights de uso
+- `{AGENTE_7}`: {RESPONSABILIDADE_AGENTE_7}
+- `{AGENTE_8}`: {RESPONSABILIDADE_AGENTE_8}
+- `{AGENTE_9}`: {RESPONSABILIDADE_AGENTE_9}
 
 ### 6.3 Framework de Medição Contínua
 
 **Validação de Scores RICE**:
-- Coleta de métricas reais após implementação
-- Ajuste de fórmulas baseado em aprendizados
-- Refinamento de critérios de Confidence
-- Calibração de estimativas de Effort
+- {VALIDACAO_RICE_1}
+- {VALIDACAO_RICE_2}
+- {VALIDACAO_RICE_3}
+- {VALIDACAO_RICE_4}
 
 **Feedback Loop Automatizado**:
-- Dashboard de acompanhamento por fase
-- Alertas para desvios significativos
-- Sugestões automáticas de repriorização
-- Documentação de lições aprendidas no RAG
+- {FEEDBACK_LOOP_1}
+- {FEEDBACK_LOOP_2}
+- {FEEDBACK_LOOP_3}
+- {FEEDBACK_LOOP_4}
 
 ## 7. Próximos Passos
 
-### 7.1 Validação Imediata
-1. **Revisar scores RICE** com Maestro para ajustes finais
-2. **Validar sequência** com base em capacidade de desenvolvimento
-3. **Definir critérios de aceitação** para cada requisito priorizado
-4. **Configurar métricas** de specialized intelligence
+### 7.1 {CATEGORIA_PROXIMOS_PASSOS_1} ({PRAZO_1})
+1. **{ACAO_1}**: {DESCRICAO_ACAO_1}
+2. **{ACAO_2}**: {DESCRICAO_ACAO_2}
+3. **{ACAO_3}**: {DESCRICAO_ACAO_3}
+4. **{ACAO_4}**: {DESCRICAO_ACAO_4}
 
-### 7.2 Preparação para Desenvolvimento
-1. **Criar User Stories detalhadas** para Fase 1
-2. **Definir APIs** para requisitos críticos
-3. **Preparar ambiente de desenvolvimento** e CI/CD
-4. **Estruturar testes de validação** para cada fase
-5. **Setup do sistema RAG** para documentação automática
+### 7.2 {CATEGORIA_PROXIMOS_PASSOS_2} ({PRAZO_2})
+1. **{ACAO_5}**: {DESCRICAO_ACAO_5}
+2. **{ACAO_6}**: {DESCRICAO_ACAO_6}
+3. **{ACAO_7}**: {DESCRICAO_ACAO_7}
+4. **{ACAO_8}**: {DESCRICAO_ACAO_8}
+5. **{ACAO_9}**: {DESCRICAO_ACAO_9}
 
-### 7.3 Documentação de Apoio
-1. **Atualizar HLD** com base na priorização
-2. **Criar LLDs** para componentes críticos
-3. **Documentar decisões** em ADRs
-4. **Preparar guias** para agentes de desenvolvimento
-5. **Implementar dashboard** de métricas de priorização
+### 7.3 {CATEGORIA_PROXIMOS_PASSOS_3}
+1. **{ACAO_10}**: {DESCRICAO_ACAO_10}
+2. **{ACAO_11}**: {DESCRICAO_ACAO_11}
+3. **{ACAO_12}**: {DESCRICAO_ACAO_12}
+4. **{ACAO_13}**: {DESCRICAO_ACAO_13}
+5. **{ACAO_14}**: {DESCRICAO_ACAO_14}
 
 ---
 
 ## 8. Histórico de Versões
 
-### v1.1 (Junho 2025) - Orquestração Inteligente e Specialized Intelligence
-- **Adição**: Considerações de orquestração inteligente e métricas de specialized intelligence
-- **Melhoria**: Framework de medição contínua e validação de scores RICE
-- **Expansão**: Mapeamento de agentes de IA por fase de desenvolvimento
-- **Alinhamento**: Sincronização com documentos centrais atualizados (GUIA_AVANCADO v1.1, ERS v1.1, MAPEAMENTO_DEPENDENCIAS v1.1)
-- **Framework**: Inclusão de feedback loop automatizado e dashboard de métricas
-- **Status**: Mudança de "Em Validação" para "Validado e Alinhado"
-- **Correção**: Atualização de versões e datas para refletir o estado atual (Junho 2025)
+### {VERSAO_ATUAL} ({DATA_VERSAO_ATUAL}) - {TITULO_VERSAO_ATUAL}
+- **{TIPO_MUDANCA_1}**: {DESCRICAO_MUDANCA_1}
+- **{TIPO_MUDANCA_2}**: {DESCRICAO_MUDANCA_2}
+- **{TIPO_MUDANCA_3}**: {DESCRICAO_MUDANCA_3}
+- **{TIPO_MUDANCA_4}**: {DESCRICAO_MUDANCA_4}
+- **{TIPO_MUDANCA_5}**: {DESCRICAO_MUDANCA_5}
+- **{TIPO_MUDANCA_6}**: {DESCRICAO_MUDANCA_6}
+- **{TIPO_MUDANCA_7}**: {DESCRICAO_MUDANCA_7}
 
-### v1.0 (Maio 2025) - Versão Inicial
-- **Criação**: Priorização RICE inicial baseada no MAPEAMENTO_DEPENDENCIAS v1.0
-- **Estrutura**: Aplicação do framework RICE adaptado para o projeto
-- **Metodologia**: Definição de critérios e fórmulas de cálculo
-- **Sequenciamento**: Proposta de 5 fases de desenvolvimento otimizadas
-- **Análise**: Identificação de riscos e métricas de sucesso por fase
+### {VERSAO_ANTERIOR} ({DATA_VERSAO_ANTERIOR}) - {TITULO_VERSAO_ANTERIOR}
+- **{TIPO_MUDANCA_8}**: {DESCRICAO_MUDANCA_8}
+- **{TIPO_MUDANCA_9}**: {DESCRICAO_MUDANCA_9}
+- **{TIPO_MUDANCA_10}**: {DESCRICAO_MUDANCA_10}
+- **{TIPO_MUDANCA_11}**: {DESCRICAO_MUDANCA_11}
+- **{TIPO_MUDANCA_12}**: {DESCRICAO_MUDANCA_12}
 
 ## 9. Documentos Relacionados
 
-### Documentos de Gestão
-- [[docs/00_Gerenciamento_Projeto/01_TAP.md]] - Termo de Abertura do Projeto
-- [[docs/01_Guias_Centrais/01_PLANO_MESTRE_RECOLOCA_AI.md]] - Plano Mestre e Roadmap
-- [[docs/01_Guias_Centrais/02_GUIA_AVANCADO.md]] - Metodologia de Orquestração Inteligente
-- [[docs/00_Gerenciamento_Projeto/KANBAN/]] - Prioridades e Status
+### {CATEGORIA_DOCUMENTOS_1}
+- [[{CAMINHO_DOCUMENTO_1}]] - {DESCRICAO_DOCUMENTO_1}
+- [[{CAMINHO_DOCUMENTO_2}]] - {DESCRICAO_DOCUMENTO_2}
+- [[{CAMINHO_DOCUMENTO_3}]] - {DESCRICAO_DOCUMENTO_3}
+- [[{CAMINHO_DOCUMENTO_4}]] - {DESCRICAO_DOCUMENTO_4}
 
-### Documentos Técnicos
-- [[docs/02_Requisitos/01_ERS.md]] - Especificação de Requisitos de Software
-- [[docs/02_Requisitos/03_MAPEAMENTO_DEPENDENCIAS_RF.md]] - Mapeamento de Dependências
-- [[docs/03_Arquitetura_e_Design/01_HLD.md]] - Arquitetura de Alto Nível
-- [[docs/04_Agentes_IA/02_AGENTES_IA_MENTORES_OVERVIEW.md]] - Visão Geral dos Agentes
-- [[docs/01_Guias_Centrais/07_GLOSSARIO_Recoloca_AI.md]] - Glossário do Projeto
+### {CATEGORIA_DOCUMENTOS_2}
+- [[{CAMINHO_DOCUMENTO_5}]] - {DESCRICAO_DOCUMENTO_5}
+- [[{CAMINHO_DOCUMENTO_6}]] - {DESCRICAO_DOCUMENTO_6}
+- [[{CAMINHO_DOCUMENTO_7}]] - {DESCRICAO_DOCUMENTO_7}
+- [[{CAMINHO_DOCUMENTO_8}]] - {DESCRICAO_DOCUMENTO_8}
+- [[{CAMINHO_DOCUMENTO_9}]] - {DESCRICAO_DOCUMENTO_9}
 
-### Perfis de Agentes
-- [[docs/04_Agentes_IA/01_Perfis/]] - Perfis detalhados dos Agentes de IA Mentores
+### {CATEGORIA_DOCUMENTOS_3}
+- [[{CAMINHO_DOCUMENTO_10}]] - {DESCRICAO_DOCUMENTO_10}
 
 ---
 

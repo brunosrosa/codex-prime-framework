@@ -1,0 +1,17 @@
+doc_id: [PROJECT_PREFIX]_EST_001
+title: [PROJECT_NAME] Master Plan
+description: >
+  [DESCRIPTION_OF_PROJECT_MASTER_PLAN]
+type: [TYPE]
+status: [STATUS]
+owner: [OWNER_NAME]
+author: "[AUTHOR_HANDLE]"
+version: "[VERSION]"
+language: pt-br
+created_date: "[CREATED_DATE]"
+updated_date: "[UPDATED_DATE]"
+tags:
+  - [TAG_1]
+  - [TAG_2]
+  - [TAG_3]
+  - [TAG_4]

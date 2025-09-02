@@ -1,458 +1,826 @@
 ---
-sticker: lucide//palette
+title: "Template: Style Guide - Guias de Estilo e Padrões"
+doc_id: "CODEX-PRIME-TECNOLOGIA-STYLE-GUIDE-V1.0"
+version: "1.0"
+migrated_at: "2025-08-19 22:10:06"
+timezone: "America/Sao_Paulo"
+status: "Template"
+owner: "@ArquitetoDoCodex"
+tags: [template, codex-prime, v1.0, tecnologia, style-guide]
+description: "Template migrado do .codex para .codex-prime na versao 1.0"
+source_path: "\03_Tecnologia_Engineering\pt-br\02_PADROES_E_BOAS_PRATICAS\01_STYLE_GUIDE_GUIAS_ESTILO_PADROES.md"
 ---
-# STYLE GUIDE - RECOLOCA.AI
 
-**Versão:** 1.0 (Estrutura Inicial Como MODELO - Não Aprovada)
-**Data de Criação:** Junho de 2025
-**Data de Última Atualização:** Junho de 2025
-**Autor:** @AgenteOrquestrador
-**Baseado em:** [[docs/01_Guias_Centrais/01_PLANO_MESTRE_RECOLOCA_AI.md]] v1.1, [[docs/02_Requisitos/01_ERS.md]] v1.1, [[docs/01_Guias_Centrais/02_GUIA_AVANCADO.md]] v1.1
-**Responsável pela Evolução:** @AgenteM_UXDesigner
+# Style Guide - [PROJECT_NAME]
 
-## 🎯 VISÃO GERAL
+**Versão:** [VERSION]
+**Data de Criação:** [CREATION_DATE]
+**Data de Última Atualização:** [LAST_UPDATE_DATE]
+**Autor:** [AUTHOR]
+**Baseado em:** [REFERENCE_DOCUMENTS]
+**Responsável pela Evolução:** [RESPONSIBLE_TEAM]
+
+## 🎯 Visão Geral
 
 ### Objetivo
-Este Style Guide define os padrões visuais, de interação e de comunicação do Recoloca.ai, garantindo consistência em todas as interfaces e pontos de contato com o usuário, conforme requisito **RNF-USA-004** do [[docs/02_Requisitos/01_ERS.md]].
+[STYLE_GUIDE_OBJECTIVE_DESCRIPTION]
 
 ### Princípios de Design
-- **Simplicidade:** Interface limpa e intuitiva para profissionais em transição de carreira
-- **Confiança:** Design que transmite credibilidade e profissionalismo
-- **Acessibilidade:** Conformidade com WCAG 2.1 Nível AA (RNF-USA-003)
-- **Responsividade:** Experiência consistente em todos os dispositivos
-- **Orientação a Resultados:** Foco na jornada de recolocação profissional
+- **[PRINCIPLE_1]:** [PRINCIPLE_1_DESCRIPTION]
+- **[PRINCIPLE_2]:** [PRINCIPLE_2_DESCRIPTION]
+- **[PRINCIPLE_3]:** [PRINCIPLE_3_DESCRIPTION]
+- **[PRINCIPLE_4]:** [PRINCIPLE_4_DESCRIPTION]
+- **[PRINCIPLE_5]:** [PRINCIPLE_5_DESCRIPTION]
 
 ---
 
-## 🎨 IDENTIDADE VISUAL
+## 🎨 Identidade Visual
 
 ### Paleta de Cores
 
 #### Cores Primárias
 ```css
-/* A ser definido pelo @AgenteM_UXDesigner */
---primary-blue: #[HEX]; /* Cor principal - confiança e profissionalismo */
---primary-green: #[HEX]; /* Sucesso e crescimento profissional */
---primary-dark: #[HEX]; /* Textos principais e elementos de destaque */
+/* [PRIMARY_COLORS_DESCRIPTION] */
+--primary-color-1: #[HEX_COLOR_1]; /* [COLOR_1_DESCRIPTION] */
+--primary-color-2: #[HEX_COLOR_2]; /* [COLOR_2_DESCRIPTION] */
+--primary-color-3: #[HEX_COLOR_3]; /* [COLOR_3_DESCRIPTION] */
 ```
 
 #### Cores Secundárias
 ```css
-/* A ser definido pelo @AgenteM_UXDesigner */
---secondary-light: #[HEX]; /* Backgrounds e áreas de destaque */
---secondary-gray: #[HEX]; /* Textos secundários e divisores */
---accent-orange: #[HEX]; /* CTAs e elementos de ação */
+/* [SECONDARY_COLORS_DESCRIPTION] */
+--secondary-color-1: #[HEX_COLOR_1]; /* [COLOR_1_DESCRIPTION] */
+--secondary-color-2: #[HEX_COLOR_2]; /* [COLOR_2_DESCRIPTION] */
+--secondary-color-3: #[HEX_COLOR_3]; /* [COLOR_3_DESCRIPTION] */
 ```
 
 #### Cores de Sistema
 ```css
-/* A ser definido pelo @AgenteM_UXDesigner */
---success: #[HEX]; /* Feedback positivo */
---warning: #[HEX]; /* Alertas e atenção */
---error: #[HEX]; /* Erros e validações */
---info: #[HEX]; /* Informações neutras */
+/* [SYSTEM_COLORS_DESCRIPTION] */
+--success: #[HEX_COLOR]; /* [SUCCESS_COLOR_DESCRIPTION] */
+--warning: #[HEX_COLOR]; /* [WARNING_COLOR_DESCRIPTION] */
+--error: #[HEX_COLOR]; /* [ERROR_COLOR_DESCRIPTION] */
+--info: #[HEX_COLOR]; /* [INFO_COLOR_DESCRIPTION] */
+```
+
+#### Cores Neutras
+```css
+/* [NEUTRAL_COLORS_DESCRIPTION] */
+--neutral-white: #[HEX_COLOR]; /* [WHITE_DESCRIPTION] */
+--neutral-light: #[HEX_COLOR]; /* [LIGHT_DESCRIPTION] */
+--neutral-medium: #[HEX_COLOR]; /* [MEDIUM_DESCRIPTION] */
+--neutral-dark: #[HEX_COLOR]; /* [DARK_DESCRIPTION] */
+--neutral-black: #[HEX_COLOR]; /* [BLACK_DESCRIPTION] */
 ```
 
 ### Tipografia
 
-#### Fonte Principal
+#### Fontes Principais
 ```css
-/* A ser definido pelo @AgenteM_UXDesigner */
-font-family: '[FONTE_PRINCIPAL]', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+/* [PRIMARY_FONT_DESCRIPTION] */
+--font-primary: '[FONT_NAME]', [FALLBACK_FONTS];
+--font-secondary: '[FONT_NAME]', [FALLBACK_FONTS];
+--font-monospace: '[FONT_NAME]', [FALLBACK_FONTS];
 ```
 
-#### Hierarquia Tipográfica
-- **H1:** Títulos principais (32px/2rem)
-- **H2:** Títulos de seção (24px/1.5rem)
-- **H3:** Subtítulos (20px/1.25rem)
-- **Body:** Texto principal (16px/1rem)
-- **Small:** Textos auxiliares (14px/0.875rem)
-- **Caption:** Legendas e metadados (12px/0.75rem)
+#### Escalas Tipográficas
+```css
+/* [TYPOGRAPHY_SCALE_DESCRIPTION] */
+--text-xs: [SIZE]rem; /* [SIZE_DESCRIPTION] */
+--text-sm: [SIZE]rem; /* [SIZE_DESCRIPTION] */
+--text-base: [SIZE]rem; /* [SIZE_DESCRIPTION] */
+--text-lg: [SIZE]rem; /* [SIZE_DESCRIPTION] */
+--text-xl: [SIZE]rem; /* [SIZE_DESCRIPTION] */
+--text-2xl: [SIZE]rem; /* [SIZE_DESCRIPTION] */
+--text-3xl: [SIZE]rem; /* [SIZE_DESCRIPTION] */
+--text-4xl: [SIZE]rem; /* [SIZE_DESCRIPTION] */
+```
 
-### Iconografia
-- **Biblioteca:** [A ser definida - ex: Lucide, Heroicons, Material Icons]
-- **Estilo:** Outline/Filled consistente
-- **Tamanhos:** 16px, 20px, 24px, 32px
-- **Uso:** Sempre acompanhados de labels quando necessário para acessibilidade
+#### Pesos de Fonte
+```css
+/* [FONT_WEIGHTS_DESCRIPTION] */
+--font-light: [WEIGHT];
+--font-normal: [WEIGHT];
+--font-medium: [WEIGHT];
+--font-semibold: [WEIGHT];
+--font-bold: [WEIGHT];
+```
 
-### Logotipo e Marca
-- **Versões:** Principal, monocromática, simplificada
-- **Área de Proteção:** [A ser definida]
-- **Usos Incorretos:** [A ser documentado]
+### Espaçamento
+
+#### Sistema de Espaçamento
+```css
+/* [SPACING_SYSTEM_DESCRIPTION] */
+--space-xs: [SIZE]rem; /* [SIZE_DESCRIPTION] */
+--space-sm: [SIZE]rem; /* [SIZE_DESCRIPTION] */
+--space-md: [SIZE]rem; /* [SIZE_DESCRIPTION] */
+--space-lg: [SIZE]rem; /* [SIZE_DESCRIPTION] */
+--space-xl: [SIZE]rem; /* [SIZE_DESCRIPTION] */
+--space-2xl: [SIZE]rem; /* [SIZE_DESCRIPTION] */
+--space-3xl: [SIZE]rem; /* [SIZE_DESCRIPTION] */
+```
+
+### Bordas e Raios
+
+#### Raios de Borda
+```css
+/* [BORDER_RADIUS_DESCRIPTION] */
+--radius-none: 0;
+--radius-sm: [SIZE]px;
+--radius-md: [SIZE]px;
+--radius-lg: [SIZE]px;
+--radius-xl: [SIZE]px;
+--radius-full: 9999px;
+```
+
+#### Larguras de Borda
+```css
+/* [BORDER_WIDTH_DESCRIPTION] */
+--border-thin: [SIZE]px;
+--border-medium: [SIZE]px;
+--border-thick: [SIZE]px;
+```
+
+### Sombras
+
+#### Sistema de Sombras
+```css
+/* [SHADOW_SYSTEM_DESCRIPTION] */
+--shadow-sm: [SHADOW_VALUES];
+--shadow-md: [SHADOW_VALUES];
+--shadow-lg: [SHADOW_VALUES];
+--shadow-xl: [SHADOW_VALUES];
+--shadow-2xl: [SHADOW_VALUES];
+```
 
 ---
 
-## 🧩 COMPONENTES DE INTERFACE
+## 🧩 Componentes de Interface
 
 ### Botões
 
-#### Primários
-- **Uso:** Ações principais ("Analisar CV", "Salvar Perfil")
-- **Estilo:** [A ser definido]
-- **Estados:** Default, Hover, Active, Disabled, Loading
+#### Botão Primário
+```css
+.btn-primary {
+  background-color: var(--primary-color-1);
+  color: var(--neutral-white);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-md);
+  font-weight: var(--font-medium);
+  /* [ADDITIONAL_STYLES] */
+}
 
-#### Secundários
-- **Uso:** Ações secundárias ("Cancelar", "Voltar")
-- **Estilo:** [A ser definido]
-- **Estados:** Default, Hover, Active, Disabled
+.btn-primary:hover {
+  /* [HOVER_STYLES] */
+}
 
-#### Terciários
-- **Uso:** Ações de baixa prioridade
-- **Estilo:** [A ser definido]
+.btn-primary:focus {
+  /* [FOCUS_STYLES] */
+}
 
-### Formulários
+.btn-primary:disabled {
+  /* [DISABLED_STYLES] */
+}
+```
 
-#### Campos de Input
-- **Estados:** Default, Focus, Error, Success, Disabled
-- **Validação:** Feedback em tempo real
-- **Labels:** Sempre visíveis e descritivas
-- **Placeholders:** Exemplos práticos, não instruções
+#### Botão Secundário
+```css
+.btn-secondary {
+  background-color: transparent;
+  color: var(--primary-color-1);
+  border: var(--border-thin) solid var(--primary-color-1);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-md);
+  font-weight: var(--font-medium);
+  /* [ADDITIONAL_STYLES] */
+}
 
-#### Dropdowns e Seletores
-- **Estilo:** [A ser definido]
-- **Comportamento:** [A ser definido]
+.btn-secondary:hover {
+  /* [HOVER_STYLES] */
+}
+```
 
-### Cards e Containers
-- **Elevação:** Sombras sutis para hierarquia
-- **Bordas:** [A ser definido]
-- **Espaçamento interno:** [A ser definido]
+#### Botão Terciário
+```css
+.btn-tertiary {
+  background-color: transparent;
+  color: var(--primary-color-1);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-md);
+  font-weight: var(--font-medium);
+  /* [ADDITIONAL_STYLES] */
+}
+
+.btn-tertiary:hover {
+  /* [HOVER_STYLES] */
+}
+```
+
+### Campos de Entrada
+
+#### Input Text
+```css
+.input-text {
+  border: var(--border-thin) solid var(--neutral-medium);
+  border-radius: var(--radius-md);
+  padding: var(--space-sm) var(--space-md);
+  font-size: var(--text-base);
+  background-color: var(--neutral-white);
+  /* [ADDITIONAL_STYLES] */
+}
+
+.input-text:focus {
+  /* [FOCUS_STYLES] */
+}
+
+.input-text:error {
+  /* [ERROR_STYLES] */
+}
+```
+
+#### Textarea
+```css
+.textarea {
+  border: var(--border-thin) solid var(--neutral-medium);
+  border-radius: var(--radius-md);
+  padding: var(--space-sm) var(--space-md);
+  font-size: var(--text-base);
+  background-color: var(--neutral-white);
+  resize: vertical;
+  min-height: [MIN_HEIGHT]px;
+  /* [ADDITIONAL_STYLES] */
+}
+```
+
+#### Select
+```css
+.select {
+  border: var(--border-thin) solid var(--neutral-medium);
+  border-radius: var(--radius-md);
+  padding: var(--space-sm) var(--space-md);
+  font-size: var(--text-base);
+  background-color: var(--neutral-white);
+  /* [ADDITIONAL_STYLES] */
+}
+```
+
+### Cards
+
+#### Card Básico
+```css
+.card {
+  background-color: var(--neutral-white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: var(--space-lg);
+  /* [ADDITIONAL_STYLES] */
+}
+
+.card-header {
+  /* [HEADER_STYLES] */
+}
+
+.card-body {
+  /* [BODY_STYLES] */
+}
+
+.card-footer {
+  /* [FOOTER_STYLES] */
+}
+```
 
 ### Navegação
 
 #### Menu Principal
-- **Estrutura:** [A ser definida]
-- **Estados:** Active, Hover, Default
+```css
+.nav-main {
+  /* [MAIN_NAV_STYLES] */
+}
 
-#### Breadcrumbs
-- **Uso:** Navegação em fluxos complexos
-- **Estilo:** [A ser definido]
+.nav-item {
+  /* [NAV_ITEM_STYLES] */
+}
+
+.nav-item.active {
+  /* [ACTIVE_NAV_ITEM_STYLES] */
+}
+
+.nav-item:hover {
+  /* [HOVER_NAV_ITEM_STYLES] */
+}
+```
+
+#### Breadcrumb
+```css
+.breadcrumb {
+  /* [BREADCRUMB_STYLES] */
+}
+
+.breadcrumb-item {
+  /* [BREADCRUMB_ITEM_STYLES] */
+}
+
+.breadcrumb-separator {
+  /* [SEPARATOR_STYLES] */
+}
+```
+
+### Modais e Overlays
+
+#### Modal
+```css
+.modal-overlay {
+  /* [OVERLAY_STYLES] */
+}
+
+.modal-content {
+  /* [MODAL_CONTENT_STYLES] */
+}
+
+.modal-header {
+  /* [MODAL_HEADER_STYLES] */
+}
+
+.modal-body {
+  /* [MODAL_BODY_STYLES] */
+}
+
+.modal-footer {
+  /* [MODAL_FOOTER_STYLES] */
+}
+```
 
 ### Feedback e Estados
 
-#### Loading States
-- **Spinners:** Para carregamentos rápidos (<3s)
-- **Progress Bars:** Para processos longos (análise de CV)
-- **Skeleton Screens:** Para carregamento de conteúdo
+#### Alertas
+```css
+.alert {
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+  /* [BASE_ALERT_STYLES] */
+}
 
-#### Mensagens de Sistema
-- **Success:** Confirmações de ações
-- **Error:** Erros e validações
-- **Warning:** Alertas importantes
-- **Info:** Informações neutras
+.alert-success {
+  background-color: var(--success);
+  /* [SUCCESS_ALERT_STYLES] */
+}
+
+.alert-warning {
+  background-color: var(--warning);
+  /* [WARNING_ALERT_STYLES] */
+}
+
+.alert-error {
+  background-color: var(--error);
+  /* [ERROR_ALERT_STYLES] */
+}
+
+.alert-info {
+  background-color: var(--info);
+  /* [INFO_ALERT_STYLES] */
+}
+```
+
+#### Loading States
+```css
+.loading-spinner {
+  /* [SPINNER_STYLES] */
+}
+
+.loading-skeleton {
+  /* [SKELETON_STYLES] */
+}
+```
 
 ---
 
-## 📱 RESPONSIVIDADE E LAYOUT
+## 📱 Responsividade
 
 ### Breakpoints
 ```css
-/* A ser definido pelo @AgenteM_UXDesigner */
---mobile: 320px;
---tablet: 768px;
---desktop: 1024px;
---large: 1440px;
+/* [BREAKPOINTS_DESCRIPTION] */
+--breakpoint-xs: [SIZE]px; /* [XS_DESCRIPTION] */
+--breakpoint-sm: [SIZE]px; /* [SM_DESCRIPTION] */
+--breakpoint-md: [SIZE]px; /* [MD_DESCRIPTION] */
+--breakpoint-lg: [SIZE]px; /* [LG_DESCRIPTION] */
+--breakpoint-xl: [SIZE]px; /* [XL_DESCRIPTION] */
+--breakpoint-2xl: [SIZE]px; /* [2XL_DESCRIPTION] */
+```
+
+### Media Queries
+```css
+/* [MEDIA_QUERIES_DESCRIPTION] */
+@media (min-width: var(--breakpoint-sm)) {
+  /* [SM_STYLES] */
+}
+
+@media (min-width: var(--breakpoint-md)) {
+  /* [MD_STYLES] */
+}
+
+@media (min-width: var(--breakpoint-lg)) {
+  /* [LG_STYLES] */
+}
+
+@media (min-width: var(--breakpoint-xl)) {
+  /* [XL_STYLES] */
+}
 ```
 
 ### Grid System
-- **Colunas:** [A ser definido]
-- **Gutters:** [A ser definido]
-- **Margens:** [A ser definido]
-
-### Espaçamento
 ```css
-/* Sistema de espaçamento baseado em múltiplos de 8px */
---space-xs: 4px;
---space-sm: 8px;
---space-md: 16px;
---space-lg: 24px;
---space-xl: 32px;
---space-2xl: 48px;
+.container {
+  /* [CONTAINER_STYLES] */
+}
+
+.row {
+  /* [ROW_STYLES] */
+}
+
+.col {
+  /* [COLUMN_STYLES] */
+}
+
+.col-1 { /* [COL_1_STYLES] */ }
+.col-2 { /* [COL_2_STYLES] */ }
+.col-3 { /* [COL_3_STYLES] */ }
+.col-4 { /* [COL_4_STYLES] */ }
+.col-6 { /* [COL_6_STYLES] */ }
+.col-8 { /* [COL_8_STYLES] */ }
+.col-12 { /* [COL_12_STYLES] */ }
 ```
 
 ---
 
-## ✍️ TOM DE VOZ E COMUNICAÇÃO
+## ♿ Acessibilidade
 
-### Personalidade da Marca
-- **Profissional:** Linguagem técnica quando necessário, mas acessível
-- **Empático:** Compreende os desafios da recolocação profissional
-- **Motivador:** Foca em oportunidades e crescimento
-- **Direto:** Comunicação clara e objetiva
-- **Confiável:** Informações precisas e baseadas em dados
+### Diretrizes WCAG 2.1
 
-### Diretrizes de Escrita
+#### Contraste de Cores
+- **Nível AA:** Contraste mínimo de 4.5:1 para texto normal
+- **Nível AA:** Contraste mínimo de 3:1 para texto grande
+- **Nível AAA:** Contraste mínimo de 7:1 para texto normal
 
-#### Linguagem
-- **Pessoa:** Segunda pessoa ("você") para proximidade
-- **Tempo verbal:** Presente e futuro próximo
-- **Formalidade:** Profissional, mas acessível
-- **Jargões:** Evitar ou explicar quando necessário
+#### Navegação por Teclado
+```css
+/* [KEYBOARD_NAVIGATION_DESCRIPTION] */
+:focus {
+  outline: [OUTLINE_STYLES];
+  outline-offset: [OFFSET]px;
+}
 
-#### Mensagens de Interface
-
-##### Títulos e CTAs
-- **Títulos:** Claros e orientados a ação
-- **CTAs:** Verbos de ação específicos ("Analisar CV", "Encontrar Vagas")
-- **Evitar:** "Clique aqui", "Saiba mais" genérico
-
-##### Feedback ao Usuário
-- **Sucesso:** "CV analisado com sucesso! Veja suas recomendações."
-- **Erro:** "Não foi possível processar seu CV. Tente novamente."
-- **Loading:** "Analisando seu CV... Isso pode levar alguns minutos."
-
-##### Textos de Ajuda
-- **Tooltips:** Explicações concisas
-- **Placeholders:** Exemplos práticos
-- **Instruções:** Passo a passo quando necessário
-
-### Microcopy
-- **Labels de formulário:** Descritivos e específicos
-- **Mensagens de validação:** Construtivas, não punitivas
-- **Estados vazios:** Orientações claras sobre próximos passos
-
----
-
-## ♿ ACESSIBILIDADE
-
-### Conformidade WCAG 2.1 AA
-- **Contraste:** Mínimo 4.5:1 para texto normal, 3:1 para texto grande
-- **Foco:** Indicadores visuais claros para navegação por teclado
-- **Alt Text:** Descrições significativas para imagens
-- **Labels:** Associações corretas entre labels e inputs
-
-### Navegação por Teclado
-- **Tab Order:** Lógica e intuitiva
-- **Skip Links:** Para conteúdo principal
-- **Atalhos:** Documentados e consistentes
-
-### Tecnologias Assistivas
-- **Screen Readers:** Estrutura semântica correta
-- **ARIA Labels:** Quando necessário para clareza
-- **Landmarks:** Navegação estruturada
-
----
-
-## 💻 PADRÕES DE CÓDIGO
-
-### Flutter/Dart
-
-#### Nomenclatura de Widgets
-```dart
-// Padrão: [Funcionalidade][Tipo]Widget
-class CVAnalysisCardWidget extends StatelessWidget {}
-class JobRecommendationListWidget extends StatelessWidget {}
-```
-
-#### Estrutura de Arquivos
-```
-lib/
-├── widgets/
-│   ├── common/          # Componentes reutilizáveis
-│   ├── forms/           # Componentes de formulário
-│   └── cards/           # Componentes de card
-├── themes/
-│   ├── app_theme.dart   # Tema principal
-│   ├── colors.dart      # Paleta de cores
-│   └── typography.dart  # Tipografia
-```
-
-#### Padrões de Estilo
-```dart
-// Usar ThemeData para consistência
-class AppTheme {
-  static ThemeData get lightTheme => ThemeData(
-    primarySwatch: AppColors.primaryBlue,
-    textTheme: AppTypography.textTheme,
-    // ...
-  );
+.skip-link {
+  /* [SKIP_LINK_STYLES] */
 }
 ```
 
-### CSS/SCSS (Para extensão Chrome)
-
-#### Nomenclatura BEM
+#### Estados de Foco
 ```css
-/* Bloco__Elemento--Modificador */
-.cv-analysis__button--primary {}
-.job-card__title--highlighted {}
+.focus-visible {
+  /* [FOCUS_VISIBLE_STYLES] */
+}
+
+.focus-within {
+  /* [FOCUS_WITHIN_STYLES] */
+}
 ```
 
-#### Variáveis CSS
-```css
-:root {
-  /* Cores */
-  --color-primary: #[HEX];
-  --color-secondary: #[HEX];
-  
-  /* Espaçamento */
-  --space-sm: 8px;
-  --space-md: 16px;
-  
-  /* Tipografia */
-  --font-size-body: 16px;
-  --font-weight-medium: 500;
-}
+#### Texto Alternativo
+- Todas as imagens devem ter atributo `alt` descritivo
+- Ícones decorativos devem ter `alt=""` ou `aria-hidden="true"`
+- Ícones funcionais devem ter descrição adequada
+
+#### ARIA Labels
+```html
+<!-- [ARIA_EXAMPLES] -->
+<button aria-label="[BUTTON_DESCRIPTION]">[BUTTON_TEXT]</button>
+<input aria-describedby="[DESCRIPTION_ID]" />
+<div role="[ROLE]" aria-label="[LABEL]">[CONTENT]</div>
 ```
 
 ---
 
-## 🔄 ANIMAÇÕES E TRANSIÇÕES
+## 🎭 Animações e Transições
 
-### Princípios
-- **Sutileza:** Animações devem auxiliar, não distrair
-- **Performance:** 60fps em dispositivos móveis
-- **Propósito:** Cada animação deve ter uma função clara
-- **Duração:** 200-300ms para micro-interações, até 500ms para transições maiores
-
-### Tipos de Animação
-
-#### Micro-interações
-- **Hover:** Mudanças sutis de cor/escala
-- **Focus:** Indicadores visuais suaves
-- **Loading:** Spinners e progress indicators
-
-#### Transições de Página
-- **Slide:** Para navegação sequencial
-- **Fade:** Para mudanças de contexto
-- **Scale:** Para modais e overlays
+### Durações
+```css
+/* [ANIMATION_DURATIONS_DESCRIPTION] */
+--duration-fast: [DURATION]ms;
+--duration-normal: [DURATION]ms;
+--duration-slow: [DURATION]ms;
+```
 
 ### Easing Functions
 ```css
-/* Padrões recomendados */
---ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
---ease-out: cubic-bezier(0, 0, 0.2, 1);
---ease-in: cubic-bezier(0.4, 0, 1, 1);
+/* [EASING_FUNCTIONS_DESCRIPTION] */
+--ease-in: [EASING_FUNCTION];
+--ease-out: [EASING_FUNCTION];
+--ease-in-out: [EASING_FUNCTION];
+--ease-bounce: [EASING_FUNCTION];
+```
+
+### Transições Comuns
+```css
+.transition-default {
+  transition: all var(--duration-normal) var(--ease-in-out);
+}
+
+.transition-colors {
+  transition: color var(--duration-fast) var(--ease-in-out),
+              background-color var(--duration-fast) var(--ease-in-out);
+}
+
+.transition-transform {
+  transition: transform var(--duration-normal) var(--ease-in-out);
+}
+```
+
+### Animações de Entrada
+```css
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY([DISTANCE]px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale([SCALE]);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
 ```
 
 ---
 
-## 📐 ESPECIFICAÇÕES TÉCNICAS
+## 📐 Layout e Estrutura
 
-### Imagens e Assets
+### Estrutura de Página
+```html
+<!DOCTYPE html>
+<html lang="[LANGUAGE]">
+<head>
+  <!-- [HEAD_CONTENT] -->
+</head>
+<body>
+  <header class="site-header">
+    <!-- [HEADER_CONTENT] -->
+  </header>
+  
+  <nav class="site-navigation">
+    <!-- [NAVIGATION_CONTENT] -->
+  </nav>
+  
+  <main class="site-main">
+    <!-- [MAIN_CONTENT] -->
+  </main>
+  
+  <aside class="site-sidebar">
+    <!-- [SIDEBAR_CONTENT] -->
+  </aside>
+  
+  <footer class="site-footer">
+    <!-- [FOOTER_CONTENT] -->
+  </footer>
+</body>
+</html>
+```
 
-#### Formatos
-- **Ícones:** SVG (vetorial, escalável)
-- **Fotos:** WebP com fallback JPEG
-- **Ilustrações:** SVG ou PNG com transparência
+### Layouts Comuns
 
-#### Otimização
-- **Compressão:** Máximo 80% qualidade para JPEG
-- **Dimensões:** Múltiplas resoluções para responsividade
-- **Lazy Loading:** Para imagens abaixo da dobra
+#### Layout de Dashboard
+```css
+.dashboard-layout {
+  /* [DASHBOARD_LAYOUT_STYLES] */
+}
+
+.dashboard-sidebar {
+  /* [SIDEBAR_STYLES] */
+}
+
+.dashboard-content {
+  /* [CONTENT_STYLES] */
+}
+```
+
+#### Layout de Formulário
+```css
+.form-layout {
+  /* [FORM_LAYOUT_STYLES] */
+}
+
+.form-section {
+  /* [FORM_SECTION_STYLES] */
+}
+
+.form-group {
+  /* [FORM_GROUP_STYLES] */
+}
+```
+
+---
+
+## 🎨 Iconografia
+
+### Sistema de Ícones
+- **Biblioteca:** [ICON_LIBRARY_NAME]
+- **Tamanhos:** [ICON_SIZES]
+- **Estilo:** [ICON_STYLE_DESCRIPTION]
+
+### Ícones Comuns
+```css
+.icon {
+  /* [BASE_ICON_STYLES] */
+}
+
+.icon-sm { /* [SMALL_ICON_STYLES] */ }
+.icon-md { /* [MEDIUM_ICON_STYLES] */ }
+.icon-lg { /* [LARGE_ICON_STYLES] */ }
+.icon-xl { /* [EXTRA_LARGE_ICON_STYLES] */ }
+```
+
+### Ícones de Estado
+```css
+.icon-success { color: var(--success); }
+.icon-warning { color: var(--warning); }
+.icon-error { color: var(--error); }
+.icon-info { color: var(--info); }
+```
+
+---
+
+## 📝 Diretrizes de Conteúdo
+
+### Tom de Voz
+- **[TONE_ASPECT_1]:** [TONE_DESCRIPTION_1]
+- **[TONE_ASPECT_2]:** [TONE_DESCRIPTION_2]
+- **[TONE_ASPECT_3]:** [TONE_DESCRIPTION_3]
+
+### Linguagem
+- **[LANGUAGE_GUIDELINE_1]:** [GUIDELINE_DESCRIPTION_1]
+- **[LANGUAGE_GUIDELINE_2]:** [GUIDELINE_DESCRIPTION_2]
+- **[LANGUAGE_GUIDELINE_3]:** [GUIDELINE_DESCRIPTION_3]
+
+### Mensagens de Sistema
+
+#### Mensagens de Sucesso
+- [SUCCESS_MESSAGE_EXAMPLE_1]
+- [SUCCESS_MESSAGE_EXAMPLE_2]
+- [SUCCESS_MESSAGE_EXAMPLE_3]
+
+#### Mensagens de Erro
+- [ERROR_MESSAGE_EXAMPLE_1]
+- [ERROR_MESSAGE_EXAMPLE_2]
+- [ERROR_MESSAGE_EXAMPLE_3]
+
+#### Mensagens de Confirmação
+- [CONFIRMATION_MESSAGE_EXAMPLE_1]
+- [CONFIRMATION_MESSAGE_EXAMPLE_2]
+- [CONFIRMATION_MESSAGE_EXAMPLE_3]
+
+---
+
+## 🔧 Implementação Técnica
+
+### Estrutura CSS
+```
+styles/
+├── base/
+│   ├── reset.css
+│   ├── typography.css
+│   └── variables.css
+├── components/
+│   ├── buttons.css
+│   ├── forms.css
+│   ├── cards.css
+│   └── navigation.css
+├── layouts/
+│   ├── grid.css
+│   ├── dashboard.css
+│   └── forms.css
+├── utilities/
+│   ├── spacing.css
+│   ├── colors.css
+│   └── typography.css
+└── themes/
+    ├── light.css
+    └── dark.css
+```
+
+### Variáveis CSS Customizadas
+```css
+:root {
+  /* [ROOT_VARIABLES] */
+}
+
+[data-theme="dark"] {
+  /* [DARK_THEME_VARIABLES] */
+}
+
+[data-theme="light"] {
+  /* [LIGHT_THEME_VARIABLES] */
+}
+```
+
+### Metodologia CSS
+- **Metodologia:** [CSS_METHODOLOGY] (BEM, SMACSS, etc.)
+- **Convenções de Nomenclatura:** [NAMING_CONVENTIONS]
+- **Organização:** [ORGANIZATION_APPROACH]
+
+---
+
+## 📋 Checklist de Implementação
+
+### Design
+- [ ] [DESIGN_CHECKLIST_ITEM_1]
+- [ ] [DESIGN_CHECKLIST_ITEM_2]
+- [ ] [DESIGN_CHECKLIST_ITEM_3]
+- [ ] [DESIGN_CHECKLIST_ITEM_4]
+- [ ] [DESIGN_CHECKLIST_ITEM_5]
+
+### Desenvolvimento
+- [ ] [DEVELOPMENT_CHECKLIST_ITEM_1]
+- [ ] [DEVELOPMENT_CHECKLIST_ITEM_2]
+- [ ] [DEVELOPMENT_CHECKLIST_ITEM_3]
+- [ ] [DEVELOPMENT_CHECKLIST_ITEM_4]
+- [ ] [DEVELOPMENT_CHECKLIST_ITEM_5]
+
+### Acessibilidade
+- [ ] [ACCESSIBILITY_CHECKLIST_ITEM_1]
+- [ ] [ACCESSIBILITY_CHECKLIST_ITEM_2]
+- [ ] [ACCESSIBILITY_CHECKLIST_ITEM_3]
+- [ ] [ACCESSIBILITY_CHECKLIST_ITEM_4]
+- [ ] [ACCESSIBILITY_CHECKLIST_ITEM_5]
 
 ### Performance
-- **Tamanho de Bundle:** Monitorar e otimizar
-- **Critical CSS:** Inline para above-the-fold
-- **Font Loading:** Estratégia de carregamento otimizada
+- [ ] [PERFORMANCE_CHECKLIST_ITEM_1]
+- [ ] [PERFORMANCE_CHECKLIST_ITEM_2]
+- [ ] [PERFORMANCE_CHECKLIST_ITEM_3]
+- [ ] [PERFORMANCE_CHECKLIST_ITEM_4]
+- [ ] [PERFORMANCE_CHECKLIST_ITEM_5]
 
 ---
 
-## 🧪 TESTES E VALIDAÇÃO
-
-### Testes de Usabilidade
-- **Critérios:** Baseados nas heurísticas de Nielsen
-- **Métricas:** Task completion rate, time on task, error rate
-- **Ferramentas:** [A ser definido]
-
-### Testes de Acessibilidade
-- **Automáticos:** axe-core, WAVE
-- **Manuais:** Navegação por teclado, screen readers
-- **Validação:** WCAG 2.1 AA compliance
-
-### Testes Visuais
-- **Cross-browser:** Chrome, Firefox, Safari, Edge
-- **Dispositivos:** Mobile, tablet, desktop
-- **Ferramentas:** [A ser definido]
-
----
-
-## 📚 RECURSOS E REFERÊNCIAS
-
-### Documentação Relacionada
-- [[docs/01_Guias_Centrais/01_PLANO_MESTRE_RECOLOCA_AI.md]] (v1.1) - Visão e objetivos
-- [[docs/02_Requisitos/01_ERS.md]] (v1.1) - Requisitos de usabilidade
-- [[docs/02_Requisitos/02_HU_AC/HU_MVP_Jornada_Usuario.md]] - Jornada do usuário
-- [[docs/03_Arquitetura_e_Design/01_HLD.md]] (v1.1) - Arquitetura de alto nível
-- [[docs/04_Agentes_IA/02_Perfis/@AgenteM_UXDesigner.md]] - Responsável pela evolução
+## 📚 Recursos e Referências
 
 ### Ferramentas de Design
-- **Prototipagem:** [A ser definido]
-- **Design System:** [A ser definido]
-- **Colaboração:** [A ser definido]
+- [DESIGN_TOOL_1]: [TOOL_DESCRIPTION_1]
+- [DESIGN_TOOL_2]: [TOOL_DESCRIPTION_2]
+- [DESIGN_TOOL_3]: [TOOL_DESCRIPTION_3]
 
-### Inspirações e Benchmarks
-- **Plataformas de Carreira:** LinkedIn, Indeed, Glassdoor
-- **SaaS B2C:** [A ser pesquisado pelo @AgenteM_UXDesigner]
-- **Design Systems:** Material Design, Human Interface Guidelines
+### Bibliotecas e Frameworks
+- [LIBRARY_1]: [LIBRARY_DESCRIPTION_1]
+- [LIBRARY_2]: [LIBRARY_DESCRIPTION_2]
+- [LIBRARY_3]: [LIBRARY_DESCRIPTION_3]
 
----
-
-## 🔄 PROCESSO DE EVOLUÇÃO
-
-### Responsabilidades
-- **@AgenteM_UXDesigner:** Evolução e manutenção do Style Guide
-- **@AgenteMentorDevFlutter:** Implementação em Flutter
-- **@AgenteMentorDevJS:** Implementação na extensão Chrome
-- **@AgenteOrquestrador:** Validação estratégica e alinhamento
-
-### Versionamento
-- **Versão Atual:** 1.0 (Estrutura Inicial)
-- **Próxima Versão:** 1.1 (Definições visuais completas)
-- **Critérios de Atualização:** Feedback de usuários, testes de usabilidade, evolução do produto
-
-### Processo de Aprovação
-1. **Proposta:** @AgenteM_UXDesigner cria proposta de mudança
-2. **Revisão:** @AgenteOrquestrador valida alinhamento estratégico
-3. **Aprovação:** Maestro aprova mudanças
-4. **Implementação:** Agentes de desenvolvimento implementam
-5. **Validação:** Testes e feedback
+### Documentação Externa
+- [EXTERNAL_DOC_1]: [DOC_DESCRIPTION_1]
+- [EXTERNAL_DOC_2]: [DOC_DESCRIPTION_2]
+- [EXTERNAL_DOC_3]: [DOC_DESCRIPTION_3]
 
 ---
 
-## 📊 MÉTRICAS DE SUCESSO
+## 🔄 Versionamento e Evolução
 
-### KPIs de Usabilidade
-- **Task Completion Rate:** >90% para fluxos principais
-- **Time on Task:** Redução de 20% após otimizações
-- **Error Rate:** <5% em formulários críticos
-- **User Satisfaction:** Score >4.0/5.0
+### Controle de Versões
+- **Versão Atual:** [CURRENT_VERSION]
+- **Próxima Versão:** [NEXT_VERSION]
+- **Responsável:** [RESPONSIBLE_PERSON]
 
-### Métricas de Acessibilidade
-- **WCAG Compliance:** 100% AA
-- **Keyboard Navigation:** 100% funcional
-- **Screen Reader Compatibility:** Testado e validado
+### Histórico de Mudanças
 
-### Métricas Técnicas
-- **Performance Score:** >90 no Lighthouse
-- **Bundle Size:** Monitoramento contínuo
-- **Cross-browser Compatibility:** >95% dos usuários
+#### [VERSION] - [DATE]
+- [CHANGE_DESCRIPTION_1]
+- [CHANGE_DESCRIPTION_2]
+- [CHANGE_DESCRIPTION_3]
 
----
+#### [PREVIOUS_VERSION] - [PREVIOUS_DATE]
+- [PREVIOUS_CHANGE_1]
+- [PREVIOUS_CHANGE_2]
+- [PREVIOUS_CHANGE_3]
 
-## 🚀 PRÓXIMOS PASSOS
-
-### Fase 1: Definições Visuais (Semana 4-5)
-- [ ] Definir paleta de cores completa
-- [ ] Escolher e configurar tipografia
-- [ ] Criar biblioteca de ícones
-- [ ] Definir componentes básicos
-
-### Fase 2: Implementação (Semana 6-8)
-- [ ] Implementar tema Flutter
-- [ ] Criar componentes reutilizáveis
-- [ ] Documentar padrões de código
-- [ ] Testes de usabilidade iniciais
-
-### Fase 3: Refinamento (Pós-MVP)
-- [ ] Feedback de usuários reais
-- [ ] Otimizações baseadas em dados
-- [ ] Expansão do design system
-- [ ] Documentação avançada
+### Processo de Atualização
+1. [UPDATE_STEP_1]
+2. [UPDATE_STEP_2]
+3. [UPDATE_STEP_3]
+4. [UPDATE_STEP_4]
+5. [UPDATE_STEP_5]
 
 ---
 
-**Nota:** Este documento serve como estrutura inicial para o Style Guide do Recoloca.ai. O @AgenteM_UXDesigner é responsável por evoluir e detalhar cada seção, garantindo alinhamento com os objetivos do projeto e as melhores práticas de UX/UI.
-
-**Status:** 🟡 Estrutura criada - Aguardando desenvolvimento pelo @AgenteM_UXDesigner
-
---- FIM DO DOCUMENTO STYLE_GUIDE.md (v1.0) ---
+**Documento gerado pelo Codex Prime Framework v1.0**  
+**Última atualização:** [LAST_UPDATE_TIMESTAMP]

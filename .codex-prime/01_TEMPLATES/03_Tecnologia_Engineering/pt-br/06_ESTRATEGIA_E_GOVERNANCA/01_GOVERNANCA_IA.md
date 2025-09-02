@@ -1,238 +1,494 @@
 ﻿---
-title: "Template: 01_GOVERNANCA_IA"
-doc_id: "CODEX-PRIME-TECNOLOGIA-01-GOVERNANCA-IA-V1.0"
+title: "Governança de Inteligência Artificial"
+doc_id: "GOVERNANCA-IA-v1.0"
 version: "1.0"
-migrated_at: "2025-08-19 22:10:06"
+migrated_at: "[DATA_MIGRACAO]"
 timezone: "America/Sao_Paulo"
 status: "Template"
-owner: "@ArquitetoDoCodex"
-tags: [template, codex-prime, v1.0, tecnologia]
-description: "Template migrado do .codex para .codex-prime na versao 1.0"
-source_path: "\03_Tecnologia_Engineering\pt-br\07_ESTRATEGIA_E_GOVERNANCA\01_GOVERNANCA_IA.md"
+owner: "[OWNER_PLACEHOLDER]"
+tags: ["governanca", "ia", "estrategia", "compliance", "etica"]
+description: "Template para estruturação de governança de inteligência artificial em projetos"
 ---
 
-# Processo de Validação RAG - Recoloca.ai
+# Governança de Inteligência Artificial
 
-**Versão:** 1.0  
-**Data:** 19 de junho de 2025  
-**Responsável:** @AgenteM_DevFastAPI + Maestro  
-**Status:** ✅ Validado e Operacional  
+## Visão Geral
 
-## 📋 Resumo Executivo
+### Propósito
+- [Definir o propósito da governança de IA no contexto do projeto]
+- [Estabelecer princípios éticos e operacionais]
+- [Garantir conformidade regulatória]
 
-Este documento registra o processo completo de validação do sistema RAG (Retrieval-Augmented Generation) do projeto Recoloca.ai, incluindo a resolução de problemas de configuração MCP, correções de importação e estabelecimento de procedimentos para futuras verificações.
+### Escopo
+- [Definir sistemas e processos cobertos pela governança]
+- [Especificar stakeholders envolvidos]
+- [Delimitar responsabilidades e autoridades]
 
-## 🎯 Objetivo
+### Princípios Fundamentais
+- **Transparência**: [Princípio de transparência]
+- **Responsabilidade**: [Princípio de responsabilidade]
+- **Equidade**: [Princípio de equidade]
+- **Privacidade**: [Princípio de privacidade]
+- **Segurança**: [Princípio de segurança]
 
-Estabelecer um processo padronizado e reproduzível para validar o funcionamento do sistema RAG, garantindo que:
-- O servidor MCP RAG esteja inicializado corretamente
-- As consultas semânticas retornem resultados relevantes
-- A qualidade das respostas atenda aos padrões do projeto
-- Problemas sejam identificados e resolvidos rapidamente
+## Estrutura de Governança
 
-## 🔧 Configuração Técnica Validada
+### Comitê de Governança de IA
 
-### Stack RAG Operacional
-- **Backend:** PyTorch com CUDA (RTX 2060)
-- **Embedding Model:** BAAI/bge-m3 via Sentence Transformers
-- **Vector Store:** FAISS-GPU
-- **Documentos Indexados:** 281 documentos
-- **Servidor MCP:** `mcp.config.usrlocalmcp.recoloca-rag`
+#### Composição
+- **Presidente**: [Cargo e responsabilidades]
+- **Membros Executivos**: [Lista de membros]
+- **Especialistas Técnicos**: [Lista de especialistas]
+- **Representantes Legais**: [Representação jurídica]
+- **Stakeholders Externos**: [Consultores externos]
 
-### Configuração de Caminhos
-- **Formato Validado:** Barras normais (`/`) em todos os caminhos
-- **Diretório Source:** `rag_infra/source_documents`
-- **Índice FAISS:** `rag_infra/data/indexes/faiss_index`
+#### Responsabilidades
+- [Responsabilidade 1]
+- [Responsabilidade 2]
+- [Responsabilidade 3]
 
-## 📝 Processo de Validação (Checklist)
+#### Frequência de Reuniões
+- **Reuniões Ordinárias**: [Periodicidade]
+- **Reuniões Extraordinárias**: [Critérios para convocação]
+- **Revisões Anuais**: [Processo de revisão]
 
-### 1. Verificação de Status Inicial
-```bash
-# Via MCP RAG
-rag_get_status
-```
+### Papéis e Responsabilidades
 
-**Critérios de Sucesso:**
-- ✅ `"initialized": true`
-- ✅ `"last_error": null`
-- ✅ Diretórios existem nos caminhos especificados
-- ✅ Número de documentos indexados > 0
+#### Chief AI Officer (CAIO)
+- [Responsabilidades estratégicas]
+- [Autoridades decisórias]
+- [Métricas de performance]
 
-### 2. Teste de Consulta Básica
-```bash
-# Via MCP RAG
-rag_query: "arquitetura do sistema Recoloca.ai"
-```
+#### AI Ethics Officer
+- [Responsabilidades éticas]
+- [Processos de auditoria]
+- [Relatórios de compliance]
 
-**Critérios de Sucesso:**
-- ✅ Retorna resultados (score > 0.3)
-- ✅ Conteúdo relevante sobre arquitetura
-- ✅ Metadados corretos (source, chunk_index, etc.)
+#### Data Protection Officer (DPO)
+- [Responsabilidades de privacidade]
+- [Conformidade com LGPD/GDPR]
+- [Gestão de incidentes]
 
-### 3. Teste de Consulta Específica
-```bash
-# Via MCP RAG
-rag_query: "stack tecnológica FastAPI Python Supabase Flutter"
-```
+#### Technical AI Lead
+- [Responsabilidades técnicas]
+- [Padrões de desenvolvimento]
+- [Validação de modelos]
 
-**Critérios de Sucesso:**
-- ✅ Informações precisas sobre a stack
-- ✅ Componentes arquiteturais corretos
-- ✅ Tecnologias alinhadas com o projeto
+## Políticas e Diretrizes
 
-### 4. Validação de Qualidade
-- **Relevância:** Resultados relacionados à consulta
-- **Precisão:** Informações técnicas corretas
-- **Completude:** Cobertura adequada dos tópicos
-- **Atualidade:** Dados alinhados com versões atuais dos documentos
+### Política de Desenvolvimento de IA
 
-## 🚨 Problemas Identificados e Soluções
+#### Ciclo de Vida do Modelo
+1. **Concepção**
+   - [Critérios de aprovação]
+   - [Avaliação de impacto]
+   - [Documentação inicial]
 
-### Problema 1: Erro de Importação `get_retriever`
-**Sintoma:** `name 'get_retriever' is not defined`
+2. **Desenvolvimento**
+   - [Padrões de qualidade]
+   - [Testes obrigatórios]
+   - [Revisões de código]
 
-**Causa:** Função `get_retriever` não importada em `mcp_server.py`
+3. **Validação**
+   - [Critérios de aceitação]
+   - [Testes de bias]
+   - [Validação ética]
 
-**Solução Aplicada:**
-```python
-# Em rag_infra/server/mcp_server.py
-from rag_infra.src.core.core_logic.rag_retriever import (
-    RAGRetriever, 
-    initialize_retriever, 
-    search_documents,
-    get_retriever  # ← Adicionado
-)
-```
+4. **Deploy**
+   - [Processo de aprovação]
+   - [Monitoramento inicial]
+   - [Rollback procedures]
 
-### Problema 2: Cache de Código no Trae IDE
-**Sintoma:** Correções não refletidas após modificação
+5. **Monitoramento**
+   - [Métricas de performance]
+   - [Detecção de drift]
+   - [Alertas automáticos]
 
-**Causa:** IDE mantém versão antiga do código em cache
+6. **Manutenção**
+   - [Atualizações regulares]
+   - [Re-treinamento]
+   - [Documentação de mudanças]
 
-**Solução:** Reiniciar o Trae IDE após correções críticas
+7. **Descontinuação**
+   - [Critérios de descontinuação]
+   - [Processo de sunset]
+   - [Preservação de dados]
 
-### Problema 3: Configuração de Caminhos
-**Sintoma:** Problemas de inicialização com barras invertidas
+### Política de Dados
 
-**Causa:** Incompatibilidade entre formato Windows e configuração MCP
+#### Coleta de Dados
+- **Consentimento**: [Requisitos de consentimento]
+- **Minimização**: [Princípio de minimização]
+- **Qualidade**: [Padrões de qualidade]
 
-**Solução:** Usar barras normais (`/`) em todas as configurações
+#### Armazenamento
+- **Segurança**: [Medidas de segurança]
+- **Retenção**: [Políticas de retenção]
+- **Backup**: [Estratégias de backup]
 
-## 🔄 Procedimento de Reindexação
+#### Uso
+- **Finalidade**: [Limitação de finalidade]
+- **Acesso**: [Controles de acesso]
+- **Auditoria**: [Logs de auditoria]
 
-### Quando Reindexar
-- Após adicionar novos documentos
-- Quando há inconsistências nos resultados
-- Após correções na estrutura de documentos
-- Em caso de corrupção do índice
+### Política de Ética em IA
 
-### Comando de Reindexação
-```bash
-# Via MCP RAG
-rag_reindex:
-  force_cpu: false  # Usar GPU se disponível
-  clear_cache: true # Limpar cache antes
-```
+#### Princípios Éticos
+- **Beneficência**: [Fazer o bem]
+- **Não-maleficência**: [Não causar dano]
+- **Autonomia**: [Respeitar autonomia humana]
+- **Justiça**: [Distribuição equitativa]
 
-## 📊 Métricas de Validação
+#### Avaliação de Impacto Ético
+- **Processo**: [Processo de avaliação]
+- **Critérios**: [Critérios de avaliação]
+- **Documentação**: [Documentação obrigatória]
 
-### Métricas Técnicas
-- **Tempo de Inicialização:** < 30 segundos
-- **Tempo de Consulta:** < 2 segundos
-- **Score Mínimo:** 0.3 para resultados relevantes
-- **Documentos Indexados:** 281 (atual)
+#### Comitê de Ética
+- **Composição**: [Membros do comitê]
+- **Processo Decisório**: [Como decisões são tomadas]
+- **Recursos**: [Processo de recurso]
 
-### Métricas de Qualidade
-- **Precisão:** > 80% de resultados relevantes
-- **Cobertura:** Todos os documentos principais indexados
-- **Atualidade:** Sincronização com documentação viva
+## Compliance e Regulamentação
 
-## 🔍 Troubleshooting Rápido
+### Marco Regulatório
 
-### Servidor Não Inicializado
-1. Verificar logs em `rag_infra/logs/`
-2. Validar caminhos de configuração
-3. Executar `rag_reindex` com `clear_cache: true`
-4. Reiniciar Trae IDE se necessário
+#### Legislação Nacional
+- **LGPD**: [Conformidade com LGPD]
+- **Marco Civil da Internet**: [Aplicabilidade]
+- **Regulamentações Setoriais**: [Regulamentações específicas]
 
-### Resultados de Baixa Qualidade
-1. Verificar score mínimo (ajustar se necessário)
-2. Revisar query (ser mais específico)
-3. Validar se documentos relevantes estão indexados
-4. Considerar reindexação
+#### Legislação Internacional
+- **GDPR**: [Conformidade com GDPR]
+- **AI Act (EU)**: [Conformidade com AI Act]
+- **Outras Regulamentações**: [Regulamentações aplicáveis]
 
-### Erros de Importação
-1. Verificar imports em `mcp_server.py`
-2. Validar estrutura de diretórios
-3. Confirmar dependências instaladas
-4. Reiniciar servidor MCP
+### Processo de Compliance
 
-## 📚 Referências Técnicas
+#### Avaliação de Conformidade
+1. **Mapeamento Regulatório**
+   - [Identificar regulamentações aplicáveis]
+   - [Avaliar requisitos específicos]
+   - [Documentar gaps de conformidade]
 
-- **Configuração MCP:** `rag_infra/config/trae_mcp_config.json`
-- **Servidor RAG:** `rag_infra/server/mcp_server.py`
-- **Core Logic:** `rag_infra/src/core/core_logic/rag_retriever.py`
-- **Documentação:** `rag_infra/docs/README_RAG_OPERACIONAL.md`
+2. **Plano de Adequação**
+   - [Definir ações corretivas]
+   - [Estabelecer cronograma]
+   - [Alocar recursos]
 
-## 🎯 Próximos Passos
+3. **Implementação**
+   - [Executar ações planejadas]
+   - [Monitorar progresso]
+   - [Documentar evidências]
 
-### Melhorias Planejadas
-1. **Health Checks Automatizados:** Implementar verificações periódicas
-2. **Logging Estruturado:** Melhorar rastreabilidade de problemas
-3. **Métricas de Performance:** Dashboard de monitoramento
-4. **Testes de Integração:** Automatizar validação completa
+4. **Auditoria**
+   - [Auditoria interna]
+   - [Auditoria externa]
+   - [Relatórios de conformidade]
 
-### Integração com Backend FastAPI
-1. Implementar endpoints de consulta RAG
-2. Adicionar cache de resultados
-3. Configurar rate limiting
-4. Implementar logging de uso
+#### Gestão de Incidentes
+- **Detecção**: [Mecanismos de detecção]
+- **Classificação**: [Critérios de classificação]
+- **Resposta**: [Procedimentos de resposta]
+- **Comunicação**: [Plano de comunicação]
+- **Remediação**: [Ações corretivas]
 
-## ✅ Status de Validação
+## Gestão de Riscos
 
-**Data da Última Validação:** 19 de junho de 2025  
-**Status:** ✅ OPERACIONAL  
-**Próxima Validação:** Semanal ou após mudanças significativas  
+### Identificação de Riscos
+
+#### Riscos Técnicos
+- **Bias Algorítmico**: [Descrição e mitigação]
+- **Overfitting**: [Descrição e mitigação]
+- **Data Drift**: [Descrição e mitigação]
+- **Adversarial Attacks**: [Descrição e mitigação]
+
+#### Riscos Éticos
+- **Discriminação**: [Descrição e mitigação]
+- **Privacidade**: [Descrição e mitigação]
+- **Transparência**: [Descrição e mitigação]
+- **Autonomia**: [Descrição e mitigação]
+
+#### Riscos Operacionais
+- **Disponibilidade**: [Descrição e mitigação]
+- **Performance**: [Descrição e mitigação]
+- **Escalabilidade**: [Descrição e mitigação]
+- **Manutenibilidade**: [Descrição e mitigação]
+
+#### Riscos Regulatórios
+- **Não-conformidade**: [Descrição e mitigação]
+- **Mudanças Regulatórias**: [Descrição e mitigação]
+- **Sanções**: [Descrição e mitigação]
+
+### Matriz de Riscos
+
+| Risco | Probabilidade | Impacto | Nível | Mitigação | Responsável |
+|-------|---------------|---------|-------|-----------|-------------|
+| [Risco 1] | [Alta/Média/Baixa] | [Alto/Médio/Baixo] | [Crítico/Alto/Médio/Baixo] | [Estratégia] | [Responsável] |
+| [Risco 2] | [Alta/Média/Baixa] | [Alto/Médio/Baixo] | [Crítico/Alto/Médio/Baixo] | [Estratégia] | [Responsável] |
+| [Risco 3] | [Alta/Média/Baixa] | [Alto/Médio/Baixo] | [Crítico/Alto/Médio/Baixo] | [Estratégia] | [Responsável] |
+
+### Planos de Contingência
+
+#### Cenário 1: [Descrição do Cenário]
+- **Gatilhos**: [Condições que ativam o plano]
+- **Ações Imediatas**: [Ações de resposta imediata]
+- **Comunicação**: [Plano de comunicação]
+- **Recuperação**: [Plano de recuperação]
+
+#### Cenário 2: [Descrição do Cenário]
+- **Gatilhos**: [Condições que ativam o plano]
+- **Ações Imediatas**: [Ações de resposta imediata]
+- **Comunicação**: [Plano de comunicação]
+- **Recuperação**: [Plano de recuperação]
+
+## Monitoramento e Auditoria
+
+### Sistema de Monitoramento
+
+#### Métricas de Performance
+- **Acurácia**: [Definição e targets]
+- **Precisão**: [Definição e targets]
+- **Recall**: [Definição e targets]
+- **F1-Score**: [Definição e targets]
+- **Latência**: [Definição e targets]
+
+#### Métricas de Fairness
+- **Demographic Parity**: [Definição e targets]
+- **Equal Opportunity**: [Definição e targets]
+- **Calibration**: [Definição e targets]
+
+#### Métricas Operacionais
+- **Disponibilidade**: [Definição e targets]
+- **Throughput**: [Definição e targets]
+- **Utilização de Recursos**: [Definição e targets]
+
+### Dashboard de Governança
+
+#### Visão Executiva
+- [Métricas de alto nível]
+- [Status de compliance]
+- [Indicadores de risco]
+
+#### Visão Operacional
+- [Métricas técnicas detalhadas]
+- [Performance de modelos]
+- [Alertas e incidentes]
+
+#### Visão de Auditoria
+- [Logs de auditoria]
+- [Evidências de compliance]
+- [Relatórios de conformidade]
+
+### Processo de Auditoria
+
+#### Auditoria Interna
+- **Frequência**: [Periodicidade]
+- **Escopo**: [Áreas cobertas]
+- **Metodologia**: [Abordagem de auditoria]
+- **Relatórios**: [Formato e distribuição]
+
+#### Auditoria Externa
+- **Critérios de Seleção**: [Como escolher auditores]
+- **Escopo**: [Áreas cobertas]
+- **Frequência**: [Periodicidade]
+- **Certificações**: [Certificações buscadas]
+
+## Treinamento e Capacitação
+
+### Programa de Treinamento
+
+#### Público-Alvo
+- **Desenvolvedores**: [Conteúdo específico]
+- **Gestores**: [Conteúdo específico]
+- **Usuários Finais**: [Conteúdo específico]
+- **Auditores**: [Conteúdo específico]
+
+#### Módulos de Treinamento
+1. **Fundamentos de IA Ética**
+   - [Conteúdo do módulo]
+   - [Duração e formato]
+   - [Avaliação]
+
+2. **Governança de Dados**
+   - [Conteúdo do módulo]
+   - [Duração e formato]
+   - [Avaliação]
+
+3. **Compliance Regulatório**
+   - [Conteúdo do módulo]
+   - [Duração e formato]
+   - [Avaliação]
+
+4. **Gestão de Riscos em IA**
+   - [Conteúdo do módulo]
+   - [Duração e formato]
+   - [Avaliação]
+
+### Certificação e Competências
+
+#### Matriz de Competências
+| Papel | Competências Obrigatórias | Competências Desejáveis | Certificações |
+|-------|---------------------------|-------------------------|---------------|
+| [Papel 1] | [Lista de competências] | [Lista de competências] | [Certificações] |
+| [Papel 2] | [Lista de competências] | [Lista de competências] | [Certificações] |
+| [Papel 3] | [Lista de competências] | [Lista de competências] | [Certificações] |
+
+#### Processo de Certificação
+- **Avaliação Inicial**: [Processo de avaliação]
+- **Treinamento**: [Programa de capacitação]
+- **Certificação**: [Processo de certificação]
+- **Recertificação**: [Processo de renovação]
+
+## Comunicação e Transparência
+
+### Estratégia de Comunicação
+
+#### Stakeholders Internos
+- **Executivos**: [Formato e frequência]
+- **Equipes Técnicas**: [Formato e frequência]
+- **Usuários**: [Formato e frequência]
+
+#### Stakeholders Externos
+- **Clientes**: [Formato e frequência]
+- **Reguladores**: [Formato e frequência]
+- **Público Geral**: [Formato e frequência]
+
+### Relatórios de Transparência
+
+#### Relatório Anual de IA
+- **Conteúdo**: [Seções do relatório]
+- **Métricas**: [Métricas incluídas]
+- **Publicação**: [Processo de publicação]
+
+#### Relatórios de Incidentes
+- **Formato**: [Estrutura do relatório]
+- **Distribuição**: [Lista de destinatários]
+- **Cronograma**: [Prazos de publicação]
+
+## Melhoria Contínua
+
+### Processo de Revisão
+
+#### Revisão Trimestral
+- **Métricas**: [Métricas revisadas]
+- **Políticas**: [Políticas avaliadas]
+- **Processos**: [Processos analisados]
+
+#### Revisão Anual
+- **Estratégia**: [Revisão estratégica]
+- **Estrutura**: [Revisão organizacional]
+- **Tecnologia**: [Revisão tecnológica]
+
+### Feedback e Sugestões
+
+#### Canais de Feedback
+- **Interno**: [Canais para funcionários]
+- **Externo**: [Canais para stakeholders]
+- **Anônimo**: [Sistema de denúncias]
+
+#### Processo de Melhoria
+1. **Coleta**: [Como coletar feedback]
+2. **Análise**: [Como analisar sugestões]
+3. **Priorização**: [Como priorizar melhorias]
+4. **Implementação**: [Como implementar mudanças]
+5. **Avaliação**: [Como avaliar resultados]
+
+## Documentação e Registros
+
+### Documentação Obrigatória
+
+#### Por Modelo de IA
+- **Model Card**: [Especificação do modelo]
+- **Data Sheet**: [Especificação dos dados]
+- **Impact Assessment**: [Avaliação de impacto]
+- **Audit Trail**: [Rastro de auditoria]
+
+#### Por Projeto
+- **Governance Plan**: [Plano de governança]
+- **Risk Assessment**: [Avaliação de riscos]
+- **Compliance Report**: [Relatório de conformidade]
+- **Incident Log**: [Log de incidentes]
+
+### Gestão de Documentos
+
+#### Versionamento
+- **Controle de Versão**: [Sistema utilizado]
+- **Aprovação**: [Processo de aprovação]
+- **Distribuição**: [Processo de distribuição]
+
+#### Retenção
+- **Período**: [Período de retenção]
+- **Arquivo**: [Processo de arquivamento]
+- **Descarte**: [Processo de descarte]
+
+## Recursos e Orçamento
+
+### Estrutura de Custos
+
+#### Recursos Humanos
+- **Equipe de Governança**: [Custos da equipe]
+- **Treinamento**: [Custos de capacitação]
+- **Consultoria**: [Custos de consultoria externa]
+
+#### Tecnologia
+- **Ferramentas de Monitoramento**: [Custos de ferramentas]
+- **Infraestrutura**: [Custos de infraestrutura]
+- **Licenças**: [Custos de licenciamento]
+
+#### Compliance
+- **Auditoria Externa**: [Custos de auditoria]
+- **Certificações**: [Custos de certificação]
+- **Legal**: [Custos jurídicos]
+
+### ROI da Governança
+
+#### Benefícios Quantificáveis
+- **Redução de Riscos**: [Valor estimado]
+- **Eficiência Operacional**: [Valor estimado]
+- **Conformidade**: [Valor estimado]
+
+#### Benefícios Intangíveis
+- **Reputação**: [Descrição do benefício]
+- **Confiança**: [Descrição do benefício]
+- **Inovação**: [Descrição do benefício]
+
+## Anexos
+
+### Anexo A: Templates
+- [Template de Model Card]
+- [Template de Data Sheet]
+- [Template de Impact Assessment]
+
+### Anexo B: Checklists
+- [Checklist de Desenvolvimento]
+- [Checklist de Deploy]
+- [Checklist de Auditoria]
+
+### Anexo C: Formulários
+- [Formulário de Solicitação]
+- [Formulário de Incidente]
+- [Formulário de Feedback]
 
 ---
 
-## 🔄 Esclarecimento: DeepView vs RAG Recoloca.ai
+## Changelog
 
-### Confusão Identificada
-
-Durante a análise da documentação, foi identificada uma **confusão terminológica** sobre "DeepView" no contexto do projeto:
-
-### O que é DeepView (Real)
-**DeepView MCP** é um servidor Model Context Protocol externo que:
-- Analisa codebases grandes usando o contexto extenso do Gemini
-- É uma ferramenta de análise de código, não um sistema RAG
-- Funciona como MCP server para IDEs como Cursor e Windsurf
-
-### O que é o RAG do Recoloca.ai
-**Nosso sistema RAG** (`mcp.config.usrlocalmcp.recoloca-rag`) é:
-- Sistema de recuperação semântica específico do projeto
-- Indexa documentação viva do Recoloca.ai
-- Usa FAISS + embeddings BAAI/bge-m3
-- Servidor MCP customizado para o projeto
-
-### Origem da Confusão
-A documentação do projeto faz referência a "deepview" como:
-- Uma ferramenta MCP disponível para análise de código
-- Sistema RAG para análise da documentação (incorreto)
-- Análise semântica do codebase
-
-### Correção Necessária
-**Ação Requerida:** Atualizar documentação para distinguir claramente:
-1. **RAG Recoloca.ai:** Sistema interno de documentação
-2. **DeepView MCP:** Ferramenta externa de análise de código
-3. **Context7 MCP:** Documentação oficial de bibliotecas
-
-### Recomendação
-Manter a referência ao DeepView como ferramenta MCP disponível, mas esclarecer que:
-- É diferente do nosso sistema RAG interno
-- Serve para análise de código, não documentação do projeto
-- Complementa, mas não substitui, nosso RAG customizado
+### [1.0] - [DATA]
+- Versão inicial do template
+- Estrutura base de governança definida
+- Políticas e processos estabelecidos
 
 ---
 
-**FIM DO DOCUMENTO PROCESSO_VALIDACAO_RAG.md (v1.0)**
+## Aprovações
+
+| Papel | Nome | Data | Assinatura |
+|-------|------|------|------------|
+| Autor | [NOME_AUTOR] | [DATA] | [ASSINATURA] |
+| Revisor | [NOME_REVISOR] | [DATA] | [ASSINATURA] |
+| Aprovador | [NOME_APROVADOR] | [DATA] | [ASSINATURA] |
+
+---
+
+*Este documento é parte do Codex Prime Framework e deve ser mantido atualizado conforme a evolução das regulamentações e melhores práticas em IA.*

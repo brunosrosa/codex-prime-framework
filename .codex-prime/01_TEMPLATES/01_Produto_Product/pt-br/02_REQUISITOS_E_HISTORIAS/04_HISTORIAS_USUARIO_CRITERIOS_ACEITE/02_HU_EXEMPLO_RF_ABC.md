@@ -1,8 +1,8 @@
 ---
 title: Exemplo de Histórias de Usuário para RF-ABC
 version: 1.0
-date: 2025-07-15
-author: @ArquitetoDoCodex
+date: [DATA_CRIACAO]
+author: [NOME_AUTOR]
 description: Exemplo de aplicação do template de HU e AC para um requisito funcional genérico (RF-ABC) no [NOME_DO_PROJETO].
 metadata:
   type: example
@@ -18,18 +18,18 @@ metadata:
 
 # Histórias de Usuário (HU) & Critérios de Aceite (AC)
 
-## Exemplo para RF-ABC: Funcionalidade de Busca Avançada
+## Exemplo para RF-ABC: [Nome da Funcionalidade]
 
-**HU-001:** Como Candidato, eu quero buscar vagas por palavras-chave e localização, para que eu encontre oportunidades relevantes rapidamente.
-
-**Critérios de Aceite:**
-- A busca retorna resultados em menos de 2 segundos.
-- Filtros incluem localização, salário e tipo de contrato.
-- Resultados são ordenados por relevância.
-
-**HU-002:** Como Recrutador, eu quero buscar candidatos por habilidades e experiência, para que eu identifique perfis ideais eficientemente.
+**HU-001:** Como [Persona/Usuário], eu quero [funcionalidade desejada], para que [benefício ou valor obtido].
 
 **Critérios de Aceite:**
-- Integração com banco de dados de currículos.
-- Suporte a buscas booleanas.
-- Exportação de resultados para CSV.
+- [Critério de aceite 1]
+- [Critério de aceite 2]
+- [Critério de aceite 3]
+
+**HU-002:** Como [Persona/Usuário], eu quero [funcionalidade desejada], para que [benefício ou valor obtido].
+
+**Critérios de Aceite:**
+- [Critério de aceite 1]
+- [Critério de aceite 2]
+- [Critério de aceite 3]

@@ -1,8 +1,8 @@
 ---
 title: Template de Histórias de Usuário e Critérios de Aceite
 version: 1.0
-date: 2025-07-15
-author: @ArquitetoDoCodex
+date: [DATA_CRIACAO]
+author: [NOME_AUTOR]
 description: Template padrão para definição de Histórias de Usuário (HU) e Critérios de Aceite (AC) no [NOME_DO_PROJETO].
 metadata:
   type: template
@@ -29,11 +29,11 @@ metadata:
 - [Condição 3]
 
 ## Exemplo
-**Como** Candidato em Transição,  
-**Eu quero** otimizar meu currículo com IA,  
-**Para que** aumente minhas chances de matching com vagas.
+**Como** [Persona/Usuário],  
+**Eu quero** [funcionalidade desejada],  
+**Para que** [benefício ou valor obtido].
 
 **AC:**
-- O sistema analisa o currículo e sugere melhorias.
-- As sugestões são baseadas em dados de mercado.
-- O usuário pode aplicar mudanças com um clique.
+- [Critério de aceite 1]
+- [Critério de aceite 2]
+- [Critério de aceite 3]
